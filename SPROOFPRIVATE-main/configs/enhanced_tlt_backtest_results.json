@@ -1,0 +1,27 @@
+{
+  "strategy": "TLT Covered Call (Enhanced)",
+  "period": "2022-01-01 to 2024-12-31",
+  "parameters": {
+    "shares": 10000,
+    "contracts": 100,
+    "iv_threshold": 75
+  },
+  "performance": {
+    "initial_value": 1200000.0,
+    "final_value": 736343.5207738439,
+    "strategy_return": -38.638039935513014,
+    "buy_hold_return": -38.638039935513014,
+    "excess_return": 0.0,
+    "annualized_return": -15.023323555222168,
+    "sharpe_ratio": 0.0844416014273235,
+    "max_drawdown": -61.320638103416194
+  },
+  "trade_stats": {
+    "total_trades": 0,
+    "assigned_trades": 0,
+    "assignment_rate": 0.0,
+    "win_rate": 0.0,
+    "avg_premium": 0.0,
+    "total_premium": 0
+  }
+}

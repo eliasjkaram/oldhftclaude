@@ -1,0 +1,209 @@
+{
+  "demo_dataset": [
+    {
+      "date": "2023-01-03",
+      "symbol": "AAPL",
+      "stock_price": 125.07,
+      "stock_volume": 111921868,
+      "put_call_ratio": 1.2719763456841,
+      "total_call_volume": 807971,
+      "total_put_volume": 1027720,
+      "avg_call_price": 13.315702439024392,
+      "avg_put_price": 46.99648292682927,
+      "next_stock_price": 126.36,
+      "next_call_price": 14.692592351552427,
+      "next_put_price": 43.499553945177375
+    },
+    {
+      "date": "2023-01-04",
+      "symbol": "AAPL",
+      "stock_price": 126.36,
+      "stock_volume": 88549979,
+      "put_call_ratio": 1.9551008323713286,
+      "total_call_volume": 591080,
+      "total_put_volume": 1155621,
+      "avg_call_price": 14.277460538532962,
+      "avg_put_price": 45.56726555246055,
+      "next_stock_price": 125.02,
+      "next_call_price": 12.493477767311484,
+      "next_put_price": 40.410429196964984
+    },
+    {
+      "date": "2023-01-05",
+      "symbol": "AAPL",
+      "stock_price": 125.02,
+      "stock_volume": 78024101,
+      "put_call_ratio": 1.2092430657764255,
+      "total_call_volume": 416377,
+      "total_put_volume": 503501,
+      "avg_call_price": 13.996358355674708,
+      "avg_put_price": 46.04542933810375,
+      "next_stock_price": 129.62,
+      "next_call_price": 13.959063201945133,
+      "next_put_price": 46.9707549336053
+    },
+    {
+      "date": "2023-01-06",
+      "symbol": "AAPL",
+      "stock_price": 129.62,
+      "stock_volume": 86809737,
+      "put_call_ratio": 1.1192934150299654,
+      "total_call_volume": 773580,
+      "total_put_volume": 865863,
+      "avg_call_price": 15.353911504424778,
+      "avg_put_price": 42.228200175592626,
+      "next_stock_price": 130.15,
+      "next_call_price": 17.314355468020068,
+      "next_put_price": 33.32935319413161
+    },
+    {
+      "date": "2023-01-09",
+      "symbol": "AAPL",
+      "stock_price": 130.15,
+      "stock_volume": 70586890,
+      "put_call_ratio": 1.1040080607061475,
+      "total_call_volume": 569677,
+      "total_put_volume": 628928,
+      "avg_call_price": 15.84778297474275,
+      "avg_put_price": 43.435622076707205,
+      "next_stock_price": 130.73,
+      "next_call_price": 18.90158495262323,
+      "next_put_price": 41.17234699516268
+    },
+    {
+      "date": "2023-01-03",
+      "symbol": "MSFT",
+      "stock_price": 239.58,
+      "stock_volume": 25689364,
+      "put_call_ratio": 1.1086371895731182,
+      "total_call_volume": 123825,
+      "total_put_volume": 137277,
+      "avg_call_price": 30.945695701357465,
+      "avg_put_price": 55.610837104072395,
+      "next_stock_price": 229.1,
+      "next_call_price": 27.156697304000343,
+      "next_put_price": 56.48433137428785
+    },
+    {
+      "date": "2023-01-04",
+      "symbol": "MSFT",
+      "stock_price": 229.1,
+      "stock_volume": 50331915,
+      "put_call_ratio": 1.4241872575779677,
+      "total_call_volume": 370228,
+      "total_put_volume": 527274,
+      "avg_call_price": 26.161334459459457,
+      "avg_put_price": 61.59603040540541,
+      "next_stock_price": 227.12,
+      "next_call_price": 26.69245576748976,
+      "next_put_price": 57.66162208209312
+    },
+    {
+      "date": "2023-01-09",
+      "symbol": "MSFT",
+      "stock_price": 227.12,
+      "stock_volume": 27309971,
+      "put_call_ratio": 0.8745512090093706,
+      "total_call_volume": 197475,
+      "total_put_volume": 172702,
+      "avg_call_price": 27.292599164926933,
+      "avg_put_price": 61.01903966597077,
+      "next_stock_price": 228.85,
+      "next_call_price": 28.5260987880653,
+      "next_put_price": 62.76196083758114
+    },
+    {
+      "date": "2023-01-03",
+      "symbol": "GOOGL",
+      "stock_price": 89.12,
+      "stock_volume": 28105721,
+      "put_call_ratio": 1.2416419092766722,
+      "total_call_volume": 100980,
+      "total_put_volume": 125381,
+      "avg_call_price": 11.294621350364965,
+      "avg_put_price": 28.390935218978104,
+      "next_stock_price": 88.08,
+      "next_call_price": 11.368835565391278,
+      "next_put_price": 29.32114954194547
+    },
+    {
+      "date": "2023-01-04",
+      "symbol": "GOOGL",
+      "stock_price": 88.08,
+      "stock_volume": 34649295,
+      "put_call_ratio": 1.8588397025754309,
+      "total_call_volume": 119297,
+      "total_put_volume": 221754,
+      "avg_call_price": 10.868498635122839,
+      "avg_put_price": 28.875545950864428,
+      "next_stock_price": 86.2,
+      "next_call_price": 9.151257568199046,
+      "next_put_price": 31.449903035428946
+    },
+    {
+      "date": "2023-01-05",
+      "symbol": "GOOGL",
+      "stock_price": 86.2,
+      "stock_volume": 26224483,
+      "put_call_ratio": 0.0,
+      "total_call_volume": 79045,
+      "total_put_volume": 0,
+      "avg_call_price": 10.052655393053016,
+      "avg_put_price": 0.0,
+      "next_stock_price": 87.34,
+      "next_call_price": 10.860445582520857,
+      "next_put_price": NaN
+    },
+    {
+      "date": "2023-01-06",
+      "symbol": "GOOGL",
+      "stock_price": 87.34,
+      "stock_volume": 41425656,
+      "put_call_ratio": 1.0294381309207312,
+      "total_call_volume": 179597,
+      "total_put_volume": 184884,
+      "avg_call_price": 10.153391866913124,
+      "avg_put_price": 28.550597826086957,
+      "next_stock_price": 88.02,
+      "next_call_price": 8.361728806944255,
+      "next_put_price": 27.73799526812228
+    },
+    {
+      "date": "2023-01-09",
+      "symbol": "GOOGL",
+      "stock_price": 88.02,
+      "stock_volume": 28939568,
+      "put_call_ratio": 0.9098773716421286,
+      "total_call_volume": 152004,
+      "total_put_volume": 138305,
+      "avg_call_price": 11.057627358490565,
+      "avg_put_price": 28.800396226415092,
+      "next_stock_price": 88.42,
+      "next_call_price": 11.843940697352517,
+      "next_put_price": 33.580611384382934
+    }
+  ],
+  "model_performance": {
+    "stock_price_prediction": 0.8489161407613539,
+    "call_price_prediction": 0.6317101086687842,
+    "put_price_prediction": 0.04103451978479211
+  },
+  "sample_prediction": {
+    "stock_price_prediction": {
+      "predicted_value": 131.7249145876282,
+      "model_used": "linear_regression",
+      "model_accuracy": 0.8489161407613539
+    },
+    "call_price_prediction": {
+      "predicted_value": 15.379499881411533,
+      "model_used": "linear_regression",
+      "model_accuracy": 0.6317101086687842
+    },
+    "put_price_prediction": {
+      "predicted_value": 36.723663748523165,
+      "model_used": "linear_regression",
+      "model_accuracy": 0.04103451978479211
+    }
+  },
+  "timestamp": "20250616_171003"
+}

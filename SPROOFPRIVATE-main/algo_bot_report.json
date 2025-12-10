@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "initial_capital": 100000,
+    "final_value": 100000,
+    "total_return": 0.0,
+    "win_rate": 0,
+    "total_trades": 0
+  },
+  "trades": [],
+  "final_positions": {}
+}

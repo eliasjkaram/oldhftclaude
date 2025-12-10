@@ -1,0 +1,54 @@
+{
+  "buy_and_hold": {
+    "symbol": "SPY",
+    "initial_capital": 100000,
+    "final_value": 142287.78280557255,
+    "total_return": 42.29,
+    "annualized_return": 42.29,
+    "volatility": 28.7,
+    "sharpe_ratio": 1.31,
+    "max_drawdown": -28.74,
+    "trades": 1
+  },
+  "momentum": {
+    "symbol": "AAPL",
+    "strategy": "momentum",
+    "total_return": 51.63,
+    "volatility": 31.28,
+    "sharpe_ratio": 1.74,
+    "trades": 19,
+    "win_rate": 52.22
+  },
+  "mean_reversion": {
+    "symbol": "MSFT",
+    "strategy": "mean_reversion",
+    "total_return": 1.78,
+    "volatility": 8.88,
+    "sharpe_ratio": 0.03,
+    "trades": 23,
+    "win_rate": 3.86
+  },
+  "portfolio": {
+    "portfolio": "equal_weight",
+    "symbols": [
+      "SPY",
+      "AAPL",
+      "MSFT",
+      "GOOGL"
+    ],
+    "total_return": 19.1,
+    "volatility": 5.41,
+    "sharpe_ratio": 0.47,
+    "max_drawdown": -5.76,
+    "correlation": 0.25
+  },
+  "covered_call": {
+    "symbol": "AAPL",
+    "strategy": "covered_call",
+    "annualized_return": 45.88,
+    "annualized_volatility": 15.42,
+    "sharpe_ratio": 2.85,
+    "monthly_premium": 3.2,
+    "months_tested": 8
+  }
+}

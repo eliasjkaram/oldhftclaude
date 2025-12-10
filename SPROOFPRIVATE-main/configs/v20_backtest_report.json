@@ -1,0 +1,18 @@
+{
+  "config": {
+    "start_date": "2024-01-01",
+    "end_date": "2024-12-31",
+    "initial_capital": 100000,
+    "commission": 0.001,
+    "slippage": 0.0005
+  },
+  "summary": {
+    "total_algorithms": 0,
+    "best_algorithm": null,
+    "worst_algorithm": null,
+    "average_return": 0,
+    "average_sharpe": 0
+  },
+  "algorithm_results": {},
+  "category_performance": {}
+}

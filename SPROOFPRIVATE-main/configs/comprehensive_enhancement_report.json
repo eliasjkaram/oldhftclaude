@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "total_files_processed": 485,
+    "files_enhanced": 429,
+    "trading_files_identified": 429,
+    "total_issues_fixed": 98,
+    "total_enhancements_added": 429,
+    "enhancement_rate": 0.8845360824742268,
+    "avg_performance_score": 7.6154020618556695,
+    "avg_size_change_bytes": 97.59791666666666
+  },
+  "top_performing_files": [
+    {
+      "file": "comprehensive_alpaca_sdk_enhancer.py",
+      "performance_score": 86.28,
+      "issues_fixed": 6,
+      "enhancements_added": 1
+    },
+    {
+      "file": "alpaca_sdk_validator_and_enhancer.py",
+      "performance_score": 57.38,
+      "issues_fixed": 5,
+      "enhancements_added": 1
+    },
+    {
+      "file": "ultimate_unified_bot_lite.py",
+      "performance_score": 47.46,
+      "issues_fixed": 4,
+      "enhancements_added": 1
+    },
+    {
+      "file": "ultimate_bot_with_scraper.py",
+      "performance_score": 47.44,
+      "issues_fixed": 4,
+      "enhancements_added": 1
+    },
+    {
+      "file": "ultimate_unified_bot.py",
+      "performance_score": 47.37,
+      "issues_fixed": 4,
+      "enhancements_added": 1
+    },
+    {
+      "file": "live_trading_bot.py",
+      "performance_score": 47.17,
+      "issues_fixed": 4,
+      "enhancements_added": 1
+    },
+    {
+      "file": "simple_paper_trader.py",
+      "performance_score": 47.13,
+      "issues_fixed": 4,
+      "enhancements_added": 1
+    },
+    {
+      "file": "paper_trading_bot.py",
+      "performance_score": 46.95,
+      "issues_fixed": 4,
+      "enhancements_added": 1
+    },
+    {
+      "file": "trading_base.py",
+      "performance_score": 46.93,
+      "issues_fixed": 4,
+      "enhancements_added": 1
+    },
+    {
+      "file": "alpaca_paper_trading_system.py",
+      "performance_score": 46.84,
+      "issues_fixed": 4,
+      "enhancements_added": 1
+    }
+  ],
+  "issue_categories": {
+    "api_parameter_fixes": 5,
+    "strike_price_fixes": 4,
+    "deprecated_import_fixes": 0,
+    "multi_leg_enhancements": 0
+  },
+  "statistics": {
+    "files_processed": 485,
+    "files_enhanced": 429,
+    "issues_fixed": 98,
+    "enhancements_added": 429,
+    "trading_files_created": 432
+  },
+  "timestamp": "2025-06-13T23:08:13.326050"
+}

@@ -1,0 +1,192 @@
+version: '3.8'
+
+services:
+  # Prometheus for metrics collection
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: alpaca-prometheus
+    ports:
+      - "9091:9090"  # Changed from 9090 to avoid conflict with app metrics endpoint
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+      - '--storage.tsdb.retention.time=30d'
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+  # Grafana for visualization
+  grafana:
+    image: grafana/grafana:latest
+    container_name: alpaca-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD:-admin}
+      - GF_USERS_ALLOW_SIGN_UP=false
+      - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana_dashboard.json:/var/lib/grafana/dashboards/trading.json
+      - ./grafana-provisioning:/etc/grafana/provisioning
+    restart: unless-stopped
+    networks:
+      - monitoring
+    depends_on:
+      - prometheus
+
+  # Alertmanager for alert routing
+  alertmanager:
+    image: prom/alertmanager:latest
+    container_name: alpaca-alertmanager
+    ports:
+      - "9093:9093"
+    volumes:
+      - ./alertmanager.yml:/etc/alertmanager/alertmanager.yml
+      - alertmanager_data:/alertmanager
+    command:
+      - '--config.file=/etc/alertmanager/alertmanager.yml'
+      - '--storage.path=/alertmanager'
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+  # Loki for log aggregation
+  loki:
+    image: grafana/loki:latest
+    container_name: alpaca-loki
+    ports:
+      - "3100:3100"
+    volumes:
+      - ./loki-config.yml:/etc/loki/local-config.yaml
+      - loki_data:/loki
+    command: -config.file=/etc/loki/local-config.yaml
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+  # Promtail for log shipping
+  promtail:
+    image: grafana/promtail:latest
+    container_name: alpaca-promtail
+    volumes:
+      - /var/log:/var/log:ro
+      - /home/harry/alpaca-mcp/logs:/trading/logs:ro
+      - ./promtail-config.yml:/etc/promtail/config.yml
+    command: -config.file=/etc/promtail/config.yml
+    restart: unless-stopped
+    networks:
+      - monitoring
+    depends_on:
+      - loki
+
+  # Node Exporter for system metrics
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: alpaca-node-exporter
+    ports:
+      - "9100:9100"
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - '--collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)'
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+  # PostgreSQL for storing time-series data (optional, for long-term storage)
+  postgres:
+    image: postgres:14-alpine
+    container_name: alpaca-postgres
+    environment:
+      - POSTGRES_DB=trading_metrics
+      - POSTGRES_USER=trading
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-tradingpass}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+  # Redis for caching and rate limiting
+  redis:
+    image: redis:7-alpine
+    container_name: alpaca-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+  # Monitoring Suite API
+  monitoring-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.monitoring
+    container_name: alpaca-monitoring-api
+    ports:
+      - "8080:8080"
+    environment:
+      - ALPACA_API_KEY=${ALPACA_API_KEY}
+      - ALPACA_SECRET_KEY=${ALPACA_SECRET_KEY}
+      - SMTP_SERVER=${SMTP_SERVER}
+      - SMTP_PORT=${SMTP_PORT}
+      - SMTP_USERNAME=${SMTP_USERNAME}
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - SLACK_WEBHOOK_URL=${SLACK_WEBHOOK_URL}
+      - POSTGRES_HOST=postgres
+      - REDIS_HOST=redis
+    volumes:
+      - ./logs:/app/logs
+      - ./monitoring_alerts_config.yaml:/app/config/alerts.yaml
+    depends_on:
+      - postgres
+      - redis
+      - prometheus
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+  # Elasticsearch for advanced log search (optional)
+  # elasticsearch:
+  #   image: docker.elastic.co/elasticsearch/elasticsearch:8.5.0
+  #   container_name: alpaca-elasticsearch
+  #   environment:
+  #     - discovery.type=single-node
+  #     - xpack.security.enabled=false
+  #     - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+  #   volumes:
+  #     - elasticsearch_data:/usr/share/elasticsearch/data
+  #   ports:
+  #     - "9200:9200"
+  #   networks:
+  #     - monitoring
+
+volumes:
+  prometheus_data:
+  grafana_data:
+  alertmanager_data:
+  loki_data:
+  postgres_data:
+  redis_data:
+  # elasticsearch_data:
+
+networks:
+  monitoring:
+    driver: bridge

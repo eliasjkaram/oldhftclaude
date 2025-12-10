@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "total_algorithms": 6,
+    "best_algorithm": "RSI_Oversold",
+    "best_return": 0.0,
+    "average_return": 0.0,
+    "average_sharpe": 0.0
+  },
+  "top_performers": [
+    {
+      "algorithm": "RSI_Oversold",
+      "return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0
+    },
+    {
+      "algorithm": "MACD_Crossover",
+      "return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0
+    },
+    {
+      "algorithm": "Bollinger_Squeeze",
+      "return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0
+    },
+    {
+      "algorithm": "Mean_Reversion",
+      "return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0
+    },
+    {
+      "algorithm": "Momentum_Alpha",
+      "return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0
+    },
+    {
+      "algorithm": "Volume_Breakout",
+      "return": 0.0,
+      "sharpe": 0.0,
+      "win_rate": 0.0,
+      "trades": 0
+    }
+  ],
+  "category_analysis": {
+    "Technical": {
+      "avg_return": 0.0,
+      "best_return": 0.0,
+      "worst_return": 0.0,
+      "n_algorithms": 4
+    },
+    "Statistical": {
+      "avg_return": 0.0,
+      "best_return": 0.0,
+      "worst_return": 0.0,
+      "n_algorithms": 2
+    }
+  },
+  "all_results": {
+    "RSI_Oversold": {
+      "avg_return": 0.0,
+      "avg_sharpe": 0.0,
+      "avg_drawdown": 0.0,
+      "avg_win_rate": 0.0,
+      "total_trades": 0,
+      "n_symbols": 9
+    },
+    "MACD_Crossover": {
+      "avg_return": 0.0,
+      "avg_sharpe": 0.0,
+      "avg_drawdown": 0.0,
+      "avg_win_rate": 0.0,
+      "total_trades": 0,
+      "n_symbols": 9
+    },
+    "Bollinger_Squeeze": {
+      "avg_return": 0.0,
+      "avg_sharpe": 0.0,
+      "avg_drawdown": 0.0,
+      "avg_win_rate": 0.0,
+      "total_trades": 0,
+      "n_symbols": 9
+    },
+    "Mean_Reversion": {
+      "avg_return": 0.0,
+      "avg_sharpe": 0.0,
+      "avg_drawdown": 0.0,
+      "avg_win_rate": 0.0,
+      "total_trades": 0,
+      "n_symbols": 9
+    },
+    "Momentum_Alpha": {
+      "avg_return": 0.0,
+      "avg_sharpe": 0.0,
+      "avg_drawdown": 0.0,
+      "avg_win_rate": 0.0,
+      "total_trades": 0,
+      "n_symbols": 9
+    },
+    "Volume_Breakout": {
+      "avg_return": 0.0,
+      "avg_sharpe": 0.0,
+      "avg_drawdown": 0.0,
+      "avg_win_rate": 0.0,
+      "total_trades": 0,
+      "n_symbols": 9
+    }
+  }
+}

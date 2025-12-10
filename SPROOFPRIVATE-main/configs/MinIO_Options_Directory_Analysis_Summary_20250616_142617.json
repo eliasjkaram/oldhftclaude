@@ -1,0 +1,178 @@
+{
+  "analysis_date": "2025-06-16T14:26:17.170973",
+  "bucket_analyzed": "stockdb",
+  "endpoint": "https://uschristmas.us",
+  "directories_found": {
+    "options/": {
+      "description": "Historical options data 2002-2009",
+      "files": 3844,
+      "size_gb": 38.45,
+      "years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009
+      ],
+      "target_years_covered": [
+        2009
+      ],
+      "data_quality": "Professional grade CSV with Greeks",
+      "avg_file_size_mb": 10.2,
+      "structure": "Organized by year subdirectories",
+      "sample_format": "contract,underlying,expiration,type,strike,style,bid,bid_size,ask,ask_size,volume,open_interest,quote_date,delta,gamma,theta,vega,implied_volatility"
+    },
+    "options-complete/": {
+      "description": "More complete options data 2010-2012",
+      "files": 577,
+      "size_gb": 21.98,
+      "years": [
+        2010,
+        2011,
+        2012
+      ],
+      "target_years_covered": [
+        2010,
+        2011,
+        2012
+      ],
+      "data_quality": "Professional grade CSV with Greeks - Higher quality/more complete",
+      "avg_file_size_mb": 39.0,
+      "structure": "Flat structure with YYYY-MM-DD naming",
+      "sample_format": "contract,underlying,expiration,type,strike,style,bid,bid_size,ask,ask_size,volume,open_interest,quote_date,delta,gamma,theta,vega,implied_volatility"
+    },
+    "options-2010/": {
+      "description": "Subset of 2010 options data",
+      "files": 38,
+      "size_gb": 1.09,
+      "years": [
+        2010
+      ],
+      "target_years_covered": [
+        2010
+      ],
+      "data_quality": "Professional grade CSV with Greeks",
+      "avg_file_size_mb": 29.3,
+      "structure": "Flat structure",
+      "note": "Subset of data already in options-complete/"
+    }
+  },
+  "target_period_analysis": {
+    "target_range": "2009-2024",
+    "target_years": 16,
+    "years_with_data": [
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "years_covered": 4,
+    "coverage_percentage": 25.0,
+    "missing_years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "critical_gap": "2013-2024 (75% of target period missing)"
+  },
+  "data_volume_summary": {
+    "total_files": 4459,
+    "total_size_gb": 61.51,
+    "estimated_records": "Several million options records",
+    "daily_coverage": "Most trading days covered for available years",
+    "data_format": "Consistent CSV format across all directories"
+  },
+  "data_quality_assessment": {
+    "format_consistency": "Excellent - identical schema across all years",
+    "completeness": "High - includes bid/ask, volume, open interest, Greeks",
+    "professional_grade": true,
+    "includes_greeks": true,
+    "includes_market_data": true,
+    "sample_record_count": {
+      "2002_day": 116578,
+      "2010_day": 309151
+    },
+    "growth_over_time": "Record count increased ~3x from 2002 to 2010"
+  },
+  "recommendations": {
+    "immediate_actions": [
+      "Use options/ directory for 2009 data (critical year for target period)",
+      "Use options-complete/ for 2010-2012 data (best quality available)",
+      "Build unified data pipeline combining both sources",
+      "Focus initial backtesting on 2009-2012 period with available data"
+    ],
+    "data_gap_solutions": [
+      "Research external providers for 2013-2024 data",
+      "Consider CBOE historical data for recent years",
+      "Explore Polygon.io, Alpha Vantage, or IEX Cloud APIs",
+      "Check if any ZIP files in bucket contain newer options data",
+      "Look for compressed/archived data in aws_backup/ directory"
+    ],
+    "strategic_options": [
+      "Option 1: Focus on 2009-2012 period with available high-quality data",
+      "Option 2: Acquire external data for complete 2009-2024 coverage",
+      "Option 3: Use available data for strategy development, external data for validation",
+      "Option 4: Implement hybrid approach combining multiple data sources"
+    ]
+  },
+  "best_practices": {
+    "primary_data_source": "options-complete/ for 2010-2012 (highest quality)",
+    "secondary_data_source": "options/ for 2009 data (only available source)",
+    "avoid": "options-2010/ (subset of options-complete/)",
+    "data_validation": "Compare overlapping 2010 data between sources",
+    "caching_strategy": "Download and cache frequently used date ranges",
+    "processing_notes": "Large file sizes suggest comprehensive daily snapshots"
+  },
+  "technical_specifications": {
+    "data_schema": {
+      "contract": "Option contract identifier",
+      "underlying": "Stock symbol",
+      "expiration": "Option expiration date",
+      "type": "call or put",
+      "strike": "Strike price",
+      "style": "Option style (American/European)",
+      "bid": "Bid price",
+      "bid_size": "Bid size",
+      "ask": "Ask price",
+      "ask_size": "Ask size",
+      "volume": "Trading volume",
+      "open_interest": "Open interest",
+      "quote_date": "Quote date",
+      "delta": "Delta Greek",
+      "gamma": "Gamma Greek",
+      "theta": "Theta Greek",
+      "vega": "Vega Greek",
+      "implied_volatility": "Implied volatility"
+    },
+    "file_naming_patterns": {
+      "options/": "YYYY/YYYY-MM-DDtype.csv (where type is 'options' or 'stocks')",
+      "options-complete/": "YYYY-MM-DDoptions.csv",
+      "options-2010/": "YYYY-MM-DDoptions.csv"
+    },
+    "estimated_processing_requirements": {
+      "storage_needed": "~65 GB for all available data",
+      "memory_requirements": "8-16 GB RAM for processing large daily files",
+      "processing_time": "Several hours for complete historical analysis",
+      "recommended_chunking": "Process by month or quarter for large analyses"
+    }
+  },
+  "integration_roadmap": {
+    "phase_1": "Implement access to existing data (2009-2012)",
+    "phase_2": "Build unified data interface combining both directories",
+    "phase_3": "Develop backtesting framework for available period",
+    "phase_4": "Research and integrate external data for 2013-2024",
+    "phase_5": "Implement complete 2009-2024 historical system"
+  }
+}

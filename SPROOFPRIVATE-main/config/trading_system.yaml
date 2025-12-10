@@ -1,0 +1,84 @@
+api:
+  alpaca_live_key: ''
+  alpaca_live_secret: ''
+  alpaca_paper_key: ''
+  alpaca_paper_secret: ''
+  openrouter_key: ''
+  polygon_key: ''
+current_market_regime: !!python/object/apply:core.config_manager.MarketRegime
+- sideways
+data:
+  cache_enabled: true
+  cache_ttl_seconds: 300
+  fallback_sources:
+  - yfinance
+  - polygon
+  max_retries: 3
+  minio_access_key: minioadmin
+  minio_endpoint: uschristmas.us/minio
+  minio_secret_key: minioadmin
+  primary_source: alpaca
+  rate_limit_requests_per_minute: 60
+  timeout_seconds: 30
+dynamic_parameters: {}
+gpu:
+  batch_size: 32
+  device_id: null
+  enabled: true
+  memory_limit_pct: 0.8
+  mixed_precision: true
+  model_pool_size: 3
+  optimize_for_inference: true
+logging:
+  backup_count: 5
+  console_enabled: true
+  file_enabled: true
+  file_path: logs/trading_system.log
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  level: INFO
+  max_file_size_mb: 100
+ml:
+  auto_retrain: true
+  confidence_calibration: true
+  drift_detection_threshold: 0.05
+  early_stopping_patience: 10
+  ensemble_size: 5
+  feature_selection: true
+  hyperopt_max_evals: 100
+  min_training_samples: 1000
+  model_update_frequency_minutes: 60
+  validation_split: 0.2
+orchestration:
+  auto_scaling: true
+  circuit_breaker_threshold: 5
+  circuit_breaker_timeout_seconds: 300
+  dependency_timeout_seconds: 120
+  health_check_interval_seconds: 30
+  max_concurrent_processes: 8
+  resource_monitoring: true
+  restart_failed_processes: true
+risk:
+  correlation_threshold: 0.7
+  dynamic_sizing: true
+  max_portfolio_risk: 0.02
+  max_single_position_risk: 0.005
+  risk_budget_allocation:
+    options: 0.4
+    spreads: 0.2
+    stocks: 0.4
+  stress_test_enabled: true
+  var_confidence: 0.95
+  var_lookback_days: 252
+trading:
+  daily_loss_limit: 0.05
+  enable_options: true
+  enable_spreads: true
+  enable_stocks: true
+  max_drawdown_limit: 0.1
+  max_positions: 10
+  min_confidence_threshold: 0.7
+  mode: !!python/object/apply:core.config_manager.TradingMode
+  - paper
+  position_size_pct: 0.02
+  stop_loss_pct: 0.02
+  take_profit_pct: 0.03

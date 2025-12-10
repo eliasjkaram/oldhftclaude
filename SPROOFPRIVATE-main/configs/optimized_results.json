@@ -1,0 +1,27 @@
+{
+  "parameters": {
+    "sma_period": 10,
+    "buy_threshold": 0.97,
+    "sell_threshold": 1.01,
+    "rsi_oversold": 25,
+    "rsi_overbought": 65
+  },
+  "results": {
+    "account_id": "CUSTOM_PAPER_001",
+    "total_value": 100000,
+    "cash_balance": 100000,
+    "positions_value": 0,
+    "buying_power": 100000,
+    "total_realized_pnl": 0.0,
+    "total_unrealized_pnl": 0,
+    "total_pnl": 0.0,
+    "return_pct": 0.0,
+    "position_count": 0,
+    "win_count": 0,
+    "loss_count": 0,
+    "win_rate": 0,
+    "total_commission": 0.0,
+    "positions": {}
+  },
+  "timestamp": "2025-06-11T23:41:16.495984"
+}

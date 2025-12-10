@@ -1,0 +1,3388 @@
+{
+  "summary": {
+    "total_tests": 96,
+    "test_date": "2025-06-23T08:32:18.500255",
+    "best_strategy": {
+      "symbol": "QQQ",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 114231.14244978887,
+      "final_capital": 214231.14244978887,
+      "return_pct": 114.23114244978888,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 42.887527788143444,
+          "shares": 466,
+          "date": "2024-11-12 08:32:16.017968",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 288.0187347619393,
+          "shares": 466,
+          "date": "2024-11-13 08:32:16.017968",
+          "profit": 114231.14244978887
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    "worst_strategy": {
+      "symbol": "QQQ",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -935499.3612099979,
+      "final_capital": -835499.3612099979,
+      "return_pct": -935.499361209998,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 97.68693078179307,
+          "shares": 179,
+          "date": "2024-10-16 08:32:16.017968",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": -5128.566483799201,
+          "shares": 179,
+          "date": "2024-11-14 08:32:16.017968",
+          "profit": -935499.3612099979
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    "avg_return": -12.670413612278589,
+    "avg_win_rate": 0.31376257270099184,
+    "total_trades": "299"
+  },
+  "detailed_results": [
+    {
+      "symbol": "SPY",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 727.4557114365554,
+      "final_capital": 100727.45571143656,
+      "return_pct": 0.7274557114365597,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 105.05132377289912,
+          "shares": 142,
+          "date": "2024-08-30 08:32:14.489621",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 110.17425131822698,
+          "shares": 142,
+          "date": "2024-09-09 08:32:14.489621",
+          "profit": 727.4557114365554
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 13,
+      "winning_trades": 9,
+      "win_rate": 0.6923076923076923,
+      "total_profit": 8207.300680040802,
+      "final_capital": 108207.3006800408,
+      "return_pct": 8.207300680040804,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 217.71785969569714,
+          "shares": 93,
+          "date": "2025-05-25 08:32:14.489621",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 217.26172836351324,
+          "shares": 93,
+          "date": "2025-05-30 08:32:14.489621",
+          "profit": -42.42021389310278
+        },
+        {
+          "type": "buy",
+          "price": 226.25910504141822,
+          "shares": 90,
+          "date": "2025-06-06 08:32:14.489621",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 221.4863673402378,
+          "shares": 90,
+          "date": "2025-06-10 08:32:14.489621",
+          "profit": -429.5463931062389
+        },
+        {
+          "type": "buy",
+          "price": 226.73765488423004,
+          "shares": 89,
+          "date": "2025-06-23 08:32:14.489621",
+          "confidence": 0.75
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 1178.4918126856787,
+      "final_capital": 101178.49181268568,
+      "return_pct": 1.1784918126856792,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 132.55410378916685,
+          "shares": 122,
+          "date": "2024-11-13 08:32:14.489621",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 142.21387274560684,
+          "shares": 122,
+          "date": "2024-11-26 08:32:14.489621",
+          "profit": 1178.4918126856787
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -4716.441164707244,
+      "final_capital": 95283.55883529276,
+      "return_pct": -4.716441164707241,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 90.11580414438059,
+          "shares": 221,
+          "date": "2024-09-15 08:32:14.788749",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 68.77444140814872,
+          "shares": 221,
+          "date": "2025-03-21 08:32:14.788749",
+          "profit": -4716.441164707244
+        },
+        {
+          "type": "buy",
+          "price": 58.768592337816095,
+          "shares": 324,
+          "date": "2025-05-19 08:32:14.788749",
+          "confidence": 0.8
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -408.81204527655825,
+      "final_capital": 99591.18795472344,
+      "return_pct": -0.4088120452765579,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 65.20514176790739,
+          "shares": 268,
+          "date": "2025-04-05 08:32:14.788749",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 63.67972368851725,
+          "shares": 268,
+          "date": "2025-04-11 08:32:14.788749",
+          "profit": -408.81204527655825
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -3780.9509933305494,
+      "final_capital": 96219.04900666945,
+      "return_pct": -3.7809509933305527,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 91.97045977213982,
+          "shares": 163,
+          "date": "2024-09-13 08:32:14.788749",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 68.77444140814872,
+          "shares": 163,
+          "date": "2025-03-21 08:32:14.788749",
+          "profit": -3780.9509933305494
+        },
+        {
+          "type": "buy",
+          "price": 65.76699459683222,
+          "shares": 219,
+          "date": "2025-04-04 08:32:14.788749",
+          "confidence": 0.6
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 16,
+      "winning_trades": 1,
+      "win_rate": 0.0625,
+      "total_profit": -6057.807936433491,
+      "final_capital": 93942.1920635665,
+      "return_pct": -6.057807936433499,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 54.67802347847346,
+          "shares": 326,
+          "date": "2025-06-06 08:32:14.788749",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 53.44527131483495,
+          "shares": 326,
+          "date": "2025-06-08 08:32:14.788749",
+          "profit": -401.87720534615613
+        },
+        {
+          "type": "buy",
+          "price": 53.91036619303925,
+          "shares": 329,
+          "date": "2025-06-10 08:32:14.788749",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 51.12657924657525,
+          "shares": 329,
+          "date": "2025-06-17 08:32:14.788749",
+          "profit": -915.8659053866577
+        },
+        {
+          "type": "buy",
+          "price": 51.64851459553541,
+          "shares": 341,
+          "date": "2025-06-21 08:32:14.788749",
+          "confidence": 0.75
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -4596.752046230847,
+      "final_capital": 95403.24795376915,
+      "return_pct": -4.596752046230846,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 94.26206786456216,
+          "shares": 172,
+          "date": "2024-09-04 08:32:14.788749",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 67.53676527019677,
+          "shares": 172,
+          "date": "2025-03-20 08:32:14.788749",
+          "profit": -4596.752046230847
+        },
+        {
+          "type": "buy",
+          "price": 60.387515071214416,
+          "shares": 256,
+          "date": "2025-05-09 08:32:14.788749",
+          "confidence": 0.65
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -2649.9057878623453,
+      "final_capital": 97350.09421213766,
+      "return_pct": -2.649905787862343,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 79.7740366325663,
+          "shares": 219,
+          "date": "2024-12-11 08:32:14.788749",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 69.94300258168296,
+          "shares": 219,
+          "date": "2025-01-25 08:32:14.788749",
+          "profit": -2152.99645714345
+        },
+        {
+          "type": "buy",
+          "price": 60.530682163060405,
+          "shares": 282,
+          "date": "2025-05-15 08:32:14.788749",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 58.768592337816095,
+          "shares": 282,
+          "date": "2025-05-19 08:32:14.788749",
+          "profit": -496.9093307188954
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 1,
+      "win_rate": 0.5,
+      "total_profit": -2251.9284077947377,
+      "final_capital": 97748.07159220526,
+      "return_pct": -2.251928407794738,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 85.6429343661971,
+          "shares": 233,
+          "date": "2024-09-02 08:32:15.269129",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 72.99356395978039,
+          "shares": 233,
+          "date": "2024-10-28 08:32:15.269129",
+          "profit": -2947.3033046950927
+        },
+        {
+          "type": "buy",
+          "price": 62.38318672097398,
+          "shares": 311,
+          "date": "2024-11-26 08:32:15.269129",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 64.61911886534811,
+          "shares": 311,
+          "date": "2025-01-13 08:32:15.269129",
+          "profit": 695.3748969003551
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 3,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -3233.727259131525,
+      "final_capital": 96766.27274086847,
+      "return_pct": -3.233727259131527,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 70.98329098997037,
+          "shares": 246,
+          "date": "2024-11-10 08:32:15.269129",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 63.03410084010129,
+          "shares": 246,
+          "date": "2024-11-25 08:32:15.269129",
+          "profit": -1955.5007768677942
+        },
+        {
+          "type": "buy",
+          "price": 62.31427563943758,
+          "shares": 275,
+          "date": "2025-02-12 08:32:15.269129",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 57.66617934029674,
+          "shares": 275,
+          "date": "2025-03-15 08:32:15.269129",
+          "profit": -1278.2264822637308
+        },
+        {
+          "type": "buy",
+          "price": 61.77349884816112,
+          "shares": 274,
+          "date": "2025-04-17 08:32:15.269129",
+          "confidence": 0.7
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 4,
+      "winning_trades": 3,
+      "win_rate": 0.75,
+      "total_profit": 1938.9293279474873,
+      "final_capital": 101938.9293279475,
+      "return_pct": 1.9389293279474953,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 64.88865037587995,
+          "shares": 235,
+          "date": "2024-12-17 08:32:15.269129",
+          "profit": 588.7839589029021
+        },
+        {
+          "type": "buy",
+          "price": 57.76459624301745,
+          "shares": 255,
+          "date": "2024-12-31 08:32:15.269129",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 64.61911886534811,
+          "shares": 255,
+          "date": "2025-01-13 08:32:15.269129",
+          "profit": 1747.903268694319
+        },
+        {
+          "type": "buy",
+          "price": 71.45551295539046,
+          "shares": 210,
+          "date": "2025-05-20 08:32:15.269129",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 80.10256972431041,
+          "shares": 210,
+          "date": "2025-06-08 08:32:15.269129",
+          "profit": 1815.88192147319
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 11,
+      "winning_trades": 3,
+      "win_rate": 0.2727272727272727,
+      "total_profit": 1483.2754447937737,
+      "final_capital": 101483.27544479379,
+      "return_pct": 1.4832754447937915,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 57.90916265910218,
+          "shares": 313,
+          "date": "2025-04-06 08:32:15.269129",
+          "profit": -142.6413579183128
+        },
+        {
+          "type": "buy",
+          "price": 59.86874779286001,
+          "shares": 304,
+          "date": "2025-04-14 08:32:15.269129",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 73.63032025435889,
+          "shares": 304,
+          "date": "2025-05-10 08:32:15.269129",
+          "profit": 4183.518028295659
+        },
+        {
+          "type": "buy",
+          "price": 75.28914114716243,
+          "shares": 252,
+          "date": "2025-06-04 08:32:15.269129",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 75.32849983684467,
+          "shares": 252,
+          "date": "2025-06-15 08:32:15.269129",
+          "profit": 9.918389799925876
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 5,
+      "winning_trades": 3,
+      "win_rate": 0.6,
+      "total_profit": 1052.121013430835,
+      "final_capital": 101052.12101343083,
+      "return_pct": 1.052121013430835,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 64.61911886534811,
+          "shares": 267,
+          "date": "2025-01-13 08:32:15.269129",
+          "profit": 1589.2406857887072
+        },
+        {
+          "type": "buy",
+          "price": 55.234057531584085,
+          "shares": 288,
+          "date": "2025-01-24 08:32:15.269129",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 60.88579304133619,
+          "shares": 288,
+          "date": "2025-04-01 08:32:15.269129",
+          "profit": 1627.699826808607
+        },
+        {
+          "type": "buy",
+          "price": 69.20347659378716,
+          "shares": 233,
+          "date": "2025-05-29 08:32:15.269129",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 75.28914114716243,
+          "shares": 233,
+          "date": "2025-06-04 08:32:15.269129",
+          "profit": 1417.959840936437
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "SPY",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 4778.251402431743,
+      "final_capital": 104778.25140243175,
+      "return_pct": 4.77825140243175,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 59.763313426354706,
+          "shares": 292,
+          "date": "2024-12-28 08:32:15.269129",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 76.12718809221684,
+          "shares": 292,
+          "date": "2025-06-21 08:32:15.269129",
+          "profit": 4778.251402431743
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 2,
+      "win_rate": 1.0,
+      "total_profit": 2322.516320127622,
+      "final_capital": 102322.51632012762,
+      "return_pct": 2.3225163201276153,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 128.9319546239607,
+          "shares": 155,
+          "date": "2024-09-23 08:32:15.518788",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 136.51902783961023,
+          "shares": 155,
+          "date": "2024-10-24 08:32:15.518788",
+          "profit": 1175.9963484256764
+        },
+        {
+          "type": "buy",
+          "price": 175.18416107373903,
+          "shares": 115,
+          "date": "2025-05-28 08:32:15.518788",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 185.15389995810378,
+          "shares": 115,
+          "date": "2025-06-23 08:32:15.518788",
+          "profit": 1146.5199717019457
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 4632.189053620627,
+      "final_capital": 104632.18905362063,
+      "return_pct": 4.6321890536206345,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 137.0580719507689,
+          "shares": 127,
+          "date": "2024-10-26 08:32:15.518788",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 173.53200150683682,
+          "shares": 127,
+          "date": "2025-06-05 08:32:15.518788",
+          "profit": 4632.189053620627
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 2,
+      "win_rate": 1.0,
+      "total_profit": 1097.345464957578,
+      "final_capital": 101097.34546495757,
+      "return_pct": 1.0973454649575725,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 128.9319546239607,
+          "shares": 116,
+          "date": "2024-09-23 08:32:15.518788",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 134.6439086891422,
+          "shares": 116,
+          "date": "2024-10-22 08:32:15.518788",
+          "profit": 662.5866715610525
+        },
+        {
+          "type": "buy",
+          "price": 175.18416107373903,
+          "shares": 86,
+          "date": "2025-05-28 08:32:15.518788",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 180.23949588067538,
+          "shares": 86,
+          "date": "2025-06-22 08:32:15.518788",
+          "profit": 434.75879339652556
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 11,
+      "winning_trades": 5,
+      "win_rate": 0.45454545454545453,
+      "total_profit": 5005.246206921837,
+      "final_capital": 105005.24620692186,
+      "return_pct": 5.005246206921861,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 169.98548908068187,
+          "shares": 114,
+          "date": "2025-03-25 08:32:15.518788",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 168.51331507085382,
+          "shares": 114,
+          "date": "2025-04-03 08:32:15.518788",
+          "profit": -167.82783712039793
+        },
+        {
+          "type": "buy",
+          "price": 169.24774182702413,
+          "shares": 114,
+          "date": "2025-04-15 08:32:15.518788",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 179.84378431347622,
+          "shares": 114,
+          "date": "2025-05-09 08:32:15.518788",
+          "profit": 1207.9488434555385
+        },
+        {
+          "type": "buy",
+          "price": 172.90319449501456,
+          "shares": 113,
+          "date": "2025-06-13 08:32:15.518788",
+          "confidence": 0.75
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 2,
+      "win_rate": 1.0,
+      "total_profit": 1403.400684483001,
+      "final_capital": 101403.400684483,
+      "return_pct": 1.403400684483,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 128.9319546239607,
+          "shares": 126,
+          "date": "2024-09-23 08:32:15.518788",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 134.09479657393342,
+          "shares": 126,
+          "date": "2024-10-19 08:32:15.518788",
+          "profit": 650.5180856965621
+        },
+        {
+          "type": "buy",
+          "price": 176.97039344955553,
+          "shares": 92,
+          "date": "2025-05-24 08:32:15.518788",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 185.15389995810378,
+          "shares": 92,
+          "date": "2025-06-23 08:32:15.518788",
+          "profit": 752.8825987864388
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 87.55822200974127,
+          "shares": 228,
+          "date": "2024-08-16 08:32:15.784920",
+          "confidence": 0.8
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -639.9001750470497,
+      "final_capital": 99360.09982495295,
+      "return_pct": -0.6399001750470489,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 61.16263058655455,
+          "shares": 286,
+          "date": "2025-01-06 08:32:15.784920",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 58.92521738708934,
+          "shares": 286,
+          "date": "2025-01-26 08:32:15.784920",
+          "profit": -639.9001750470497
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 3,
+      "winning_trades": 1,
+      "win_rate": 0.3333333333333333,
+      "total_profit": -3903.2697329837792,
+      "final_capital": 96096.73026701622,
+      "return_pct": -3.903269732983783,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 90.16491907075532,
+          "shares": 166,
+          "date": "2024-08-14 08:32:15.784920",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 63.44195297252361,
+          "shares": 166,
+          "date": "2025-01-02 08:32:15.784920",
+          "profit": -4436.0123723064635
+        },
+        {
+          "type": "buy",
+          "price": 58.570531187396675,
+          "shares": 244,
+          "date": "2025-01-22 08:32:15.784920",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 60.753902660030626,
+          "shares": 244,
+          "date": "2025-02-05 08:32:15.784920",
+          "profit": 532.742639322684
+        },
+        {
+          "type": "buy",
+          "price": 55.42902493213383,
+          "shares": 260,
+          "date": "2025-04-14 08:32:15.784920",
+          "confidence": 0.6
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 17,
+      "winning_trades": 1,
+      "win_rate": 0.058823529411764705,
+      "total_profit": -7612.433979320776,
+      "final_capital": 92387.56602067922,
+      "return_pct": -7.612433979320777,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 55.362478766938914,
+          "shares": 315,
+          "date": "2025-04-23 08:32:15.784920",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 54.194378441978,
+          "shares": 315,
+          "date": "2025-05-10 08:32:15.784920",
+          "profit": -367.9516023626868
+        },
+        {
+          "type": "buy",
+          "price": 52.63596861511268,
+          "shares": 330,
+          "date": "2025-05-30 08:32:15.784920",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 51.37364683144314,
+          "shares": 330,
+          "date": "2025-06-07 08:32:15.784920",
+          "profit": -416.56618861094876
+        },
+        {
+          "type": "buy",
+          "price": 51.56357984624571,
+          "shares": 335,
+          "date": "2025-06-16 08:32:15.784920",
+          "confidence": 0.75
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 3,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -5039.38542010266,
+      "final_capital": 94960.61457989734,
+      "return_pct": -5.039385420102655,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 87.55822200974127,
+          "shares": 185,
+          "date": "2024-08-16 08:32:15.784920",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 61.91483746048452,
+          "shares": 185,
+          "date": "2024-12-25 08:32:15.784920",
+          "profit": -4744.026141612499
+        },
+        {
+          "type": "buy",
+          "price": 60.23825705153616,
+          "shares": 256,
+          "date": "2025-01-19 08:32:15.784920",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 59.08450986993397,
+          "shares": 256,
+          "date": "2025-03-31 08:32:15.784920",
+          "profit": -295.35927849016116
+        },
+        {
+          "type": "buy",
+          "price": 56.01978342070506,
+          "shares": 275,
+          "date": "2025-04-04 08:32:15.784920",
+          "confidence": 0.65
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 66.42293355493108,
+          "shares": 263,
+          "date": "2024-11-04 08:32:15.784920",
+          "confidence": 0.7
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 114231.14244978887,
+      "final_capital": 214231.14244978887,
+      "return_pct": 114.23114244978888,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 42.887527788143444,
+          "shares": 466,
+          "date": "2024-11-12 08:32:16.017968",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 288.0187347619393,
+          "shares": 466,
+          "date": "2024-11-13 08:32:16.017968",
+          "profit": 114231.14244978887
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -935499.3612099979,
+      "final_capital": -835499.3612099979,
+      "return_pct": -935.499361209998,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 97.68693078179307,
+          "shares": 179,
+          "date": "2024-10-16 08:32:16.017968",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": -5128.566483799201,
+          "shares": 179,
+          "date": "2024-11-14 08:32:16.017968",
+          "profit": -935499.3612099979
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 1,
+      "win_rate": 0.5,
+      "total_profit": 85426.25214410298,
+      "final_capital": 185426.252144103,
+      "return_pct": 85.426252144103,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 99.16943085990457,
+          "shares": 151,
+          "date": "2024-08-12 08:32:16.017968",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 98.34466867611803,
+          "shares": 151,
+          "date": "2024-10-10 08:32:16.017968",
+          "profit": -124.5390897517664
+        },
+        {
+          "type": "buy",
+          "price": 42.887527788143444,
+          "shares": 349,
+          "date": "2024-11-12 08:32:16.017968",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 288.0187347619393,
+          "shares": 349,
+          "date": "2024-11-13 08:32:16.017968",
+          "profit": 85550.79123385475
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 6,
+      "winning_trades": 1,
+      "win_rate": 0.16666666666666666,
+      "total_profit": -319836.9523226823,
+      "final_capital": -219836.9523226823,
+      "return_pct": -319.83695232268235,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 97.12021417425167,
+          "shares": 192,
+          "date": "2024-10-17 08:32:16.017968",
+          "profit": 2.1767441888869143
+        },
+        {
+          "type": "buy",
+          "price": 99.02347803475074,
+          "shares": 188,
+          "date": "2024-10-23 08:32:16.017968",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 42.887527788143444,
+          "shares": 188,
+          "date": "2024-11-12 08:32:16.017968",
+          "profit": -10553.558646362171
+        },
+        {
+          "type": "buy",
+          "price": 288.0187347619393,
+          "shares": 57,
+          "date": "2024-11-13 08:32:16.017968",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": -5128.566483799201,
+          "shares": 57,
+          "date": "2024-11-14 08:32:16.017968",
+          "profit": -308745.357457985
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 92659.59623609483,
+      "final_capital": 192659.59623609483,
+      "return_pct": 92.65959623609483,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 42.887527788143444,
+          "shares": 378,
+          "date": "2024-11-12 08:32:16.017968",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 288.0187347619393,
+          "shares": 378,
+          "date": "2024-11-13 08:32:16.017968",
+          "profit": 92659.59623609483
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 97.31926825495053,
+          "shares": 179,
+          "date": "2024-10-19 08:32:16.017968",
+          "confidence": 0.7
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -3156.070555041406,
+      "final_capital": 96843.9294449586,
+      "return_pct": -3.1560705550413988,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 100.47335897025546,
+          "shares": 199,
+          "date": "2024-08-25 08:32:16.264295",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 94.41417007110692,
+          "shares": 199,
+          "date": "2024-11-09 08:32:16.264295",
+          "profit": -1205.778590930559
+        },
+        {
+          "type": "buy",
+          "price": 106.29925110050064,
+          "shares": 185,
+          "date": "2025-01-24 08:32:16.264295",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 95.75713237557714,
+          "shares": 185,
+          "date": "2025-04-08 08:32:16.264295",
+          "profit": -1950.291964110847
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 3,
+      "winning_trades": 1,
+      "win_rate": 0.3333333333333333,
+      "total_profit": 2599.5887794129726,
+      "final_capital": 102599.58877941298,
+      "return_pct": 2.599588779412981,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 89.44256167699129,
+          "shares": 195,
+          "date": "2024-11-04 08:32:16.264295",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 106.29925110050064,
+          "shares": 195,
+          "date": "2025-01-24 08:32:16.264295",
+          "profit": 3287.0544375843238
+        },
+        {
+          "type": "buy",
+          "price": 92.72516956830363,
+          "shares": 194,
+          "date": "2025-04-13 08:32:16.264295",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 89.18153215504924,
+          "shares": 194,
+          "date": "2025-05-07 08:32:16.264295",
+          "profit": -687.4656581713512
+        },
+        {
+          "type": "buy",
+          "price": 96.61172147915215,
+          "shares": 185,
+          "date": "2025-05-12 08:32:16.264295",
+          "confidence": 0.7
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 3,
+      "winning_trades": 1,
+      "win_rate": 0.3333333333333333,
+      "total_profit": -1605.4486312822469,
+      "final_capital": 98394.55136871776,
+      "return_pct": -1.605448631282241,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 94.41417007110692,
+          "shares": 149,
+          "date": "2024-11-09 08:32:16.264295",
+          "profit": -902.8191459731321
+        },
+        {
+          "type": "buy",
+          "price": 106.29925110050064,
+          "shares": 139,
+          "date": "2025-01-24 08:32:16.264295",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 88.85450994355193,
+          "shares": 139,
+          "date": "2025-04-05 08:32:16.264295",
+          "profit": -2424.8190208158703
+        },
+        {
+          "type": "buy",
+          "price": 86.67572021181695,
+          "shares": 167,
+          "date": "2025-04-22 08:32:16.264295",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 96.98823240048016,
+          "shares": 167,
+          "date": "2025-05-10 08:32:16.264295",
+          "profit": 1722.1895355067554
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 11,
+      "winning_trades": 3,
+      "win_rate": 0.2727272727272727,
+      "total_profit": 1459.2395274496084,
+      "final_capital": 101459.23952744962,
+      "return_pct": 1.459239527449623,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 96.90718123939861,
+          "shares": 210,
+          "date": "2025-05-24 08:32:16.264295",
+          "profit": 1428.1972132791018
+        },
+        {
+          "type": "buy",
+          "price": 101.6645042515589,
+          "shares": 189,
+          "date": "2025-05-27 08:32:16.264295",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 99.1188171326272,
+          "shares": 189,
+          "date": "2025-05-31 08:32:16.264295",
+          "profit": -481.1348654780905
+        },
+        {
+          "type": "buy",
+          "price": 106.15758608483377,
+          "shares": 180,
+          "date": "2025-06-12 08:32:16.264295",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 101.53404560325005,
+          "shares": 180,
+          "date": "2025-06-18 08:32:16.264295",
+          "profit": -832.2372866850691
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 3,
+      "winning_trades": 1,
+      "win_rate": 0.3333333333333333,
+      "total_profit": -2013.6289315039735,
+      "final_capital": 97986.37106849602,
+      "return_pct": -2.0136289315039755,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 91.25793751905523,
+          "shares": 161,
+          "date": "2024-11-03 08:32:16.264295",
+          "profit": -1483.6828536432367
+        },
+        {
+          "type": "buy",
+          "price": 107.60351137306796,
+          "shares": 148,
+          "date": "2025-01-22 08:32:16.264295",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 95.75713237557714,
+          "shares": 148,
+          "date": "2025-04-08 08:32:16.264295",
+          "profit": -1753.264091628641
+        },
+        {
+          "type": "buy",
+          "price": 87.02004530953535,
+          "shares": 180,
+          "date": "2025-04-21 08:32:16.264295",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 93.81625649713482,
+          "shares": 180,
+          "date": "2025-05-09 08:32:16.264295",
+          "profit": 1223.3180137679042
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "QQQ",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -1222.8229263072192,
+      "final_capital": 98777.17707369279,
+      "return_pct": -1.2228229263072135,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 115.7016764479502,
+          "shares": 151,
+          "date": "2024-12-27 08:32:16.264295",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 107.60351137306796,
+          "shares": 151,
+          "date": "2025-01-22 08:32:16.264295",
+          "profit": -1222.8229263072192
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 220.26654542604348,
+          "shares": 79,
+          "date": "2025-05-24 08:32:16.517059",
+          "confidence": 0.7
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 613.2424757645531,
+      "final_capital": 100613.24247576455,
+      "return_pct": 0.6132424757645494,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 153.79629832115936,
+          "shares": 97,
+          "date": "2024-11-21 08:32:16.517059",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 160.11838570017537,
+          "shares": 97,
+          "date": "2024-12-02 08:32:16.517059",
+          "profit": 613.2424757645531
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 15,
+      "winning_trades": 6,
+      "win_rate": 0.4,
+      "total_profit": 5904.794478569262,
+      "final_capital": 105904.79447856927,
+      "return_pct": 5.904794478569267,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 213.89753741300413,
+          "shares": 93,
+          "date": "2025-04-02 08:32:16.517059",
+          "profit": 166.82421346520738
+        },
+        {
+          "type": "buy",
+          "price": 212.7914472903691,
+          "shares": 92,
+          "date": "2025-05-11 08:32:16.517059",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 209.50876557682264,
+          "shares": 92,
+          "date": "2025-05-18 08:32:16.517059",
+          "profit": -302.0067176462736
+        },
+        {
+          "type": "buy",
+          "price": 214.80423959277292,
+          "shares": 91,
+          "date": "2025-05-20 08:32:16.517059",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 223.88219365230898,
+          "shares": 91,
+          "date": "2025-06-05 08:32:16.517059",
+          "profit": 826.0938194177822
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 1,
+      "win_rate": 0.5,
+      "total_profit": 491.6815966390351,
+      "final_capital": 100491.68159663904,
+      "return_pct": 0.4916815966390422,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 208.452360043318,
+          "shares": 77,
+          "date": "2025-04-22 08:32:16.517059",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 214.83783532434444,
+          "shares": 77,
+          "date": "2025-05-12 08:32:16.517059",
+          "profit": 491.6815966390351
+        },
+        {
+          "type": "buy",
+          "price": 221.28937687598534,
+          "shares": 73,
+          "date": "2025-06-14 08:32:16.517059",
+          "confidence": 0.65
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 123.05630118855582,
+          "shares": 142,
+          "date": "2024-09-20 08:32:16.517059",
+          "confidence": 0.7
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 91.21710023481889,
+          "shares": 219,
+          "date": "2024-09-26 08:32:16.743886",
+          "confidence": 0.8
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -1088.7206189035178,
+      "final_capital": 98911.27938109648,
+      "return_pct": -1.0887206189035206,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 104.7609095418695,
+          "shares": 167,
+          "date": "2024-08-14 08:32:16.743886",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 98.24162439873466,
+          "shares": 167,
+          "date": "2024-09-02 08:32:16.743886",
+          "profit": -1088.7206189035178
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 98.36325464679773,
+          "shares": 152,
+          "date": "2024-09-08 08:32:16.743886",
+          "confidence": 0.6
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 16,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -6669.57958197635,
+      "final_capital": 93330.42041802366,
+      "return_pct": -6.669579581976344,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 60.32407334583663,
+          "shares": 292,
+          "date": "2025-04-28 08:32:16.743886",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 57.93553215538121,
+          "shares": 292,
+          "date": "2025-05-11 08:32:16.743886",
+          "profit": -697.4540276129827
+        },
+        {
+          "type": "buy",
+          "price": 58.727923380153676,
+          "shares": 298,
+          "date": "2025-05-13 08:32:16.743886",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 57.95077629075012,
+          "shares": 298,
+          "date": "2025-05-14 08:32:16.743886",
+          "profit": -231.58983264225967
+        },
+        {
+          "type": "buy",
+          "price": 53.286492484563766,
+          "shares": 328,
+          "date": "2025-06-01 08:32:16.743886",
+          "confidence": 0.75
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -3252.311486721255,
+      "final_capital": 96747.68851327874,
+      "return_pct": -3.2523114867212572,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 100.04781205235966,
+          "shares": 162,
+          "date": "2024-08-29 08:32:16.743886",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 79.97181522074698,
+          "shares": 162,
+          "date": "2025-01-27 08:32:16.743886",
+          "profit": -3252.311486721255
+        },
+        {
+          "type": "buy",
+          "price": 75.94720734785625,
+          "shares": 207,
+          "date": "2025-02-02 08:32:16.743886",
+          "confidence": 0.65
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 4,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -6552.783473968422,
+      "final_capital": 93447.21652603158,
+      "return_pct": -6.552783473968418,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 81.8612474042415,
+          "shares": 203,
+          "date": "2024-12-11 08:32:16.743886",
+          "profit": -592.3362751566008
+        },
+        {
+          "type": "buy",
+          "price": 75.25439399063572,
+          "shares": 228,
+          "date": "2025-02-08 08:32:16.743886",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 57.348891990654195,
+          "shares": 228,
+          "date": "2025-05-17 08:32:16.743886",
+          "profit": -4082.4544559957876
+        },
+        {
+          "type": "buy",
+          "price": 52.97295804889983,
+          "shares": 310,
+          "date": "2025-05-31 08:32:16.743886",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 50.803495891301736,
+          "shares": 310,
+          "date": "2025-06-08 08:32:16.743886",
+          "profit": -672.533268855408
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 10286.057288292663,
+      "final_capital": 110286.05728829266,
+      "return_pct": 10.286057288292664,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 94.88252321154474,
+          "shares": 210,
+          "date": "2024-10-03 08:32:16.987671",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 143.86374839389075,
+          "shares": 210,
+          "date": "2024-10-04 08:32:16.987671",
+          "profit": 10286.057288292663
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -76614.25008580076,
+      "final_capital": 23385.749914199245,
+      "return_pct": -76.61425008580075,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 98.84493826706068,
+          "shares": 177,
+          "date": "2024-09-01 08:32:16.987671",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 97.25720302918599,
+          "shares": 177,
+          "date": "2024-09-09 08:32:16.987671",
+          "profit": -281.02913710382126
+        },
+        {
+          "type": "buy",
+          "price": 143.86374839389075,
+          "shares": 121,
+          "date": "2024-10-04 08:32:16.987671",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": -486.9893172978194,
+          "shares": 121,
+          "date": "2024-10-05 08:32:16.987671",
+          "profit": -76333.22094869694
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 7739.0335788106695,
+      "final_capital": 107739.03357881067,
+      "return_pct": 7.739033578810675,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 94.88252321154474,
+          "shares": 158,
+          "date": "2024-10-03 08:32:16.987671",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 143.86374839389075,
+          "shares": 158,
+          "date": "2024-10-04 08:32:16.987671",
+          "profit": 7739.0335788106695
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 4,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -82133.74356323223,
+      "final_capital": 17866.25643676777,
+      "return_pct": -82.13374356323223,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 97.64710819501855,
+          "shares": 189,
+          "date": "2024-09-08 08:32:16.987671",
+          "profit": -186.42562505419335
+        },
+        {
+          "type": "buy",
+          "price": 98.78383705978933,
+          "shares": 189,
+          "date": "2024-09-15 08:32:16.987671",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 96.8316376736591,
+          "shares": 189,
+          "date": "2024-09-21 08:32:16.987671",
+          "profit": -368.96568397861387
+        },
+        {
+          "type": "buy",
+          "price": 143.86374839389075,
+          "shares": 129,
+          "date": "2024-10-04 08:32:16.987671",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": -486.9893172978194,
+          "shares": 129,
+          "date": "2024-10-05 08:32:16.987671",
+          "profit": -81380.04547423062
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 7699.037873853584,
+      "final_capital": 107699.03787385358,
+      "return_pct": 7.69903787385358,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 97.4840021658571,
+          "shares": 166,
+          "date": "2024-08-14 08:32:16.987671",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 143.86374839389075,
+          "shares": 166,
+          "date": "2024-10-04 08:32:16.987671",
+          "profit": 7699.037873853584
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 98.96095856797447,
+          "shares": 176,
+          "date": "2024-08-20 08:32:16.987671",
+          "confidence": 0.7
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 1480.1743369394912,
+      "final_capital": 101480.1743369395,
+      "return_pct": 1.4801743369394973,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 61.89472588519349,
+          "shares": 323,
+          "date": "2025-01-26 08:32:17.244235",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 66.47730897169346,
+          "shares": 323,
+          "date": "2025-02-14 08:32:17.244235",
+          "profit": 1480.1743369394912
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 4,
+      "winning_trades": 1,
+      "win_rate": 0.25,
+      "total_profit": -6155.888205691384,
+      "final_capital": 93844.11179430861,
+      "return_pct": -6.155888205691387,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 88.61518119675185,
+          "shares": 170,
+          "date": "2024-11-06 08:32:17.244235",
+          "profit": -2440.816258386243
+        },
+        {
+          "type": "buy",
+          "price": 67.30917528785771,
+          "shares": 254,
+          "date": "2025-03-17 08:32:17.244235",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 58.969892895368126,
+          "shares": 254,
+          "date": "2025-04-04 08:32:17.244235",
+          "profit": -2118.177727692355
+        },
+        {
+          "type": "buy",
+          "price": 66.91442843388874,
+          "shares": 250,
+          "date": "2025-05-05 08:32:17.244235",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 59.24154127276321,
+          "shares": 250,
+          "date": "2025-05-27 08:32:17.244235",
+          "profit": -1918.2217902813843
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 5,
+      "winning_trades": 2,
+      "win_rate": 0.4,
+      "total_profit": 454.3623003242376,
+      "final_capital": 100454.36230032422,
+      "return_pct": 0.4543623003242246,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 60.87957198514888,
+          "shares": 240,
+          "date": "2025-03-03 08:32:17.244235",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 68.10922905816203,
+          "shares": 240,
+          "date": "2025-03-14 08:32:17.244235",
+          "profit": 1735.117697523156
+        },
+        {
+          "type": "buy",
+          "price": 57.7148091581306,
+          "shares": 258,
+          "date": "2025-04-08 08:32:17.244235",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 61.86138565754499,
+          "shares": 258,
+          "date": "2025-04-27 08:32:17.244235",
+          "profit": 1069.8167368489137
+        },
+        {
+          "type": "buy",
+          "price": 59.725006222168304,
+          "shares": 252,
+          "date": "2025-05-16 08:32:17.244235",
+          "confidence": 0.6
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 10,
+      "winning_trades": 3,
+      "win_rate": 0.3,
+      "total_profit": -2035.5719371225416,
+      "final_capital": 97964.42806287744,
+      "return_pct": -2.035571937122557,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 59.926339910655884,
+          "shares": 304,
+          "date": "2025-04-15 08:32:17.244235",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 63.09601586626559,
+          "shares": 304,
+          "date": "2025-05-11 08:32:17.244235",
+          "profit": 963.5814905053503
+        },
+        {
+          "type": "buy",
+          "price": 60.69600052141484,
+          "shares": 303,
+          "date": "2025-05-26 08:32:17.244235",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 59.24154127276321,
+          "shares": 303,
+          "date": "2025-05-27 08:32:17.244235",
+          "profit": -440.70115234144413
+        },
+        {
+          "type": "buy",
+          "price": 51.03566626158143,
+          "shares": 359,
+          "date": "2025-06-18 08:32:17.244235",
+          "confidence": 0.75
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 4,
+      "winning_trades": 2,
+      "win_rate": 0.5,
+      "total_profit": -581.0106513831479,
+      "final_capital": 99418.98934861684,
+      "return_pct": -0.581010651383156,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 87.84473129931013,
+          "shares": 188,
+          "date": "2024-11-05 08:32:17.244235",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 66.47730897169346,
+          "shares": 188,
+          "date": "2025-02-14 08:32:17.244235",
+          "profit": -4017.0753975919333
+        },
+        {
+          "type": "buy",
+          "price": 59.97690653137044,
+          "shares": 265,
+          "date": "2025-04-01 08:32:17.244235",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 65.57495195617963,
+          "shares": 265,
+          "date": "2025-05-02 08:32:17.244235",
+          "profit": 1483.4820375744362
+        },
+        {
+          "type": "buy",
+          "price": 56.303093859273304,
+          "shares": 286,
+          "date": "2025-05-29 08:32:17.244235",
+          "confidence": 0.65
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "TLT",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -5651.624473815288,
+      "final_capital": 94348.37552618471,
+      "return_pct": -5.651624473815289,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 96.4001151865114,
+          "shares": 181,
+          "date": "2024-08-29 08:32:17.244235",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 65.1756705797971,
+          "shares": 181,
+          "date": "2025-03-18 08:32:17.244235",
+          "profit": -5651.624473815288
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -342.55469599353285,
+      "final_capital": 99657.44530400647,
+      "return_pct": -0.3425546959935309,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 154.22166936467957,
+          "shares": 129,
+          "date": "2024-12-15 08:32:17.496249",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 151.56620660503978,
+          "shares": 129,
+          "date": "2025-01-21 08:32:17.496249",
+          "profit": -342.55469599353285
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 158.59224726981745,
+          "shares": 110,
+          "date": "2025-01-28 08:32:17.496249",
+          "confidence": 0.7
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -257.5798876850596,
+      "final_capital": 99742.42011231494,
+      "return_pct": -0.25757988768506035,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 154.22166936467957,
+          "shares": 97,
+          "date": "2024-12-15 08:32:17.496249",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 151.56620660503978,
+          "shares": 97,
+          "date": "2025-01-21 08:32:17.496249",
+          "profit": -257.5798876850596
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 10,
+      "winning_trades": 9,
+      "win_rate": 0.9,
+      "total_profit": 8630.368008274041,
+      "final_capital": 108630.36800827406,
+      "return_pct": 8.630368008274061,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 204.1301862003854,
+          "shares": 100,
+          "date": "2025-05-03 08:32:17.496249",
+          "profit": 263.075757522293
+        },
+        {
+          "type": "buy",
+          "price": 211.22018487386865,
+          "shares": 96,
+          "date": "2025-05-06 08:32:17.496249",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 217.30579685839416,
+          "shares": 96,
+          "date": "2025-05-17 08:32:17.496249",
+          "profit": 584.2187505144493
+        },
+        {
+          "type": "buy",
+          "price": 229.29657725783665,
+          "shares": 89,
+          "date": "2025-06-05 08:32:17.496249",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 224.13819739670905,
+          "shares": 89,
+          "date": "2025-06-12 08:32:17.496249",
+          "profit": -459.0958076403564
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 1,
+      "win_rate": 0.5,
+      "total_profit": 2539.8361363338227,
+      "final_capital": 102539.83613633383,
+      "return_pct": 2.5398361363338338,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 155.9510229538538,
+          "shares": 104,
+          "date": "2024-12-13 08:32:17.496249",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 149.20865595618523,
+          "shares": 104,
+          "date": "2025-01-17 08:32:17.496249",
+          "profit": -701.2061677575311
+        },
+        {
+          "type": "buy",
+          "price": 167.73857129087753,
+          "shares": 96,
+          "date": "2025-03-12 08:32:17.496249",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 201.49942862516247,
+          "shares": 96,
+          "date": "2025-04-23 08:32:17.496249",
+          "profit": 3241.042304091354
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 11292.462827267307,
+      "final_capital": 111292.4628272673,
+      "return_pct": 11.292462827267299,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 121.69339673123356,
+          "shares": 143,
+          "date": "2024-08-30 08:32:17.496249",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 200.66166825058536,
+          "shares": 143,
+          "date": "2025-04-25 08:32:17.496249",
+          "profit": 11292.462827267307
+        }
+      ],
+      "market_condition": "bull"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 84.95037861375064,
+          "shares": 235,
+          "date": "2024-08-18 08:32:17.749970",
+          "confidence": 0.8
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 3,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -1202.160110971756,
+      "final_capital": 98797.83988902824,
+      "return_pct": -1.2021601109717595,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 62.21664214695337,
+          "shares": 276,
+          "date": "2025-02-01 08:32:17.749970",
+          "profit": -325.8224839339776
+        },
+        {
+          "type": "buy",
+          "price": 63.30663015433221,
+          "shares": 275,
+          "date": "2025-02-08 08:32:17.749970",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 63.14278475395067,
+          "shares": 275,
+          "date": "2025-02-09 08:32:17.749970",
+          "profit": -45.05748510492342
+        },
+        {
+          "type": "buy",
+          "price": 63.20361904535869,
+          "shares": 275,
+          "date": "2025-02-11 08:32:17.749970",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 60.18078216560286,
+          "shares": 275,
+          "date": "2025-03-03 08:32:17.749970",
+          "profit": -831.2801419328549
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 3,
+      "winning_trades": 1,
+      "win_rate": 0.3333333333333333,
+      "total_profit": -2936.2736804748483,
+      "final_capital": 97063.72631952516,
+      "return_pct": -2.936273680474842,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 86.72983232224131,
+          "shares": 172,
+          "date": "2024-08-15 08:32:17.749970",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 89.49712205681396,
+          "shares": 172,
+          "date": "2024-09-01 08:32:17.749970",
+          "profit": 475.973834346497
+        },
+        {
+          "type": "buy",
+          "price": 83.30381987159329,
+          "shares": 180,
+          "date": "2024-09-10 08:32:17.749970",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 64.34688923369693,
+          "shares": 180,
+          "date": "2025-01-06 08:32:17.749970",
+          "profit": -3412.2475148213452
+        },
+        {
+          "type": "buy",
+          "price": 59.99418555135877,
+          "shares": 242,
+          "date": "2025-03-01 08:32:17.749970",
+          "confidence": 0.6
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 12,
+      "winning_trades": 2,
+      "win_rate": 0.16666666666666666,
+      "total_profit": -5278.265431920558,
+      "final_capital": 94721.73456807944,
+      "return_pct": -5.278265431920561,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 49.87886957618554,
+          "shares": 362,
+          "date": "2025-05-21 08:32:17.749970",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 47.63802111490971,
+          "shares": 362,
+          "date": "2025-05-26 08:32:17.749970",
+          "profit": -811.1871429818484
+        },
+        {
+          "type": "buy",
+          "price": 46.47007506093685,
+          "shares": 386,
+          "date": "2025-06-05 08:32:17.749970",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 43.89187434886973,
+          "shares": 386,
+          "date": "2025-06-16 08:32:17.749970",
+          "profit": -995.1854748579093
+        },
+        {
+          "type": "buy",
+          "price": 43.54238589216492,
+          "shares": 407,
+          "date": "2025-06-22 08:32:17.749970",
+          "confidence": 0.75
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 4,
+      "winning_trades": 1,
+      "win_rate": 0.25,
+      "total_profit": -2947.8134537938095,
+      "final_capital": 97052.18654620618,
+      "return_pct": -2.9478134537938168,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 83.30381987159329,
+          "shares": 197,
+          "date": "2024-09-10 08:32:17.749970",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 63.47838124488049,
+          "shares": 197,
+          "date": "2025-01-01 08:32:17.749970",
+          "profit": -3905.611409462422
+        },
+        {
+          "type": "buy",
+          "price": 55.150953379080605,
+          "shares": 286,
+          "date": "2025-03-19 08:32:17.749970",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 54.44500326477455,
+          "shares": 286,
+          "date": "2025-04-26 08:32:17.749970",
+          "profit": -201.90173269153195
+        },
+        {
+          "type": "buy",
+          "price": 47.63802111490971,
+          "shares": 331,
+          "date": "2025-05-26 08:32:17.749970",
+          "confidence": 0.65
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 63.30085156229133,
+          "shares": 276,
+          "date": "2025-01-26 08:32:17.749970",
+          "confidence": 0.7
+        }
+      ],
+      "market_condition": "bear"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 0,
+      "winning_trades": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "final_capital": 100000,
+      "return_pct": 0.0,
+      "trades": [],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -781.2930856172505,
+      "final_capital": 99218.70691438275,
+      "return_pct": -0.781293085617246,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 103.89520480898267,
+          "shares": 168,
+          "date": "2024-09-05 08:32:17.991824",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 99.2446507279276,
+          "shares": 168,
+          "date": "2024-09-29 08:32:17.991824",
+          "profit": -781.2930856172505
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 2,
+      "win_rate": 1.0,
+      "total_profit": 6668.415002786748,
+      "final_capital": 106668.41500278674,
+      "return_pct": 6.668415002786745,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 100.85055982764285,
+          "shares": 148,
+          "date": "2024-08-20 08:32:17.991824",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 103.68345248192591,
+          "shares": 148,
+          "date": "2024-09-08 08:32:17.991824",
+          "profit": 419.2681128338925
+        },
+        {
+          "type": "buy",
+          "price": 101.10965674008808,
+          "shares": 148,
+          "date": "2024-09-21 08:32:17.991824",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 143.3336222127425,
+          "shares": 148,
+          "date": "2024-11-08 08:32:17.991824",
+          "profit": 6249.146889952855
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 1,
+      "win_rate": 0.5,
+      "total_profit": -111916.8520927327,
+      "final_capital": -11916.852092732704,
+      "return_pct": -111.9168520927327,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 102.13178171943115,
+          "shares": 183,
+          "date": "2024-08-22 08:32:17.991824",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 102.40726141698052,
+          "shares": 183,
+          "date": "2024-09-16 08:32:17.991824",
+          "profit": 50.41278465153505
+        },
+        {
+          "type": "buy",
+          "price": 96.06209053590345,
+          "shares": 195,
+          "date": "2024-10-19 08:32:17.991824",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": -478.1290113994004,
+          "shares": 195,
+          "date": "2024-11-09 08:32:17.991824",
+          "profit": -111967.26487738424
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 1,
+      "win_rate": 1.0,
+      "total_profit": 6895.243119892558,
+      "final_capital": 106895.24311989256,
+      "return_pct": 6.895243119892562,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 100.50602519477631,
+          "shares": 161,
+          "date": "2024-08-17 08:32:17.991824",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 143.3336222127425,
+          "shares": 161,
+          "date": "2024-11-08 08:32:17.991824",
+          "profit": 6895.243119892558
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 1,
+      "winning_trades": 0,
+      "win_rate": 0.0,
+      "total_profit": -143.13834885106326,
+      "final_capital": 99856.86165114894,
+      "return_pct": -0.1431383488510619,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 101.65303887116474,
+          "shares": 172,
+          "date": "2024-08-12 08:32:17.991824",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 100.82083916854228,
+          "shares": 172,
+          "date": "2024-08-16 08:32:17.991824",
+          "profit": -143.13834885106326
+        }
+      ],
+      "market_condition": "sideways"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "mean_reversion",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 1,
+      "win_rate": 0.5,
+      "total_profit": 2087.2799627549202,
+      "final_capital": 102087.27996275492,
+      "return_pct": 2.087279962754925,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 89.27277340556898,
+          "shares": 224,
+          "date": "2024-10-19 08:32:18.252491",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 84.4109740558495,
+          "shares": 224,
+          "date": "2025-02-24 08:32:18.252491",
+          "profit": -1089.0430543371658
+        },
+        {
+          "type": "buy",
+          "price": 100.48860998002753,
+          "shares": 196,
+          "date": "2025-05-30 08:32:18.252491",
+          "confidence": 0.8
+        },
+        {
+          "type": "sell",
+          "price": 116.69433965906879,
+          "shares": 196,
+          "date": "2025-06-19 08:32:18.252491",
+          "profit": 3176.323017092086
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "momentum",
+      "risk_level": "moderate",
+      "total_trades": 5,
+      "winning_trades": 1,
+      "win_rate": 0.2,
+      "total_profit": 1294.2682335991633,
+      "final_capital": 101294.26823359916,
+      "return_pct": 1.2942682335991558,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 86.97142347168803,
+          "shares": 197,
+          "date": "2025-03-01 08:32:18.252491",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 106.61075361004755,
+          "shares": 197,
+          "date": "2025-04-21 08:32:18.252491",
+          "profit": 3868.9480372568264
+        },
+        {
+          "type": "buy",
+          "price": 110.33828758415846,
+          "shares": 162,
+          "date": "2025-05-14 08:32:18.252491",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 105.03765849491778,
+          "shares": 162,
+          "date": "2025-06-07 08:32:18.252491",
+          "profit": -858.7019124569913
+        },
+        {
+          "type": "buy",
+          "price": 116.69433965906879,
+          "shares": 151,
+          "date": "2025-06-19 08:32:18.252491",
+          "confidence": 0.7
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "rsi",
+      "risk_level": "moderate",
+      "total_trades": 4,
+      "winning_trades": 2,
+      "win_rate": 0.5,
+      "total_profit": 584.6004906422318,
+      "final_capital": 100584.60049064223,
+      "return_pct": 0.5846004906422313,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 81.15039479154392,
+          "shares": 180,
+          "date": "2025-02-22 08:32:18.252491",
+          "profit": -13.871219319790953
+        },
+        {
+          "type": "buy",
+          "price": 103.07513032163352,
+          "shares": 142,
+          "date": "2025-04-08 08:32:18.252491",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 112.5072733075059,
+          "shares": 142,
+          "date": "2025-05-18 08:32:18.252491",
+          "profit": 1339.3643039938772
+        },
+        {
+          "type": "buy",
+          "price": 100.48860998002753,
+          "shares": 148,
+          "date": "2025-05-30 08:32:18.252491",
+          "confidence": 0.6
+        },
+        {
+          "type": "sell",
+          "price": 110.14850146241773,
+          "shares": 148,
+          "date": "2025-06-13 08:32:18.252491",
+          "profit": 1429.6639393937487
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "macd",
+      "risk_level": "moderate",
+      "total_trades": 11,
+      "winning_trades": 1,
+      "win_rate": 0.09090909090909091,
+      "total_profit": 3706.2999045350352,
+      "final_capital": 103706.29990453504,
+      "return_pct": 3.7062999045350447,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 106.55582574965366,
+          "shares": 183,
+          "date": "2025-04-20 08:32:18.252491",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 106.04425109390587,
+          "shares": 183,
+          "date": "2025-05-03 08:32:18.252491",
+          "profit": -93.61816200184619
+        },
+        {
+          "type": "buy",
+          "price": 109.55317960383925,
+          "shares": 177,
+          "date": "2025-05-10 08:32:18.252491",
+          "confidence": 0.75
+        },
+        {
+          "type": "sell",
+          "price": 108.20230207114315,
+          "shares": 177,
+          "date": "2025-05-24 08:32:18.252491",
+          "profit": -239.1053232872102
+        },
+        {
+          "type": "buy",
+          "price": 107.94658329081655,
+          "shares": 180,
+          "date": "2025-06-08 08:32:18.252491",
+          "confidence": 0.75
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "bollinger",
+      "risk_level": "moderate",
+      "total_trades": 3,
+      "winning_trades": 2,
+      "win_rate": 0.6666666666666666,
+      "total_profit": -16.249868349474127,
+      "final_capital": 99983.75013165052,
+      "return_pct": -0.016249868349477767,
+      "trades": [
+        {
+          "type": "sell",
+          "price": 85.87215801686254,
+          "shares": 154,
+          "date": "2025-01-03 08:32:18.252491",
+          "profit": -2936.5307558646814
+        },
+        {
+          "type": "buy",
+          "price": 79.59379829937438,
+          "shares": 198,
+          "date": "2025-01-18 08:32:18.252491",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 84.4109740558495,
+          "shares": 198,
+          "date": "2025-02-24 08:32:18.252491",
+          "profit": 953.8007997820716
+        },
+        {
+          "type": "buy",
+          "price": 103.84152862813326,
+          "shares": 153,
+          "date": "2025-05-28 08:32:18.252491",
+          "confidence": 0.65
+        },
+        {
+          "type": "sell",
+          "price": 116.69433965906879,
+          "shares": 153,
+          "date": "2025-06-19 08:32:18.252491",
+          "profit": 1966.4800877331356
+        }
+      ],
+      "market_condition": "volatile"
+    },
+    {
+      "symbol": "GLD",
+      "strategy": "volume_breakout",
+      "risk_level": "moderate",
+      "total_trades": 2,
+      "winning_trades": 1,
+      "win_rate": 0.5,
+      "total_profit": -145.94239370917774,
+      "final_capital": 99854.05760629082,
+      "return_pct": -0.14594239370917786,
+      "trades": [
+        {
+          "type": "buy",
+          "price": 83.35512597283466,
+          "shares": 209,
+          "date": "2024-12-15 08:32:18.252491",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 80.65343897259952,
+          "shares": 209,
+          "date": "2025-01-30 08:32:18.252491",
+          "profit": -564.6525830491441
+        },
+        {
+          "type": "buy",
+          "price": 102.99862835629054,
+          "shares": 168,
+          "date": "2025-04-15 08:32:18.252491",
+          "confidence": 0.7
+        },
+        {
+          "type": "sell",
+          "price": 105.49095091188558,
+          "shares": 168,
+          "date": "2025-04-24 08:32:18.252491",
+          "profit": 418.7101893399664
+        }
+      ],
+      "market_condition": "volatile"
+    }
+  ],
+  "strategy_performance": {
+    

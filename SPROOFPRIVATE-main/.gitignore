@@ -1,0 +1,223 @@
+# === SECURITY - NEVER COMMIT THESE ===
+# API Keys and Credentials
+.env
+.env.*
+!.env.example
+!.env.template
+*.key
+*.pem
+*.crt
+*.pfx
+credentials.json
+*_credentials.json
+secrets/
+.secrets/
+alpaca_config.json
+alpaca_config.json.backup
+trading_config.json
+real_alpaca_config.py
+minio_config.py
+openrouter_config.json
+api_keys/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Virtual Environments ===
+.venv/
+venv/
+ENV/
+env/
+.python-version
+pip-log.txt
+
+# === Testing ===
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+nosetests.xml
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints
+*.ipynb
+
+# === IDEs ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# === Logs ===
+logs/
+*.log
+*.log.*
+log/
+enhanced_launch.log
+premium_harvest_bot.log
+ultimate_launch_fixed.log
+real_options_bot.log
+master_launch.log
+ultimate_final.log
+final_launch.log
+
+# === Trading Data ===
+data/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.arrow
+*.feather
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+dump.rdb
+
+# === Models ===
+models/
+*.pth
+*.pt
+*.onnx
+*.pb
+*.h5
+*.keras
+*.joblib
+*.sav
+checkpoints/
+model_weights/
+
+# === MinIO Storage ===
+minio-data/
+minio_cache/
+.minio.sys/
+minio_inventory*.json
+minio_*_results*.json
+
+# === Results and Reports ===
+*_report_*.json
+*_report_*.html
+*_results_*.json
+*_results_*.txt
+checkpoint_*.json
+backtest_results/
+pipeline_output/
+multi_year_results/
+mega_scan_results*.json
+comprehensive_*_results*.json
+system_verification*.json
+component_summary.json
+syntax_errors_report.json
+failed_imports_analysis.json
+
+# === Temporary Files ===
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+*.swp
+*.swo
+*~
+.~*
+
+# === OS Files ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# === Docker ===
+docker-compose.override.yml
+prometheus-data/
+grafana-data/
+alertmanager-data/
+
+# === Backups ===
+backups/
+backup_*/
+*.backup
+backup_before_merge_*/
+
+# === Large Binary Files ===
+mc
+*.exe
+*.dll
+*.so
+*.dylib
+
+# === Project Specific - Old Structure ===
+# These will be reorganized
+FINAL_*.py
+FIX_*.py
+fix_*.py
+DEMO_*.py
+demo_*.py
+TEST_*.py
+test_*.py
+PRODUCTION_*.py
+production_*.py
+*_LAUNCHER.py
+*_launcher.py
+
+# === Sensitive Trading Info ===
+live_trading_log.txt
+paper_trading_results.json
+trading_positions.json
+order_history.json
+pnl_report.json
+
+# === Configuration Overrides ===
+config.local.json
+config.production.json
+trading.local.yaml
+
+# === Security Audit Results ===
+security_audit_results.json
+credential_scan_*.txt
+
+# Keep these
+!.env.example
+!.env.template
+!requirements.txt
+!requirements-dev.txt
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+!SECURITY.mddgm_source/
+options-wheel/

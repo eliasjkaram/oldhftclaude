@@ -1,0 +1,244 @@
+# Alpaca Trading System - Alert Configuration
+# ==========================================
+# This file defines all alert rules, thresholds, and notification channels
+
+# Global settings
+global:
+  evaluation_interval: 30s  # How often to evaluate alert rules
+  repeat_interval: 30m      # Minimum time between repeat notifications
+  
+# Notification channels
+notification_channels:
+  email:
+    enabled: true
+    smtp_server: ${SMTP_SERVER:-smtp.gmail.com}
+    smtp_port: ${SMTP_PORT:-587}
+    username: ${SMTP_USERNAME}
+    password: ${SMTP_PASSWORD}
+    from_email: ${ALERT_FROM_EMAIL:-alerts@tradingsystem.com}
+    to_emails:
+      - ${ALERT_TO_EMAIL_1}
+      - ${ALERT_TO_EMAIL_2}
+    
+  slack:
+    enabled: true
+    webhook_url: ${SLACK_WEBHOOK_URL}
+    channel: "#trading-alerts"
+    
+  pagerduty:
+    enabled: false
+    integration_key: ${PAGERDUTY_KEY}
+    
+  webhook:
+    enabled: true
+    urls:
+      - ${WEBHOOK_URL_1}
+      - ${WEBHOOK_URL_2}
+
+# Alert rules organized by category
+alerts:
+  # CRITICAL: Trading system failures
+  critical:
+    - name: alpaca_api_down
+      description: "Alpaca API connection is down"
+      condition: |
+        alpaca_api_health_status == 0
+      for: 1m
+      severity: critical
+      channels: [email, slack, pagerduty]
+      annotations:
+        summary: "CRITICAL: Alpaca API connection lost"
+        description: "The Alpaca API connection has been down for {{ $value }} minutes. Trading is halted."
+        runbook_url: "https://wiki.company.com/runbooks/alpaca-api-down"
+        
+    - name: order_execution_failure_rate_high
+      description: "High order execution failure rate"
+      condition: |
+        rate(orders_total{status="failed"}[5m]) / rate(orders_total[5m]) > 0.1
+      for: 5m
+      severity: critical
+      channels: [email, slack]
+      annotations:
+        summary: "CRITICAL: Order failure rate > 10%"
+        description: "{{ $value | humanizePercentage }} of orders are failing"
+        
+    - name: large_trading_loss
+      description: "Large trading loss detected"
+      condition: |
+        trading_pnl_total < -5000
+      for: immediate
+      severity: critical
+      channels: [email, slack, pagerduty]
+      annotations:
+        summary: "CRITICAL: Large trading loss of ${{ $value }}"
+        description: "Immediate action required - trading loss exceeds $5000"
+        
+  # ERROR: Significant issues requiring attention
+  error:
+    - name: position_concentration_high
+      description: "Position concentration too high"
+      condition: |
+        max(position_risk_score) > 0.25
+      for: 5m
+      severity: error
+      channels: [email, slack]
+      annotations:
+        summary: "ERROR: Position concentration > 25%"
+        description: "Position {{ $labels.symbol }} is {{ $value | humanizePercentage }} of portfolio"
+        
+    - name: market_data_stale
+      description: "Market data feed is stale"
+      condition: |
+        market_data_lag_seconds > 300
+      for: 5m
+      severity: error
+      channels: [slack]
+      annotations:
+        summary: "ERROR: Market data is {{ $value }} seconds old"
+        description: "Market data for {{ $labels.symbol }} is not updating"
+        
+    - name: database_connection_lost
+      description: "Database connection lost"
+      condition: |
+        service_health_status{service_name="database_connections"} == 0
+      for: 2m
+      severity: error
+      channels: [email, slack]
+      annotations:
+        summary: "ERROR: Database connection lost"
+        description: "Unable to connect to trading database"
+        
+    - name: high_order_latency
+      description: "Order execution latency is high"
+      condition: |
+        histogram_quantile(0.95, order_latency_milliseconds) > 1000
+      for: 10m
+      severity: error
+      channels: [slack]
+      annotations:
+        summary: "ERROR: 95th percentile order latency > 1s"
+        description: "Order execution is taking {{ $value }}ms at p95"
+        
+  # WARNING: Issues to monitor
+  warning:
+    - name: high_cpu_usage
+      description: "CPU usage is high"
+      condition: |
+        system_cpu_usage_percent > 80
+      for: 10m
+      severity: warning
+      channels: [slack]
+      annotations:
+        summary: "WARNING: CPU usage at {{ $value }}%"
+        description: "{{ $labels.service }} is using high CPU"
+        
+    - name: high_memory_usage
+      description: "Memory usage is high"
+      condition: |
+        system_memory_usage_mb > 14000
+      for: 10m
+      severity: warning
+      channels: [slack]
+      annotations:
+        summary: "WARNING: Memory usage at {{ $value }}MB"
+        description: "{{ $labels.service }} is using {{ $value }}MB of memory"
+        
+    - name: low_disk_space
+      description: "Disk space is running low"
+      condition: |
+        system_disk_usage_percent > 85
+      for: 30m
+      severity: warning
+      channels: [email, slack]
+      annotations:
+        summary: "WARNING: Disk usage at {{ $value }}%"
+        description: "{{ $labels.mount_point }} has only {{ 100 - $value }}% free space"
+        
+    - name: model_accuracy_degraded
+      description: "Model prediction accuracy has degraded"
+      condition: |
+        model_prediction_accuracy < 0.6
+      for: 30m
+      severity: warning
+      channels: [slack]
+      annotations:
+        summary: "WARNING: {{ $labels.model_name }} accuracy at {{ $value }}"
+        description: "Model performance has degraded below 60%"
+        
+    - name: compliance_violations
+      description: "Compliance violations detected"
+      condition: |
+        increase(compliance_violations_total[1h]) > 0
+      for: immediate
+      severity: warning
+      channels: [email, slack]
+      annotations:
+        summary: "WARNING: {{ $value }} compliance violations in last hour"
+        description: "Type: {{ $labels.violation_type }}, Severity: {{ $labels.severity }}"
+        
+  # INFO: Informational alerts
+  info:
+    - name: trading_session_started
+      description: "Trading session has started"
+      condition: |
+        changes(service_health_status{service_name="market_hours"}[1m]) > 0 
+        and service_health_status{service_name="market_hours"} == 1
+      for: immediate
+      severity: info
+      channels: [slack]
+      annotations:
+        summary: "INFO: Trading session started"
+        description: "Market is now open for trading"
+        
+    - name: daily_summary
+      description: "Daily trading summary"
+      condition: |
+        hour() == 16 and minute() < 5
+      for: immediate
+      severity: info
+      channels: [email, slack]
+      annotations:
+        summary: "INFO: Daily Trading Summary"
+        description: |
+          Today's P&L: ${{ trading_pnl_total }}
+          Orders executed: {{ orders_total }}
+          Active positions: {{ active_positions_count }}
+
+# Aggregation rules for dashboard
+aggregation_rules:
+  - name: trading_health_score
+    description: "Overall trading system health score (0-100)"
+    expression: |
+      (
+        (1 - rate(orders_total{status="failed"}[5m]) / rate(orders_total[5m])) * 25 +
+        (alpaca_api_health_status) * 25 +
+        (1 - clamp_max(market_data_lag_seconds / 300, 1)) * 25 +
+        (1 - clamp_max(system_cpu_usage_percent / 100, 1)) * 25
+      )
+      
+  - name: risk_score
+    description: "Overall risk score (0-1, lower is better)"
+    expression: |
+      max(
+        max(position_risk_score),
+        trading_pnl_total < -1000,
+        rate(orders_total{status="failed"}[5m]) / rate(orders_total[5m])
+      )
+
+# Silence rules (to prevent alert fatigue)
+silence_rules:
+  - name: market_closed
+    description: "Silence non-critical alerts when market is closed"
+    condition: service_health_status{service_name="market_hours"} == 0
+    silences:
+      - market_data_stale
+      - high_order_latency
+      - model_accuracy_degraded
+      
+  - name: maintenance_window
+    description: "Silence alerts during maintenance"
+    schedule: "0 2-4 * * SUN"  # Sunday 2-4 AM
+    silences:
+      - database_connection_lost
+      - high_cpu_usage
+      - high_memory_usage

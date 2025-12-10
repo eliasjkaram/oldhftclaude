@@ -1,0 +1,4147 @@
+{
+  "exploration_timestamp": "2025-06-16T16:40:03.129287",
+  "all_directories_explored": {
+    "aws_backup/": {
+      "directory": "aws_backup/",
+      "total_files": 200,
+      "sample_files": [
+        {
+          "filename": "aws_backup/documentation/_us_historical_financialdatadb.txt",
+          "size_bytes": 548887,
+          "size_mb": 0.52
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-01options.csv",
+          "size_bytes": 12501331,
+          "size_mb": 11.92
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-01stocks.csv",
+          "size_bytes": 79759,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-02options.csv",
+          "size_bytes": 12540115,
+          "size_mb": 11.96
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-02stocks.csv",
+          "size_bytes": 79875,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-03options.csv",
+          "size_bytes": 12547028,
+          "size_mb": 11.97
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-03stocks.csv",
+          "size_bytes": 79548,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-06options.csv",
+          "size_bytes": 12557953,
+          "size_mb": 11.98
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-06stocks.csv",
+          "size_bytes": 79405,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-07options.csv",
+          "size_bytes": 12596661,
+          "size_mb": 12.01
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-07stocks.csv",
+          "size_bytes": 79625,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-08options.csv",
+          "size_bytes": 12630972,
+          "size_mb": 12.05
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-08stocks.csv",
+          "size_bytes": 79335,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-09options.csv",
+          "size_bytes": 12649409,
+          "size_mb": 12.06
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-09stocks.csv",
+          "size_bytes": 79510,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-10options.csv",
+          "size_bytes": 12667797,
+          "size_mb": 12.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-10stocks.csv",
+          "size_bytes": 79397,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-13options.csv",
+          "size_bytes": 12681880,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-13stocks.csv",
+          "size_bytes": 79387,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-14options.csv",
+          "size_bytes": 12710862,
+          "size_mb": 12.12
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-14stocks.csv",
+          "size_bytes": 79713,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-15options.csv",
+          "size_bytes": 12716556,
+          "size_mb": 12.13
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-15stocks.csv",
+          "size_bytes": 79788,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-16options.csv",
+          "size_bytes": 12719516,
+          "size_mb": 12.13
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-16stocks.csv",
+          "size_bytes": 79787,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-17options.csv",
+          "size_bytes": 12702398,
+          "size_mb": 12.11
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-17stocks.csv",
+          "size_bytes": 79617,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-20options.csv",
+          "size_bytes": 11820051,
+          "size_mb": 11.27
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-20stocks.csv",
+          "size_bytes": 79247,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-21options.csv",
+          "size_bytes": 11846486,
+          "size_mb": 11.3
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-21stocks.csv",
+          "size_bytes": 79248,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-22options.csv",
+          "size_bytes": 11876535,
+          "size_mb": 11.33
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-22stocks.csv",
+          "size_bytes": 79212,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-23options.csv",
+          "size_bytes": 11907472,
+          "size_mb": 11.36
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-23stocks.csv",
+          "size_bytes": 79188,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-24options.csv",
+          "size_bytes": 11936042,
+          "size_mb": 11.38
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-24stocks.csv",
+          "size_bytes": 79056,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-28options.csv",
+          "size_bytes": 12140013,
+          "size_mb": 11.58
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-28stocks.csv",
+          "size_bytes": 79151,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-29options.csv",
+          "size_bytes": 12175804,
+          "size_mb": 11.61
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-29stocks.csv",
+          "size_bytes": 79319,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-03options.csv",
+          "size_bytes": 12261258,
+          "size_mb": 11.69
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-03stocks.csv",
+          "size_bytes": 78893,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-04options.csv",
+          "size_bytes": 12301860,
+          "size_mb": 11.73
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-04stocks.csv",
+          "size_bytes": 78920,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-05options.csv",
+          "size_bytes": 12352201,
+          "size_mb": 11.78
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-05stocks.csv",
+          "size_bytes": 78809,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-06options.csv",
+          "size_bytes": 12374434,
+          "size_mb": 11.8
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-06stocks.csv",
+          "size_bytes": 78634,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-07options.csv",
+          "size_bytes": 12435385,
+          "size_mb": 11.86
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-07stocks.csv",
+          "size_bytes": 78599,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-10options.csv",
+          "size_bytes": 12458897,
+          "size_mb": 11.88
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-10stocks.csv",
+          "size_bytes": 78695,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-11options.csv",
+          "size_bytes": 12478060,
+          "size_mb": 11.9
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-11stocks.csv",
+          "size_bytes": 78678,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-12options.csv",
+          "size_bytes": 12532171,
+          "size_mb": 11.95
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-12stocks.csv",
+          "size_bytes": 78837,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-13options.csv",
+          "size_bytes": 12582733,
+          "size_mb": 12.0
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-13stocks.csv",
+          "size_bytes": 78618,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-18options.csv",
+          "size_bytes": 12680182,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-18stocks.csv",
+          "size_bytes": 78420,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-19options.csv",
+          "size_bytes": 12695582,
+          "size_mb": 12.11
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-19stocks.csv",
+          "size_bytes": 78534,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-20options.csv",
+          "size_bytes": 12726958,
+          "size_mb": 12.14
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-20stocks.csv",
+          "size_bytes": 78346,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-21options.csv",
+          "size_bytes": 12751568,
+          "size_mb": 12.16
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-21stocks.csv",
+          "size_bytes": 78359,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-24options.csv",
+          "size_bytes": 12103928,
+          "size_mb": 11.54
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-24stocks.csv",
+          "size_bytes": 78275,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-25options.csv",
+          "size_bytes": 12228563,
+          "size_mb": 11.66
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-25stocks.csv",
+          "size_bytes": 78038,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-26options.csv",
+          "size_bytes": 12281809,
+          "size_mb": 11.71
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-26stocks.csv",
+          "size_bytes": 77692,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-27options.csv",
+          "size_bytes": 12360637,
+          "size_mb": 11.79
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-27stocks.csv",
+          "size_bytes": 77787,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-28options.csv",
+          "size_bytes": 12381687,
+          "size_mb": 11.81
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-28stocks.csv",
+          "size_bytes": 78102,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-01options.csv",
+          "size_bytes": 12417076,
+          "size_mb": 11.84
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-01stocks.csv",
+          "size_bytes": 77734,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-02options.csv",
+          "size_bytes": 12591462,
+          "size_mb": 12.01
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-02stocks.csv",
+          "size_bytes": 77757,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-03options.csv",
+          "size_bytes": 12680110,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-03stocks.csv",
+          "size_bytes": 77814,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-05options.csv",
+          "size_bytes": 12743172,
+          "size_mb": 12.15
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-05stocks.csv",
+          "size_bytes": 77103,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-08options.csv",
+          "size_bytes": 12757682,
+          "size_mb": 12.17
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-08stocks.csv",
+          "size_bytes": 77785,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-09options.csv",
+          "size_bytes": 12782197,
+          "size_mb": 12.19
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-09stocks.csv",
+          "size_bytes": 77775,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-10options.csv",
+          "size_bytes": 12829485,
+          "size_mb": 12.24
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-10stocks.csv",
+          "size_bytes": 77541,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-11options.csv",
+          "size_bytes": 12913268,
+          "size_mb": 12.32
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-11stocks.csv",
+          "size_bytes": 77312,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-12options.csv",
+          "size_bytes": 13015513,
+          "size_mb": 12.41
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-12stocks.csv",
+          "size_bytes": 77298,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-15options.csv",
+          "size_bytes": 13054065,
+          "size_mb": 12.45
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-15stocks.csv",
+          "size_bytes": 77296,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-16options.csv",
+          "size_bytes": 13146122,
+          "size_mb": 12.54
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-16stocks.csv",
+          "size_bytes": 77162,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-17options.csv",
+          "size_bytes": 13178075,
+          "size_mb": 12.57
+        }
+      ],
+      "file_types": {
+        "txt": 1,
+        "csv": 199
+      },
+      "size_analysis": {
+        "< 1MB": 100,
+        "10-100MB": 100
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": true,
+      "year_range": "set()"
+    },
+    "financials/": {
+      "directory": "financials/",
+      "total_files": 16,
+      "sample_files": [
+        {
+          "filename": "financials/1985_to_1989/data_processing_documentation.md",
+          "size_bytes": 4403,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "financials/1985_to_1989/financial_data_1985_to_1989.csv",
+          "size_bytes": 349060,
+          "size_mb": 0.33
+        },
+        {
+          "filename": "financials/1990_to_1994/data_processing_documentation.md",
+          "size_bytes": 4403,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "financials/1990_to_1994/financial_data_1990_to_1994.csv",
+          "size_bytes": 2171279,
+          "size_mb": 2.07
+        },
+        {
+          "filename": "financials/1995_to_1999/data_processing_documentation.md",
+          "size_bytes": 4403,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "financials/1995_to_1999/financial_data_1995_to_1999.csv",
+          "size_bytes": 3641433,
+          "size_mb": 3.47
+        },
+        {
+          "filename": "financials/2000_to_2004/data_processing_documentation.md",
+          "size_bytes": 4403,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "financials/2000_to_2004/financial_data_2000_to_2004.csv",
+          "size_bytes": 4670589,
+          "size_mb": 4.45
+        },
+        {
+          "filename": "financials/2005_to_2009/data_processing_documentation.md",
+          "size_bytes": 4403,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "financials/2005_to_2009/financial_data_2005_to_2009.csv",
+          "size_bytes": 5655462,
+          "size_mb": 5.39
+        },
+        {
+          "filename": "financials/2010_to_2014/data_processing_documentation.md",
+          "size_bytes": 4403,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "financials/2010_to_2014/financial_data_2010_to_2014.csv",
+          "size_bytes": 7080459,
+          "size_mb": 6.75
+        },
+        {
+          "filename": "financials/2015_to_2019/data_processing_documentation.md",
+          "size_bytes": 4403,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "financials/2015_to_2019/financial_data_2015_to_2019.csv",
+          "size_bytes": 7184297,
+          "size_mb": 6.85
+        },
+        {
+          "filename": "financials/2020_to_2024/data_processing_documentation.md",
+          "size_bytes": 4403,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "financials/2020_to_2024/financial_data_2020_to_2024.csv",
+          "size_bytes": 6340974,
+          "size_mb": 6.05
+        }
+      ],
+      "file_types": {
+        "md": 8,
+        "csv": 8
+      },
+      "size_analysis": {
+        "< 1MB": 9,
+        "1-10MB": 7
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": false,
+      "year_range": "set()"
+    },
+    "options-2010/": {
+      "directory": "options-2010/",
+      "total_files": 38,
+      "sample_files": [
+        {
+          "filename": "options-2010/2010-01-04options.csv",
+          "size_bytes": 32321749,
+          "size_mb": 30.82
+        },
+        {
+          "filename": "options-2010/2010-01-05options.csv",
+          "size_bytes": 32514217,
+          "size_mb": 31.01
+        },
+        {
+          "filename": "options-2010/2010-01-06options.csv",
+          "size_bytes": 32650459,
+          "size_mb": 31.14
+        },
+        {
+          "filename": "options-2010/2010-01-07options.csv",
+          "size_bytes": 32700513,
+          "size_mb": 31.19
+        },
+        {
+          "filename": "options-2010/2010-01-08options.csv",
+          "size_bytes": 32765298,
+          "size_mb": 31.25
+        },
+        {
+          "filename": "options-2010/2010-01-11options.csv",
+          "size_bytes": 32899368,
+          "size_mb": 31.38
+        },
+        {
+          "filename": "options-2010/2010-01-12options.csv",
+          "size_bytes": 33037332,
+          "size_mb": 31.51
+        },
+        {
+          "filename": "options-2010/2010-01-13options.csv",
+          "size_bytes": 33067545,
+          "size_mb": 31.54
+        },
+        {
+          "filename": "options-2010/2010-01-14options.csv",
+          "size_bytes": 33132943,
+          "size_mb": 31.6
+        },
+        {
+          "filename": "options-2010/2010-01-15options.csv",
+          "size_bytes": 33025332,
+          "size_mb": 31.5
+        },
+        {
+          "filename": "options-2010/2010-01-19options.csv",
+          "size_bytes": 28027464,
+          "size_mb": 26.73
+        },
+        {
+          "filename": "options-2010/2010-01-20options.csv",
+          "size_bytes": 28339946,
+          "size_mb": 27.03
+        },
+        {
+          "filename": "options-2010/2010-01-21options.csv",
+          "size_bytes": 28565668,
+          "size_mb": 27.24
+        },
+        {
+          "filename": "options-2010/2010-01-22options.csv",
+          "size_bytes": 28871833,
+          "size_mb": 27.53
+        },
+        {
+          "filename": "options-2010/2010-01-25options.csv",
+          "size_bytes": 28976057,
+          "size_mb": 27.63
+        },
+        {
+          "filename": "options-2010/2010-01-26options.csv",
+          "size_bytes": 29199372,
+          "size_mb": 27.85
+        },
+        {
+          "filename": "options-2010/2010-01-27options.csv",
+          "size_bytes": 29341978,
+          "size_mb": 27.98
+        },
+        {
+          "filename": "options-2010/2010-01-28options.csv",
+          "size_bytes": 29562716,
+          "size_mb": 28.19
+        },
+        {
+          "filename": "options-2010/2010-01-29options.csv",
+          "size_bytes": 29821663,
+          "size_mb": 28.44
+        },
+        {
+          "filename": "options-2010/2010-02-01options.csv",
+          "size_bytes": 29892635,
+          "size_mb": 28.51
+        },
+        {
+          "filename": "options-2010/2010-02-02options.csv",
+          "size_bytes": 29981296,
+          "size_mb": 28.59
+        },
+        {
+          "filename": "options-2010/2010-02-03options.csv",
+          "size_bytes": 30201486,
+          "size_mb": 28.8
+        },
+        {
+          "filename": "options-2010/2010-02-04options.csv",
+          "size_bytes": 30488868,
+          "size_mb": 29.08
+        },
+        {
+          "filename": "options-2010/2010-02-05options.csv",
+          "size_bytes": 30555140,
+          "size_mb": 29.14
+        },
+        {
+          "filename": "options-2010/2010-02-08options.csv",
+          "size_bytes": 30728770,
+          "size_mb": 29.31
+        },
+        {
+          "filename": "options-2010/2010-02-09options.csv",
+          "size_bytes": 30884546,
+          "size_mb": 29.45
+        },
+        {
+          "filename": "options-2010/2010-02-10options.csv",
+          "size_bytes": 30892231,
+          "size_mb": 29.46
+        },
+        {
+          "filename": "options-2010/2010-02-11options.csv",
+          "size_bytes": 31050508,
+          "size_mb": 29.61
+        },
+        {
+          "filename": "options-2010/2010-02-12options.csv",
+          "size_bytes": 31104222,
+          "size_mb": 29.66
+        },
+        {
+          "filename": "options-2010/2010-02-16options.csv",
+          "size_bytes": 31105798,
+          "size_mb": 29.66
+        },
+        {
+          "filename": "options-2010/2010-02-17options.csv",
+          "size_bytes": 31255675,
+          "size_mb": 29.81
+        },
+        {
+          "filename": "options-2010/2010-02-18options.csv",
+          "size_bytes": 31285903,
+          "size_mb": 29.84
+        },
+        {
+          "filename": "options-2010/2010-02-19options.csv",
+          "size_bytes": 31248495,
+          "size_mb": 29.8
+        },
+        {
+          "filename": "options-2010/2010-02-22options.csv",
+          "size_bytes": 29447590,
+          "size_mb": 28.08
+        },
+        {
+          "filename": "options-2010/2010-02-23options.csv",
+          "size_bytes": 29757845,
+          "size_mb": 28.38
+        },
+        {
+          "filename": "options-2010/2010-02-24options.csv",
+          "size_bytes": 29951287,
+          "size_mb": 28.56
+        },
+        {
+          "filename": "options-2010/2010-02-25options.csv",
+          "size_bytes": 30194645,
+          "size_mb": 28.8
+        },
+        {
+          "filename": "options-2010/2010-02-26options.csv",
+          "size_bytes": 30413439,
+          "size_mb": 29.0
+        }
+      ],
+      "file_types": {
+        "csv": 38
+      },
+      "size_analysis": {
+        "10-100MB": 38
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": false,
+      "year_range": "set()"
+    },
+    "options-complete/": {
+      "directory": "options-complete/",
+      "total_files": 200,
+      "sample_files": [
+        {
+          "filename": "options-complete/2010-01-04options.csv",
+          "size_bytes": 32321749,
+          "size_mb": 30.82
+        },
+        {
+          "filename": "options-complete/2010-01-05options.csv",
+          "size_bytes": 32514217,
+          "size_mb": 31.01
+        },
+        {
+          "filename": "options-complete/2010-01-06options.csv",
+          "size_bytes": 32650459,
+          "size_mb": 31.14
+        },
+        {
+          "filename": "options-complete/2010-01-07options.csv",
+          "size_bytes": 32700513,
+          "size_mb": 31.19
+        },
+        {
+          "filename": "options-complete/2010-01-08options.csv",
+          "size_bytes": 32765298,
+          "size_mb": 31.25
+        },
+        {
+          "filename": "options-complete/2010-01-11options.csv",
+          "size_bytes": 32899368,
+          "size_mb": 31.38
+        },
+        {
+          "filename": "options-complete/2010-01-12options.csv",
+          "size_bytes": 33037332,
+          "size_mb": 31.51
+        },
+        {
+          "filename": "options-complete/2010-01-13options.csv",
+          "size_bytes": 33067545,
+          "size_mb": 31.54
+        },
+        {
+          "filename": "options-complete/2010-01-14options.csv",
+          "size_bytes": 33132943,
+          "size_mb": 31.6
+        },
+        {
+          "filename": "options-complete/2010-01-15options.csv",
+          "size_bytes": 33025332,
+          "size_mb": 31.5
+        },
+        {
+          "filename": "options-complete/2010-01-19options.csv",
+          "size_bytes": 28027464,
+          "size_mb": 26.73
+        },
+        {
+          "filename": "options-complete/2010-01-20options.csv",
+          "size_bytes": 28339946,
+          "size_mb": 27.03
+        },
+        {
+          "filename": "options-complete/2010-01-21options.csv",
+          "size_bytes": 28565668,
+          "size_mb": 27.24
+        },
+        {
+          "filename": "options-complete/2010-01-22options.csv",
+          "size_bytes": 28871833,
+          "size_mb": 27.53
+        },
+        {
+          "filename": "options-complete/2010-01-25options.csv",
+          "size_bytes": 28976057,
+          "size_mb": 27.63
+        },
+        {
+          "filename": "options-complete/2010-01-26options.csv",
+          "size_bytes": 29199372,
+          "size_mb": 27.85
+        },
+        {
+          "filename": "options-complete/2010-01-27options.csv",
+          "size_bytes": 29341978,
+          "size_mb": 27.98
+        },
+        {
+          "filename": "options-complete/2010-01-28options.csv",
+          "size_bytes": 29562716,
+          "size_mb": 28.19
+        },
+        {
+          "filename": "options-complete/2010-01-29options.csv",
+          "size_bytes": 29821663,
+          "size_mb": 28.44
+        },
+        {
+          "filename": "options-complete/2010-02-01options.csv",
+          "size_bytes": 29892635,
+          "size_mb": 28.51
+        },
+        {
+          "filename": "options-complete/2010-02-02options.csv",
+          "size_bytes": 29981296,
+          "size_mb": 28.59
+        },
+        {
+          "filename": "options-complete/2010-02-03options.csv",
+          "size_bytes": 30201486,
+          "size_mb": 28.8
+        },
+        {
+          "filename": "options-complete/2010-02-04options.csv",
+          "size_bytes": 30488868,
+          "size_mb": 29.08
+        },
+        {
+          "filename": "options-complete/2010-02-05options.csv",
+          "size_bytes": 30555140,
+          "size_mb": 29.14
+        },
+        {
+          "filename": "options-complete/2010-02-08options.csv",
+          "size_bytes": 30728770,
+          "size_mb": 29.31
+        },
+        {
+          "filename": "options-complete/2010-02-09options.csv",
+          "size_bytes": 30884546,
+          "size_mb": 29.45
+        },
+        {
+          "filename": "options-complete/2010-02-10options.csv",
+          "size_bytes": 30892231,
+          "size_mb": 29.46
+        },
+        {
+          "filename": "options-complete/2010-02-11options.csv",
+          "size_bytes": 31050508,
+          "size_mb": 29.61
+        },
+        {
+          "filename": "options-complete/2010-02-12options.csv",
+          "size_bytes": 31104222,
+          "size_mb": 29.66
+        },
+        {
+          "filename": "options-complete/2010-02-16options.csv",
+          "size_bytes": 31105798,
+          "size_mb": 29.66
+        },
+        {
+          "filename": "options-complete/2010-02-17options.csv",
+          "size_bytes": 31255675,
+          "size_mb": 29.81
+        },
+        {
+          "filename": "options-complete/2010-02-18options.csv",
+          "size_bytes": 31285903,
+          "size_mb": 29.84
+        },
+        {
+          "filename": "options-complete/2010-02-19options.csv",
+          "size_bytes": 31248495,
+          "size_mb": 29.8
+        },
+        {
+          "filename": "options-complete/2010-02-22options.csv",
+          "size_bytes": 29447590,
+          "size_mb": 28.08
+        },
+        {
+          "filename": "options-complete/2010-02-23options.csv",
+          "size_bytes": 29757845,
+          "size_mb": 28.38
+        },
+        {
+          "filename": "options-complete/2010-02-24options.csv",
+          "size_bytes": 29951287,
+          "size_mb": 28.56
+        },
+        {
+          "filename": "options-complete/2010-02-25options.csv",
+          "size_bytes": 30194645,
+          "size_mb": 28.8
+        },
+        {
+          "filename": "options-complete/2010-02-26options.csv",
+          "size_bytes": 30413439,
+          "size_mb": 29.0
+        },
+        {
+          "filename": "options-complete/2010-03-01options.csv",
+          "size_bytes": 30559758,
+          "size_mb": 29.14
+        },
+        {
+          "filename": "options-complete/2010-03-02options.csv",
+          "size_bytes": 30771501,
+          "size_mb": 29.35
+        },
+        {
+          "filename": "options-complete/2010-03-03options.csv",
+          "size_bytes": 30951863,
+          "size_mb": 29.52
+        },
+        {
+          "filename": "options-complete/2010-03-04options.csv",
+          "size_bytes": 31085075,
+          "size_mb": 29.65
+        },
+        {
+          "filename": "options-complete/2010-03-05options.csv",
+          "size_bytes": 31181635,
+          "size_mb": 29.74
+        },
+        {
+          "filename": "options-complete/2010-03-08options.csv",
+          "size_bytes": 33482880,
+          "size_mb": 31.93
+        },
+        {
+          "filename": "options-complete/2010-03-09options.csv",
+          "size_bytes": 33619125,
+          "size_mb": 32.06
+        },
+        {
+          "filename": "options-complete/2010-03-10options.csv",
+          "size_bytes": 33740310,
+          "size_mb": 32.18
+        },
+        {
+          "filename": "options-complete/2010-03-11options.csv",
+          "size_bytes": 33911653,
+          "size_mb": 32.34
+        },
+        {
+          "filename": "options-complete/2010-03-12options.csv",
+          "size_bytes": 33952753,
+          "size_mb": 32.38
+        },
+        {
+          "filename": "options-complete/2010-03-15options.csv",
+          "size_bytes": 33860898,
+          "size_mb": 32.29
+        },
+        {
+          "filename": "options-complete/2010-03-16options.csv",
+          "size_bytes": 33874188,
+          "size_mb": 32.3
+        },
+        {
+          "filename": "options-complete/2010-03-17options.csv",
+          "size_bytes": 33987765,
+          "size_mb": 32.41
+        },
+        {
+          "filename": "options-complete/2010-03-18options.csv",
+          "size_bytes": 34098528,
+          "size_mb": 32.52
+        },
+        {
+          "filename": "options-complete/2010-03-19options.csv",
+          "size_bytes": 32071271,
+          "size_mb": 30.59
+        },
+        {
+          "filename": "options-complete/2010-03-22options.csv",
+          "size_bytes": 29536519,
+          "size_mb": 28.17
+        },
+        {
+          "filename": "options-complete/2010-03-23options.csv",
+          "size_bytes": 30048678,
+          "size_mb": 28.66
+        },
+        {
+          "filename": "options-complete/2010-03-24options.csv",
+          "size_bytes": 30230982,
+          "size_mb": 28.83
+        },
+        {
+          "filename": "options-complete/2010-03-25options.csv",
+          "size_bytes": 30501045,
+          "size_mb": 29.09
+        },
+        {
+          "filename": "options-complete/2010-03-26options.csv",
+          "size_bytes": 30596434,
+          "size_mb": 29.18
+        },
+        {
+          "filename": "options-complete/2010-03-29options.csv",
+          "size_bytes": 30570465,
+          "size_mb": 29.15
+        },
+        {
+          "filename": "options-complete/2010-03-30options.csv",
+          "size_bytes": 30693622,
+          "size_mb": 29.27
+        },
+        {
+          "filename": "options-complete/2010-03-31options.csv",
+          "size_bytes": 30845237,
+          "size_mb": 29.42
+        },
+        {
+          "filename": "options-complete/2010-04-01options.csv",
+          "size_bytes": 30810021,
+          "size_mb": 29.38
+        },
+        {
+          "filename": "options-complete/2010-04-05options.csv",
+          "size_bytes": 30835628,
+          "size_mb": 29.41
+        },
+        {
+          "filename": "options-complete/2010-04-06options.csv",
+          "size_bytes": 31097154,
+          "size_mb": 29.66
+        },
+        {
+          "filename": "options-complete/2010-04-07options.csv",
+          "size_bytes": 31229222,
+          "size_mb": 29.78
+        },
+        {
+          "filename": "options-complete/2010-04-08options.csv",
+          "size_bytes": 31356011,
+          "size_mb": 29.9
+        },
+        {
+          "filename": "options-complete/2010-04-09options.csv",
+          "size_bytes": 31389953,
+          "size_mb": 29.94
+        },
+        {
+          "filename": "options-complete/2010-04-12options.csv",
+          "size_bytes": 31560984,
+          "size_mb": 30.1
+        },
+        {
+          "filename": "options-complete/2010-04-13options.csv",
+          "size_bytes": 31679693,
+          "size_mb": 30.21
+        },
+        {
+          "filename": "options-complete/2010-04-14options.csv",
+          "size_bytes": 31750411,
+          "size_mb": 30.28
+        },
+        {
+          "filename": "options-complete/2010-04-15options.csv",
+          "size_bytes": 31841431,
+          "size_mb": 30.37
+        },
+        {
+          "filename": "options-complete/2010-04-16options.csv",
+          "size_bytes": 31836941,
+          "size_mb": 30.36
+        },
+        {
+          "filename": "options-complete/2010-04-19options.csv",
+          "size_bytes": 29906193,
+          "size_mb": 28.52
+        },
+        {
+          "filename": "options-complete/2010-04-20options.csv",
+          "size_bytes": 30203937,
+          "size_mb": 28.8
+        },
+        {
+          "filename": "options-complete/2010-04-21options.csv",
+          "size_bytes": 30434138,
+          "size_mb": 29.02
+        },
+        {
+          "filename": "options-complete/2010-04-22options.csv",
+          "size_bytes": 30595685,
+          "size_mb": 29.18
+        },
+        {
+          "filename": "options-complete/2010-04-23options.csv",
+          "size_bytes": 30824175,
+          "size_mb": 29.4
+        },
+        {
+          "filename": "options-complete/2010-04-26options.csv",
+          "size_bytes": 30985195,
+          "size_mb": 29.55
+        },
+        {
+          "filename": "options-complete/2010-04-27options.csv",
+          "size_bytes": 31372889,
+          "size_mb": 29.92
+        },
+        {
+          "filename": "options-complete/2010-04-28options.csv",
+          "size_bytes": 31475029,
+          "size_mb": 30.02
+        },
+        {
+          "filename": "options-complete/2010-04-29options.csv",
+          "size_bytes": 31672271,
+          "size_mb": 30.21
+        },
+        {
+          "filename": "options-complete/2010-04-30options.csv",
+          "size_bytes": 32150533,
+          "size_mb": 30.66
+        },
+        {
+          "filename": "options-complete/2010-05-03options.csv",
+          "size_bytes": 31848025,
+          "size_mb": 30.37
+        },
+        {
+          "filename": "options-complete/2010-05-04options.csv",
+          "size_bytes": 32034882,
+          "size_mb": 30.55
+        },
+        {
+          "filename": "options-complete/2010-05-05options.csv",
+          "size_bytes": 32381575,
+          "size_mb": 30.88
+        },
+        {
+          "filename": "options-complete/2010-05-06options.csv",
+          "size_bytes": 32589439,
+          "size_mb": 31.08
+        },
+        {
+          "filename": "options-complete/2010-05-07options.csv",
+          "size_bytes": 33111797,
+          "size_mb": 31.58
+        },
+        {
+          "filename": "options-complete/2010-05-10options.csv",
+          "size_bytes": 33291351,
+          "size_mb": 31.75
+        },
+        {
+          "filename": "options-complete/2010-05-11options.csv",
+          "size_bytes": 33452605,
+          "size_mb": 31.9
+        },
+        {
+          "filename": "options-complete/2010-05-12options.csv",
+          "size_bytes": 33787739,
+          "size_mb": 32.22
+        },
+        {
+          "filename": "options-complete/2010-05-13options.csv",
+          "size_bytes": 33969270,
+          "size_mb": 32.4
+        },
+        {
+          "filename": "options-complete/2010-05-14options.csv",
+          "size_bytes": 34103674,
+          "size_mb": 32.52
+        },
+        {
+          "filename": "options-complete/2010-05-17options.csv",
+          "size_bytes": 34057641,
+          "size_mb": 32.48
+        },
+        {
+          "filename": "options-complete/2010-05-18options.csv",
+          "size_bytes": 34226123,
+          "size_mb": 32.64
+        },
+        {
+          "filename": "options-complete/2010-05-19options.csv",
+          "size_bytes": 34482323,
+          "size_mb": 32.88
+        },
+        {
+          "filename": "options-complete/2010-05-20options.csv",
+          "size_bytes": 34857368,
+          "size_mb": 33.24
+        },
+        {
+          "filename": "options-complete/2010-05-21options.csv",
+          "size_bytes": 34830789,
+          "size_mb": 33.22
+        },
+        {
+          "filename": "options-complete/2010-05-24options.csv",
+          "size_bytes": 32905782,
+          "size_mb": 31.38
+        },
+        {
+          "filename": "options-complete/2010-05-25options.csv",
+          "size_bytes": 33139328,
+          "size_mb": 31.6
+        },
+        {
+          "filename": "options-complete/2010-05-26options.csv",
+          "size_bytes": 33510613,
+          "size_mb": 31.96
+        }
+      ],
+      "file_types": {
+        "csv": 200
+      },
+      "size_analysis": {
+        "10-100MB": 200
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": false,
+      "year_range": "set()"
+    },
+    "options/": {
+      "directory": "options/",
+      "total_files": 200,
+      "sample_files": [
+        {
+          "filename": "options/2002/2002-05-01options.csv",
+          "size_bytes": 12501331,
+          "size_mb": 11.92
+        },
+        {
+          "filename": "options/2002/2002-05-01stocks.csv",
+          "size_bytes": 79759,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-02options.csv",
+          "size_bytes": 12540115,
+          "size_mb": 11.96
+        },
+        {
+          "filename": "options/2002/2002-05-02stocks.csv",
+          "size_bytes": 79875,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-03options.csv",
+          "size_bytes": 12547028,
+          "size_mb": 11.97
+        },
+        {
+          "filename": "options/2002/2002-05-03stocks.csv",
+          "size_bytes": 79548,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-06options.csv",
+          "size_bytes": 12557953,
+          "size_mb": 11.98
+        },
+        {
+          "filename": "options/2002/2002-05-06stocks.csv",
+          "size_bytes": 79405,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-07options.csv",
+          "size_bytes": 12596661,
+          "size_mb": 12.01
+        },
+        {
+          "filename": "options/2002/2002-05-07stocks.csv",
+          "size_bytes": 79625,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-08options.csv",
+          "size_bytes": 12630972,
+          "size_mb": 12.05
+        },
+        {
+          "filename": "options/2002/2002-05-08stocks.csv",
+          "size_bytes": 79335,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-09options.csv",
+          "size_bytes": 12649409,
+          "size_mb": 12.06
+        },
+        {
+          "filename": "options/2002/2002-05-09stocks.csv",
+          "size_bytes": 79510,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-10options.csv",
+          "size_bytes": 12667797,
+          "size_mb": 12.08
+        },
+        {
+          "filename": "options/2002/2002-05-10stocks.csv",
+          "size_bytes": 79397,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-13options.csv",
+          "size_bytes": 12681880,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "options/2002/2002-05-13stocks.csv",
+          "size_bytes": 79387,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-14options.csv",
+          "size_bytes": 12710862,
+          "size_mb": 12.12
+        },
+        {
+          "filename": "options/2002/2002-05-14stocks.csv",
+          "size_bytes": 79713,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-15options.csv",
+          "size_bytes": 12716556,
+          "size_mb": 12.13
+        },
+        {
+          "filename": "options/2002/2002-05-15stocks.csv",
+          "size_bytes": 79788,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-16options.csv",
+          "size_bytes": 12719516,
+          "size_mb": 12.13
+        },
+        {
+          "filename": "options/2002/2002-05-16stocks.csv",
+          "size_bytes": 79787,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-17options.csv",
+          "size_bytes": 12702398,
+          "size_mb": 12.11
+        },
+        {
+          "filename": "options/2002/2002-05-17stocks.csv",
+          "size_bytes": 79617,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-20options.csv",
+          "size_bytes": 11820051,
+          "size_mb": 11.27
+        },
+        {
+          "filename": "options/2002/2002-05-20stocks.csv",
+          "size_bytes": 79247,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-21options.csv",
+          "size_bytes": 11846486,
+          "size_mb": 11.3
+        },
+        {
+          "filename": "options/2002/2002-05-21stocks.csv",
+          "size_bytes": 79248,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-22options.csv",
+          "size_bytes": 11876535,
+          "size_mb": 11.33
+        },
+        {
+          "filename": "options/2002/2002-05-22stocks.csv",
+          "size_bytes": 79212,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-23options.csv",
+          "size_bytes": 11907472,
+          "size_mb": 11.36
+        },
+        {
+          "filename": "options/2002/2002-05-23stocks.csv",
+          "size_bytes": 79188,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-24options.csv",
+          "size_bytes": 11936042,
+          "size_mb": 11.38
+        },
+        {
+          "filename": "options/2002/2002-05-24stocks.csv",
+          "size_bytes": 79056,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-28options.csv",
+          "size_bytes": 12140013,
+          "size_mb": 11.58
+        },
+        {
+          "filename": "options/2002/2002-05-28stocks.csv",
+          "size_bytes": 79151,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-29options.csv",
+          "size_bytes": 12175804,
+          "size_mb": 11.61
+        },
+        {
+          "filename": "options/2002/2002-05-29stocks.csv",
+          "size_bytes": 79319,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-03options.csv",
+          "size_bytes": 12261258,
+          "size_mb": 11.69
+        },
+        {
+          "filename": "options/2002/2002-06-03stocks.csv",
+          "size_bytes": 78893,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-04options.csv",
+          "size_bytes": 12301860,
+          "size_mb": 11.73
+        },
+        {
+          "filename": "options/2002/2002-06-04stocks.csv",
+          "size_bytes": 78920,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-05options.csv",
+          "size_bytes": 12352201,
+          "size_mb": 11.78
+        },
+        {
+          "filename": "options/2002/2002-06-05stocks.csv",
+          "size_bytes": 78809,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-06options.csv",
+          "size_bytes": 12374434,
+          "size_mb": 11.8
+        },
+        {
+          "filename": "options/2002/2002-06-06stocks.csv",
+          "size_bytes": 78634,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-07options.csv",
+          "size_bytes": 12435385,
+          "size_mb": 11.86
+        },
+        {
+          "filename": "options/2002/2002-06-07stocks.csv",
+          "size_bytes": 78599,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-10options.csv",
+          "size_bytes": 12458897,
+          "size_mb": 11.88
+        },
+        {
+          "filename": "options/2002/2002-06-10stocks.csv",
+          "size_bytes": 78695,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-11options.csv",
+          "size_bytes": 12478060,
+          "size_mb": 11.9
+        },
+        {
+          "filename": "options/2002/2002-06-11stocks.csv",
+          "size_bytes": 78678,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-12options.csv",
+          "size_bytes": 12532171,
+          "size_mb": 11.95
+        },
+        {
+          "filename": "options/2002/2002-06-12stocks.csv",
+          "size_bytes": 78837,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-13options.csv",
+          "size_bytes": 12582733,
+          "size_mb": 12.0
+        },
+        {
+          "filename": "options/2002/2002-06-13stocks.csv",
+          "size_bytes": 78618,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-18options.csv",
+          "size_bytes": 12680182,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "options/2002/2002-06-18stocks.csv",
+          "size_bytes": 78420,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-19options.csv",
+          "size_bytes": 12695582,
+          "size_mb": 12.11
+        },
+        {
+          "filename": "options/2002/2002-06-19stocks.csv",
+          "size_bytes": 78534,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-20options.csv",
+          "size_bytes": 12726958,
+          "size_mb": 12.14
+        },
+        {
+          "filename": "options/2002/2002-06-20stocks.csv",
+          "size_bytes": 78346,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-21options.csv",
+          "size_bytes": 12751568,
+          "size_mb": 12.16
+        },
+        {
+          "filename": "options/2002/2002-06-21stocks.csv",
+          "size_bytes": 78359,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-24options.csv",
+          "size_bytes": 12103928,
+          "size_mb": 11.54
+        },
+        {
+          "filename": "options/2002/2002-06-24stocks.csv",
+          "size_bytes": 78275,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-25options.csv",
+          "size_bytes": 12228563,
+          "size_mb": 11.66
+        },
+        {
+          "filename": "options/2002/2002-06-25stocks.csv",
+          "size_bytes": 78038,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-26options.csv",
+          "size_bytes": 12281809,
+          "size_mb": 11.71
+        },
+        {
+          "filename": "options/2002/2002-06-26stocks.csv",
+          "size_bytes": 77692,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-27options.csv",
+          "size_bytes": 12360637,
+          "size_mb": 11.79
+        },
+        {
+          "filename": "options/2002/2002-06-27stocks.csv",
+          "size_bytes": 77787,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-28options.csv",
+          "size_bytes": 12381687,
+          "size_mb": 11.81
+        },
+        {
+          "filename": "options/2002/2002-06-28stocks.csv",
+          "size_bytes": 78102,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-01options.csv",
+          "size_bytes": 12417076,
+          "size_mb": 11.84
+        },
+        {
+          "filename": "options/2002/2002-07-01stocks.csv",
+          "size_bytes": 77734,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-02options.csv",
+          "size_bytes": 12591462,
+          "size_mb": 12.01
+        },
+        {
+          "filename": "options/2002/2002-07-02stocks.csv",
+          "size_bytes": 77757,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-03options.csv",
+          "size_bytes": 12680110,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "options/2002/2002-07-03stocks.csv",
+          "size_bytes": 77814,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-05options.csv",
+          "size_bytes": 12743172,
+          "size_mb": 12.15
+        },
+        {
+          "filename": "options/2002/2002-07-05stocks.csv",
+          "size_bytes": 77103,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-08options.csv",
+          "size_bytes": 12757682,
+          "size_mb": 12.17
+        },
+        {
+          "filename": "options/2002/2002-07-08stocks.csv",
+          "size_bytes": 77785,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-09options.csv",
+          "size_bytes": 12782197,
+          "size_mb": 12.19
+        },
+        {
+          "filename": "options/2002/2002-07-09stocks.csv",
+          "size_bytes": 77775,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-10options.csv",
+          "size_bytes": 12829485,
+          "size_mb": 12.24
+        },
+        {
+          "filename": "options/2002/2002-07-10stocks.csv",
+          "size_bytes": 77541,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-11options.csv",
+          "size_bytes": 12913268,
+          "size_mb": 12.32
+        },
+        {
+          "filename": "options/2002/2002-07-11stocks.csv",
+          "size_bytes": 77312,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-12options.csv",
+          "size_bytes": 13015513,
+          "size_mb": 12.41
+        },
+        {
+          "filename": "options/2002/2002-07-12stocks.csv",
+          "size_bytes": 77298,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-15options.csv",
+          "size_bytes": 13054065,
+          "size_mb": 12.45
+        },
+        {
+          "filename": "options/2002/2002-07-15stocks.csv",
+          "size_bytes": 77296,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-16options.csv",
+          "size_bytes": 13146122,
+          "size_mb": 12.54
+        },
+        {
+          "filename": "options/2002/2002-07-16stocks.csv",
+          "size_bytes": 77162,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-17options.csv",
+          "size_bytes": 13178075,
+          "size_mb": 12.57
+        },
+        {
+          "filename": "options/2002/2002-07-17stocks.csv",
+          "size_bytes": 77120,
+          "size_mb": 0.07
+        }
+      ],
+      "file_types": {
+        "csv": 200
+      },
+      "size_analysis": {
+        "10-100MB": 100,
+        "< 1MB": 100
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": true,
+      "year_range": "set()"
+    },
+    "samples/": {
+      "directory": "samples/",
+      "total_files": 2,
+      "sample_files": [
+        {
+          "filename": "samples/2022-08-24/2022-08-24options(Partial).csv",
+          "size_bytes": 563881,
+          "size_mb": 0.54
+        },
+        {
+          "filename": "samples/2022-08-24/2022-08-24stocks.csv",
+          "size_bytes": 216154,
+          "size_mb": 0.21
+        }
+      ],
+      "file_types": {
+        "csv": 2
+      },
+      "size_analysis": {
+        "< 1MB": 2
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": true,
+      "year_range": "set()"
+    },
+    "stocks-2010-2025/": {
+      "directory": "stocks-2010-2025/",
+      "total_files": 200,
+      "sample_files": [
+        {
+          "filename": "stocks-2010-2025/A.csv",
+          "size_bytes": 183844,
+          "size_mb": 0.18
+        },
+        {
+          "filename": "stocks-2010-2025/AA.csv",
+          "size_bytes": 184335,
+          "size_mb": 0.18
+        },
+        {
+          "filename": "stocks-2010-2025/AAAP.csv",
+          "size_bytes": 3493,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAAU.csv",
+          "size_bytes": 2538,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AABA.csv",
+          "size_bytes": 24956,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAC.csv",
+          "size_bytes": 55822,
+          "size_mb": 0.05
+        },
+        {
+          "filename": "stocks-2010-2025/AACC.csv",
+          "size_bytes": 31801,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/AACH.csv",
+          "size_bytes": 3811,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AACQ.csv",
+          "size_bytes": 4303,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AADI.csv",
+          "size_bytes": 27874,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/AAGR.csv",
+          "size_bytes": 4463,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAI.csv",
+          "size_bytes": 12979,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/AAIC.csv",
+          "size_bytes": 29301,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/AAL.csv",
+          "size_bytes": 128124,
+          "size_mb": 0.12
+        },
+        {
+          "filename": "stocks-2010-2025/AAMI.csv",
+          "size_bytes": 2860,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAMRQ.csv",
+          "size_bytes": 18743,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAN.csv",
+          "size_bytes": 165644,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/AAOI.csv",
+          "size_bytes": 109338,
+          "size_mb": 0.1
+        },
+        {
+          "filename": "stocks-2010-2025/AAON.csv",
+          "size_bytes": 140577,
+          "size_mb": 0.13
+        },
+        {
+          "filename": "stocks-2010-2025/AAP.csv",
+          "size_bytes": 191536,
+          "size_mb": 0.18
+        },
+        {
+          "filename": "stocks-2010-2025/AAPB.csv",
+          "size_bytes": 23099,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAPD.csv",
+          "size_bytes": 23685,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAPL.csv",
+          "size_bytes": 205066,
+          "size_mb": 0.2
+        },
+        {
+          "filename": "stocks-2010-2025/AAPU.csv",
+          "size_bytes": 23286,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAPW.csv",
+          "size_bytes": 1352,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAPX.csv",
+          "size_bytes": 7969,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/AAPY.csv",
+          "size_bytes": 6722,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/AAT.csv",
+          "size_bytes": 159206,
+          "size_mb": 0.15
+        },
+        {
+          "filename": "stocks-2010-2025/AATI.csv",
+          "size_bytes": 19204,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAU.csv",
+          "size_bytes": 131576,
+          "size_mb": 0.13
+        },
+        {
+          "filename": "stocks-2010-2025/AAUAF.csv",
+          "size_bytes": 3556,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAUKY.csv",
+          "size_bytes": 2550,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAV.csv",
+          "size_bytes": 81489,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "stocks-2010-2025/AAVL.csv",
+          "size_bytes": 13892,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/AAVVF.csv",
+          "size_bytes": 4025,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAWW.csv",
+          "size_bytes": 158962,
+          "size_mb": 0.15
+        },
+        {
+          "filename": "stocks-2010-2025/AAXJ.csv",
+          "size_bytes": 167440,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/AAXN.csv",
+          "size_bytes": 40721,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/AB.csv",
+          "size_bytes": 166323,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/ABAT.csv",
+          "size_bytes": 33452,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/ABAX.csv",
+          "size_bytes": 107788,
+          "size_mb": 0.1
+        },
+        {
+          "filename": "stocks-2010-2025/ABB.csv",
+          "size_bytes": 157488,
+          "size_mb": 0.15
+        },
+        {
+          "filename": "stocks-2010-2025/ABBNY.csv",
+          "size_bytes": 6249,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABBV.csv",
+          "size_bytes": 144116,
+          "size_mb": 0.14
+        },
+        {
+          "filename": "stocks-2010-2025/ABC.csv",
+          "size_bytes": 171733,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/ABCB.csv",
+          "size_bytes": 133108,
+          "size_mb": 0.13
+        },
+        {
+          "filename": "stocks-2010-2025/ABCL.csv",
+          "size_bytes": 36738,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABCM.csv",
+          "size_bytes": 11566,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABCO.csv",
+          "size_bytes": 81783,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "stocks-2010-2025/ABD.csv",
+          "size_bytes": 18960,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ABDC.csv",
+          "size_bytes": 40412,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABEO.csv",
+          "size_bytes": 86817,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "stocks-2010-2025/ABEV.csv",
+          "size_bytes": 109011,
+          "size_mb": 0.1
+        },
+        {
+          "filename": "stocks-2010-2025/ABFL.csv",
+          "size_bytes": 3003,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ABFS.csv",
+          "size_bytes": 44851,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABG.csv",
+          "size_bytes": 176459,
+          "size_mb": 0.17
+        },
+        {
+          "filename": "stocks-2010-2025/ABH.csv",
+          "size_bytes": 9285,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABII.csv",
+          "size_bytes": 406,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ABIO.csv",
+          "size_bytes": 34648,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/ABK.csv",
+          "size_bytes": 9128,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABKFQ.csv",
+          "size_bytes": 23867,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ABL.csv",
+          "size_bytes": 2669,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ABLX.csv",
+          "size_bytes": 5515,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABM.csv",
+          "size_bytes": 170921,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/ABMD.csv",
+          "size_bytes": 155401,
+          "size_mb": 0.15
+        },
+        {
+          "filename": "stocks-2010-2025/ABNB.csv",
+          "size_bytes": 45111,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABNY.csv",
+          "size_bytes": 3678,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ABOS.csv",
+          "size_bytes": 24739,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ABR.csv",
+          "size_bytes": 120925,
+          "size_mb": 0.12
+        },
+        {
+          "filename": "stocks-2010-2025/ABSI.csv",
+          "size_bytes": 26501,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/ABST.csv",
+          "size_bytes": 22037,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ABT.csv",
+          "size_bytes": 188598,
+          "size_mb": 0.18
+        },
+        {
+          "filename": "stocks-2010-2025/ABTL.csv",
+          "size_bytes": 39010,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABTS.csv",
+          "size_bytes": 9720,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABTX.csv",
+          "size_bytes": 29997,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/ABUS.csv",
+          "size_bytes": 87968,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "stocks-2010-2025/ABV.csv",
+          "size_bytes": 43472,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABVT.csv",
+          "size_bytes": 24494,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ABWTQ.csv",
+          "size_bytes": 449,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ABX.csv",
+          "size_bytes": 110909,
+          "size_mb": 0.11
+        },
+        {
+          "filename": "stocks-2010-2025/ABY.csv",
+          "size_bytes": 41498,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ACA.csv",
+          "size_bytes": 62638,
+          "size_mb": 0.06
+        },
+        {
+          "filename": "stocks-2010-2025/ACAC.csv",
+          "size_bytes": 1733,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ACAD.csv",
+          "size_bytes": 163323,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/ACAS.csv",
+          "size_bytes": 73446,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "stocks-2010-2025/ACAT.csv",
+          "size_bytes": 73972,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "stocks-2010-2025/ACB.csv",
+          "size_bytes": 61232,
+          "size_mb": 0.06
+        },
+        {
+          "filename": "stocks-2010-2025/ACC.csv",
+          "size_bytes": 153147,
+          "size_mb": 0.15
+        },
+        {
+          "filename": "stocks-2010-2025/ACCD.csv",
+          "size_bytes": 41594,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ACCL.csv",
+          "size_bytes": 41127,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ACCO.csv",
+          "size_bytes": 120845,
+          "size_mb": 0.12
+        },
+        {
+          "filename": "stocks-2010-2025/ACDC.csv",
+          "size_bytes": 20094,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ACE.csv",
+          "size_bytes": 87169,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "stocks-2010-2025/ACEL.csv",
+          "size_bytes": 44160,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ACER.csv",
+          "size_bytes": 31170,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/ACES.csv",
+          "size_bytes": 47186,
+          "size_mb": 0.05
+        },
+        {
+          "filename": "stocks-2010-2025/ACET.csv",
+          "size_bytes": 133563,
+          "size_mb": 0.13
+        },
+        {
+          "filename": "stocks-2010-2025/ACETQ.csv",
+          "size_bytes": 5186,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ACEV.csv",
+          "size_bytes": 17857,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ACF.csv",
+          "size_bytes": 7113,
+          "size_mb": 0.01
+        }
+      ],
+      "file_types": {
+        "csv": 200
+      },
+      "size_analysis": {
+        "< 1MB": 200
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": true,
+      "year_range": "set()"
+    },
+    "us_financials/": {
+      "directory": "us_financials/",
+      "total_files": 27,
+      "sample_files": [
+        {
+          "filename": "us_financials/A_tickers.xlsx",
+          "size_bytes": 32575132,
+          "size_mb": 31.07
+        },
+        {
+          "filename": "us_financials/B_tickers.xlsx",
+          "size_bytes": 18203011,
+          "size_mb": 17.36
+        },
+        {
+          "filename": "us_financials/C_tickers.xlsx",
+          "size_bytes": 33671907,
+          "size_mb": 32.11
+        },
+        {
+          "filename": "us_financials/D_tickers.xlsx",
+          "size_bytes": 11267612,
+          "size_mb": 10.75
+        },
+        {
+          "filename": "us_financials/E_tickers.xlsx",
+          "size_bytes": 14400110,
+          "size_mb": 13.73
+        },
+        {
+          "filename": "us_financials/F_tickers.xlsx",
+          "size_bytes": 13415081,
+          "size_mb": 12.79
+        },
+        {
+          "filename": "us_financials/G_tickers.xlsx",
+          "size_bytes": 13124850,
+          "size_mb": 12.52
+        },
+        {
+          "filename": "us_financials/H_tickers.xlsx",
+          "size_bytes": 11539545,
+          "size_mb": 11.0
+        },
+        {
+          "filename": "us_financials/I_tickers.xlsx",
+          "size_bytes": 12238483,
+          "size_mb": 11.67
+        },
+        {
+          "filename": "us_financials/J_tickers.xlsx",
+          "size_bytes": 3773841,
+          "size_mb": 3.6
+        },
+        {
+          "filename": "us_financials/K_tickers.xlsx",
+          "size_bytes": 6222510,
+          "size_mb": 5.93
+        },
+        {
+          "filename": "us_financials/L_tickers.xlsx",
+          "size_bytes": 10852771,
+          "size_mb": 10.35
+        },
+        {
+          "filename": "us_financials/M_tickers.xlsx",
+          "size_bytes": 18661195,
+          "size_mb": 17.8
+        },
+        {
+          "filename": "us_financials/N_tickers.xlsx",
+          "size_bytes": 14084508,
+          "size_mb": 13.43
+        },
+        {
+          "filename": "us_financials/O_tickers.xlsx",
+          "size_bytes": 8219458,
+          "size_mb": 7.84
+        },
+        {
+          "filename": "us_financials/P_tickers.xlsx",
+          "size_bytes": 18072995,
+          "size_mb": 17.24
+        },
+        {
+          "filename": "us_financials/Q_tickers.xlsx",
+          "size_bytes": 1618291,
+          "size_mb": 1.54
+        },
+        {
+          "filename": "us_financials/R_tickers.xlsx",
+          "size_bytes": 11736906,
+          "size_mb": 11.19
+        },
+        {
+          "filename": "us_financials/S_tickers.xlsx",
+          "size_bytes": 26642558,
+          "size_mb": 25.41
+        },
+        {
+          "filename": "us_financials/T_tickers.xlsx",
+          "size_bytes": 16489457,
+          "size_mb": 15.73
+        },
+        {
+          "filename": "us_financials/U_tickers.xlsx",
+          "size_bytes": 7326565,
+          "size_mb": 6.99
+        },
+        {
+          "filename": "us_financials/V_tickers.xlsx",
+          "size_bytes": 7897234,
+          "size_mb": 7.53
+        },
+        {
+          "filename": "us_financials/W_tickers.xlsx",
+          "size_bytes": 8890988,
+          "size_mb": 8.48
+        },
+        {
+          "filename": "us_financials/X_tickers.xlsx",
+          "size_bytes": 2177939,
+          "size_mb": 2.08
+        },
+        {
+          "filename": "us_financials/Y_tickers.xlsx",
+          "size_bytes": 1192260,
+          "size_mb": 1.14
+        },
+        {
+          "filename": "us_financials/Z_tickers.xlsx",
+          "size_bytes": 1880878,
+          "size_mb": 1.79
+        },
+        {
+          "filename": "us_financials/_US_listed_companies.xlsx",
+          "size_bytes": 2428327,
+          "size_mb": 2.32
+        }
+      ],
+      "file_types": {
+        "xlsx": 27
+      },
+      "size_analysis": {
+        "10-100MB": 16,
+        "1-10MB": 11
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": false,
+      "year_range": "set()"
+    }
+  },
+  "stock_data_locations": {
+    "aws_backup/": {
+      "directory": "aws_backup/",
+      "total_files": 200,
+      "sample_files": [
+        {
+          "filename": "aws_backup/documentation/_us_historical_financialdatadb.txt",
+          "size_bytes": 548887,
+          "size_mb": 0.52
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-01options.csv",
+          "size_bytes": 12501331,
+          "size_mb": 11.92
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-01stocks.csv",
+          "size_bytes": 79759,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-02options.csv",
+          "size_bytes": 12540115,
+          "size_mb": 11.96
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-02stocks.csv",
+          "size_bytes": 79875,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-03options.csv",
+          "size_bytes": 12547028,
+          "size_mb": 11.97
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-03stocks.csv",
+          "size_bytes": 79548,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-06options.csv",
+          "size_bytes": 12557953,
+          "size_mb": 11.98
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-06stocks.csv",
+          "size_bytes": 79405,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-07options.csv",
+          "size_bytes": 12596661,
+          "size_mb": 12.01
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-07stocks.csv",
+          "size_bytes": 79625,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-08options.csv",
+          "size_bytes": 12630972,
+          "size_mb": 12.05
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-08stocks.csv",
+          "size_bytes": 79335,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-09options.csv",
+          "size_bytes": 12649409,
+          "size_mb": 12.06
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-09stocks.csv",
+          "size_bytes": 79510,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-10options.csv",
+          "size_bytes": 12667797,
+          "size_mb": 12.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-10stocks.csv",
+          "size_bytes": 79397,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-13options.csv",
+          "size_bytes": 12681880,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-13stocks.csv",
+          "size_bytes": 79387,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-14options.csv",
+          "size_bytes": 12710862,
+          "size_mb": 12.12
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-14stocks.csv",
+          "size_bytes": 79713,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-15options.csv",
+          "size_bytes": 12716556,
+          "size_mb": 12.13
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-15stocks.csv",
+          "size_bytes": 79788,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-16options.csv",
+          "size_bytes": 12719516,
+          "size_mb": 12.13
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-16stocks.csv",
+          "size_bytes": 79787,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-17options.csv",
+          "size_bytes": 12702398,
+          "size_mb": 12.11
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-17stocks.csv",
+          "size_bytes": 79617,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-20options.csv",
+          "size_bytes": 11820051,
+          "size_mb": 11.27
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-20stocks.csv",
+          "size_bytes": 79247,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-21options.csv",
+          "size_bytes": 11846486,
+          "size_mb": 11.3
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-21stocks.csv",
+          "size_bytes": 79248,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-22options.csv",
+          "size_bytes": 11876535,
+          "size_mb": 11.33
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-22stocks.csv",
+          "size_bytes": 79212,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-23options.csv",
+          "size_bytes": 11907472,
+          "size_mb": 11.36
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-23stocks.csv",
+          "size_bytes": 79188,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-24options.csv",
+          "size_bytes": 11936042,
+          "size_mb": 11.38
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-24stocks.csv",
+          "size_bytes": 79056,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-28options.csv",
+          "size_bytes": 12140013,
+          "size_mb": 11.58
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-28stocks.csv",
+          "size_bytes": 79151,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-29options.csv",
+          "size_bytes": 12175804,
+          "size_mb": 11.61
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-05-29stocks.csv",
+          "size_bytes": 79319,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-03options.csv",
+          "size_bytes": 12261258,
+          "size_mb": 11.69
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-03stocks.csv",
+          "size_bytes": 78893,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-04options.csv",
+          "size_bytes": 12301860,
+          "size_mb": 11.73
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-04stocks.csv",
+          "size_bytes": 78920,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-05options.csv",
+          "size_bytes": 12352201,
+          "size_mb": 11.78
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-05stocks.csv",
+          "size_bytes": 78809,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-06options.csv",
+          "size_bytes": 12374434,
+          "size_mb": 11.8
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-06stocks.csv",
+          "size_bytes": 78634,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-07options.csv",
+          "size_bytes": 12435385,
+          "size_mb": 11.86
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-07stocks.csv",
+          "size_bytes": 78599,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-10options.csv",
+          "size_bytes": 12458897,
+          "size_mb": 11.88
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-10stocks.csv",
+          "size_bytes": 78695,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-11options.csv",
+          "size_bytes": 12478060,
+          "size_mb": 11.9
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-11stocks.csv",
+          "size_bytes": 78678,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-12options.csv",
+          "size_bytes": 12532171,
+          "size_mb": 11.95
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-12stocks.csv",
+          "size_bytes": 78837,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-13options.csv",
+          "size_bytes": 12582733,
+          "size_mb": 12.0
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-13stocks.csv",
+          "size_bytes": 78618,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-18options.csv",
+          "size_bytes": 12680182,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-18stocks.csv",
+          "size_bytes": 78420,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-19options.csv",
+          "size_bytes": 12695582,
+          "size_mb": 12.11
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-19stocks.csv",
+          "size_bytes": 78534,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-20options.csv",
+          "size_bytes": 12726958,
+          "size_mb": 12.14
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-20stocks.csv",
+          "size_bytes": 78346,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-21options.csv",
+          "size_bytes": 12751568,
+          "size_mb": 12.16
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-21stocks.csv",
+          "size_bytes": 78359,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-24options.csv",
+          "size_bytes": 12103928,
+          "size_mb": 11.54
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-24stocks.csv",
+          "size_bytes": 78275,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-25options.csv",
+          "size_bytes": 12228563,
+          "size_mb": 11.66
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-25stocks.csv",
+          "size_bytes": 78038,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-26options.csv",
+          "size_bytes": 12281809,
+          "size_mb": 11.71
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-26stocks.csv",
+          "size_bytes": 77692,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-27options.csv",
+          "size_bytes": 12360637,
+          "size_mb": 11.79
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-27stocks.csv",
+          "size_bytes": 77787,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-28options.csv",
+          "size_bytes": 12381687,
+          "size_mb": 11.81
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-06-28stocks.csv",
+          "size_bytes": 78102,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-01options.csv",
+          "size_bytes": 12417076,
+          "size_mb": 11.84
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-01stocks.csv",
+          "size_bytes": 77734,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-02options.csv",
+          "size_bytes": 12591462,
+          "size_mb": 12.01
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-02stocks.csv",
+          "size_bytes": 77757,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-03options.csv",
+          "size_bytes": 12680110,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-03stocks.csv",
+          "size_bytes": 77814,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-05options.csv",
+          "size_bytes": 12743172,
+          "size_mb": 12.15
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-05stocks.csv",
+          "size_bytes": 77103,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-08options.csv",
+          "size_bytes": 12757682,
+          "size_mb": 12.17
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-08stocks.csv",
+          "size_bytes": 77785,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-09options.csv",
+          "size_bytes": 12782197,
+          "size_mb": 12.19
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-09stocks.csv",
+          "size_bytes": 77775,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-10options.csv",
+          "size_bytes": 12829485,
+          "size_mb": 12.24
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-10stocks.csv",
+          "size_bytes": 77541,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-11options.csv",
+          "size_bytes": 12913268,
+          "size_mb": 12.32
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-11stocks.csv",
+          "size_bytes": 77312,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-12options.csv",
+          "size_bytes": 13015513,
+          "size_mb": 12.41
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-12stocks.csv",
+          "size_bytes": 77298,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-15options.csv",
+          "size_bytes": 13054065,
+          "size_mb": 12.45
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-15stocks.csv",
+          "size_bytes": 77296,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-16options.csv",
+          "size_bytes": 13146122,
+          "size_mb": 12.54
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-16stocks.csv",
+          "size_bytes": 77162,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "aws_backup/extracted_options/2002/2002-07-17options.csv",
+          "size_bytes": 13178075,
+          "size_mb": 12.57
+        }
+      ],
+      "file_types": {
+        "txt": 1,
+        "csv": 199
+      },
+      "size_analysis": {
+        "< 1MB": 100,
+        "10-100MB": 100
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": true,
+      "year_range": "set()"
+    },
+    "options/": {
+      "directory": "options/",
+      "total_files": 200,
+      "sample_files": [
+        {
+          "filename": "options/2002/2002-05-01options.csv",
+          "size_bytes": 12501331,
+          "size_mb": 11.92
+        },
+        {
+          "filename": "options/2002/2002-05-01stocks.csv",
+          "size_bytes": 79759,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-02options.csv",
+          "size_bytes": 12540115,
+          "size_mb": 11.96
+        },
+        {
+          "filename": "options/2002/2002-05-02stocks.csv",
+          "size_bytes": 79875,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-03options.csv",
+          "size_bytes": 12547028,
+          "size_mb": 11.97
+        },
+        {
+          "filename": "options/2002/2002-05-03stocks.csv",
+          "size_bytes": 79548,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-06options.csv",
+          "size_bytes": 12557953,
+          "size_mb": 11.98
+        },
+        {
+          "filename": "options/2002/2002-05-06stocks.csv",
+          "size_bytes": 79405,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-07options.csv",
+          "size_bytes": 12596661,
+          "size_mb": 12.01
+        },
+        {
+          "filename": "options/2002/2002-05-07stocks.csv",
+          "size_bytes": 79625,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-08options.csv",
+          "size_bytes": 12630972,
+          "size_mb": 12.05
+        },
+        {
+          "filename": "options/2002/2002-05-08stocks.csv",
+          "size_bytes": 79335,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-09options.csv",
+          "size_bytes": 12649409,
+          "size_mb": 12.06
+        },
+        {
+          "filename": "options/2002/2002-05-09stocks.csv",
+          "size_bytes": 79510,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-10options.csv",
+          "size_bytes": 12667797,
+          "size_mb": 12.08
+        },
+        {
+          "filename": "options/2002/2002-05-10stocks.csv",
+          "size_bytes": 79397,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-13options.csv",
+          "size_bytes": 12681880,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "options/2002/2002-05-13stocks.csv",
+          "size_bytes": 79387,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-14options.csv",
+          "size_bytes": 12710862,
+          "size_mb": 12.12
+        },
+        {
+          "filename": "options/2002/2002-05-14stocks.csv",
+          "size_bytes": 79713,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-15options.csv",
+          "size_bytes": 12716556,
+          "size_mb": 12.13
+        },
+        {
+          "filename": "options/2002/2002-05-15stocks.csv",
+          "size_bytes": 79788,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-16options.csv",
+          "size_bytes": 12719516,
+          "size_mb": 12.13
+        },
+        {
+          "filename": "options/2002/2002-05-16stocks.csv",
+          "size_bytes": 79787,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-17options.csv",
+          "size_bytes": 12702398,
+          "size_mb": 12.11
+        },
+        {
+          "filename": "options/2002/2002-05-17stocks.csv",
+          "size_bytes": 79617,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-20options.csv",
+          "size_bytes": 11820051,
+          "size_mb": 11.27
+        },
+        {
+          "filename": "options/2002/2002-05-20stocks.csv",
+          "size_bytes": 79247,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-21options.csv",
+          "size_bytes": 11846486,
+          "size_mb": 11.3
+        },
+        {
+          "filename": "options/2002/2002-05-21stocks.csv",
+          "size_bytes": 79248,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-22options.csv",
+          "size_bytes": 11876535,
+          "size_mb": 11.33
+        },
+        {
+          "filename": "options/2002/2002-05-22stocks.csv",
+          "size_bytes": 79212,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-23options.csv",
+          "size_bytes": 11907472,
+          "size_mb": 11.36
+        },
+        {
+          "filename": "options/2002/2002-05-23stocks.csv",
+          "size_bytes": 79188,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-24options.csv",
+          "size_bytes": 11936042,
+          "size_mb": 11.38
+        },
+        {
+          "filename": "options/2002/2002-05-24stocks.csv",
+          "size_bytes": 79056,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-28options.csv",
+          "size_bytes": 12140013,
+          "size_mb": 11.58
+        },
+        {
+          "filename": "options/2002/2002-05-28stocks.csv",
+          "size_bytes": 79151,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-05-29options.csv",
+          "size_bytes": 12175804,
+          "size_mb": 11.61
+        },
+        {
+          "filename": "options/2002/2002-05-29stocks.csv",
+          "size_bytes": 79319,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-03options.csv",
+          "size_bytes": 12261258,
+          "size_mb": 11.69
+        },
+        {
+          "filename": "options/2002/2002-06-03stocks.csv",
+          "size_bytes": 78893,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-04options.csv",
+          "size_bytes": 12301860,
+          "size_mb": 11.73
+        },
+        {
+          "filename": "options/2002/2002-06-04stocks.csv",
+          "size_bytes": 78920,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-05options.csv",
+          "size_bytes": 12352201,
+          "size_mb": 11.78
+        },
+        {
+          "filename": "options/2002/2002-06-05stocks.csv",
+          "size_bytes": 78809,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-06options.csv",
+          "size_bytes": 12374434,
+          "size_mb": 11.8
+        },
+        {
+          "filename": "options/2002/2002-06-06stocks.csv",
+          "size_bytes": 78634,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-07options.csv",
+          "size_bytes": 12435385,
+          "size_mb": 11.86
+        },
+        {
+          "filename": "options/2002/2002-06-07stocks.csv",
+          "size_bytes": 78599,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-10options.csv",
+          "size_bytes": 12458897,
+          "size_mb": 11.88
+        },
+        {
+          "filename": "options/2002/2002-06-10stocks.csv",
+          "size_bytes": 78695,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-11options.csv",
+          "size_bytes": 12478060,
+          "size_mb": 11.9
+        },
+        {
+          "filename": "options/2002/2002-06-11stocks.csv",
+          "size_bytes": 78678,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-12options.csv",
+          "size_bytes": 12532171,
+          "size_mb": 11.95
+        },
+        {
+          "filename": "options/2002/2002-06-12stocks.csv",
+          "size_bytes": 78837,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "options/2002/2002-06-13options.csv",
+          "size_bytes": 12582733,
+          "size_mb": 12.0
+        },
+        {
+          "filename": "options/2002/2002-06-13stocks.csv",
+          "size_bytes": 78618,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-18options.csv",
+          "size_bytes": 12680182,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "options/2002/2002-06-18stocks.csv",
+          "size_bytes": 78420,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-19options.csv",
+          "size_bytes": 12695582,
+          "size_mb": 12.11
+        },
+        {
+          "filename": "options/2002/2002-06-19stocks.csv",
+          "size_bytes": 78534,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-20options.csv",
+          "size_bytes": 12726958,
+          "size_mb": 12.14
+        },
+        {
+          "filename": "options/2002/2002-06-20stocks.csv",
+          "size_bytes": 78346,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-21options.csv",
+          "size_bytes": 12751568,
+          "size_mb": 12.16
+        },
+        {
+          "filename": "options/2002/2002-06-21stocks.csv",
+          "size_bytes": 78359,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-24options.csv",
+          "size_bytes": 12103928,
+          "size_mb": 11.54
+        },
+        {
+          "filename": "options/2002/2002-06-24stocks.csv",
+          "size_bytes": 78275,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-25options.csv",
+          "size_bytes": 12228563,
+          "size_mb": 11.66
+        },
+        {
+          "filename": "options/2002/2002-06-25stocks.csv",
+          "size_bytes": 78038,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-26options.csv",
+          "size_bytes": 12281809,
+          "size_mb": 11.71
+        },
+        {
+          "filename": "options/2002/2002-06-26stocks.csv",
+          "size_bytes": 77692,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-27options.csv",
+          "size_bytes": 12360637,
+          "size_mb": 11.79
+        },
+        {
+          "filename": "options/2002/2002-06-27stocks.csv",
+          "size_bytes": 77787,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-06-28options.csv",
+          "size_bytes": 12381687,
+          "size_mb": 11.81
+        },
+        {
+          "filename": "options/2002/2002-06-28stocks.csv",
+          "size_bytes": 78102,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-01options.csv",
+          "size_bytes": 12417076,
+          "size_mb": 11.84
+        },
+        {
+          "filename": "options/2002/2002-07-01stocks.csv",
+          "size_bytes": 77734,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-02options.csv",
+          "size_bytes": 12591462,
+          "size_mb": 12.01
+        },
+        {
+          "filename": "options/2002/2002-07-02stocks.csv",
+          "size_bytes": 77757,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-03options.csv",
+          "size_bytes": 12680110,
+          "size_mb": 12.09
+        },
+        {
+          "filename": "options/2002/2002-07-03stocks.csv",
+          "size_bytes": 77814,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-05options.csv",
+          "size_bytes": 12743172,
+          "size_mb": 12.15
+        },
+        {
+          "filename": "options/2002/2002-07-05stocks.csv",
+          "size_bytes": 77103,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-08options.csv",
+          "size_bytes": 12757682,
+          "size_mb": 12.17
+        },
+        {
+          "filename": "options/2002/2002-07-08stocks.csv",
+          "size_bytes": 77785,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-09options.csv",
+          "size_bytes": 12782197,
+          "size_mb": 12.19
+        },
+        {
+          "filename": "options/2002/2002-07-09stocks.csv",
+          "size_bytes": 77775,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-10options.csv",
+          "size_bytes": 12829485,
+          "size_mb": 12.24
+        },
+        {
+          "filename": "options/2002/2002-07-10stocks.csv",
+          "size_bytes": 77541,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-11options.csv",
+          "size_bytes": 12913268,
+          "size_mb": 12.32
+        },
+        {
+          "filename": "options/2002/2002-07-11stocks.csv",
+          "size_bytes": 77312,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-12options.csv",
+          "size_bytes": 13015513,
+          "size_mb": 12.41
+        },
+        {
+          "filename": "options/2002/2002-07-12stocks.csv",
+          "size_bytes": 77298,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-15options.csv",
+          "size_bytes": 13054065,
+          "size_mb": 12.45
+        },
+        {
+          "filename": "options/2002/2002-07-15stocks.csv",
+          "size_bytes": 77296,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-16options.csv",
+          "size_bytes": 13146122,
+          "size_mb": 12.54
+        },
+        {
+          "filename": "options/2002/2002-07-16stocks.csv",
+          "size_bytes": 77162,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "options/2002/2002-07-17options.csv",
+          "size_bytes": 13178075,
+          "size_mb": 12.57
+        },
+        {
+          "filename": "options/2002/2002-07-17stocks.csv",
+          "size_bytes": 77120,
+          "size_mb": 0.07
+        }
+      ],
+      "file_types": {
+        "csv": 200
+      },
+      "size_analysis": {
+        "10-100MB": 100,
+        "< 1MB": 100
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": true,
+      "year_range": "set()"
+    },
+    "samples/": {
+      "directory": "samples/",
+      "total_files": 2,
+      "sample_files": [
+        {
+          "filename": "samples/2022-08-24/2022-08-24options(Partial).csv",
+          "size_bytes": 563881,
+          "size_mb": 0.54
+        },
+        {
+          "filename": "samples/2022-08-24/2022-08-24stocks.csv",
+          "size_bytes": 216154,
+          "size_mb": 0.21
+        }
+      ],
+      "file_types": {
+        "csv": 2
+      },
+      "size_analysis": {
+        "< 1MB": 2
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": true,
+      "year_range": "set()"
+    },
+    "stocks-2010-2025/": {
+      "directory": "stocks-2010-2025/",
+      "total_files": 200,
+      "sample_files": [
+        {
+          "filename": "stocks-2010-2025/A.csv",
+          "size_bytes": 183844,
+          "size_mb": 0.18
+        },
+        {
+          "filename": "stocks-2010-2025/AA.csv",
+          "size_bytes": 184335,
+          "size_mb": 0.18
+        },
+        {
+          "filename": "stocks-2010-2025/AAAP.csv",
+          "size_bytes": 3493,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAAU.csv",
+          "size_bytes": 2538,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AABA.csv",
+          "size_bytes": 24956,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAC.csv",
+          "size_bytes": 55822,
+          "size_mb": 0.05
+        },
+        {
+          "filename": "stocks-2010-2025/AACC.csv",
+          "size_bytes": 31801,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/AACH.csv",
+          "size_bytes": 3811,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AACQ.csv",
+          "size_bytes": 4303,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AADI.csv",
+          "size_bytes": 27874,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/AAGR.csv",
+          "size_bytes": 4463,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAI.csv",
+          "size_bytes": 12979,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/AAIC.csv",
+          "size_bytes": 29301,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/AAL.csv",
+          "size_bytes": 128124,
+          "size_mb": 0.12
+        },
+        {
+          "filename": "stocks-2010-2025/AAMI.csv",
+          "size_bytes": 2860,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAMRQ.csv",
+          "size_bytes": 18743,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAN.csv",
+          "size_bytes": 165644,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/AAOI.csv",
+          "size_bytes": 109338,
+          "size_mb": 0.1
+        },
+        {
+          "filename": "stocks-2010-2025/AAON.csv",
+          "size_bytes": 140577,
+          "size_mb": 0.13
+        },
+        {
+          "filename": "stocks-2010-2025/AAP.csv",
+          "size_bytes": 191536,
+          "size_mb": 0.18
+        },
+        {
+          "filename": "stocks-2010-2025/AAPB.csv",
+          "size_bytes": 23099,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAPD.csv",
+          "size_bytes": 23685,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAPL.csv",
+          "size_bytes": 205066,
+          "size_mb": 0.2
+        },
+        {
+          "filename": "stocks-2010-2025/AAPU.csv",
+          "size_bytes": 23286,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAPW.csv",
+          "size_bytes": 1352,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAPX.csv",
+          "size_bytes": 7969,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/AAPY.csv",
+          "size_bytes": 6722,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/AAT.csv",
+          "size_bytes": 159206,
+          "size_mb": 0.15
+        },
+        {
+          "filename": "stocks-2010-2025/AATI.csv",
+          "size_bytes": 19204,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/AAU.csv",
+          "size_bytes": 131576,
+          "size_mb": 0.13
+        },
+        {
+          "filename": "stocks-2010-2025/AAUAF.csv",
+          "size_bytes": 3556,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAUKY.csv",
+          "size_bytes": 2550,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAV.csv",
+          "size_bytes": 81489,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "stocks-2010-2025/AAVL.csv",
+          "size_bytes": 13892,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/AAVVF.csv",
+          "size_bytes": 4025,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/AAWW.csv",
+          "size_bytes": 158962,
+          "size_mb": 0.15
+        },
+        {
+          "filename": "stocks-2010-2025/AAXJ.csv",
+          "size_bytes": 167440,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/AAXN.csv",
+          "size_bytes": 40721,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/AB.csv",
+          "size_bytes": 166323,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/ABAT.csv",
+          "size_bytes": 33452,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/ABAX.csv",
+          "size_bytes": 107788,
+          "size_mb": 0.1
+        },
+        {
+          "filename": "stocks-2010-2025/ABB.csv",
+          "size_bytes": 157488,
+          "size_mb": 0.15
+        },
+        {
+          "filename": "stocks-2010-2025/ABBNY.csv",
+          "size_bytes": 6249,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABBV.csv",
+          "size_bytes": 144116,
+          "size_mb": 0.14
+        },
+        {
+          "filename": "stocks-2010-2025/ABC.csv",
+          "size_bytes": 171733,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/ABCB.csv",
+          "size_bytes": 133108,
+          "size_mb": 0.13
+        },
+        {
+          "filename": "stocks-2010-2025/ABCL.csv",
+          "size_bytes": 36738,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABCM.csv",
+          "size_bytes": 11566,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABCO.csv",
+          "size_bytes": 81783,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "stocks-2010-2025/ABD.csv",
+          "size_bytes": 18960,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ABDC.csv",
+          "size_bytes": 40412,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABEO.csv",
+          "size_bytes": 86817,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "stocks-2010-2025/ABEV.csv",
+          "size_bytes": 109011,
+          "size_mb": 0.1
+        },
+        {
+          "filename": "stocks-2010-2025/ABFL.csv",
+          "size_bytes": 3003,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ABFS.csv",
+          "size_bytes": 44851,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABG.csv",
+          "size_bytes": 176459,
+          "size_mb": 0.17
+        },
+        {
+          "filename": "stocks-2010-2025/ABH.csv",
+          "size_bytes": 9285,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABII.csv",
+          "size_bytes": 406,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ABIO.csv",
+          "size_bytes": 34648,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/ABK.csv",
+          "size_bytes": 9128,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABKFQ.csv",
+          "size_bytes": 23867,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ABL.csv",
+          "size_bytes": 2669,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ABLX.csv",
+          "size_bytes": 5515,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABM.csv",
+          "size_bytes": 170921,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/ABMD.csv",
+          "size_bytes": 155401,
+          "size_mb": 0.15
+        },
+        {
+          "filename": "stocks-2010-2025/ABNB.csv",
+          "size_bytes": 45111,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABNY.csv",
+          "size_bytes": 3678,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ABOS.csv",
+          "size_bytes": 24739,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ABR.csv",
+          "size_bytes": 120925,
+          "size_mb": 0.12
+        },
+        {
+          "filename": "stocks-2010-2025/ABSI.csv",
+          "size_bytes": 26501,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/ABST.csv",
+          "size_bytes": 22037,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ABT.csv",
+          "size_bytes": 188598,
+          "size_mb": 0.18
+        },
+        {
+          "filename": "stocks-2010-2025/ABTL.csv",
+          "size_bytes": 39010,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABTS.csv",
+          "size_bytes": 9720,
+          "size_mb": 0.01
+        },
+        {
+          "filename": "stocks-2010-2025/ABTX.csv",
+          "size_bytes": 29997,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/ABUS.csv",
+          "size_bytes": 87968,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "stocks-2010-2025/ABV.csv",
+          "size_bytes": 43472,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ABVT.csv",
+          "size_bytes": 24494,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ABWTQ.csv",
+          "size_bytes": 449,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ABX.csv",
+          "size_bytes": 110909,
+          "size_mb": 0.11
+        },
+        {
+          "filename": "stocks-2010-2025/ABY.csv",
+          "size_bytes": 41498,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ACA.csv",
+          "size_bytes": 62638,
+          "size_mb": 0.06
+        },
+        {
+          "filename": "stocks-2010-2025/ACAC.csv",
+          "size_bytes": 1733,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ACAD.csv",
+          "size_bytes": 163323,
+          "size_mb": 0.16
+        },
+        {
+          "filename": "stocks-2010-2025/ACAS.csv",
+          "size_bytes": 73446,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "stocks-2010-2025/ACAT.csv",
+          "size_bytes": 73972,
+          "size_mb": 0.07
+        },
+        {
+          "filename": "stocks-2010-2025/ACB.csv",
+          "size_bytes": 61232,
+          "size_mb": 0.06
+        },
+        {
+          "filename": "stocks-2010-2025/ACC.csv",
+          "size_bytes": 153147,
+          "size_mb": 0.15
+        },
+        {
+          "filename": "stocks-2010-2025/ACCD.csv",
+          "size_bytes": 41594,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ACCL.csv",
+          "size_bytes": 41127,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ACCO.csv",
+          "size_bytes": 120845,
+          "size_mb": 0.12
+        },
+        {
+          "filename": "stocks-2010-2025/ACDC.csv",
+          "size_bytes": 20094,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ACE.csv",
+          "size_bytes": 87169,
+          "size_mb": 0.08
+        },
+        {
+          "filename": "stocks-2010-2025/ACEL.csv",
+          "size_bytes": 44160,
+          "size_mb": 0.04
+        },
+        {
+          "filename": "stocks-2010-2025/ACER.csv",
+          "size_bytes": 31170,
+          "size_mb": 0.03
+        },
+        {
+          "filename": "stocks-2010-2025/ACES.csv",
+          "size_bytes": 47186,
+          "size_mb": 0.05
+        },
+        {
+          "filename": "stocks-2010-2025/ACET.csv",
+          "size_bytes": 133563,
+          "size_mb": 0.13
+        },
+        {
+          "filename": "stocks-2010-2025/ACETQ.csv",
+          "size_bytes": 5186,
+          "size_mb": 0.0
+        },
+        {
+          "filename": "stocks-2010-2025/ACEV.csv",
+          "size_bytes": 17857,
+          "size_mb": 0.02
+        },
+        {
+          "filename": "stocks-2010-2025/ACF.csv",
+          "size_bytes": 7113,
+          "size_mb": 0.01
+        }
+      ],
+      "file_types": {
+        "csv": 200
+      },
+      "size_analysis": {
+        "< 1MB": 200
+      },
+      "contains_2023": false,
+      "contains_target_date": false,
+      "contains_stock_data": true,
+      "year_range": "set()"
+    }
+  },
+  "2023_analysis": {},
+  "target_date_analysis": {
+    "date": "2023-01-03",
+    "files_found": [],
+    "directories_containing": [],
+    "total_files": 0
+  },
+  "target_symbols_found": {},
+  "recommendations": [
+    "\u2705 STOCK DATA FOUND: 4 directories contain stock data",
+    "\ud83d\udd04 INTEGRATION: Use identified directories for same-day stock data access",
+    "\u26a1 PRIORITY: Focus on directories with 2023 data and target symbols",
+    "\ud83d\udcca VALIDATION: Test data quality before production use"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "algorithms": {
+    "technical_analysis": {
+      "enabled": true,
+      "weight": 0.3,
+      "parameters": {
+        "sma_periods": [
+          20,
+          50,
+          200
+        ],
+        "rsi_period": 14,
+        "momentum_periods": [
+          5,
+          10,
+          20
+        ]
+      }
+    },
+    "ml_pattern_recognition": {
+      "enabled": true,
+      "weight": 0.3,
+      "parameters": {
+        "confidence_threshold": 0.6,
+        "pattern_window": 20,
+        "volatility_window": 30
+      }
+    },
+    "volatility_forecasting": {
+      "enabled": true,
+      "weight": 0.2,
+      "parameters": {
+        "garch_window": 60,
+        "decay_factor": 0.94
+      }
+    },
+    "sentiment_analysis": {
+      "enabled": true,
+      "weight": 0.2,
+      "parameters": {
+        "persistence_factor": 0.7,
+        "confidence_decay": 0.02
+      }
+    }
+  },
+  "risk_management": {
+    "max_position_size": 0.05,
+    "max_portfolio_risk": 0.2,
+    "volatility_limit": 0.4,
+    "correlation_limit": 0.7
+  },
+  "execution": {
+    "auto_execute": false,
+    "confirmation_required": true,
+    "max_slippage": 0.02,
+    "order_timeout": 300
+  }
+}

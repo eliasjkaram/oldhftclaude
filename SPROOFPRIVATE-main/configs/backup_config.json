@@ -1,0 +1,236 @@
+{
+  "catalog_path": "/var/lib/backup/catalog",
+  "prometheus_gateway": "http://prometheus-pushgateway:9091",
+  "max_parallel_workers": 8,
+  
+  "encryption": {
+    "enabled": true,
+    "required": true,
+    "master_key": "your-256-bit-base64-encoded-key-here"
+  },
+  
+  "storage_backends": {
+    "s3_primary": {
+      "type": "s3",
+      "bucket": "company-backups-primary",
+      "region": "us-east-1",
+      "access_key": "${AWS_ACCESS_KEY_ID}",
+      "secret_key": "${AWS_SECRET_ACCESS_KEY}"
+    },
+    "s3_secondary": {
+      "type": "s3",
+      "bucket": "company-backups-secondary",
+      "region": "eu-west-1",
+      "access_key": "${AWS_ACCESS_KEY_ID}",
+      "secret_key": "${AWS_SECRET_ACCESS_KEY}"
+    },
+    "gcs_archive": {
+      "type": "gcs",
+      "bucket": "company-backups-archive",
+      "project_id": "your-project-id",
+      "credentials_path": "/etc/backup/gcs-credentials.json"
+    },
+    "local_cache": {
+      "type": "local",
+      "path": "/mnt/backup/local"
+    },
+    "minio_onprem": {
+      "type": "s3",
+      "bucket": "backups",
+      "region": "us-east-1",
+      "endpoint": "http://minio.internal:9000",
+      "access_key": "${MINIO_ACCESS_KEY}",
+      "secret_key": "${MINIO_SECRET_KEY}"
+    }
+  },
+  
+  "data_sources": {
+    "postgres_main": {
+      "type": "postgresql",
+      "host": "postgres.internal",
+      "port": 5432,
+      "database": "production",
+      "username": "${POSTGRES_USER}",
+      "password": "${POSTGRES_PASSWORD}"
+    },
+    "postgres_analytics": {
+      "type": "postgresql",
+      "host": "postgres-analytics.internal",
+      "port": 5432,
+      "database": "analytics",
+      "username": "${POSTGRES_USER}",
+      "password": "${POSTGRES_PASSWORD}"
+    },
+    "redis_cache": {
+      "type": "redis",
+      "host": "redis.internal",
+      "port": 6379,
+      "password": "${REDIS_PASSWORD}",
+      "db": 0
+    },
+    "redis_sessions": {
+      "type": "redis",
+      "host": "redis-sessions.internal",
+      "port": 6379,
+      "password": "${REDIS_PASSWORD}",
+      "db": 1
+    },
+    "app_config": {
+      "type": "filesystem",
+      "path": "/etc/application",
+      "exclude_patterns": ["*.log", "*.tmp", "__pycache__"]
+    },
+    "ml_models": {
+      "type": "filesystem",
+      "path": "/var/lib/ml/models",
+      "exclude_patterns": ["*.tmp", "checkpoints/"]
+    },
+    "user_uploads": {
+      "type": "filesystem",
+      "path": "/var/www/uploads",
+      "exclude_patterns": ["thumbs/", "*.tmp"]
+    }
+  },
+  
+  "backup_policies": [
+    {
+      "name": "postgres_main",
+      "schedule": "02:00",
+      "backup_type": "FULL",
+      "retention_days": 30,
+      "storage_class": "HOT",
+      "destinations": ["s3_primary", "s3_secondary", "local_cache"],
+      "compression_enabled": true,
+      "encryption_enabled": true,
+      "verify_after_backup": true,
+      "alert_on_failure": true,
+      "max_retries": 3,
+      "retry_delay_seconds": 300
+    },
+    {
+      "name": "postgres_main",
+      "schedule": "*/6:00",
+      "backup_type": "INCREMENTAL",
+      "retention_days": 7,
+      "storage_class": "HOT",
+      "destinations": ["s3_primary", "local_cache"],
+      "compression_enabled": true,
+      "encryption_enabled": true,
+      "verify_after_backup": false,
+      "alert_on_failure": true,
+      "max_retries": 2,
+      "retry_delay_seconds": 180
+    },
+    {
+      "name": "postgres_analytics",
+      "schedule": "03:00",
+      "backup_type": "FULL",
+      "retention_days": 90,
+      "storage_class": "WARM",
+      "destinations": ["s3_primary", "gcs_archive"],
+      "compression_enabled": true,
+      "encryption_enabled": true,
+      "verify_after_backup": true,
+      "alert_on_failure": true
+    },
+    {
+      "name": "redis_cache",
+      "schedule": "*/2:00",
+      "backup_type": "SNAPSHOT",
+      "retention_days": 3,
+      "storage_class": "HOT",
+      "destinations": ["local_cache", "minio_onprem"],
+      "compression_enabled": true,
+      "encryption_enabled": true,
+      "verify_after_backup": false,
+      "alert_on_failure": false
+    },
+    {
+      "name": "ml_models",
+      "schedule": "00:00",
+      "backup_type": "FULL",
+      "retention_days": 365,
+      "storage_class": "COLD",
+      "destinations": ["s3_primary", "gcs_archive"],
+      "compression_enabled": true,
+      "encryption_enabled": true,
+      "verify_after_backup": true,
+      "alert_on_failure": true
+    },
+    {
+      "name": "user_uploads",
+      "schedule": "04:00",
+      "backup_type": "INCREMENTAL",
+      "retention_days": 60,
+      "storage_class": "WARM",
+      "destinations": ["s3_primary", "s3_secondary"],
+      "compression_enabled": true,
+      "encryption_enabled": true,
+      "verify_after_backup": false,
+      "alert_on_failure": true
+    }
+  ],
+  
+  "alerting": {
+    "slack": {
+      "webhook_url": "${SLACK_WEBHOOK_URL}",
+      "channel": "#backup-alerts"
+    },
+    "pagerduty": {
+      "api_key": "${PAGERDUTY_API_KEY}",
+      "service_id": "backup-recovery-service"
+    },
+    "email": {
+      "smtp_host": "smtp.company.com",
+      "smtp_port": 587,
+      "from_address": "backup-system@company.com",
+      "to_addresses": ["ops-team@company.com", "backup-admin@company.com"]
+    }
+  },
+  
+  "compliance": {
+    "gdpr": {
+      "enabled": true,
+      "data_retention_days": 2555,
+      "right_to_erasure_enabled": true
+    },
+    "soc2": {
+      "enabled": true,
+      "audit_logging": true,
+      "access_control": true
+    },
+    "hipaa": {
+      "enabled": false,
+      "encryption_required": true,
+      "audit_trail_years": 6
+    }
+  },
+  
+  "recovery_objectives": {
+    "postgres_main": {
+      "rpo_minutes": 15,
+      "rto_minutes": 30,
+      "priority": "critical"
+    },
+    "postgres_analytics": {
+      "rpo_minutes": 360,
+      "rto_minutes": 120,
+      "priority": "high"
+    },
+    "redis_cache": {
+      "rpo_minutes": 120,
+      "rto_minutes": 15,
+      "priority": "medium"
+    },
+    "ml_models": {
+      "rpo_minutes": 1440,
+      "rto_minutes": 60,
+      "priority": "high"
+    },
+    "user_uploads": {
+      "rpo_minutes": 240,
+      "rto_minutes": 60,
+      "priority": "high"
+    }
+  }
+}

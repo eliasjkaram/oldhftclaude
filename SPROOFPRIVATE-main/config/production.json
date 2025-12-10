@@ -1,0 +1,44 @@
+{
+  "api_credentials": {
+    "alpaca": {
+      "api_key": "",
+      "secret_key": "",
+      "base_url": "https://paper-api.alpaca.markets"
+    },
+    "minio": {
+      "endpoint": "",
+      "access_key": "",
+      "secret_key": "",
+      "bucket": "stockdb"
+    },
+    "openrouter": {
+      "api_key": ""
+    }
+  },
+  "trading_parameters": {
+    "max_position_size": 10000.0,
+    "stop_loss_percentage": 0.02,
+    "take_profit_percentage": 0.05,
+    "max_daily_trades": 100,
+    "risk_per_trade": 0.01
+  },
+  "system_settings": {
+    "enable_paper_trading": true,
+    "enable_live_trading": false,
+    "debug_mode": false,
+    "log_level": "INFO",
+    "database_path": "trading_system.db"
+  },
+  "network_settings": {
+    "api_timeout": 30,
+    "max_retries": 3,
+    "retry_delay": 5,
+    "connection_pool_size": 10
+  },
+  "risk_management": {
+    "max_portfolio_risk": 0.06,
+    "max_correlation": 0.7,
+    "var_confidence": 0.95,
+    "position_sizing_method": "kelly"
+  }
+}

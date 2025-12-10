@@ -1,0 +1,90 @@
+{
+  "period": "2021-01-01 to 2023-12-31",
+  "data_points": 753,
+  "price_data": {
+    "start_price": 157.54,
+    "end_price": 98.88,
+    "min_price": 82.77,
+    "max_price": 157.54
+  },
+  "buy_hold_return": -37.2349879395709,
+  "algorithm_results": {
+    "IV_Percentile_75": {
+      "total_return": -28.917482947343874,
+      "buy_hold_return": -37.2349879395709,
+      "excess_return": 8.317504992227025,
+      "num_trades": 16,
+      "assigned_trades": 3,
+      "total_premium": 131033.97364754454,
+      "sharpe_ratio": -0.5511470943472794,
+      "avg_iv": 0.18558919401296126,
+      "win_rate": 0.875
+    },
+    "IV_Percentile_80": {
+      "total_return": -29.06368358869135,
+      "buy_hold_return": -37.2349879395709,
+      "excess_return": 8.171304350879549,
+      "num_trades": 15,
+      "assigned_trades": 3,
+      "total_premium": 128730.7287437564,
+      "sharpe_ratio": -0.5582223581798407,
+      "avg_iv": 0.18766305231310632,
+      "win_rate": 0.8666666666666667
+    },
+    "IV_Percentile_90": {
+      "total_return": -33.09865551039747,
+      "buy_hold_return": -37.2349879395709,
+      "excess_return": 4.136332429173429,
+      "num_trades": 11,
+      "assigned_trades": 3,
+      "total_premium": 65163.78108919828,
+      "sharpe_ratio": -0.6717189359770668,
+      "avg_iv": 0.18603597959668605,
+      "win_rate": 0.8181818181818182
+    },
+    "Local_Peak_IV": {
+      "total_return": -37.00352938326045,
+      "buy_hold_return": -37.2349879395709,
+      "excess_return": 0.2314585563104501,
+      "num_trades": 1,
+      "assigned_trades": 1,
+      "total_premium": 3646.3980961148627,
+      "sharpe_ratio": -0.8043281370820948,
+      "avg_iv": 0.10856982751667221,
+      "win_rate": 1.0
+    },
+    "Regional_Peak_IV": {
+      "total_return": -32.14228048568201,
+      "buy_hold_return": -37.2349879395709,
+      "excess_return": 5.092707453888892,
+      "num_trades": 17,
+      "assigned_trades": 4,
+      "total_premium": 80230.51322856577,
+      "sharpe_ratio": -0.645416056086446,
+      "avg_iv": 0.17635971686059648,
+      "win_rate": 0.7647058823529411
+    },
+    "IV_Mean_Reversion": {
+      "total_return": -33.37713732942238,
+      "buy_hold_return": -37.2349879395709,
+      "excess_return": 3.8578506101485175,
+      "num_trades": 5,
+      "assigned_trades": 0,
+      "total_premium": 60776.578512279724,
+      "sharpe_ratio": -0.698167207969635,
+      "avg_iv": 0.1772984582935218,
+      "win_rate": 1.0
+    },
+    "RSI_Overbought": {
+      "total_return": -35.01102906544615,
+      "buy_hold_return": -37.2349879395709,
+      "excess_return": 2.2239588741247474,
+      "num_trades": 5,
+      "assigned_trades": 1,
+      "total_premium": 35036.24810296134,
+      "sharpe_ratio": -0.7137808055956657,
+      "avg_iv": 0.1627135056105051,
+      "win_rate": 0.8
+    }
+  }
+}

@@ -1,0 +1,1630 @@
+{
+  "timestamp": "2025-06-23T15:37:26.054602",
+  "total_opportunities": 48,
+  "total_expected_profit": 34291.97474266294,
+  "opportunities_by_type": {
+    "PUT_CALL_PARITY": {
+      "count": 42,
+      "total_profit": 8578.637580083046,
+      "opportunities": [
+        {
+          "timestamp": "2025-06-23 15:37:21.461828",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 505.89,
+          "current_price": 595.18,
+          "call_price": 90.13483632717502,
+          "put_price": 1.7214029375057547,
+          "theoretical_diff": 91.36473392812661,
+          "actual_diff": 88.41343338966927,
+          "arbitrage_profit": 295.1300538457346,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 505.89,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 505.89,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:21.462011",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 520.77,
+          "current_price": 595.18,
+          "call_price": 75.23372929243594,
+          "put_price": 1.7649826844710406,
+          "theoretical_diff": 76.54575913291524,
+          "actual_diff": 73.4687466079649,
+          "arbitrage_profit": 307.7012524950334,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 520.77,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 520.77,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:21.462064",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 535.65,
+          "current_price": 595.18,
+          "call_price": 60.33314341818257,
+          "put_price": 1.8096657142902004,
+          "theoretical_diff": 61.72678433770386,
+          "actual_diff": 58.523477703892375,
+          "arbitrage_profit": 320.3306633811486,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 535.65,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 535.65,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:21.462101",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 550.53,
+          "current_price": 595.18,
+          "call_price": 45.43306583627615,
+          "put_price": 1.8554799581271444,
+          "theoretical_diff": 46.9078095424926,
+          "actual_diff": 43.57758587814901,
+          "arbitrage_profit": 333.0223664343592,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 550.53,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 550.53,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:21.462131",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 565.41,
+          "current_price": 595.18,
+          "call_price": 30.53348399630922,
+          "put_price": 1.9024540542626518,
+          "theoretical_diff": 32.088834747281226,
+          "actual_diff": 28.631029942046567,
+          "arbitrage_profit": 345.7804805234659,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 565.41,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 565.41,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:21.462158",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 580.29,
+          "current_price": 595.18,
+          "call_price": 15.634385657760392,
+          "put_price": 1.9506173659960335,
+          "theoretical_diff": 17.26985995206985,
+          "actual_diff": 13.683768291764359,
+          "arbitrage_profit": 358.6091660305492,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 580.29,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 580.29,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:21.462232",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 595.17,
+          "current_price": 595.18,
+          "call_price": 2.0,
+          "put_price": 0.7357588823428847,
+          "theoretical_diff": 2.450885156858476,
+          "actual_diff": 1.2642411176571153,
+          "arbitrage_profit": 118.66440392013607,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 595.17,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 595.17,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:21.462316",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 610.05,
+          "current_price": 595.18,
+          "call_price": 1.9506173659960335,
+          "put_price": 15.597592026541927,
+          "theoretical_diff": -12.368089638352899,
+          "actual_diff": -13.646974660545894,
+          "arbitrage_profit": 127.88850221929948,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 610.05,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 610.05,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:21.462400",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 624.93,
+          "current_price": 595.18,
+          "call_price": 1.9024540542626518,
+          "put_price": 30.45987373433648,
+          "theoretical_diff": -27.187064433564274,
+          "actual_diff": -28.557419680073828,
+          "arbitrage_profit": 137.0355246509554,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 624.93,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 624.93,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:21.462448",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 639.81,
+          "current_price": 595.18,
+          "call_price": 1.8554799581271444,
+          "put_price": 45.32259293010061,
+          "theoretical_diff": -42.006039228775535,
+          "actual_diff": -43.46711297197347,
+          "arbitrage_profit": 146.1073743197936,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 639.81,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 639.81,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:21.462481",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 654.69,
+          "current_price": 595.18,
+          "call_price": 1.8096657142902,
+          "put_price": 60.185738811680295,
+          "theoretical_diff": -56.82501402398702,
+          "actual_diff": -58.3760730973901,
+          "arbitrage_profit": 155.10590734030743,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 654.69,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 654.69,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:21.462499",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "SPY",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 669.57,
+          "current_price": 595.18,
+          "call_price": 1.7649826844710403,
+          "put_price": 75.04930084364057,
+          "theoretical_diff": -71.6439888191984,
+          "actual_diff": -73.28431815916953,
+          "arbitrage_profit": 164.03293399711316,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 669.57,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 669.57,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "SPY",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062575",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 447.43,
+          "current_price": 526.41,
+          "call_price": 79.81483229982256,
+          "put_price": 1.7214110475132927,
+          "theoretical_diff": 80.814980334582,
+          "actual_diff": 78.09342125230927,
+          "arbitrage_profit": 272.15590822727336,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 447.43,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 447.43,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062696",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 460.59,
+          "current_price": 526.41,
+          "call_price": 66.63372601917482,
+          "put_price": 1.7649896139048489,
+          "theoretical_diff": 67.70895155064511,
+          "actual_diff": 64.86873640526997,
+          "arbitrage_profit": 284.021514537514,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 460.59,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 460.59,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062735",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 473.75,
+          "current_price": 526.41,
+          "call_price": 53.45314086422955,
+          "put_price": 1.8096713981777397,
+          "theoretical_diff": 54.60292276670816,
+          "actual_diff": 51.64346946605181,
+          "arbitrage_profit": 295.94533006563495,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 473.75,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 473.75,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062766",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 486.91,
+          "current_price": 526.41,
+          "call_price": 40.27306396810597,
+          "put_price": 1.8554843289628145,
+          "theoretical_diff": 41.49689398277121,
+          "actual_diff": 38.417579639143156,
+          "arbitrage_profit": 307.9314343628056,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 486.91,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 486.91,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062793",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 500.07,
+          "current_price": 526.41,
+          "call_price": 27.093482781613694,
+          "put_price": 1.9024570419211781,
+          "theoretical_diff": 28.39086519883432,
+          "actual_diff": 25.191025739692517,
+          "arbitrage_profit": 319.98394591418025,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 500.07,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 500.07,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062818",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 513.23,
+          "current_price": 526.41,
+          "call_price": 13.914385065408585,
+          "put_price": 1.9506188976430934,
+          "theoretical_diff": 15.28483641489737,
+          "actual_diff": 11.963766167765492,
+          "arbitrage_profit": 332.1070247131878,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 513.23,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 513.23,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062844",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 526.39,
+          "current_price": 526.41,
+          "call_price": 2.0,
+          "put_price": 0.7357588823428847,
+          "theoretical_diff": 2.1788076309604776,
+          "actual_diff": 1.2642411176571153,
+          "arbitrage_profit": 91.45665133033623,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 526.39,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 526.39,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062868",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 539.55,
+          "current_price": 526.41,
+          "call_price": 1.9506188976430934,
+          "put_price": 13.877592590003363,
+          "theoretical_diff": -10.927221152976472,
+          "actual_diff": -11.92697369236027,
+          "arbitrage_profit": 99.9752539383799,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 539.55,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 539.55,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062893",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 552.71,
+          "current_price": 526.41,
+          "call_price": 1.902457041921178,
+          "put_price": 27.019874833434688,
+          "theoretical_diff": -24.03324993691342,
+          "actual_diff": -25.11741779151351,
+          "arbitrage_profit": 108.41678546000892,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 552.71,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 552.71,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062918",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 565.87,
+          "current_price": 526.41,
+          "call_price": 1.8554843289628142,
+          "put_price": 40.162594538041226,
+          "theoretical_diff": -37.13927872085037,
+          "actual_diff": -38.30711020907841,
+          "arbitrage_profit": 116.7831488228039,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 565.87,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 565.87,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062942",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 579.03,
+          "current_price": 526.41,
+          "call_price": 1.80967139817774,
+          "put_price": 53.305740902665555,
+          "theoretical_diff": -50.245307504787206,
+          "actual_diff": -51.496069504487814,
+          "arbitrage_profit": 125.07619997006074,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 579.03,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 579.03,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.062966",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "QQQ",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 592.19,
+          "current_price": 526.41,
+          "call_price": 1.7649896139048489,
+          "put_price": 66.44930339283678,
+          "theoretical_diff": -63.35133628872427,
+          "actual_diff": -64.68431377893194,
+          "arbitrage_profit": 133.2977490207668,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 592.19,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 592.19,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "QQQ",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.662282",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "AAPL",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 170.6,
+          "current_price": 200.7,
+          "call_price": 30.954808567952856,
+          "put_price": 1.721458838684587,
+          "theoretical_diff": 30.799657253826723,
+          "actual_diff": 29.23334972926827,
+          "arbitrage_profit": 156.63075245584537,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 170.6,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 170.6,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "AAPL",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.662411",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "AAPL",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 175.61,
+          "current_price": 200.7,
+          "call_price": 25.92373442462396,
+          "put_price": 1.7649718198327127,
+          "theoretical_diff": 25.81020404656806,
+          "actual_diff": 24.158762604791246,
+          "arbitrage_profit": 165.14414417768143,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 175.61,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 175.61,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "AAPL",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.662451",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "AAPL",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 180.63,
+          "current_price": 200.7,
+          "call_price": 20.88313931948119,
+          "put_price": 1.8096748360719193,
+          "theoretical_diff": 20.810791850871766,
+          "actual_diff": 19.07346448340927,
+          "arbitrage_profit": 173.7327367462495,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 180.63,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 180.63,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "AAPL",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.662481",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "AAPL",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 185.65,
+          "current_price": 200.7,
+          "call_price": 15.843052959501502,
+          "put_price": 1.8555100854937907,
+          "theoretical_diff": 15.811379655175443,
+          "actual_diff": 13.987542874007712,
+          "arbitrage_profit": 182.38367811677313,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 185.65,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 185.65,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "AAPL",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.662508",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "AAPL",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 190.67,
+          "current_price": 200.7,
+          "call_price": 10.803462777541485,
+          "put_price": 1.902506245178483,
+          "theoretical_diff": 10.811967459479149,
+          "actual_diff": 8.900956532363002,
+          "arbitrage_profit": 191.10109271161465,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 190.67,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 190.67,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "AAPL",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.662534",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "AAPL",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 195.68,
+          "current_price": 200.7,
+          "call_price": 5.774394104104442,
+          "put_price": 1.9505955265021655,
+          "theoretical_diff": 5.822514252220486,
+          "actual_diff": 3.823798577602277,
+          "arbitrage_profit": 199.87156746182092,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 195.68,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 195.68,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "AAPL",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257600",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 403.72,
+          "current_price": 474.96,
+          "call_price": 72.0948226647542,
+          "put_price": 1.7214304502663322,
+          "theoretical_diff": 72.89571879551539,
+          "actual_diff": 70.37339221448788,
+          "arbitrage_profit": 252.23265810275137,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 403.72,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 403.72,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257742",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 415.59,
+          "current_price": 474.96,
+          "call_price": 60.20372403935702,
+          "put_price": 1.764993805169191,
+          "theoretical_diff": 61.07439952003432,
+          "actual_diff": 58.43873023418783,
+          "arbitrage_profit": 263.56692858464896,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 415.59,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 415.59,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257777",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 427.46,
+          "current_price": 474.96,
+          "call_price": 48.31314616757572,
+          "put_price": 1.8096595954856318,
+          "theoretical_diff": 49.25308024455319,
+          "actual_diff": 46.50348657209008,
+          "arbitrage_profit": 274.95936724631065,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 427.46,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 427.46,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257804",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 439.34,
+          "current_price": 474.96,
+          "call_price": 36.41305949866385,
+          "put_price": 1.8554947859082396,
+          "theoretical_diff": 37.421801980634484,
+          "actual_diff": 34.55756471275561,
+          "arbitrage_profit": 286.42372678788774,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 439.34,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 439.34,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257825",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 451.21,
+          "current_price": 474.96,
+          "call_price": 24.52348530395665,
+          "put_price": 1.9024508379906333,
+          "theoretical_diff": 25.600482705153354,
+          "actual_diff": 22.62103446596602,
+          "arbitrage_profit": 297.94482391873345,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 451.21,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 451.21,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257843",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 463.09,
+          "current_price": 474.96,
+          "call_price": 12.624378353904737,
+          "put_price": 1.9506362517814244,
+          "theoretical_diff": 13.769204441234592,
+          "actual_diff": 10.673742102123313,
+          "arbitrage_profit": 309.5462339111279,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 463.09,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 463.09,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257860",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 474.96,
+          "current_price": 474.96,
+          "call_price": 2.0,
+          "put_price": 0.7357588823428847,
+          "theoretical_diff": 1.9478851657535188,
+          "actual_diff": 1.2642411176571153,
+          "arbitrage_profit": 68.36440480964035,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 474.96,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 474.96,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257877",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 486.83,
+          "current_price": 474.96,
+          "call_price": 1.9506362517814246,
+          "put_price": 12.587598974234112,
+          "theoretical_diff": -9.873434109727611,
+          "actual_diff": -10.636962722452687,
+          "arbitrage_profit": 76.35286127250751,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 486.83,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 486.83,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257895",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 498.71,
+          "current_price": 474.96,
+          "call_price": 1.9024508379906335,
+          "put_price": 24.449872551136135,
+          "theoretical_diff": -21.704712373646373,
+          "actual_diff": -22.5474217131455,
+          "arbitrage_profit": 84.27093394991267,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 498.71,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 498.71,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257913",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 510.58,
+          "current_price": 474.96,
+          "call_price": 1.8554947859082396,
+          "put_price": 36.30259838493645,
+          "theoretical_diff": -33.52603164912745,
+          "actual_diff": -34.44710359902821,
+          "arbitrage_profit": 92.10719499007638,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 510.58,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 510.58,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257930",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 522.46,
+          "current_price": 474.96,
+          "call_price": 1.8096595954856316,
+          "put_price": 48.16573656069785,
+          "theoretical_diff": -45.35730991304621,
+          "actual_diff": -46.35607696521222,
+          "arbitrage_profit": 99.87670521660093,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 522.46,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 522.46,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.257947",
+          "type": "PUT_CALL_PARITY",
+          "symbol": "MSFT",
+          "strategy": "BUY_SYNTHETIC_STOCK",
+          "strike": 534.33,
+          "current_price": 474.96,
+          "call_price": 1.7649938051691905,
+          "put_price": 60.01930493471676,
+          "theoretical_diff": -57.178629188527395,
+          "actual_diff": -58.25431112954757,
+          "arbitrage_profit": 107.56819410201715,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 534.33,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 534.33,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "STOCK",
+              "symbol": "MSFT",
+              "qty": 100
+            }
+          ]
+        }
+      ]
+    },
+    "BOX_SPREAD": {
+      "count": 4,
+      "total_profit": 885.763050814179,
+      "opportunities": [
+        {
+          "timestamp": "2025-06-23 15:37:21.825254",
+          "type": "BOX_SPREAD",
+          "symbol": "SPY",
+          "lower_strike": 580.31,
+          "upper_strike": 595.19,
+          "theoretical_value": 14.818974795211469,
+          "actual_cost": 12.619524901606246,
+          "arbitrage_profit": 219.9449893605223,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 580.31,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "CALL",
+              "strike": 595.19,
+              "qty": 1
+            },
+            {
+              "action": "BUY",
+              "type": "PUT",
+              "strike": 595.19,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 580.31,
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:22.423670",
+          "type": "BOX_SPREAD",
+          "symbol": "QQQ",
+          "lower_strike": 513.26,
+          "upper_strike": 526.42,
+          "theoretical_value": 13.106028783936898,
+          "actual_cost": 10.89952119616637,
+          "arbitrage_profit": 220.65075877705277,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 513.26,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "CALL",
+              "strike": 526.42,
+              "qty": 1
+            },
+            {
+              "action": "BUY",
+              "type": "PUT",
+              "strike": 526.42,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 513.26,
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.019485",
+          "type": "BOX_SPREAD",
+          "symbol": "AAPL",
+          "lower_strike": 195.68,
+          "upper_strike": 200.7,
+          "theoretical_value": 4.999412195696288,
+          "actual_cost": 2.759557459945161,
+          "arbitrage_profit": 223.98547357511268,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 195.68,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "CALL",
+              "strike": 200.7,
+              "qty": 1
+            },
+            {
+              "action": "BUY",
+              "type": "PUT",
+              "strike": 200.7,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 195.68,
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "timestamp": "2025-06-23 15:37:23.622501",
+          "type": "BOX_SPREAD",
+          "symbol": "MSFT",
+          "lower_strike": 463.09,
+          "upper_strike": 474.96,
+          "theoretical_value": 11.82131927548111,
+          "actual_cost": 9.609500984466198,
+          "arbitrage_profit": 221.18182910149127,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 463.09,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "CALL",
+              "strike": 474.96,
+              "qty": 1
+            },
+            {
+              "action": "BUY",
+              "type": "PUT",
+              "strike": 474.96,
+              "qty": 1
+            },
+            {
+              "action": "SELL",
+              "type": "PUT",
+              "strike": 463.09,
+              "qty": 1
+            }
+          ]
+        }
+      ]
+    },
+    "VOLATILITY_ARBITRAGE": {
+      "count": 1,
+      "total_profit": 327.7141117657115,
+      "opportunities": [
+        {
+          "timestamp": "2025-06-23 15:37:22.901683",
+          "type": "VOLATILITY_ARBITRAGE",
+          "symbol": "AAPL",
+          "strategy": "BUY_STRADDLE",
+          "strike": 200.7,
+          "current_price": 200.43,
+          "realized_vol": 0.26990954011947726,
+          "implied_vol": 0.2,
+          "vol_difference": -0.06990954011947725,
+          "expected_profit": 327.7141117657115,
+          "trades": [
+            {
+              "action": "BUY",
+              "type": "CALL",
+              "strike": 200.7,
+              "qty": 1
+            },
+            {
+              "action": "BUY",
+              "type": "PUT",
+              "strike": 200.7,
+              "qty": 1
+            }
+          ]
+        }
+      ]
+    },
+    "INDEX_ARBITRAGE": {
+      "count": 1,
+      "total_profit": 24499.86,
+      "opportunities": [
+        {
+          "timestamp": "2025-06-23 15:37:24.327723",
+          "type": "INDEX_ARBITRAGE",
+          "index": "SPY",
+          "strategy": "SELL_INDEX_BUY_COMPONENTS",
+          "spy_price": 595.21,
+          "synthetic_price": 303.545,
+          "price_difference": 291.665,
+          "price_diff_pct": 0.4900203289595269,
+          "expected_profit": 24499.86,
+          "trades": [
+            {
+              "action": "SELL",
+              "symbol": "SPY",
+              "qty": 84
+            },
+            {
+              "action": "BUY",
+              "symbol": "AAPL",
+              "qty": 13
+            },
+            {
+              "action": "BUY",
+              "symbol": "MSFT",
+              "qty": 5
+            },
+            {
+              "action": "BUY",
+              "symbol": "GOOGL",
+              "qty": 9
+            },
+            {
+              "action": "BUY",
+              "symbol": "AMZN",
+              "qty": 6
+            },
+            {
+              "action": "BUY",
+              "symbol": "META",
+              "qty": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,882 @@
+{
+  "sampling_timestamp": "2025-06-16T16:41:39.865726",
+  "directory_contents": {
+    "stocks-2010-2025/": {
+      "total_files_sampled": 50,
+      "files": [
+        {
+          "filename": "stocks-2010-2025/A.csv",
+          "size_bytes": 183844,
+          "size_mb": 0.18,
+          "last_modified": "2025-06-16T12:10:55.813Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AA.csv",
+          "size_bytes": 184335,
+          "size_mb": 0.18,
+          "last_modified": "2025-06-16T12:10:55.813Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAAP.csv",
+          "size_bytes": 3493,
+          "size_mb": 0.0,
+          "last_modified": "2025-06-16T12:10:55.758Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAAU.csv",
+          "size_bytes": 2538,
+          "size_mb": 0.0,
+          "last_modified": "2025-06-16T12:10:55.745Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AABA.csv",
+          "size_bytes": 24956,
+          "size_mb": 0.02,
+          "last_modified": "2025-06-16T12:10:55.771Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAC.csv",
+          "size_bytes": 55822,
+          "size_mb": 0.05,
+          "last_modified": "2025-06-16T12:10:55.771Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AACC.csv",
+          "size_bytes": 31801,
+          "size_mb": 0.03,
+          "last_modified": "2025-06-16T12:10:55.771Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AACH.csv",
+          "size_bytes": 3811,
+          "size_mb": 0.0,
+          "last_modified": "2025-06-16T12:10:55.771Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AACQ.csv",
+          "size_bytes": 4303,
+          "size_mb": 0.0,
+          "last_modified": "2025-06-16T12:10:55.771Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AADI.csv",
+          "size_bytes": 27874,
+          "size_mb": 0.03,
+          "last_modified": "2025-06-16T12:10:55.771Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAGR.csv",
+          "size_bytes": 4463,
+          "size_mb": 0.0,
+          "last_modified": "2025-06-16T12:10:55.771Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAI.csv",
+          "size_bytes": 12979,
+          "size_mb": 0.01,
+          "last_modified": "2025-06-16T12:10:55.771Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAIC.csv",
+          "size_bytes": 29301,
+          "size_mb": 0.03,
+          "last_modified": "2025-06-16T12:10:55.813Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAL.csv",
+          "size_bytes": 128124,
+          "size_mb": 0.12,
+          "last_modified": "2025-06-16T12:10:55.818Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAMI.csv",
+          "size_bytes": 2860,
+          "size_mb": 0.0,
+          "last_modified": "2025-06-16T12:10:55.838Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAMRQ.csv",
+          "size_bytes": 18743,
+          "size_mb": 0.02,
+          "last_modified": "2025-06-16T12:10:55.838Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAN.csv",
+          "size_bytes": 165644,
+          "size_mb": 0.16,
+          "last_modified": "2025-06-16T12:10:55.884Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAOI.csv",
+          "size_bytes": 109338,
+          "size_mb": 0.1,
+          "last_modified": "2025-06-16T12:10:55.823Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAON.csv",
+          "size_bytes": 140577,
+          "size_mb": 0.13,
+          "last_modified": "2025-06-16T12:10:55.884Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAP.csv",
+          "size_bytes": 191536,
+          "size_mb": 0.18,
+          "last_modified": "2025-06-16T12:10:55.883Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAPB.csv",
+          "size_bytes": 23099,
+          "size_mb": 0.02,
+          "last_modified": "2025-06-16T12:10:55.838Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAPD.csv",
+          "size_bytes": 23685,
+          "size_mb": 0.02,
+          "last_modified": "2025-06-16T12:10:55.838Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAPL.csv",
+          "size_bytes": 205066,
+          "size_mb": 0.2,
+          "last_modified": "2025-06-16T12:10:55.884Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAPU.csv",
+          "size_bytes": 23286,
+          "size_mb": 0.02,
+          "last_modified": "2025-06-16T12:10:55.833Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAPW.csv",
+          "size_bytes": 1352,
+          "size_mb": 0.0,
+          "last_modified": "2025-06-16T12:10:55.883Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAPX.csv",
+          "size_bytes": 7969,
+          "size_mb": 0.01,
+          "last_modified": "2025-06-16T12:10:55.886Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAPY.csv",
+          "size_bytes": 6722,
+          "size_mb": 0.01,
+          "last_modified": "2025-06-16T12:10:55.885Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAT.csv",
+          "size_bytes": 159206,
+          "size_mb": 0.15,
+          "last_modified": "2025-06-16T12:10:56.016Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AATI.csv",
+          "size_bytes": 19204,
+          "size_mb": 0.02,
+          "last_modified": "2025-06-16T12:10:55.887Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAU.csv",
+          "size_bytes": 131576,
+          "size_mb": 0.13,
+          "last_modified": "2025-06-16T12:10:56.016Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAUAF.csv",
+          "size_bytes": 3556,
+          "size_mb": 0.0,
+          "last_modified": "2025-06-16T12:10:55.887Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAUKY.csv",
+          "size_bytes": 2550,
+          "size_mb": 0.0,
+          "last_modified": "2025-06-16T12:10:55.887Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAV.csv",
+          "size_bytes": 81489,
+          "size_mb": 0.08,
+          "last_modified": "2025-06-16T12:10:55.994Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAVL.csv",
+          "size_bytes": 13892,
+          "size_mb": 0.01,
+          "last_modified": "2025-06-16T12:10:56.008Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAVVF.csv",
+          "size_bytes": 4025,
+          "size_mb": 0.0,
+          "last_modified": "2025-06-16T12:10:55.999Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAWW.csv",
+          "size_bytes": 158962,
+          "size_mb": 0.15,
+          "last_modified": "2025-06-16T12:10:56.043Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAXJ.csv",
+          "size_bytes": 167440,
+          "size_mb": 0.16,
+          "last_modified": "2025-06-16T12:10:56.043Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AAXN.csv",
+          "size_bytes": 40721,
+          "size_mb": 0.04,
+          "last_modified": "2025-06-16T12:10:56.009Z"
+        },
+        {
+          "filename": "stocks-2010-2025/AB.csv",
+          "size_bytes": 166323,
+          "size_mb": 0.16,
+          "last_modified": "2025-06-16T12:10:56.044Z"
+        },
+        {
+          "filename": "stocks-2010-2025/ABAT.csv",
+          "size_bytes": 33452,
+          "size_mb": 0.03,
+          "last_modified": "2025-06-16T12:10:56.009Z"
+        },
+        {
+          "filename": "stocks-2010-2025/ABAX.csv",
+          "size_bytes": 107788,
+          "size_mb": 0.1,
+          "last_modified": "2025-06-16T12:10:56.020Z"
+        },
+        {
+          "filename": "stocks-2010-2025/ABB.csv",
+          "size_bytes": 157488,
+          "size_mb": 0.15,
+          "last_modified": "2025-06-16T12:10:56.044Z"
+        },
+        {
+          "filename": "stocks-2010-2025/ABBNY.csv",
+          "size_bytes": 6249,
+          "size_mb": 0.01,
+          "last_modified": "2025-06-16T12:10:56.042Z"
+        },
+        {
+          "filename": "stocks-2010-2025/ABBV.csv",
+          "size_bytes": 144116,
+          "size_mb": 0.14,
+          "last_modified": "2025-06-16T12:10:56.118Z"
+        },
+        {
+          "filename": "stocks-2010-2025/ABC.csv",
+          "size_bytes": 171733,
+          "size_mb": 0.16,
+          "last_modified": "2025-06-16T12:10:56.118Z"
+        },
+        {
+          "filename": "stocks-2010-2025/ABCB.csv",
+          "size_bytes": 133108,
+          "size_mb": 0.13,
+          "last_modified": "2025-06-16T12:10:56.118Z"
+        },
+        {
+          "filename": "stocks-2010-2025/ABCL.csv",
+          "size_bytes": 36738,
+          "size_mb": 0.04,
+          "last_modified": "2025-06-16T12:10:56.047Z"
+        },
+        {
+          "filename": "stocks-2010-2025/ABCM.csv",
+          "size_bytes": 11566,
+          "size_mb": 0.01,
+          "last_modified": "2025-06-16T12:10:56.048Z"
+        },
+        {
+          "filename": "stocks-2010-2025/ABCO.csv",
+          "size_bytes": 81783,
+          "size_mb": 0.08,
+          "last_modified": "2025-06-16T12:10:56.068Z"
+        },
+        {
+          "filename": "stocks-2010-2025/ABD.csv",
+          "size_bytes": 18960,
+          "size_mb": 0.02,
+          "last_modified": "2025-06-16T12:10:56.061Z"
+        }
+      ]
+    }
+  },
+  "file_samples": [
+    {
+      "filename": "stocks-2010-2025/A.csv",
+      "accessible": true,
+      "header": "trade_date,Open,High,Low,Close,Volume",
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "sample_rows": [
+        "2010-01-04,31.389999,31.630001,31.13,31.300001,3815500",
+        "2010-01-05,31.209999,31.220001,30.76,30.960001,4186000",
+        "2010-01-06,30.850001,31.000001,30.76,30.850001,3243700",
+        "2010-01-07,30.780001,30.820001,30.5,30.809999,3095100",
+        "2010-01-08,30.64,30.850001,30.399999,30.8,3733900",
+        "2010-01-11,30.879999,31.05,30.670001,30.820001,4781500",
+        "2010-01-12,30.560001,30.65,30.219999,30.450001,2871000",
+        "2010-01-13,30.469999,30.780001,30.050001,30.689999,3418900",
+        "2010-01-14,30.589999,31.24,30.5,31.150001,6163700"
+      ],
+      "total_lines_sampled": 20,
+      "contains_target_symbols": {
+        "AAPL": 0,
+        "MSFT": 0,
+        "GOOGL": 0
+      },
+      "date_info": {
+        "dates_found": 19,
+        "date_range": {
+          "earliest": "2010-01-04",
+          "latest": "2010-01-29"
+        },
+        "sample_dates": [
+          "2010-01-04",
+          "2010-01-05",
+          "2010-01-06",
+          "2010-01-07",
+          "2010-01-08"
+        ]
+      },
+      "data_quality": {
+        "has_standard_columns": false,
+        "rows_sampled": 9,
+        "appears_to_be_csv": true,
+        "consistent_columns": true
+      },
+      "error": null
+    },
+    {
+      "filename": "stocks-2010-2025/AA.csv",
+      "accessible": true,
+      "header": "trade_date,Open,High,Low,Close,Volume",
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "sample_rows": [
+        "2010-01-04,16.469983,16.889982,16.399983,16.649983,8629800",
+        "2010-01-05,16.829983,16.849982,16.029983,16.129983,16642500",
+        "2010-01-06,16.309983,17.059982,16.259983,16.969982,15580800",
+        "2010-01-07,16.519983,16.659982,16.299984,16.609983,12880500",
+        "2010-01-08,16.459983,17.019983,16.449982,17.019983,11082000",
+        "2010-01-11,17.489982,17.599981,17.129982,17.449981,25480600",
+        "2010-01-12,16.119983,16.249983,15.419983,15.519984,51966200",
+        "2010-01-13,15.769984,15.989984,15.409984,15.979983,19564800",
+        "2010-01-14,15.989984,16.099983,15.789983,15.809984,10787100"
+      ],
+      "total_lines_sampled": 20,
+      "contains_target_symbols": {
+        "AAPL": 0,
+        "MSFT": 0,
+        "GOOGL": 0
+      },
+      "date_info": {
+        "dates_found": 19,
+        "date_range": {
+          "earliest": "2010-01-04",
+          "latest": "2010-01-29"
+        },
+        "sample_dates": [
+          "2010-01-04",
+          "2010-01-05",
+          "2010-01-06",
+          "2010-01-07",
+          "2010-01-08"
+        ]
+      },
+      "data_quality": {
+        "has_standard_columns": false,
+        "rows_sampled": 9,
+        "appears_to_be_csv": true,
+        "consistent_columns": true
+      },
+      "error": null
+    },
+    {
+      "filename": "stocks-2010-2025/AAAP.csv",
+      "accessible": true,
+      "header": "trade_date,Open,High,Low,Close,Volume",
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "sample_rows": [
+        "2017-10-12,67.29,69.26,67.06,68.53,185058",
+        "2017-10-13,67.79,69.779,67.79,68.69,117205",
+        "2017-10-16,68.75,72.370003,67.57,71.059998,624900",
+        "2017-10-17,71.5,72.93,71.0,71.24,321242",
+        "2017-10-18,70.72,71.74,70.09,70.65,110571",
+        "2017-10-19,70.94,73.0,70.01,72.64,270787",
+        "2017-10-20,73.0,74.94,73.0,73.56,257406",
+        "2017-10-23,73.0,73.54,71.03,71.71,344315",
+        "2017-10-24,70.92,76.73,70.34,74.49,645213"
+      ],
+      "total_lines_sampled": 20,
+      "contains_target_symbols": {
+        "AAPL": 0,
+        "MSFT": 0,
+        "GOOGL": 0
+      },
+      "date_info": {
+        "dates_found": 19,
+        "date_range": {
+          "earliest": "2017-10-12",
+          "latest": "2017-11-07"
+        },
+        "sample_dates": [
+          "2017-10-12",
+          "2017-10-13",
+          "2017-10-16",
+          "2017-10-17",
+          "2017-10-18"
+        ]
+      },
+      "data_quality": {
+        "has_standard_columns": false,
+        "rows_sampled": 9,
+        "appears_to_be_csv": true,
+        "consistent_columns": true
+      },
+      "error": null
+    },
+    {
+      "filename": "stocks-2010-2025/AAAU.csv",
+      "accessible": true,
+      "header": "trade_date,Open,High,Low,Close,Volume",
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "sample_rows": [
+        "2025-01-21,27.0,27.145,26.98,27.115,1710178.0",
+        "2025-01-22,27.32,27.32,27.19,27.255,1726010.0",
+        "2025-01-23,27.14,27.2664,27.07,27.22,1177707",
+        "2025-01-24,27.5,27.54,27.381,27.4,1358918.0",
+        "2025-01-27,27.26,27.26,27.0,27.105,1032197",
+        "2025-01-28,27.34,27.36,27.22,27.335,773102.0",
+        "2025-01-29,27.32,27.32,27.1338,27.24,802529.0",
+        "2025-01-30,27.55,27.66,27.47,27.635,1215821.0",
+        "2025-01-31,27.81,27.845,27.625,27.69,2113386.0"
+      ],
+      "total_lines_sampled": 20,
+      "contains_target_symbols": {
+        "AAPL": 0,
+        "MSFT": 0,
+        "GOOGL": 0
+      },
+      "date_info": {
+        "dates_found": 19,
+        "date_range": {
+          "earliest": "2025-01-21",
+          "latest": "2025-02-14"
+        },
+        "sample_dates": [
+          "2025-01-21",
+          "2025-01-22",
+          "2025-01-23",
+          "2025-01-24",
+          "2025-01-27"
+        ]
+      },
+      "data_quality": {
+        "has_standard_columns": false,
+        "rows_sampled": 9,
+        "appears_to_be_csv": true,
+        "consistent_columns": true
+      },
+      "error": null
+    },
+    {
+      "filename": "stocks-2010-2025/AABA.csv",
+      "accessible": true,
+      "header": "trade_date,Open,High,Low,Close,Volume",
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "sample_rows": [
+        "2017-06-19,54.0,55.03,53.8,54.46,38552320",
+        "2017-06-20,54.54,54.9,53.79,53.81,43224891",
+        "2017-06-21,53.94,55.17,53.89,55.09,28230311",
+        "2017-06-22,54.75,55.45,54.42,54.56,10218875",
+        "2017-06-23,54.49,54.99,54.45,54.825,13052778",
+        "2017-06-26,55.38,55.6,53.97,54.31,21244810",
+        "2017-06-27,54.44,54.73,53.53,53.64,15458181",
+        "2017-06-28,54.09,55.1,53.765,54.95,14203864",
+        "2017-06-29,54.49,54.92,53.13,54.3,11943328"
+      ],
+      "total_lines_sampled": 20,
+      "contains_target_symbols": {
+        "AAPL": 0,
+        "MSFT": 0,
+        "GOOGL": 0
+      },
+      "date_info": {
+        "dates_found": 19,
+        "date_range": {
+          "earliest": "2017-06-19",
+          "latest": "2017-07-14"
+        },
+        "sample_dates": [
+          "2017-06-19",
+          "2017-06-20",
+          "2017-06-21",
+          "2017-06-22",
+          "2017-06-23"
+        ]
+      },
+      "data_quality": {
+        "has_standard_columns": false,
+        "rows_sampled": 9,
+        "appears_to_be_csv": true,
+        "consistent_columns": true
+      },
+      "error": null
+    },
+    {
+      "filename": "stocks-2010-2025/AAC.csv",
+      "accessible": true,
+      "header": "trade_date,Open,High,Low,Close,Volume",
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "sample_rows": [
+        "2015-06-11,43.580002,45.48,42.880001,43.52,269400",
+        "2015-06-12,43.32,43.619999,41.880001,43.169998,82500",
+        "2015-06-15,42.880001,43.0,41.773998,42.610001,319100",
+        "2015-06-16,42.529999,43.5,41.98,43.43,139500",
+        "2015-06-17,43.650002,44.0,42.459999,43.32,209700",
+        "2015-06-18,43.419998,43.849998,43.25,43.610001,155600",
+        "2015-06-19,43.580002,44.400002,43.271999,44.279999,165400",
+        "2015-06-22,44.389999,44.889999,43.869999,44.220001,134200",
+        "2015-06-23,44.169998,45.240002,43.880001,44.16,235200"
+      ],
+      "total_lines_sampled": 20,
+      "contains_target_symbols": {
+        "AAPL": 0,
+        "MSFT": 0,
+        "GOOGL": 0
+      },
+      "date_info": {
+        "dates_found": 19,
+        "date_range": {
+          "earliest": "2015-06-11",
+          "latest": "2015-07-08"
+        },
+        "sample_dates": [
+          "2015-06-11",
+          "2015-06-12",
+          "2015-06-15",
+          "2015-06-16",
+          "2015-06-17"
+        ]
+      },
+      "data_quality": {
+        "has_standard_columns": false,
+        "rows_sampled": 9,
+        "appears_to_be_csv": true,
+        "consistent_columns": true
+      },
+      "error": null
+    },
+    {
+      "filename": "stocks-2010-2025/AACC.csv",
+      "accessible": true,
+      "header": "trade_date,Open,High,Low,Close,Volume",
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "sample_rows": [
+        "2010-01-04,6.93,7.15,6.83,7.15,22200",
+        "2010-01-05,7.16,7.33,7.11,7.27,50000",
+        "2010-01-06,7.38,7.41,6.81,6.82,46500",
+        "2010-01-07,6.8,6.85,6.52,6.55,25700",
+        "2010-01-08,6.71,6.88,6.53,6.59,12700",
+        "2010-01-11,6.69,6.789,6.55,6.6,12800",
+        "2010-01-12,6.53,6.57,6.31,6.35,18400",
+        "2010-01-13,6.28,6.4,6.06,6.24,19000",
+        "2010-01-14,6.5,6.62,6.21,6.47,19700"
+      ],
+      "total_lines_sampled": 20,
+      "contains_target_symbols": {
+        "AAPL": 0,
+        "MSFT": 0,
+        "GOOGL": 0
+      },
+      "date_info": {
+        "dates_found": 19,
+        "date_range": {
+          "earliest": "2010-01-04",
+          "latest": "2010-01-29"
+        },
+        "sample_dates": [
+          "2010-01-04",
+          "2010-01-05",
+          "2010-01-06",
+          "2010-01-07",
+          "2010-01-08"
+        ]
+      },
+      "data_quality": {
+        "has_standard_columns": false,
+        "rows_sampled": 9,
+        "appears_to_be_csv": true,
+        "consistent_columns": true
+      },
+      "error": null
+    },
+    {
+      "filename": "stocks-2010-2025/AACH.csv",
+      "accessible": true,
+      "header": "trade_date,Open,High,Low,Close,Volume",
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "sample_rows": [
+        "2019-10-30,0.34,0.48,0.33,0.43,1118981",
+        "2019-10-31,0.43,0.43,0.39,0.393,1109748",
+        "2019-11-01,0.41,0.43,0.39,0.41,65633",
+        "2019-11-04,0.4,0.45,0.4,0.45,43276",
+        "2019-11-05,0.45,0.78,0.45,0.75,608326",
+        "2019-11-06,0.71,1.19,0.71,0.8799,1190068",
+        "2019-11-07,0.91,1.1,0.895,1.03,1125007",
+        "2019-11-08,1.08,1.2,0.95,1.09,579500",
+        "2019-11-11,1.09,1.09,0.81,0.96,254561"
+      ],
+      "total_lines_sampled": 20,
+      "contains_target_symbols": {
+        "AAPL": 0,
+        "MSFT": 0,
+        "GOOGL": 0
+      },
+      "date_info": {
+        "dates_found": 19,
+        "date_range": {
+          "earliest": "2019-10-30",
+          "latest": "2019-11-25"
+        },
+        "sample_dates": [
+          "2019-10-30",
+          "2019-10-31",
+          "2019-11-01",
+          "2019-11-04",
+          "2019-11-05"
+        ]
+      },
+      "data_quality": {
+        "has_standard_columns": false,
+        "rows_sampled": 9,
+        "appears_to_be_csv": true,
+        "consistent_columns": true
+      },
+      "error": null
+    },
+    {
+      "filename": "stocks-2010-2025/AACQ.csv",
+      "accessible": true,
+      "header": "trade_date,Open,High,Low,Close,Volume",
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "sample_rows": [
+        "2021-02-03,10.93,11.16,10.93,11.14,1061137",
+        "2021-02-04,11.1,11.45,11.1,11.12,1136186",
+        "2021-02-05,11.2322,11.74,11.19,11.3,1052985",
+        "2021-02-08,11.3,11.55,11.27,11.44,1297760",
+        "2021-02-09,11.4,11.45,11.22,11.35,942755",
+        "2021-02-10,11.3,11.43,10.99,11.4,1565693",
+        "2021-02-11,11.35,11.88,11.18,11.26,1526323",
+        "2021-02-12,11.3,11.32,11.12,11.27,1258495",
+        "2021-02-16,13.21,14.0,12.76,14.0,14483720"
+      ],
+      "total_lines_sampled": 20,
+      "contains_target_symbols": {
+        "AAPL": 0,
+        "MSFT": 0,
+        "GOOGL": 0
+      },
+      "date_info": {
+        "dates_found": 19,
+        "date_range": {
+          "earliest": "2021-02-03",
+          "latest": "2021-03-02"
+        },
+        "sample_dates": [
+          "2021-02-03",
+          "2021-02-04",
+          "2021-02-05",
+          "2021-02-08",
+          "2021-02-09"
+        ]
+      },
+      "data_quality": {
+        "has_standard_columns": false,
+        "rows_sampled": 9,
+        "appears_to_be_csv": true,
+        "consistent_columns": true
+      },
+      "error": null
+    },
+    {
+      "filename": "stocks-2010-2025/AADI.csv",
+      "accessible": true,
+      "header": "trade_date,Open,High,Low,Close,Volume",
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "sample_rows": [
+        "2021-12-01,21.28,22.4,19.83,20.09,165663",
+        "2021-12-02,19.91,20.19,18.9,20.05,93943",
+        "2021-12-03,20.23,20.49,18.75,19.32,61868",
+        "2021-12-06,19.36,21.1,18.81,20.51,215040",
+        "2021-12-07,20.86,21.575,20.35,21.08,115101",
+        "2021-12-08,21.3,22.21,21.06,21.95,99086",
+        "2021-12-09,21.63,23.24,21.63,22.4,150366",
+        "2021-12-10,22.32,23.43,22.2,22.6,139661",
+        "2021-12-13,22.46,24.36,22.32,23.7,217208"
+      ],
+      "total_lines_sampled": 20,
+      "contains_target_symbols": {
+        "AAPL": 0,
+        "MSFT": 0,
+        "GOOGL": 0
+      },
+      "date_info": {
+        "dates_found": 19,
+        "date_range": {
+          "earliest": "2021-12-01",
+          "latest": "2021-12-28"
+        },
+        "sample_dates": [
+          "2021-12-01",
+          "2021-12-02",
+          "2021-12-03",
+          "2021-12-06",
+          "2021-12-07"
+        ]
+      },
+      "data_quality": {
+        "has_standard_columns": false,
+        "rows_sampled": 9,
+        "appears_to_be_csv": true,
+        "consistent_columns": true
+      },
+      "error": null
+    }
+  ],
+  "data_structure_analysis": {
+    "accessible_files": 10,
+    "common_columns": {
+      "trade_date": 10,
+      "open": 10,
+      "high": 10,
+      "low": 10,
+      "close": 10,
+      "volume": 10
+    },
+    "file_types": {},
+    "data_quality_summary": {
+      "avg_columns": 6.0,
+      "files_with_standard_structure": 0,
+      "files_with_consistent_columns": 10
+    }
+  },
+  "date_range_analysis": {
+    "files_with_dates": 10,
+    "overall_date_range": {
+      "earliest": "2010-01-04",
+      "latest": "2025-01-27",
+      "total_unique_dates": 40
+    },
+    "yearly_coverage": {
+      "2010": 15,
+      "2017": 10,
+      "2025": 5,
+      "2015": 5,
+      "2019": 5,
+      "2021": 10
+    },
+    "contains_2023": false,
+    "contains_recent_data": true
+  },
+  "symbol_analysis": {
+    "AAPL": {
+      "files_containing": 0,
+      "total_occurrences": 0,
+      "files_with_data": []
+    },
+    "MSFT": {
+      "files_containing": 0,
+      "total_occurrences": 0,
+      "files_with_data": []
+    },
+    "GOOGL": {
+      "files_containing": 0,
+      "total_occurrences": 0,
+      "files_with_data": []
+    }
+  },
+  "recommendations": [
+    "\u2705 DATA ACCESS: 10/10 sampled files are accessible",
+    "\ud83d\udcca DATA STRUCTURE: Files contain multiple columns (likely complete stock data)",
+    "\ud83d\udcc5 RECENT DATA: Files contain 2022+ data (close to 2023)",
+    "\u26a0\ufe0f LIMITED: Directory may not contain 2023 data for target date",
+    "\ud83d\udd0d ALTERNATIVE: Consider aws_backup/extracted_options/ for historical data",
+    "\ud83d\udcde VERIFY: Confirm data availability and update schedule"
+  ]
+}

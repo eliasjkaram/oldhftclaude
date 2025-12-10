@@ -1,0 +1,63 @@
+ALPACA TRADING SYSTEM - BETA TEST REPORT
+============================================================
+
+Test Date: 2025-06-23T08:29:52.141784
+Total Tests: 10
+Success Rate: 30.0%
+
+TEST RESULTS:
+------------------------------------------------------------
+
+TLT Covered Call Strategy
+Status: SUCCESS
+Duration: 0.73s
+Metrics:
+  - total_return: 7.43
+  - trades: 6
+
+Enhanced TLT Backtest
+Status: SUCCESS
+Duration: 3.82s
+Metrics:
+  - total_return: -38.64
+  - sharpe_ratio: 0.08
+  - win_rate: 0.0
+  - trades: 0
+
+Working Backtest V22
+Status: FAILED
+Duration: 0.03s
+
+V25 Enhanced Backtest
+Status: FAILED
+Duration: 0.03s
+
+V27 ML Framework
+Status: FAILED
+Duration: 0.04s
+
+Basic Trading Demo
+Status: SUCCESS
+Duration: 0.68s
+Metrics:
+  - total_return: 1.03
+  - sharpe_ratio: 0.00
+  - win_rate: 0.00
+  - trades: 7
+  - profit: 0.00
+
+TLT HF Backtest
+Status: FAILED
+Duration: 0.03s
+
+Comprehensive System Test
+Status: FAILED
+Duration: 3.86s
+
+TLT 3-Year Historical
+Status: FAILED
+Duration: 1.11s
+
+TLT IV Algorithm Test
+Status: FAILED
+Duration: 0.72s

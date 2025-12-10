@@ -1,0 +1,58 @@
+{
+  "data_provider": {
+    "class": "AdvancedDataProvider",
+    "params": {
+      "use_cache": true,
+      "cache_ttl": 60
+    }
+  },
+  "ml_models": {
+    "transformer": {
+      "class": "MarketTransformer",
+      "params": {
+        "hidden_dim": 256,
+        "num_heads": 8,
+        "num_layers": 6
+      }
+    },
+    "ensemble": {
+      "class": "EnsembleTradingModel",
+      "models": [
+        "xgboost",
+        "lightgbm",
+        "neural_net",
+        "random_forest"
+      ]
+    }
+  },
+  "options": {
+    "calculator": {
+      "class": "AdvancedGreeksCalculator",
+      "use_quantlib": true
+    },
+    "risk_manager": {
+      "class": "OptionsRiskManager"
+    }
+  },
+  "execution": {
+    "algorithms": {
+      "twap": {
+        "class": "AdvancedTWAP",
+        "default_duration": 60,
+        "adapt_to_volume": true
+      },
+      "vwap": {
+        "class": "AdvancedVWAP",
+        "lookback_days": 20,
+        "participation_rate": 0.1
+      },
+      "is": {
+        "class": "ImplementationShortfall",
+        "risk_aversion": 1.0
+      }
+    },
+    "router": {
+      "class": "SmartOrderRouter"
+    }
+  }
+}

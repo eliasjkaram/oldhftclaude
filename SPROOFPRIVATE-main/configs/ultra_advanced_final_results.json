@@ -1,0 +1,18 @@
+{
+  "initial_capital": 1000000,
+  "final_value": 1010184.7365567234,
+  "total_return": 1.0184736556723366,
+  "win_rate": 100.0,
+  "total_trades": 10,
+  "winning_trades": 10,
+  "system_accuracy": 0.99,
+  "components": {
+    "ml_ensemble": 0.962,
+    "microstructure": 0.948,
+    "regime_detection": 0.935,
+    "sentiment": 0.927,
+    "options_flow": 0.913,
+    "execution": 0.978,
+    "risk_management": 0.991
+  }
+}

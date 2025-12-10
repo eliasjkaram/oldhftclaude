@@ -1,0 +1,80 @@
+{
+  "strategy": "TLT Covered Call",
+  "period": "2022-01-01 to 2024-12-31",
+  "initial_value": 1200000.0,
+  "final_value": 1289196.5871527581,
+  "strategy_return": 7.433048929396513,
+  "annualized_return": 2.4187097470166563,
+  "buy_hold_return": -2.056713223639973,
+  "excess_return": 9.489762153036486,
+  "premium_collected": 113877.14583643792,
+  "num_trades": 6,
+  "trades": [
+    {
+      "date": "2023-01-18",
+      "action": "SELL_CALL",
+      "current_price": 118.20244188530053,
+      "strike": 121.74851514185954,
+      "premium": 18790.23551722363,
+      "hv": 0.1589665595526107,
+      "hv_percentile": 0.9325396825396826,
+      "expiry_price": 118.13472718010759,
+      "assigned": false
+    },
+    {
+      "date": "2023-07-13",
+      "action": "SELL_CALL",
+      "current_price": 130.82416649464108,
+      "strike": 134.74889148948031,
+      "premium": 18744.292813710443,
+      "hv": 0.14327851891552668,
+      "hv_percentile": 0.8015873015873016,
+      "expiry_price": 131.57710351573132,
+      "assigned": false
+    },
+    {
+      "date": "2023-09-11",
+      "action": "SELL_CALL",
+      "current_price": 135.18617658780764,
+      "strike": 139.24176188544186,
+      "premium": 20818.625777363523,
+      "hv": 0.15399966403991885,
+      "hv_percentile": 0.8968253968253969,
+      "expiry_price": 128.24593644553255,
+      "assigned": false
+    },
+    {
+      "date": "2023-11-08",
+      "action": "SELL_CALL",
+      "current_price": 128.92440955627492,
+      "strike": 132.79214184296316,
+      "premium": 20079.544995157947,
+      "hv": 0.15574665080310737,
+      "hv_percentile": 0.9246031746031746,
+      "expiry_price": 129.23047627230608,
+      "assigned": false
+    },
+    {
+      "date": "2024-07-01",
+      "action": "SELL_CALL",
+      "current_price": 120.4321752348089,
+      "strike": 124.04514049185316,
+      "premium": 17814.32394403886,
+      "hv": 0.1479199716297238,
+      "hv_percentile": 0.8293650793650794,
+      "expiry_price": 119.60693157786827,
+      "assigned": false
+    },
+    {
+      "date": "2024-07-30",
+      "action": "SELL_CALL",
+      "current_price": 119.60693157786827,
+      "strike": 123.19513952520431,
+      "premium": 17630.12278894352,
+      "hv": 0.14740051062563791,
+      "hv_percentile": 0.8015873015873016,
+      "expiry_price": 119.07974459108681,
+      "assigned": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "generated_at": "2025-06-16T14:18:12.116786",
+  "bucket_name": "stockdb",
+  "endpoint": "https://uschristmas.us",
+  "directory_analyzed": "options_complete/",
+  "analysis_results": {
+    "directory_found": false,
+    "root_directories": [
+      "financials",
+      "us_financials",
+      "samples",
+      "options-2010",
+      "stocks-2010-2025",
+      "aws_backup",
+      "options",
+      "options-complete"
+    ],
+    "options_related_directories": [
+      "options-2010",
+      "options",
+      "options-complete"
+    ]
+  },
+  "summary": {
+    "directory_exists": false,
+    "key_metrics": {},
+    "recommendations": []
+  }
+}

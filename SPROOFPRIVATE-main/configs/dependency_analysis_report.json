@@ -1,0 +1,165 @@
+{
+  "enhanced_ultimate_engine.py": {
+    "description": "Institutional-grade engine",
+    "external_libraries": [
+      "alpaca",
+      "asyncio",
+      "cupy",
+      "datetime",
+      "json",
+      "lightgbm",
+      "logging",
+      "numpy",
+      "pandas",
+      "quantlib",
+      "scipy",
+      "sklearn",
+      "sqlite3",
+      "threading",
+      "time",
+      "torch",
+      "warnings",
+      "websocket",
+      "xgboost",
+      "yfinance"
+    ],
+    "local_imports": [
+      "cupy",
+      "universal_market_data"
+    ],
+    "stats": {
+      "external_lib_count": 20,
+      "local_import_count": 2
+    }
+  },
+  "FINAL_ULTIMATE_COMPLETE_SYSTEM.py": {
+    "description": "Most complete system",
+    "external_libraries": [
+      "alpaca",
+      "asyncio",
+      "datetime",
+      "json",
+      "logging",
+      "numpy",
+      "os",
+      "pandas",
+      "queue",
+      "sqlite3",
+      "sys",
+      "threading",
+      "time",
+      "tkinter",
+      "warnings"
+    ],
+    "local_imports": [
+      "comprehensive_data_validation",
+      "universal_market_data"
+    ],
+    "stats": {
+      "external_lib_count": 15,
+      "local_import_count": 2
+    }
+  },
+  "enhanced_trading_gui.py": {
+    "description": "Best UI",
+    "external_libraries": [
+      "alpaca",
+      "asyncio",
+      "cupy",
+      "datetime",
+      "json",
+      "matplotlib",
+      "numpy",
+      "os",
+      "pandas",
+      "queue",
+      "requests",
+      "seaborn",
+      "threading",
+      "time",
+      "tkinter",
+      "warnings"
+    ],
+    "local_imports": [
+      "advanced_risk_management_system",
+      "comprehensive_backtesting_suite",
+      "cupy",
+      "monte_carlo_backtesting",
+      "portfolio_optimization_mpt",
+      "robust_data_fetcher",
+      "sentiment_analysis_system",
+      "system_verification_validator",
+      "universal_market_data",
+      "v27_lightweight_ml_models"
+    ],
+    "stats": {
+      "external_lib_count": 16,
+      "local_import_count": 10
+    }
+  },
+  "ULTIMATE_COMPLEX_TRADING_GUI.py": {
+    "description": "Most features",
+    "external_libraries": [
+      "aiohttp",
+      "asyncio",
+      "datetime",
+      "json",
+      "logging",
+      "matplotlib",
+      "numpy",
+      "os",
+      "pandas",
+      "queue",
+      "requests",
+      "seaborn",
+      "sqlite3",
+      "sys",
+      "threading",
+      "time",
+      "tkinter",
+      "warnings",
+      "yfinance"
+    ],
+    "local_imports": [
+      "universal_market_data"
+    ],
+    "stats": {
+      "external_lib_count": 19,
+      "local_import_count": 1
+    }
+  },
+  "ULTIMATE_AI_TRADING_SYSTEM_COMPLETE.py": {
+    "description": "AI focus",
+    "external_libraries": [
+      "aiohttp",
+      "alpaca",
+      "asyncio",
+      "datetime",
+      "json",
+      "logging",
+      "minio",
+      "numpy",
+      "os",
+      "pandas",
+      "requests",
+      "sklearn",
+      "threading",
+      "time",
+      "tkinter",
+      "torch",
+      "warnings",
+      "xgboost",
+      "yfinance"
+    ],
+    "local_imports": [
+      "comprehensive_data_validation",
+      "minio_config",
+      "real_alpaca_config",
+      "universal_market_data"
+    ],
+    "stats": {
+      "external_lib_count": 19,
+      "local_import_count": 4
+    }
+  }
+}

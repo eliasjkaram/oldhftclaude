@@ -1,0 +1,23 @@
+{
+  "data_source": "MinIO - uschristmas.us",
+  "data_file": "stocks-2010-2025/TLT.csv",
+  "period": "2015-01-01 to 2023-12-31",
+  "trading_days": 2241,
+  "price_data": {
+    "start_price": 127.32,
+    "end_price": 98.88,
+    "min_price": 82.77,
+    "max_price": 171.57
+  },
+  "performance": {
+    "strategy_return": -3.959265222848792,
+    "buy_hold_return": -22.33741753063148,
+    "excess_return": 18.37815230778269,
+    "annualized_return": -0.655813492075541,
+    "sharpe_ratio": 2.3100340781982625,
+    "total_premium": 233990.63518268912,
+    "num_trades": 49,
+    "assigned_trades": 7,
+    "win_rate": 85.71428571428571
+  }
+}

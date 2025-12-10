@@ -1,0 +1,39 @@
+{
+  "order_types": {
+    "single_leg": {
+      "use_limit_orders": true,
+      "price_improvement": 0.01,
+      "time_in_force": "DAY"
+    },
+    "multi_leg": {
+      "use_net_debit_credit": true,
+      "leg_priority": "simultaneous",
+      "partial_fills": false
+    }
+  },
+  "smart_routing": {
+    "enabled": true,
+    "prefer_exchanges": [
+      "CBOE",
+      "ISE",
+      "PHLX"
+    ],
+    "avoid_illiquid_series": true
+  },
+  "execution_timing": {
+    "avoid_first_hour": true,
+    "avoid_last_hour": true,
+    "preferred_times": [
+      "10:30-11:30",
+      "14:00-15:00"
+    ],
+    "avoid_expiration_friday": true
+  },
+  "slippage_controls": {
+    "max_slippage_single": 0.05,
+    "max_slippage_spread": 0.1,
+    "cancel_if_market_moved": true
+  },
+  "data_source": "MinIO market microstructure analysis",
+  "last_updated": "2025-06-16T12:12:21.307511"
+}

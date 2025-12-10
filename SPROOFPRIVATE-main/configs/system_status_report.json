@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-06-16T21:10:05.465663",
+  "system_check": {
+    "backend_tests": true
+  },
+  "dependencies": {
+    "all_available": false
+  },
+  "backend_components": {
+    "complete_gui_backend": true,
+    "complete_system_integration": true,
+    "enhanced_data_fetcher": true,
+    "enhanced_backtesting_system": true,
+    "concrete_price_providers": true,
+    "concrete_execution_algorithms": true,
+    "concrete_market_regime_models": true
+  },
+  "gpu_support": {
+    "cupy": true,
+    "pytorch": true,
+    "tensorflow": false,
+    "available": true,
+    "device_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "device_count": 1
+  },
+  "configuration": {
+    "initial_capital": 100000,
+    "alpaca_enabled": false,
+    "openrouter_api_key": null,
+    "commission_rate": 0.005,
+    "execution_duration_minutes": 60,
+    "participation_rate": 0.2,
+    "lookback_window": 252,
+    "volatility_window": 20,
+    "high_vol_threshold": 0.02,
+    "low_vol_threshold": 0.01,
+    "risk_limit": 0.02,
+    "position_limit": 0.1,
+    "stop_loss": 0.05,
+    "take_profit": 0.1,
+    "model_weights": {
+      "volatility": 0.6,
+      "trend": 0.4
+    },
+    "gpu_acceleration": true,
+    "ml_models": {
+      "ensemble_size": 5,
+      "training_window": 1000,
+      "retraining_frequency": "weekly"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "enhanced_features": [
+    "symbol",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "adjust_close",
+    "price_range",
+    "close_to_high",
+    "close_to_low",
+    "open_close_ratio",
+    "volume_zscore",
+    "volume_rank",
+    "bid_ask_proxy",
+    "price_efficiency",
+    "relative_volume",
+    "relative_price"
+  ],
+  "feature_stats": {
+    "total_features": 17,
+    "total_samples": 5834,
+    "price_features": [
+      "price_range",
+      "price_efficiency",
+      "relative_price"
+    ],
+    "volume_features": [
+      "volume",
+      "volume_zscore",
+      "volume_rank",
+      "relative_volume"
+    ],
+    "microstructure_features": [
+      "bid_ask_proxy",
+      "price_efficiency"
+    ]
+  },
+  "training_config": {
+    "use_enhanced_features": true,
+    "feature_path": "./enhanced_algorithms/ml_training_features.csv",
+    "validation_split": 0.2,
+    "feature_scaling": "robust"
+  },
+  "data_source": "MinIO feature engineering",
+  "last_updated": "2025-06-16T12:12:29.476103"
+}

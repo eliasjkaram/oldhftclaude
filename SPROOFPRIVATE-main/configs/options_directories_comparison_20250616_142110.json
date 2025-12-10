@@ -1,0 +1,451 @@
+{
+  "generated_at": "2025-06-16T14:21:10.051690",
+  "bucket_name": "stockdb",
+  "endpoint": "https://uschristmas.us",
+  "directories_analyzed": [
+    "options/",
+    "options-complete/",
+    "options-2010/"
+  ],
+  "analysis_results": {
+    "individual_analysis": {
+      "options/": {
+        "found": true,
+        "total_objects": 3844,
+        "total_size_bytes": 41284014508,
+        "total_size_gb": 38.44873468205333,
+        "file_analysis": {
+          "extensions": {
+            "csv": 3844
+          },
+          "file_count": 3844,
+          "avg_size_mb": 10.24232682477175,
+          "total_size_gb": 38.44873468205333
+        },
+        "year_coverage": {
+          "years_found": [
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "year_range": [
+            2002,
+            2009
+          ],
+          "total_years": 8,
+          "year_counts": {
+            "2002": 636,
+            "2003": 1008,
+            "2004": 1008,
+            "2005": 1008,
+            "2006": 1004,
+            "2007": 1004,
+            "2008": 1012,
+            "2009": 1008
+          },
+          "target_coverage_pct": 6.25
+        },
+        "structure": {
+          "subdirectories": [
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009"
+          ],
+          "subdir_count": 8,
+          "depth_distribution": {
+            "1": 3844
+          }
+        },
+        "samples": [
+          {
+            "filename": "options/2002/2002-05-01options.csv",
+            "size_mb": 11.922198295593262,
+            "last_modified": "2025-06-16 12:07:18.859000+00:00"
+          },
+          {
+            "filename": "options/2002/2002-05-01stocks.csv",
+            "size_mb": 0.0760641098022461,
+            "last_modified": "2025-06-16 12:07:13.846000+00:00"
+          },
+          {
+            "filename": "options/2002/2002-05-02options.csv",
+            "size_mb": 11.959185600280762,
+            "last_modified": "2025-06-16 12:07:18.859000+00:00"
+          },
+          {
+            "filename": "options/2002/2002-05-02stocks.csv",
+            "size_mb": 0.07617473602294922,
+            "last_modified": "2025-06-16 12:07:13.848000+00:00"
+          },
+          {
+            "filename": "options/2002/2002-05-03options.csv",
+            "size_mb": 11.965778350830078,
+            "last_modified": "2025-06-16 12:07:18.859000+00:00"
+          }
+        ]
+      },
+      "options-complete/": {
+        "found": true,
+        "total_objects": 577,
+        "total_size_bytes": 23597854441,
+        "total_size_gb": 21.977214553393424,
+        "file_analysis": {
+          "extensions": {
+            "csv": 577
+          },
+          "file_count": 577,
+          "avg_size_mb": 39.0028902992632,
+          "total_size_gb": 21.977214553393424
+        },
+        "year_coverage": {
+          "years_found": [
+            2010,
+            2011,
+            2012
+          ],
+          "year_range": [
+            2010,
+            2012
+          ],
+          "total_years": 3,
+          "year_counts": {
+            "2010": 252,
+            "2011": 252,
+            "2012": 73
+          },
+          "target_coverage_pct": 18.75
+        },
+        "structure": {
+          "subdirectories": [],
+          "subdir_count": 0,
+          "depth_distribution": {
+            "0": 577
+          }
+        },
+        "samples": [
+          {
+            "filename": "options-complete/2010-01-04options.csv",
+            "size_mb": 30.824421882629395,
+            "last_modified": "2025-06-16 12:15:05.559000+00:00"
+          },
+          {
+            "filename": "options-complete/2010-01-05options.csv",
+            "size_mb": 31.007973670959473,
+            "last_modified": "2025-06-16 12:15:04.171000+00:00"
+          },
+          {
+            "filename": "options-complete/2010-01-06options.csv",
+            "size_mb": 31.137904167175293,
+            "last_modified": "2025-06-16 12:15:05.562000+00:00"
+          },
+          {
+            "filename": "options-complete/2010-01-07options.csv",
+            "size_mb": 31.18563938140869,
+            "last_modified": "2025-06-16 12:15:03.570000+00:00"
+          },
+          {
+            "filename": "options-complete/2010-01-08options.csv",
+            "size_mb": 31.24742317199707,
+            "last_modified": "2025-06-16 12:15:05.560000+00:00"
+          }
+        ]
+      },
+      "options-2010/": {
+        "found": true,
+        "total_objects": 38,
+        "total_size_bytes": 1169261832,
+        "total_size_gb": 1.088959939777851,
+        "file_analysis": {
+          "extensions": {
+            "csv": 38
+          },
+          "file_count": 38,
+          "avg_size_mb": 29.344604692961042,
+          "total_size_gb": 1.088959939777851
+        },
+        "year_coverage": {
+          "years_found": [
+            2010
+          ],
+          "year_range": [
+            2010,
+            2010
+          ],
+          "total_years": 1,
+          "year_counts": {
+            "2010": 76
+          },
+          "target_coverage_pct": 6.25
+        },
+        "structure": {
+          "subdirectories": [],
+          "subdir_count": 0,
+          "depth_distribution": {
+            "0": 38
+          }
+        },
+        "samples": [
+          {
+            "filename": "options-2010/2010-01-04options.csv",
+            "size_mb": 30.824421882629395,
+            "last_modified": "2025-06-16 12:12:59.296000+00:00"
+          },
+          {
+            "filename": "options-2010/2010-01-05options.csv",
+            "size_mb": 31.007973670959473,
+            "last_modified": "2025-06-16 12:12:56.923000+00:00"
+          },
+          {
+            "filename": "options-2010/2010-01-06options.csv",
+            "size_mb": 31.137904167175293,
+            "last_modified": "2025-06-16 12:12:56.341000+00:00"
+          },
+          {
+            "filename": "options-2010/2010-01-07options.csv",
+            "size_mb": 31.18563938140869,
+            "last_modified": "2025-06-16 12:12:59.297000+00:00"
+          },
+          {
+            "filename": "options-2010/2010-01-08options.csv",
+            "size_mb": 31.24742317199707,
+            "last_modified": "2025-06-16 12:12:59.297000+00:00"
+          }
+        ]
+      }
+    },
+    "comparison": {
+      "summary_table": {
+        "options/": {
+          "files": 3844,
+          "size_gb": 38.44873468205333,
+          "years": 8,
+          "year_range": [
+            2002,
+            2009
+          ],
+          "target_coverage_pct": 6.25
+        },
+        "options-complete/": {
+          "files": 577,
+          "size_gb": 21.977214553393424,
+          "years": 3,
+          "year_range": [
+            2010,
+            2012
+          ],
+          "target_coverage_pct": 18.75
+        },
+        "options-2010/": {
+          "files": 38,
+          "size_gb": 1.088959939777851,
+          "years": 1,
+          "year_range": [
+            2010,
+            2010
+          ],
+          "target_coverage_pct": 6.25
+        }
+      },
+      "year_coverage_comparison": {},
+      "size_comparison": {},
+      "best_for_purpose": {
+        "best_2009_2024_coverage": "options-complete/",
+        "most_data_volume": "options/",
+        "most_recent_data": "options-complete/"
+      }
+    },
+    "recommendations": [
+      "\u26a0\ufe0f  Limited historical coverage. Consider combining multiple directories or finding additional data sources",
+      "\ud83d\udcca options/ has the most data volume - good for data-intensive analysis",
+      "\ud83d\udd0d Download samples from each directory to verify data quality and format consistency",
+      "\ud83d\udd27 Consider creating a unified data access layer that can pull from the best source for each time period"
+    ],
+    "sample_downloads": {
+      "options/": [
+        {
+          "original_filename": "options/2002/2002-05-01options.csv",
+          "local_path": "/tmp/comparison_options__0_2002-05-01options.csv",
+          "analysis": {
+            "local_size_mb": 11.922198295593262,
+            "file_type": "csv",
+            "columns": [
+              "contract",
+              "underlying",
+              "expiration",
+              "type",
+              "strike",
+              "style",
+              "bid",
+              "bid_size",
+              "ask",
+              "ask_size",
+              "volume",
+              "open_interest",
+              "quote_date",
+              "delta",
+              "gamma",
+              "theta",
+              "vega",
+              "implied_volatility"
+            ],
+            "sample_rows": 100,
+            "estimated_total_rows": 117409
+          }
+        },
+        {
+          "original_filename": "options/2002/2002-05-01stocks.csv",
+          "local_path": "/tmp/comparison_options__1_2002-05-01stocks.csv",
+          "analysis": {
+            "local_size_mb": 0.0760641098022461,
+            "file_type": "csv",
+            "columns": [
+              "symbol",
+              "open",
+              "high",
+              "low",
+              "close",
+              "volume",
+              "adjust_close"
+            ],
+            "sample_rows": 100,
+            "estimated_total_rows": 2218
+          }
+        }
+      ],
+      "options-complete/": [
+        {
+          "original_filename": "options-complete/2010-01-04options.csv",
+          "local_path": "/tmp/comparison_options-complete__0_2010-01-04options.csv",
+          "analysis": {
+            "local_size_mb": 30.824421882629395,
+            "file_type": "csv",
+            "columns": [
+              "contract",
+              "underlying",
+              "expiration",
+              "type",
+              "strike",
+              "style",
+              "bid",
+              "bid_size",
+              "ask",
+              "ask_size",
+              "volume",
+              "open_interest",
+              "quote_date",
+              "delta",
+              "gamma",
+              "theta",
+              "vega",
+              "implied_volatility"
+            ],
+            "sample_rows": 100,
+            "estimated_total_rows": 312837
+          }
+        },
+        {
+          "original_filename": "options-complete/2010-01-05options.csv",
+          "local_path": "/tmp/comparison_options-complete__1_2010-01-05options.csv",
+          "analysis": {
+            "local_size_mb": 31.007973670959473,
+            "file_type": "csv",
+            "columns": [
+              "contract",
+              "underlying",
+              "expiration",
+              "type",
+              "strike",
+              "style",
+              "bid",
+              "bid_size",
+              "ask",
+              "ask_size",
+              "volume",
+              "open_interest",
+              "quote_date",
+              "delta",
+              "gamma",
+              "theta",
+              "vega",
+              "implied_volatility"
+            ],
+            "sample_rows": 100,
+            "estimated_total_rows": 313273
+          }
+        }
+      ],
+      "options-2010/": [
+        {
+          "original_filename": "options-2010/2010-01-04options.csv",
+          "local_path": "/tmp/comparison_options-2010__0_2010-01-04options.csv",
+          "analysis": {
+            "local_size_mb": 30.824421882629395,
+            "file_type": "csv",
+            "columns": [
+              "contract",
+              "underlying",
+              "expiration",
+              "type",
+              "strike",
+              "style",
+              "bid",
+              "bid_size",
+              "ask",
+              "ask_size",
+              "volume",
+              "open_interest",
+              "quote_date",
+              "delta",
+              "gamma",
+              "theta",
+              "vega",
+              "implied_volatility"
+            ],
+            "sample_rows": 100,
+            "estimated_total_rows": 312837
+          }
+        },
+        {
+          "original_filename": "options-2010/2010-01-05options.csv",
+          "local_path": "/tmp/comparison_options-2010__1_2010-01-05options.csv",
+          "analysis": {
+            "local_size_mb": 31.007973670959473,
+            "file_type": "csv",
+            "columns": [
+              "contract",
+              "underlying",
+              "expiration",
+              "type",
+              "strike",
+              "style",
+              "bid",
+              "bid_size",
+              "ask",
+              "ask_size",
+              "volume",
+              "open_interest",
+              "quote_date",
+              "delta",
+              "gamma",
+              "theta",
+              "vega",
+              "implied_volatility"
+            ],
+            "sample_rows": 100,
+            "estimated_total_rows": 313273
+          }
+        }
+      ]
+    }
+  }
+}

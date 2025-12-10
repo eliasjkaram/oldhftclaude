@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-06-12T23:18:04.386042",
+  "categories": {
+    "unusual_activity": [],
+    "highest_iv": [],
+    "most_active": []
+  },
+  "top_symbols": [
+    {
+      "symbol": "SPY",
+      "score": 1.0
+    },
+    {
+      "symbol": "QQQ",
+      "score": 1.0
+    },
+    {
+      "symbol": "AAPL",
+      "score": 1.0
+    },
+    {
+      "symbol": "TSLA",
+      "score": 1.0
+    },
+    {
+      "symbol": "NVDA",
+      "score": 1.0
+    },
+    {
+      "symbol": "AMD",
+      "score": 1.0
+    },
+    {
+      "symbol": "MSFT",
+      "score": 1.0
+    },
+    {
+      "symbol": "AMZN",
+      "score": 1.0
+    },
+    {
+      "symbol": "META",
+      "score": 1.0
+    },
+    {
+      "symbol": "GOOGL",
+      "score": 1.0
+    },
+    {
+      "symbol": "BAC",
+      "score": 1.0
+    },
+    {
+      "symbol": "F",
+      "score": 1.0
+    },
+    {
+      "symbol": "PLTR",
+      "score": 1.0
+    },
+    {
+      "symbol": "NIO",
+      "score": 1.0
+    },
+    {
+      "symbol": "SOFI",
+      "score": 1.0
+    }
+  ],
+  "trading_signals": []
+}

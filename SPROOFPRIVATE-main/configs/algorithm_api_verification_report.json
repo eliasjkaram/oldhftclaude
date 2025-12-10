@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-13T23:14:38.304492",
+  "summary": {
+    "total_algorithm_files": 420,
+    "files_with_trading_logic": 268,
+    "files_with_options_logic": 331,
+    "files_with_modern_api": 216,
+    "files_with_issues": 1,
+    "modernization_rate": 0.5142857142857142,
+    "issue_rate": 0.002380952380952381
+  },
+  "categories": {
+    "trading_bots": 86,
+    "options_systems": 331,
+    "ai_ml_systems": 411,
+    "arbitrage_systems": 13,
+    "portfolio_systems": 3,
+    "risk_systems": 4,
+    "data_systems": 13,
+    "gpu_systems": 13,
+    "strategy_systems": 14,
+    "other_systems": 0
+  },
+  "issue_breakdown": {
+    "Uses deprecated alpaca_trade_api imports": 1
+  },
+  "enhancement_breakdown": {
+    "Uses modern TradingClient": 216,
+    "Uses correct underlying_symbols parameter": 19,
+    "Uses correct string strike prices": 6,
+    "Supports multi-leg orders": 6
+  },
+  "top_performing_files": [
+    {
+      "file": "real_options_bot.py",
+      "score": 20,
+      "enhancements": 2,
+      "issues": 0
+    },
+    {
+      "file": "production_options_executor.py",
+      "score": 16,
+      "enhancements": 2,
+      "issues": 0
+    },
+    {
+      "file": "demo_updated_options_trader.py",
+      "score": 14,
+      "enhancements": 4,
+      "issues": 0
+    },
+    {
+      "file": "enhanced_multi_strategy_bot.py",
+      "score": 14,
+      "enhancements": 4,
+      "issues": 0
+    },
+    {
+      "file": "enhanced_trading_bot_template.py",
+      "score": 14,
+      "enhancements": 4,
+      "issues": 0
+    },
+    {
+      "file": "advanced_options_strategy_system.py",
+      "score": 13,
+      "enhancements": 4,
+      "issues": 0
+    },
+    {
+      "file": "alpaca_options_trader_v2.py",
+      "score": 12,
+      "enhancements": 3,
+      "issues": 0
+    },
+    {
+      "file": "real_alpaca_options_trader.py",
+      "score": 10,
+      "enhancements": 3,
+      "issues": 0
+    },
+    {
+      "file": "real_options_spreads_trader.py",
+      "score": 10,
+      "enhancements": 3,
+      "issues": 0
+    },
+    {
+      "file": "enhanced_options_bot.py",
+      "score": 9,
+      "enhancements": 2,
+      "issues": 0
+    }
+  ],
+  "files_needing_attention": [
+    {
+      "file": "verify_all_algorithms_api_usage.py",
+      "issues": [
+        "Uses deprecated alpaca_trade_api imports"
+      ],
+      "score": 1
+    }
+  ]
+}

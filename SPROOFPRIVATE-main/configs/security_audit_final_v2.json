@@ -1,0 +1,497 @@
+{
+  "audit_time": "2025-06-17T12:09:29.209355",
+  "issues_found": [
+    {
+      "file": "/home/harry/alpaca-mcp/test_hft_microstructure.py",
+      "line": 44,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'alpaca_api_key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/test_hft_microstructure.py",
+      "line": 45,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'alpaca_secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/transformer_prediction_system.py",
+      "line": 237,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'alpaca_api_key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/transformer_prediction_system.py",
+      "line": 238,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'alpaca_secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_security.py",
+      "line": 47,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "('paper_trading_bot.py', 45, '<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_security.py",
+      "line": 47,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "('paper_trading_bot.py', 45, '<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_security.py",
+      "line": 48,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "('arbitrage_scanner.py', 42, '<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_security.py",
+      "line": 48,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "('arbitrage_scanner.py', 42, '<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_security.py",
+      "line": 49,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "('market_data_collector.py', 42, '<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_security.py",
+      "line": 49,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "('market_data_collector.py', 42, '<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_credentials.py",
+      "line": 54,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "r\"['\\\"]<ALPACA_PAPER_KEY>['\\\"]\","
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_credentials.py",
+      "line": 61,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "r\"['\\\"]<ALPACA_PAPER_SECRET>['\\\"]\","
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_credentials.py",
+      "line": 68,
+      "type": "Hardcoded Alpaca Live API Key",
+      "preview": "r\".*?<ALPACA_LIVE_KEY>.*?\"]\","
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_credentials.py",
+      "line": 75,
+      "type": "Hardcoded Alpaca Live Secret",
+      "preview": "r\"['\\\"]<ALPACA_LIVE_SECRET>['\\\"]\","
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_credentials.py",
+      "line": 82,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "r\".*?<ALPACA_PAPER_KEY>.*?\"]\","
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_credentials.py",
+      "line": 156,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_credentials.py",
+      "line": 156,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/paper_trading_bot.py",
+      "line": 52,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "self.trading_client = TradingClient('<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>', paper=True)"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/paper_trading_bot.py",
+      "line": 52,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "self.trading_client = TradingClient('<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>', paper=True)"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/final_credential_cleanup.py",
+      "line": 22,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "('<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_KEY>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/final_credential_cleanup.py",
+      "line": 23,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "('<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_KEY>'),  # Another paper key variant"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/final_credential_cleanup.py",
+      "line": 24,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "('<ALPACA_PAPER_SECRET>', '<ALPACA_PAPER_SECRET>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/final_credential_cleanup.py",
+      "line": 25,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "('<ALPACA_PAPER_SECRET>', '<ALPACA_PAPER_SECRET>'),  # Another variant"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/final_credential_cleanup.py",
+      "line": 28,
+      "type": "Hardcoded Alpaca Live API Key",
+      "preview": "('<ALPACA_LIVE_KEY>', '<ALPACA_LIVE_KEY>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/final_credential_cleanup.py",
+      "line": 29,
+      "type": "Hardcoded Alpaca Live Secret",
+      "preview": "('<ALPACA_LIVE_SECRET>', '<ALPACA_LIVE_SECRET>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/final_credential_cleanup.py",
+      "line": 32,
+      "type": "Hardcoded MinIO Access Key",
+      "preview": "('<MINIO_ACCESS_KEY>', '<MINIO_ACCESS_KEY>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/final_credential_cleanup.py",
+      "line": 33,
+      "type": "Hardcoded MinIO Secret",
+      "preview": "('<MINIO_SECRET_KEY>', '<MINIO_SECRET_KEY>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/final_credential_cleanup.py",
+      "line": 34,
+      "type": "Hardcoded MinIO Root User",
+      "preview": "('<MINIO_ROOT_USER>', '<MINIO_ROOT_USER>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/final_credential_cleanup.py",
+      "line": 35,
+      "type": "Hardcoded MinIO Root Password",
+      "preview": "('<MINIO_ROOT_PASSWORD>', '<MINIO_ROOT_PASSWORD>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/final_credential_cleanup.py",
+      "line": 38,
+      "type": "Hardcoded OpenRouter Key",
+      "preview": "('<OPENROUTER_KEY>', '<OPENROUTER_KEY>'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/autonomous_trading_engine.py",
+      "line": 775,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/autonomous_trading_engine.py",
+      "line": 776,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/system_demo_final.py",
+      "line": 126,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "print(\"      Key: <ALPACA_PAPER_KEY>\")"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/system_demo_final.py",
+      "line": 130,
+      "type": "Hardcoded Alpaca Live API Key",
+      "preview": "print(\"      Key: <ALPACA_LIVE_KEY>\")"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_all_credentials.py",
+      "line": 31,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "(r\"['\\\"]<ALPACA_PAPER_KEY>['\\\"]\", \"ALPACA_PAPER_KEY\"),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_all_credentials.py",
+      "line": 32,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "(r\"['\\\"]<ALPACA_PAPER_SECRET>['\\\"]\", \"ALPACA_PAPER_SECRET\"),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_all_credentials.py",
+      "line": 33,
+      "type": "Hardcoded Alpaca Live API Key",
+      "preview": "(r\".*?<ALPACA_LIVE_KEY>.*?\"]\", \"ALPACA_LIVE_KEY\"),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_all_credentials.py",
+      "line": 34,
+      "type": "Hardcoded Alpaca Live Secret",
+      "preview": "(r\"['\\\"]<ALPACA_LIVE_SECRET>['\\\"]\", \"ALPACA_LIVE_SECRET\"),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_all_credentials.py",
+      "line": 113,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "r\"self\\.alpaca_paper = tradeapi\\.TradingClient\\('<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>', paper"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_all_credentials.py",
+      "line": 113,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "r\"self\\.alpaca_paper = tradeapi\\.TradingClient\\('<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>', paper"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/dgm_enhanced_trading_system.py",
+      "line": 1209,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'alpaca_api_key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/dgm_enhanced_trading_system.py",
+      "line": 1210,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'alpaca_secret': '<ALPACA_PAPER_SECRET>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/run_enhanced_bot.py",
+      "line": 99,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "print(\"ALPACA_PAPER_API_KEY=<ALPACA_PAPER_KEY>\")"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/run_enhanced_bot.py",
+      "line": 100,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "print(\"ALPACA_PAPER_API_SECRET=<ALPACA_PAPER_SECRET>\")"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/test_gpu_dsg_evolution.py",
+      "line": 45,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'alpaca_api_key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/test_gpu_dsg_evolution.py",
+      "line": 46,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'alpaca_secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/production_test_historical_30days.py",
+      "line": 77,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'alpaca_api_key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/production_test_historical_30days.py",
+      "line": 78,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'alpaca_secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/cross_platform_validator.py",
+      "line": 60,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "self.alpaca_paper = TradingClient('<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>', paper=True)"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/cross_platform_validator.py",
+      "line": 60,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "self.alpaca_paper = TradingClient('<ALPACA_PAPER_KEY>', '<ALPACA_PAPER_SECRET>', paper=True)"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/production_test_gpu_dsg_evolution.py",
+      "line": 72,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'alpaca_api_key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/production_test_gpu_dsg_evolution.py",
+      "line": 73,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'alpaca_secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/arbitrage_scanner.py",
+      "line": 57,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'alpaca_api_key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/arbitrage_scanner.py",
+      "line": 58,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'alpaca_secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/production_system_demo_final.py",
+      "line": 127,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "logger.info(\"      Key: <ALPACA_PAPER_KEY>\")"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/production_system_demo_final.py",
+      "line": 131,
+      "type": "Hardcoded Alpaca Live API Key",
+      "preview": "logger.info(\"      Key: <ALPACA_LIVE_KEY>\")"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/test_historical_30days.py",
+      "line": 50,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'alpaca_api_key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/test_historical_30days.py",
+      "line": 51,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'alpaca_secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/enhanced_trading_system.py",
+      "line": 267,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/enhanced_trading_system.py",
+      "line": 268,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/robust_data_fetcher.py",
+      "line": 406,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'alpaca_api_key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/robust_data_fetcher.py",
+      "line": 407,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'alpaca_secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/ultimate_bot_with_scraper.py",
+      "line": 119,
+      "type": "Potential Secret Key",
+      "preview": "secret_key=\"minioadmin\","
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/run_gui.py",
+      "line": 62,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "f.write(\"ALPACA_PAPER_API_KEY=<ALPACA_PAPER_KEY>\\n\")"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/run_gui.py",
+      "line": 63,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "f.write(\"ALPACA_PAPER_API_SECRET=<ALPACA_PAPER_SECRET>\\n\")"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/run_gui.py",
+      "line": 65,
+      "type": "Hardcoded Alpaca Live API Key",
+      "preview": "f.write(\"# ALPACA_LIVE_API_KEY=<ALPACA_LIVE_KEY>\\n\")"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/run_gui.py",
+      "line": 66,
+      "type": "Hardcoded Alpaca Live Secret",
+      "preview": "f.write(\"# ALPACA_LIVE_API_SECRET=<ALPACA_LIVE_SECRET>\\n\")"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/ultra_enhanced_trading_gui.py",
+      "line": 464,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'alpaca_api_key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/ultra_enhanced_trading_gui.py",
+      "line": 465,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'alpaca_secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/production_test_hft_microstructure.py",
+      "line": 71,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "'alpaca_api_key': '<ALPACA_PAPER_KEY>',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/production_test_hft_microstructure.py",
+      "line": 72,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "'alpaca_secret': '<ALPACA_PAPER_SECRET>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_hardcoded_credentials.py",
+      "line": 26,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "(r'self\\.api_key\\s*=\\s*\"<ALPACA_PAPER_KEY>\"',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_hardcoded_credentials.py",
+      "line": 28,
+      "type": "Hardcoded Alpaca Paper Secret",
+      "preview": "(r'self\\.secret_key\\s*=\\s*\"<ALPACA_PAPER_SECRET>\"',"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_hardcoded_credentials.py",
+      "line": 44,
+      "type": "Hardcoded Alpaca Paper API Key",
+      "preview": "(r'r\".*?<ALPACA_PAPER_KEY>.*?\"', 'r\".*?<ALPACA_PAPER_KEY>.*?\"'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_hardcoded_credentials.py",
+      "line": 45,
+      "type": "Hardcoded Alpaca Live API Key",
+      "preview": "(r'r\".*?<ALPACA_LIVE_KEY>.*?\"', 'r\".*?<ALPACA_LIVE_KEY>.*?\"'),"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_hardcoded_credentials.py",
+      "line": 146,
+      "type": "Hardcoded MinIO Access Key",
+      "preview": "'<MINIO_ACCESS_KEY>', '<MINIO_ROOT_USER>'"
+    },
+    {
+      "file": "/home/harry/alpaca-mcp/fix_remaining_hardcoded_credentials.py",
+      "line": 146,
+      "type": "Hardcoded MinIO Root User",
+      "preview": "'<MINIO_ACCESS_KEY>', '<MINIO_ROOT_USER>'"
+    }
+  ],
+  "files_scanned": 22996,
+  "secure_files": 22971,
+  "vulnerable_files": 25,
+  "recommendations": [
+    "\u26a0\ufe0f  Found 77 potential security issues",
+    "\ud83d\udd27 Review and fix the identified issues immediately",
+    "\u2705 .env file exists - ensure it contains your actual credentials",
+    "\ud83d\udd10 Remember to:",
+    "   - Never commit .env files to version control",
+    "   - Rotate API keys regularly",
+    "   - Use environment variables in production",
+    "   - Enable 2FA on all trading accounts"
+  ],
+  "environment_setup": {
+    ".env": {
+      "exists": true,
+      "description": "Environment file exists"
+    },
+    ".env.example": {
+      "exists": true,
+      "description": "Environment template exists"
+    },
+    ".gitignore": {
+      "exists": true,
+      "description": "Gitignore configured",
+      "has_env_rules": true,
+      "has_backup_rules": true,
+      "has_json_rules": true
+    }
+  }
+}

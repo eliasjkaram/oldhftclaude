@@ -1,0 +1,350 @@
+{
+  "generated_at": "2025-06-16T14:19:20.145021",
+  "bucket_name": "stockdb",
+  "endpoint": "https://uschristmas.us",
+  "directory_analyzed": "options-complete/",
+  "analysis_results": {
+    "directory_found": true,
+    "total_objects": 433,
+    "total_size": 16330001895,
+    "file_analysis": {
+      "file_extensions": {
+        "csv": 433
+      },
+      "file_count": 433,
+      "avg_file_size": 37713630.242494226,
+      "total_size": 16330001895,
+      "naming_patterns": {
+        "contains_year": 433,
+        "date_format": 433,
+        "contains_options": 433
+      }
+    },
+    "year_coverage": {
+      "years_found": [
+        2010,
+        2011
+      ],
+      "year_range": [
+        2010,
+        2011
+      ],
+      "year_file_counts": {
+        "2010": 252,
+        "2011": 181
+      },
+      "target_coverage": {
+        "covered_years": [
+          2010,
+          2011
+        ],
+        "missing_years": [
+          2009,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024
+        ],
+        "coverage_percentage": 12.5
+      }
+    },
+    "structure_analysis": {
+      "subdirectories": {},
+      "depth_distribution": {
+        "0": 433
+      },
+      "total_subdirs": 0
+    },
+    "sample_files": {
+      "2010": [
+        {
+          "filename": "options-complete/2010-01-04options.csv",
+          "size_mb": 30.824421882629395,
+          "last_modified": "2025-06-16 12:15:05.559000+00:00"
+        },
+        {
+          "filename": "options-complete/2010-01-05options.csv",
+          "size_mb": 31.007973670959473,
+          "last_modified": "2025-06-16 12:15:04.171000+00:00"
+        },
+        {
+          "filename": "options-complete/2010-01-06options.csv",
+          "size_mb": 31.137904167175293,
+          "last_modified": "2025-06-16 12:15:05.562000+00:00"
+        }
+      ],
+      "2011": [
+        {
+          "filename": "options-complete/2011-01-03options.csv",
+          "size_mb": 36.07183265686035,
+          "last_modified": "2025-06-16 12:17:17.317000+00:00"
+        },
+        {
+          "filename": "options-complete/2011-01-04options.csv",
+          "size_mb": 36.31570911407471,
+          "last_modified": "2025-06-16 12:17:17.797000+00:00"
+        },
+        {
+          "filename": "options-complete/2011-01-05options.csv",
+          "size_mb": 36.47070789337158,
+          "last_modified": "2025-06-16 12:17:17.924000+00:00"
+        }
+      ]
+    },
+    "comparison_with_options": {
+      "comparison_available": true,
+      "options_complete": {
+        "file_count": 433,
+        "total_size": 16330001895
+      },
+      "options_original": {
+        "file_count": 3844,
+        "total_size": 41284014508
+      },
+      "differences": {
+        "file_count_diff": -3411,
+        "size_diff_bytes": -24954012613,
+        "size_diff_gb": -23.240235273726285
+      }
+    },
+    "sample_analysis": [
+      {
+        "filename": "options-complete/2010-01-04options.csv",
+        "local_path": "/tmp/sample_2010-01-04options.csv",
+        "analysis": {
+          "filename": "options-complete/2010-01-04options.csv",
+          "local_size": 32321749,
+          "file_type": "csv",
+          "data_quality": {
+            "columns": [
+              "contract",
+              "underlying",
+              "expiration",
+              "type",
+              "strike",
+              "style",
+              "bid",
+              "bid_size",
+              "ask",
+              "ask_size",
+              "volume",
+              "open_interest",
+              "quote_date",
+              "delta",
+              "gamma",
+              "theta",
+              "vega",
+              "implied_volatility"
+            ],
+            "sample_rows": 1000,
+            "data_types": {
+              "contract": "object",
+              "underlying": "object",
+              "expiration": "object",
+              "type": "object",
+              "strike": "float64",
+              "style": "object",
+              "bid": "float64",
+              "bid_size": "float64",
+              "ask": "float64",
+              "ask_size": "float64",
+              "volume": "int64",
+              "open_interest": "int64",
+              "quote_date": "object",
+              "delta": "float64",
+              "gamma": "float64",
+              "theta": "float64",
+              "vega": "float64",
+              "implied_volatility": "float64"
+            },
+            "null_counts": {
+              "contract": 0,
+              "underlying": 0,
+              "expiration": 0,
+              "type": 0,
+              "strike": 0,
+              "style": 0,
+              "bid": 0,
+              "bid_size": 1000,
+              "ask": 0,
+              "ask_size": 1000,
+              "volume": 0,
+              "open_interest": 0,
+              "quote_date": 0,
+              "delta": 0,
+              "gamma": 0,
+              "theta": 0,
+              "vega": 0,
+              "implied_volatility": 0
+            }
+          }
+        }
+      },
+      {
+        "filename": "options-complete/2010-01-05options.csv",
+        "local_path": "/tmp/sample_2010-01-05options.csv",
+        "analysis": {
+          "filename": "options-complete/2010-01-05options.csv",
+          "local_size": 32514217,
+          "file_type": "csv",
+          "data_quality": {
+            "columns": [
+              "contract",
+              "underlying",
+              "expiration",
+              "type",
+              "strike",
+              "style",
+              "bid",
+              "bid_size",
+              "ask",
+              "ask_size",
+              "volume",
+              "open_interest",
+              "quote_date",
+              "delta",
+              "gamma",
+              "theta",
+              "vega",
+              "implied_volatility"
+            ],
+            "sample_rows": 1000,
+            "data_types": {
+              "contract": "object",
+              "underlying": "object",
+              "expiration": "object",
+              "type": "object",
+              "strike": "float64",
+              "style": "object",
+              "bid": "float64",
+              "bid_size": "float64",
+              "ask": "float64",
+              "ask_size": "float64",
+              "volume": "int64",
+              "open_interest": "int64",
+              "quote_date": "object",
+              "delta": "float64",
+              "gamma": "float64",
+              "theta": "float64",
+              "vega": "float64",
+              "implied_volatility": "float64"
+            },
+            "null_counts": {
+              "contract": 0,
+              "underlying": 0,
+              "expiration": 0,
+              "type": 0,
+              "strike": 0,
+              "style": 0,
+              "bid": 0,
+              "bid_size": 1000,
+              "ask": 0,
+              "ask_size": 1000,
+              "volume": 0,
+              "open_interest": 0,
+              "quote_date": 0,
+              "delta": 0,
+              "gamma": 0,
+              "theta": 0,
+              "vega": 0,
+              "implied_volatility": 0
+            }
+          }
+        }
+      },
+      {
+        "filename": "options-complete/2010-01-06options.csv",
+        "local_path": "/tmp/sample_2010-01-06options.csv",
+        "analysis": {
+          "filename": "options-complete/2010-01-06options.csv",
+          "local_size": 32650459,
+          "file_type": "csv",
+          "data_quality": {
+            "columns": [
+              "contract",
+              "underlying",
+              "expiration",
+              "type",
+              "strike",
+              "style",
+              "bid",
+              "bid_size",
+              "ask",
+              "ask_size",
+              "volume",
+              "open_interest",
+              "quote_date",
+              "delta",
+              "gamma",
+              "theta",
+              "vega",
+              "implied_volatility"
+            ],
+            "sample_rows": 1000,
+            "data_types": {
+              "contract": "object",
+              "underlying": "object",
+              "expiration": "object",
+              "type": "object",
+              "strike": "float64",
+              "style": "object",
+              "bid": "float64",
+              "bid_size": "float64",
+              "ask": "float64",
+              "ask_size": "float64",
+              "volume": "int64",
+              "open_interest": "int64",
+              "quote_date": "object",
+              "delta": "float64",
+              "gamma": "float64",
+              "theta": "float64",
+              "vega": "float64",
+              "implied_volatility": "float64"
+            },
+            "null_counts": {
+              "contract": 0,
+              "underlying": 0,
+              "expiration": 0,
+              "type": 0,
+              "strike": 0,
+              "style": 0,
+              "bid": 0,
+              "bid_size": 1000,
+              "ask": 0,
+              "ask_size": 1000,
+              "volume": 0,
+              "open_interest": 0,
+              "quote_date": 0,
+              "delta": 0,
+              "gamma": 0,
+              "theta": 0,
+              "vega": 0,
+              "implied_volatility": 0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "summary": {
+    "directory_exists": true,
+    "key_metrics": {
+      "total_files": 433,
+      "total_size_gb": 15.208499408327043,
+      "year_coverage": 12.5,
+      "years_available": 2
+    },
+    "recommendations": [
+      "Consider finding data for missing years: [2009, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]"
+    ]
+  }
+}

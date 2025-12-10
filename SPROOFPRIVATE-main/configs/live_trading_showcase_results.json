@@ -1,0 +1,36 @@
+{
+  "session_start": "2025-06-13T19:20:29.092430",
+  "session_end": "2025-06-13T19:25:29.793096",
+  "initial_capital": 100000,
+  "final_value": 100030.2297007246,
+  "total_pnl": 30.229700724594295,
+  "total_return_pct": 0.0302297007245943,
+  "trades_executed": 3,
+  "win_rate": 0.0,
+  "trades": [
+    {
+      "timestamp": "2025-06-13T19:21:29.210277",
+      "ticker": "AAPL",
+      "action": "BUY",
+      "price": 206.95022965157193,
+      "shares": 72,
+      "pnl": 0
+    },
+    {
+      "timestamp": "2025-06-13T19:21:59.275819",
+      "ticker": "AAPL",
+      "action": "SELL",
+      "price": 206.8955969938696,
+      "shares": 72,
+      "pnl": -3.933551354570227
+    },
+    {
+      "timestamp": "2025-06-13T19:22:29.364881",
+      "ticker": "AMZN",
+      "action": "BUY",
+      "price": 159.63178416515768,
+      "shares": 93,
+      "pnl": 0
+    }
+  ]
+}

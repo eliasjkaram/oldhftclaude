@@ -1,0 +1,130 @@
+{
+  "system_config": {
+    "scan_interval_hours": 1,
+    "max_concurrent_backtests": 8,
+    "optimization_threshold": 0.05,
+    "auto_update_configs": true,
+    "backup_configs": true
+  },
+  
+  "backtest_settings": {
+    "initial_capital": 100000,
+    "commission_rate": 0.001,
+    "slippage_rate": 0.0005,
+    "max_position_size": 0.1,
+    "enable_shorting": true,
+    "use_realistic_fills": true
+  },
+  
+  "market_scenarios": {
+    "enabled_scenarios": [
+      "bull_market",
+      "bear_market", 
+      "high_volatility",
+      "low_volatility",
+      "sideways",
+      "crash",
+      "recovery",
+      "mixed"
+    ],
+    "scenario_weights": {
+      "bull_market": 0.2,
+      "bear_market": 0.2,
+      "high_volatility": 0.15,
+      "low_volatility": 0.1,
+      "sideways": 0.15,
+      "crash": 0.05,
+      "recovery": 0.1,
+      "mixed": 0.05
+    }
+  },
+  
+  "backtest_types": {
+    "standard": {
+      "enabled": true,
+      "priority": 1
+    },
+    "walk_forward": {
+      "enabled": true,
+      "priority": 2,
+      "windows": 5,
+      "train_ratio": 0.7
+    },
+    "monte_carlo": {
+      "enabled": true,
+      "priority": 3,
+      "simulations": 100
+    },
+    "bootstrap": {
+      "enabled": false,
+      "priority": 4,
+      "samples": 100
+    }
+  },
+  
+  "optimization": {
+    "method": "bayesian",
+    "n_trials": 50,
+    "objectives": {
+      "sharpe_ratio": 0.4,
+      "total_return": 0.3,
+      "max_drawdown": 0.3
+    },
+    "parameter_ranges": {
+      "multiplier_min": 0.5,
+      "multiplier_max": 2.0,
+      "int_step_size": 1,
+      "float_precision": 4
+    }
+  },
+  
+  "strategy_filters": {
+    "include_patterns": [
+      "*strategy*",
+      "*bot*",
+      "*trader*",
+      "*system*",
+      "*algo*"
+    ],
+    "exclude_patterns": [
+      "test_*",
+      "*_test",
+      "demo_*",
+      "example_*"
+    ],
+    "min_parameters": 1,
+    "max_parameters": 20
+  },
+  
+  "performance_thresholds": {
+    "min_sharpe_ratio": 0.5,
+    "min_win_rate": 0.4,
+    "max_drawdown": -0.3,
+    "min_trades": 10,
+    "min_profit_factor": 1.2
+  },
+  
+  "reporting": {
+    "generate_html": true,
+    "generate_json": true,
+    "generate_csv": true,
+    "include_charts": true,
+    "email_reports": false,
+    "slack_notifications": false
+  },
+  
+  "risk_limits": {
+    "max_leverage": 2.0,
+    "max_concentration": 0.25,
+    "max_correlation": 0.8,
+    "stop_loss_pct": 0.02,
+    "take_profit_pct": 0.05
+  },
+  
+  "database": {
+    "path": "continuous_training.db",
+    "retention_days": 90,
+    "backup_enabled": true,
+    "backup_interval_days": 7
+  }
+}

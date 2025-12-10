@@ -1,0 +1,57 @@
+# Staging-specific Docker Compose overrides
+version: '3.8'
+
+services:
+  trading-engine:
+    environment:
+      - ENVIRONMENT=staging
+      - LOG_LEVEL=DEBUG
+      - ENABLE_PROFILING=true
+      - MAX_POSITION_SIZE=10000
+      - DAILY_LOSS_LIMIT=1000
+      - ALPACA_BASE_URL=https://paper-api.alpaca.markets
+    ports:
+      - "8080:8080"
+      - "8082:8082"  # Debug port
+
+  data-collector:
+    environment:
+      - ENVIRONMENT=staging
+      - DATA_RETENTION_DAYS=30
+      - ENABLE_MOCK_DATA=true
+
+  ml-trainer:
+    environment:
+      - ENVIRONMENT=staging
+      - MODEL_CHECKPOINT_INTERVAL=600
+      - ENABLE_EXPERIMENT_TRACKING=true
+
+  risk-manager:
+    environment:
+      - ENVIRONMENT=staging
+      - ALERT_WEBHOOK_URL=${STAGING_ALERT_WEBHOOK_URL}
+      - MAX_PORTFOLIO_RISK=0.05
+
+  # Staging-only services
+  mockdata:
+    image: alpaca-mcp-trading:latest
+    container_name: trading-mockdata
+    command: ["python", "scripts/mock_data_generator.py"]
+    environment:
+      - ENVIRONMENT=staging
+      - MOCK_DATA_INTERVAL=60
+    networks:
+      - trading-network
+
+  jupyter:
+    image: jupyter/datascience-notebook:latest
+    container_name: trading-jupyter
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./data:/home/jovyan/data:ro
+    networks:
+      - trading-network
+    ports:
+      - "8888:8888"

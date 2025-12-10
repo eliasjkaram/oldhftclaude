@@ -1,0 +1,87 @@
+{
+  "performance_metrics": {
+    "track_by_strategy": true,
+    "metrics": [
+      "win_rate",
+      "average_profit",
+      "max_drawdown",
+      "sharpe_ratio",
+      "profit_factor"
+    ],
+    "reporting_frequency": "daily"
+  },
+  "greek_monitoring": {
+    "portfolio_greeks": [
+      "delta",
+      "gamma",
+      "theta",
+      "vega"
+    ],
+    "limits": {
+      "max_portfolio_delta": 100,
+      "max_portfolio_gamma": 50,
+      "min_portfolio_theta": -500
+    },
+    "alert_thresholds": {
+      "delta_neutral_band": [
+        -20,
+        20
+      ],
+      "gamma_spike": 100,
+      "theta_decay_alert": -1000
+    }
+  },
+  "strategy_analytics": {
+    "covered_calls": {
+      "track_assignment_rate": true,
+      "optimal_strike_analysis": true,
+      "roll_effectiveness": true
+    },
+    "cash_secured_puts": {
+      "track_assignment_rate": true,
+      "premium_capture_rate": true,
+      "basis_improvement": true
+    },
+    "spreads": {
+      "win_rate_by_width": true,
+      "optimal_risk_reward": true,
+      "early_exit_analysis": true
+    }
+  },
+  "market_conditions": {
+    "market_stats": {
+      "total_contracts": 4904,
+      "unique_underlyings": 3,
+      "avg_bid_ask_spread": 3.8470595432300154,
+      "total_volume": 997276.0,
+      "total_open_interest": 3689905
+    },
+    "liquidity_analysis": {
+      "high_volume_contracts": 668,
+      "high_oi_contracts": 830,
+      "avg_volume": 219.32614910930283,
+      "avg_open_interest": 752.4276101141925
+    },
+    "expiration_analysis": {
+      "unique_expirations": 17,
+      "avg_days_to_expiry": 169.32055464926592,
+      "near_term_contracts": 310,
+      "monthly_contracts": 326
+    },
+    "moneyness_distribution": {
+      "itm_calls": 380,
+      "otm_calls": 2072,
+      "itm_puts": 2072,
+      "otm_puts": 380
+    }
+  },
+  "recommended_allocation": {
+    "covered_calls": 0.3,
+    "cash_secured_puts": 0.25,
+    "spreads": 0.25,
+    "iron_condors": 0.1,
+    "other": 0.1
+  },
+  "data_source": "MinIO options analytics",
+  "last_updated": "2025-06-16T12:12:21.307651"
+}

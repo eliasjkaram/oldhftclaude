@@ -1,0 +1,1809 @@
+{
+  "gpu_metrics": {
+    "cpu_baseline": {
+      "matrix_operations_per_sec": 1000000,
+      "parallel_strategies": 16,
+      "memory_bandwidth_gbps": 64,
+      "compute_units": 8
+    },
+    "gpu_accelerated": {
+      "matrix_operations_per_sec": 15000000,
+      "parallel_strategies": 2048,
+      "memory_bandwidth_gbps": 1024,
+      "compute_units": 2048,
+      "tensor_operations_per_sec": 50000000,
+      "ai_inference_speedup": 25.0
+    },
+    "speedup_factor": 15.0,
+    "parallelization_gain": 128.0
+  },
+  "evolution_history": [
+    {
+      "generation": 0,
+      "best_fitness": 41.10260044647234,
+      "avg_fitness": 3.4506047351791453,
+      "best_strategy": "volatility_trading",
+      "processing_time": 1.6141383647918701,
+      "population_diversity": 8
+    },
+    {
+      "generation": 1,
+      "best_fitness": 52.46023031221884,
+      "avg_fitness": 9.639163695243543,
+      "best_strategy": "volatility_trading",
+      "processing_time": 1.854097843170166,
+      "population_diversity": 8
+    },
+    {
+      "generation": 2,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 20.170911742680726,
+      "best_strategy": "volatility_trading",
+      "processing_time": 2.4965474605560303,
+      "population_diversity": 4
+    },
+    {
+      "generation": 3,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 33.43676219337373,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.027433633804321,
+      "population_diversity": 1
+    },
+    {
+      "generation": 4,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 42.799468359476485,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.669755935668945,
+      "population_diversity": 1
+    },
+    {
+      "generation": 5,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 51.441293642289345,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.507432222366333,
+      "population_diversity": 1
+    },
+    {
+      "generation": 6,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 51.682347863071136,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.328030109405518,
+      "population_diversity": 1
+    },
+    {
+      "generation": 7,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 53.46449778938394,
+      "best_strategy": "volatility_trading",
+      "processing_time": 3.936161994934082,
+      "population_diversity": 1
+    },
+    {
+      "generation": 8,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 57.02879764200952,
+      "best_strategy": "volatility_trading",
+      "processing_time": 2.9339115619659424,
+      "population_diversity": 1
+    },
+    {
+      "generation": 9,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 55.246647715696724,
+      "best_strategy": "volatility_trading",
+      "processing_time": 12.660279989242554,
+      "population_diversity": 1
+    },
+    {
+      "generation": 10,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 55.24664771569674,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.1938793659210205,
+      "population_diversity": 1
+    },
+    {
+      "generation": 11,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 53.464497789383934,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.546584844589233,
+      "population_diversity": 1
+    },
+    {
+      "generation": 12,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 46.33589808413275,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.546884298324585,
+      "population_diversity": 1
+    },
+    {
+      "generation": 13,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 48.11804801044555,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.346495151519775,
+      "population_diversity": 1
+    },
+    {
+      "generation": 14,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 55.24664771569674,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.390521287918091,
+      "population_diversity": 1
+    },
+    {
+      "generation": 15,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 51.682347863071136,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.489452123641968,
+      "population_diversity": 1
+    },
+    {
+      "generation": 16,
+      "best_fitness": 89.10749631563989,
+      "avg_fitness": 51.682347863071136,
+      "best_strategy": "volatility_trading",
+      "processing_time": 3.165086507797241,
+      "population_diversity": 1
+    },
+    {
+      "generation": 17,
+      "best_fitness": 90.47739579847112,
+      "avg_fitness": 53.51929376869718,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.3322999477386475,
+      "population_diversity": 1
+    },
+    {
+      "generation": 18,
+      "best_fitness": 90.47739579847112,
+      "avg_fitness": 51.846735801010894,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.540826320648193,
+      "population_diversity": 1
+    },
+    {
+      "generation": 19,
+      "best_fitness": 90.47739579847112,
+      "avg_fitness": 52.23030765620362,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.368343353271484,
+      "population_diversity": 1
+    },
+    {
+      "generation": 20,
+      "best_fitness": 90.47739579847112,
+      "avg_fitness": 52.476889563113254,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.482933521270752,
+      "population_diversity": 1
+    },
+    {
+      "generation": 21,
+      "best_fitness": 90.47739579847112,
+      "avg_fitness": 56.095985395052104,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.377695798873901,
+      "population_diversity": 1
+    },
+    {
+      "generation": 22,
+      "best_fitness": 90.47739579847112,
+      "avg_fitness": 57.905533311021514,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.252284526824951,
+      "population_diversity": 1
+    },
+    {
+      "generation": 23,
+      "best_fitness": 90.47739579847112,
+      "avg_fitness": 54.28643747908267,
+      "best_strategy": "volatility_trading",
+      "processing_time": 3.4198379516601562,
+      "population_diversity": 1
+    },
+    {
+      "generation": 24,
+      "best_fitness": 90.47739579847112,
+      "avg_fitness": 54.28643747908268,
+      "best_strategy": "volatility_trading",
+      "processing_time": 4.5697784423828125,
+      "population_diversity": 1
+    }
+  ],
+  "final_population": [
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 8,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 8,
+          "parameter": "threshold",
+          "old_value": 0.021963678580514977,
+          "new_value": 0.021819404954451147
+        },
+        {
+          "generation": 8,
+          "parameter": "risk_factor",
+          "old_value": 0.3011768637651079,
+          "new_value": 0.3245030378046991
+        },
+        {
+          "generation": 11,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 0.9463536420943685
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 9,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 9,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 8,
+          "parameter": "threshold",
+          "old_value": 0.021963678580514977,
+          "new_value": 0.021819404954451147
+        },
+        {
+          "generation": 8,
+          "parameter": "risk_factor",
+          "old_value": 0.3011768637651079,
+          "new_value": 0.3245030378046991
+        },
+        {
+          "generation": 11,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 0.9463536420943685
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.5748582505920193,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 11,
+          "parameter": "threshold",
+          "old_value": 0.021819404954451147,
+          "new_value": 0.022327642991456943
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3011768637651079,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.29330191735801525
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 11,
+          "parameter": "signal_strength",
+          "old_value": 0.29330191735801525,
+          "new_value": 0.3055047336787179
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 11,
+          "parameter": "lookback_period",
+          "old_value": 45,
+          "new_value": 44
+        },
+        {
+          "generation": 11,
+          "parameter": "risk_factor",
+          "old_value": 0.3245030378046991,
+          "new_value": 0.3537532075101698
+        },
+        {
+          "generation": 11,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 1.1000320193625288
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 8,
+          "parameter": "threshold",
+          "old_value": 0.021963678580514977,
+          "new_value": 0.021819404954451147
+        },
+        {
+          "generation": 8,
+          "parameter": "risk_factor",
+          "old_value": 0.3011768637651079,
+          "new_value": 0.3245030378046991
+        },
+        {
+          "generation": 11,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 0.9463536420943685
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3011768637651079,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 9,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 10,
+          "parameter": "threshold",
+          "old_value": 0.021819404954451147,
+          "new_value": 0.022775472216805245
+        },
+        {
+          "generation": 10,
+          "parameter": "volatility_adj",
+          "old_value": 0.6100655825564736,
+          "new_value": 0.7048957653306995
+        },
+        {
+          "generation": 10,
+          "parameter": "threshold",
+          "old_value": 0.021819404954451147,
+          "new_value": 0.024637365086188162
+        },
+        {
+          "generation": 10,
+          "parameter": "risk_factor",
+          "old_value": 0.3011768637651079,
+          "new_value": 0.29949379427770667
+        },
+        {
+          "generation": 10,
+          "parameter": "lookback_period",
+          "old_value": 45,
+          "new_value": 47
+        },
+        {
+          "generation": 10,
+          "parameter": "volatility_adj",
+          "old_value": 0.6100655825564736,
+          "new_value": 0.5420563445563759
+        },
+        {
+          "generation": 10,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 1.1769265952469268
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3011768637651079,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.29330191735801525
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 11,
+          "parameter": "threshold",
+          "old_value": 0.021819404954451147,
+          "new_value": 0.020228973147349994
+        },
+        {
+          "generation": 11,
+          "parameter": "threshold",
+          "old_value": 0.021819404954451147,
+          "new_value": 0.023748785229412914
+        },
+        {
+          "generation": 12,
+          "parameter": "risk_factor",
+          "old_value": 0.3011768637651079,
+          "new_value": 0.27382077997962284
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 11,
+          "parameter": "threshold",
+          "old_value": 0.021819404954451147,
+          "new_value": 0.025674356137317857
+        },
+        {
+          "generation": 11,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 0.9931480130552426
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 11,
+          "parameter": "lookback_period",
+          "old_value": 45,
+          "new_value": 38
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.5748582505920193,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9463536420943685
+      },
+      "fitness": 90.47739579847112,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 8,
+          "parameter": "threshold",
+          "old_value": 0.021963678580514977,
+          "new_value": 0.021819404954451147
+        },
+        {
+          "generation": 8,
+          "parameter": "risk_factor",
+          "old_value": 0.3011768637651079,
+          "new_value": 0.3245030378046991
+        },
+        {
+          "generation": 11,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 0.9463536420943685
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 12,
+          "parameter": "threshold",
+          "old_value": 0.021819404954451147,
+          "new_value": 0.02002009983862397
+        },
+        {
+          "generation": 12,
+          "parameter": "volatility_adj",
+          "old_value": 0.6100655825564736,
+          "new_value": 0.5311993992923624
+        },
+        {
+          "generation": 12,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 1.0683148809065923
+        },
+        {
+          "generation": 12,
+          "parameter": "volatility_adj",
+          "old_value": 0.6100655825564736,
+          "new_value": 0.64399255490025
+        },
+        {
+          "generation": 12,
+          "parameter": "risk_factor",
+          "old_value": 0.3245030378046991,
+          "new_value": 0.2958359281774424
+        },
+        {
+          "generation": 12,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 1.0925446480263121
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 12,
+          "parameter": "threshold",
+          "old_value": 0.021819404954451147,
+          "new_value": 0.023421557361247663
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 9,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 8,
+          "parameter": "threshold",
+          "old_value": 0.021963678580514977,
+          "new_value": 0.021819404954451147
+        },
+        {
+          "generation": 8,
+          "parameter": "risk_factor",
+          "old_value": 0.3011768637651079,
+          "new_value": 0.3245030378046991
+        },
+        {
+          "generation": 11,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 0.9463536420943685
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 12,
+          "parameter": "lookback_period",
+          "old_value": 45,
+          "new_value": 42
+        },
+        {
+          "generation": 12,
+          "parameter": "risk_factor",
+          "old_value": 0.3245030378046991,
+          "new_value": 0.29270713253670305
+        },
+        {
+          "generation": 12,
+          "parameter": "volatility_adj",
+          "old_value": 0.6100655825564736,
+          "new_value": 0.5460774324576033
+        },
+        {
+          "generation": 12,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 1.0746165520596003
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3011768637651079,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 12,
+          "parameter": "volatility_adj",
+          "old_value": 0.6100655825564736,
+          "new_value": 0.6171017618524578
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3011768637651079,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 12,
+          "parameter": "lookback_period",
+          "old_value": 45,
+          "new_value": 42
+        },
+        {
+          "generation": 12,
+          "parameter": "risk_factor",
+          "old_value": 0.3245030378046991,
+          "new_value": 0.29270713253670305
+        },
+        {
+          "generation": 12,
+          "parameter": "volatility_adj",
+          "old_value": 0.6100655825564736,
+          "new_value": 0.5460774324576033
+        },
+        {
+          "generation": 12,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 1.0746165520596003
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 12,
+          "parameter": "lookback_period",
+          "old_value": 45,
+          "new_value": 42
+        },
+        {
+          "generation": 12,
+          "parameter": "risk_factor",
+          "old_value": 0.3245030378046991,
+          "new_value": 0.29270713253670305
+        },
+        {
+          "generation": 12,
+          "parameter": "volatility_adj",
+          "old_value": 0.6100655825564736,
+          "new_value": 0.5460774324576033
+        },
+        {
+          "generation": 12,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 1.0746165520596003
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.5748582505920193,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 13,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3011768637651079,
+        "volatility_adj": 0.6171017618524578,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 12,
+          "parameter": "volatility_adj",
+          "old_value": 0.6100655825564736,
+          "new_value": 0.6171017618524578
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.29330191735801525
+      },
+      "fitness": 0.0,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3011768637651079,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3011768637651079,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.47863659232770317,
+        "signal_strength": 0.9498253023923576
+      },
+      "fitness": 0.0,
+      "generation": 13,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 13,
+          "parameter": "volatility_adj",
+          "old_value": 0.6100655825564736,
+          "new_value": 0.47863659232770317
+        },
+        {
+          "generation": 13,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 0.9498253023923576
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3011768637651079,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 12,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 13,
+      "parent_ids": [
+        "offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.5748582505920193,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 11,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 0.0,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    }
+  ],
+  "top_algorithms": [
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 8,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 8,
+          "parameter": "threshold",
+          "old_value": 0.021963678580514977,
+          "new_value": 0.021819404954451147
+        },
+        {
+          "generation": 8,
+          "parameter": "risk_factor",
+          "old_value": 0.3011768637651079,
+          "new_value": 0.3245030378046991
+        },
+        {
+          "generation": 11,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 0.9463536420943685
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 9,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 9,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 8,
+          "parameter": "threshold",
+          "old_value": 0.021963678580514977,
+          "new_value": 0.021819404954451147
+        },
+        {
+          "generation": 8,
+          "parameter": "risk_factor",
+          "old_value": 0.3011768637651079,
+          "new_value": 0.3245030378046991
+        },
+        {
+          "generation": 11,
+          "parameter": "signal_strength",
+          "old_value": 0.9662061910236722,
+          "new_value": 0.9463536420943685
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.5748582505920193,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+        "offspring_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020"
+      ],
+      "mutation_history": [
+        {
+          "generation": 11,
+          "parameter": "threshold",
+          "old_value": 0.021819404954451147,
+          "new_value": 0.022327642991456943
+        }
+      ]
+    },
+    {
+      "id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "parameters": {
+        "lookback_period": 45,
+        "threshold": 0.021819404954451147,
+        "risk_factor": 0.3245030378046991,
+        "volatility_adj": 0.6100655825564736,
+        "signal_strength": 0.9662061910236722
+      },
+      "fitness": 90.47739579847112,
+      "generation": 10,
+      "parent_ids": [
+        "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020"
+      ],
+      "mutation_history": []
+    }
+  ],
+  "processing_metrics": {
+    "total_evolution_time": 107.05199670791626,
+    "generations_completed": 25,
+    "algorithms_evaluated": 1250,
+    "evaluations_per_second": 11.676568755747134
+  },
+  "algorithm_testing": [
+    {
+      "algorithm_id": "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "generation": 8,
+      "symbols_tested": [
+        {
+          "symbol": "SPY",
+          "return": -0.006698839737848052,
+          "trades": "136",
+          "win_rate": 0.5037037037037037
+        },
+        {
+          "symbol": "QQQ",
+          "return": 0.641689619857164,
+          "trades": "137",
+          "win_rate": 0.6470588235294118
+        },
+        {
+          "symbol": "AAPL",
+          "return": 0.1747223379746325,
+          "trades": "146",
+          "win_rate": 0.5517241379310345
+        },
+        {
+          "symbol": "MSFT",
+          "return": -0.2917133401207199,
+          "trades": "132",
+          "win_rate": 0.4732824427480916
+        },
+        {
+          "symbol": "TSLA",
+          "return": 0.19343429735836457,
+          "trades": "152",
+          "win_rate": 0.4966887417218543
+        }
+      ],
+      "total_return": 0.7114340753315932,
+      "total_trades": "703",
+      "success_rate": 0.6
+    },
+    {
+      "algorithm_id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "generation": 9,
+      "symbols_tested": [
+        {
+          "symbol": "SPY",
+          "return": -0.006698839737848052,
+          "trades": "136",
+          "win_rate": 0.5037037037037037
+        },
+        {
+          "symbol": "QQQ",
+          "return": 0.641689619857164,
+          "trades": "137",
+          "win_rate": 0.6470588235294118
+        },
+        {
+          "symbol": "AAPL",
+          "return": 0.1747223379746325,
+          "trades": "146",
+          "win_rate": 0.5517241379310345
+        },
+        {
+          "symbol": "MSFT",
+          "return": -0.2917133401207199,
+          "trades": "132",
+          "win_rate": 0.4732824427480916
+        },
+        {
+          "symbol": "TSLA",
+          "return": 0.19343429735836457,
+          "trades": "152",
+          "win_rate": 0.4966887417218543
+        }
+      ],
+      "total_return": 0.7114340753315932,
+      "total_trades": "703",
+      "success_rate": 0.6
+    },
+    {
+      "algorithm_id": "offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "generation": 9,
+      "symbols_tested": [
+        {
+          "symbol": "SPY",
+          "return": -0.006698839737848052,
+          "trades": "136",
+          "win_rate": 0.5037037037037037
+        },
+        {
+          "symbol": "QQQ",
+          "return": 0.641689619857164,
+          "trades": "137",
+          "win_rate": 0.6470588235294118
+        },
+        {
+          "symbol": "AAPL",
+          "return": 0.1747223379746325,
+          "trades": "146",
+          "win_rate": 0.5517241379310345
+        },
+        {
+          "symbol": "MSFT",
+          "return": -0.2917133401207199,
+          "trades": "132",
+          "win_rate": 0.4732824427480916
+        },
+        {
+          "symbol": "TSLA",
+          "return": 0.19343429735836457,
+          "trades": "152",
+          "win_rate": 0.4966887417218543
+        }
+      ],
+      "total_return": 0.7114340753315932,
+      "total_trades": "703",
+      "success_rate": 0.6
+    },
+    {
+      "algorithm_id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020",
+      "strategy_type": "volatility_trading",
+      "generation": 10,
+      "symbols_tested": [
+        {
+          "symbol": "SPY",
+          "return": -0.006698839737848052,
+          "trades": "136",
+          "win_rate": 0.5037037037037037
+        },
+        {
+          "symbol": "QQQ",
+          "return": 0.641689619857164,
+          "trades": "137",
+          "win_rate": 0.6470588235294118
+        },
+        {
+          "symbol": "AAPL",
+          "return": 0.1747223379746325,
+          "trades": "146",
+          "win_rate": 0.5517241379310345
+        },
+        {
+          "symbol": "MSFT",
+          "return": -0.2917133401207199,
+          "trades": "132",
+          "win_rate": 0.4732824427480916
+        },
+        {
+          "symbol": "TSLA",
+          "return": 0.19343429735836457,
+          "trades": "152",
+          "win_rate": 0.4966887417218543
+        }
+      ],
+      "total_return": 0.7114340753315932,
+      "total_trades": "703",
+      "success_rate": 0.6
+    },
+    {
+      "algorithm_id": "offspring_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_offspring_offspring_offspring_offspring_algo_007_algo_020_algo_002_algo_002_offspring_offspring_algo_002_offspring_offspring_algo_007_algo_020_offspring_offspring_algo_002_algo_020_algo_020_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_offspring_algo_002_offspring_algo_007_algo_020_offspring_algo_002_offspring_algo_007_algo_020",
+      "strategy_type": "volatility_trading",
+      "generation": 10,
+      "symbols_tested": [
+        {
+          "symbol": "SPY",
+          "return": -0.006698839737848052,
+          "trades": "136",
+          "win_rate": 0.5037037037037037
+        },
+        {
+          "symbol": "QQQ",
+          "return": 0.641689619857164,
+          "trades": "137",
+          "win_rate": 0.6470588235294118
+        },
+        {
+          "symbol": "AAPL",
+          "return": 0.1747223379746325,
+          "trades": "146",
+          "win_rate": 0.5517241379310345
+        },
+        {
+          "symbol": "MSFT",
+          "return": -0.2917133401207199,
+          "trades": "132",
+          "win_rate": 0.4732824427480916
+        },
+        {
+          "symbol": "TSLA",
+          "return": 0.19343429735836457,
+          "trades": "152",
+          "win_rate": 0.4966887417218543
+        }
+      ],
+      "total_return": 0.7114340753315932,
+      "total_trades": "703",
+      "success_rate": 0.6
+    }
+  ]
+}

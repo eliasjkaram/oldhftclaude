@@ -1,0 +1,682 @@
+{
+  "AAPL": {
+    "name": "Apple Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "MSFT": {
+    "name": "Microsoft Corporation",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "GOOGL": {
+    "name": "Alphabet Inc. Class A",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "AMZN": {
+    "name": "Amazon.com Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "META": {
+    "name": "Meta Platforms Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "TSLA": {
+    "name": "Tesla Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "NVDA": {
+    "name": "NVIDIA Corporation",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "BRK.B": {
+    "name": "Berkshire Hathaway Class B",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "JPM": {
+    "name": "JPMorgan Chase & Co.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "JNJ": {
+    "name": "Johnson & Johnson",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "V": {
+    "name": "Visa Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "UNH": {
+    "name": "UnitedHealth Group",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "HD": {
+    "name": "Home Depot Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "PG": {
+    "name": "Procter & Gamble",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "MA": {
+    "name": "Mastercard Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "DIS": {
+    "name": "Walt Disney Co.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "BAC": {
+    "name": "Bank of America",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "NFLX": {
+    "name": "Netflix Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "ADBE": {
+    "name": "Adobe Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "CRM": {
+    "name": "Salesforce Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "AMD": {
+    "name": "Advanced Micro Devices",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "INTC": {
+    "name": "Intel Corporation",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "CSCO": {
+    "name": "Cisco Systems",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "ORCL": {
+    "name": "Oracle Corporation",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "IBM": {
+    "name": "IBM Corporation",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "QCOM": {
+    "name": "Qualcomm Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "TXN": {
+    "name": "Texas Instruments",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "AVGO": {
+    "name": "Broadcom Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "NOW": {
+    "name": "ServiceNow Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "SHOP": {
+    "name": "Shopify Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "SQ": {
+    "name": "Block Inc. (Square)",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "PYPL": {
+    "name": "PayPal Holdings",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "SNAP": {
+    "name": "Snap Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "PINS": {
+    "name": "Pinterest Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "TWTR": {
+    "name": "Twitter Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "UBER": {
+    "name": "Uber Technologies",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "LYFT": {
+    "name": "Lyft Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "ZM": {
+    "name": "Zoom Video Communications",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "DOCU": {
+    "name": "DocuSign Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "ROKU": {
+    "name": "Roku Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "SPY": {
+    "name": "SPDR S&P 500 ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "QQQ": {
+    "name": "Invesco QQQ Trust",
+    "type": "etf",
+    "exchange": "NASDAQ"
+  },
+  "IWM": {
+    "name": "iShares Russell 2000 ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "DIA": {
+    "name": "SPDR Dow Jones Industrial",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "VTI": {
+    "name": "Vanguard Total Stock Market",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "VOO": {
+    "name": "Vanguard S&P 500 ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "TLT": {
+    "name": "iShares 20+ Year Treasury",
+    "type": "etf",
+    "exchange": "NASDAQ"
+  },
+  "GLD": {
+    "name": "SPDR Gold Trust",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "SLV": {
+    "name": "iShares Silver Trust",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "USO": {
+    "name": "United States Oil Fund",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "XLE": {
+    "name": "Energy Select Sector SPDR",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "XLF": {
+    "name": "Financial Select Sector SPDR",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "XLK": {
+    "name": "Technology Select Sector SPDR",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "XLV": {
+    "name": "Health Care Select Sector SPDR",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "XLI": {
+    "name": "Industrial Select Sector SPDR",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "XLY": {
+    "name": "Consumer Discretionary SPDR",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "XLP": {
+    "name": "Consumer Staples SPDR",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "XLU": {
+    "name": "Utilities Select Sector SPDR",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "XLRE": {
+    "name": "Real Estate Select Sector SPDR",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "XLB": {
+    "name": "Materials Select Sector SPDR",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "EFA": {
+    "name": "iShares MSCI EAFE ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "EEM": {
+    "name": "iShares MSCI Emerging Markets",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "FXI": {
+    "name": "iShares China Large-Cap ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "EWJ": {
+    "name": "iShares MSCI Japan ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "EWZ": {
+    "name": "iShares MSCI Brazil ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "RSX": {
+    "name": "VanEck Russia ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "INDA": {
+    "name": "iShares MSCI India ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "EWG": {
+    "name": "iShares MSCI Germany ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "EWU": {
+    "name": "iShares MSCI United Kingdom",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "EWC": {
+    "name": "iShares MSCI Canada ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "BTC-USD": {
+    "name": "Bitcoin USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "ETH-USD": {
+    "name": "Ethereum USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "BNB-USD": {
+    "name": "Binance Coin USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "XRP-USD": {
+    "name": "Ripple USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "ADA-USD": {
+    "name": "Cardano USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "DOGE-USD": {
+    "name": "Dogecoin USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "SOL-USD": {
+    "name": "Solana USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "DOT-USD": {
+    "name": "Polkadot USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "MATIC-USD": {
+    "name": "Polygon USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "SHIB-USD": {
+    "name": "Shiba Inu USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "AVAX-USD": {
+    "name": "Avalanche USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "LTC-USD": {
+    "name": "Litecoin USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "LINK-USD": {
+    "name": "Chainlink USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "UNI-USD": {
+    "name": "Uniswap USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "ATOM-USD": {
+    "name": "Cosmos USD",
+    "type": "crypto",
+    "exchange": "CRYPTO"
+  },
+  "COIN": {
+    "name": "Coinbase Global",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "MARA": {
+    "name": "Marathon Digital Holdings",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "RIOT": {
+    "name": "Riot Platforms Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "MSTR": {
+    "name": "MicroStrategy Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "EURUSD=X": {
+    "name": "Euro/US Dollar",
+    "type": "forex",
+    "exchange": "FOREX"
+  },
+  "GBPUSD=X": {
+    "name": "British Pound/US Dollar",
+    "type": "forex",
+    "exchange": "FOREX"
+  },
+  "USDJPY=X": {
+    "name": "US Dollar/Japanese Yen",
+    "type": "forex",
+    "exchange": "FOREX"
+  },
+  "USDCHF=X": {
+    "name": "US Dollar/Swiss Franc",
+    "type": "forex",
+    "exchange": "FOREX"
+  },
+  "AUDUSD=X": {
+    "name": "Australian Dollar/US Dollar",
+    "type": "forex",
+    "exchange": "FOREX"
+  },
+  "USDCAD=X": {
+    "name": "US Dollar/Canadian Dollar",
+    "type": "forex",
+    "exchange": "FOREX"
+  },
+  "NZDUSD=X": {
+    "name": "New Zealand Dollar/US Dollar",
+    "type": "forex",
+    "exchange": "FOREX"
+  },
+  "GC=F": {
+    "name": "Gold Futures",
+    "type": "commodity",
+    "exchange": "COMEX"
+  },
+  "SI=F": {
+    "name": "Silver Futures",
+    "type": "commodity",
+    "exchange": "COMEX"
+  },
+  "CL=F": {
+    "name": "Crude Oil Futures",
+    "type": "commodity",
+    "exchange": "NYMEX"
+  },
+  "NG=F": {
+    "name": "Natural Gas Futures",
+    "type": "commodity",
+    "exchange": "NYMEX"
+  },
+  "ZC=F": {
+    "name": "Corn Futures",
+    "type": "commodity",
+    "exchange": "CBOT"
+  },
+  "ZW=F": {
+    "name": "Wheat Futures",
+    "type": "commodity",
+    "exchange": "CBOT"
+  },
+  "ZS=F": {
+    "name": "Soybean Futures",
+    "type": "commodity",
+    "exchange": "CBOT"
+  },
+  "KC=F": {
+    "name": "Coffee Futures",
+    "type": "commodity",
+    "exchange": "ICE"
+  },
+  "CC=F": {
+    "name": "Cocoa Futures",
+    "type": "commodity",
+    "exchange": "ICE"
+  },
+  "CT=F": {
+    "name": "Cotton Futures",
+    "type": "commodity",
+    "exchange": "ICE"
+  },
+  "AGG": {
+    "name": "iShares Core US Aggregate Bond",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "BND": {
+    "name": "Vanguard Total Bond Market",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "IEF": {
+    "name": "iShares 7-10 Year Treasury",
+    "type": "etf",
+    "exchange": "NASDAQ"
+  },
+  "TIP": {
+    "name": "iShares TIPS Bond ETF",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "HYG": {
+    "name": "iShares iBoxx High Yield Corp",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "LQD": {
+    "name": "iShares Investment Grade Corp",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "VIX": {
+    "name": "CBOE Volatility Index",
+    "type": "index",
+    "exchange": "CBOE"
+  },
+  "VXX": {
+    "name": "iPath S&P 500 VIX Short-Term",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "UVXY": {
+    "name": "ProShares Ultra VIX Short-Term",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "SVXY": {
+    "name": "ProShares Short VIX Short-Term",
+    "type": "etf",
+    "exchange": "NYSE"
+  },
+  "PLTR": {
+    "name": "Palantir Technologies",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "NET": {
+    "name": "Cloudflare Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "DDOG": {
+    "name": "Datadog Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "SNOW": {
+    "name": "Snowflake Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "U": {
+    "name": "Unity Software",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "RBLX": {
+    "name": "Roblox Corporation",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "ABNB": {
+    "name": "Airbnb Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "DASH": {
+    "name": "DoorDash Inc.",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "HOOD": {
+    "name": "Robinhood Markets",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "SOFI": {
+    "name": "SoFi Technologies",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "MRNA": {
+    "name": "Moderna Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "BNTX": {
+    "name": "BioNTech SE",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "GILD": {
+    "name": "Gilead Sciences",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "BIIB": {
+    "name": "Biogen Inc.",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "REGN": {
+    "name": "Regeneron Pharmaceuticals",
+    "type": "stock",
+    "exchange": "NASDAQ"
+  },
+  "XOM": {
+    "name": "Exxon Mobil Corporation",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "CVX": {
+    "name": "Chevron Corporation",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "COP": {
+    "name": "ConocoPhillips",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "SLB": {
+    "name": "Schlumberger Limited",
+    "type": "stock",
+    "exchange": "NYSE"
+  },
+  "OXY": {
+    "name": "Occidental Petroleum",
+    "type": "stock",
+    "exchange": "NYSE"
+  }
+}

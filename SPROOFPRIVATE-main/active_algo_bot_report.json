@@ -1,0 +1,126 @@
+{
+  "summary": {
+    "initial_capital": 100000,
+    "final_value": 100488.79010163383,
+    "total_return": 0.4887901016338292,
+    "total_trades": 7,
+    "algorithm_stats": {
+      "RSI": 3,
+      "MACD": 2,
+      "Momentum": 4,
+      "IV_Timing": 5
+    }
+  },
+  "trades": [
+    {
+      "symbol": "SPY",
+      "action": "BUY",
+      "shares": 44,
+      "price": 449.00349062921646,
+      "algorithms": [
+        "RSI",
+        "MACD",
+        "Momentum"
+      ],
+      "timestamp": "2025-06-23 09:39:05.837177"
+    },
+    {
+      "symbol": "TLT",
+      "action": "BUY",
+      "shares": 168,
+      "price": 95.38909589326956,
+      "algorithms": [
+        "IV_Timing"
+      ],
+      "timestamp": "2025-06-23 09:39:05.837347"
+    },
+    {
+      "symbol": "IWM",
+      "action": "BUY",
+      "shares": 64,
+      "price": 197.77371307694875,
+      "algorithms": [
+        "IV_Timing",
+        "Momentum"
+      ],
+      "timestamp": "2025-06-23 09:39:06.338695"
+    },
+    {
+      "symbol": "QQQ",
+      "action": "BUY",
+      "shares": 27,
+      "price": 381.28485863560195,
+      "algorithms": [
+        "IV_Timing"
+      ],
+      "timestamp": "2025-06-23 09:39:06.840199"
+    },
+    {
+      "symbol": "IWM",
+      "action": "SELL",
+      "shares": 64,
+      "price": 202.10553224377549,
+      "profit": 277.2364266769109,
+      "algorithms": [
+        "MACD",
+        "Momentum"
+      ],
+      "timestamp": "2025-06-23 09:39:07.341873"
+    },
+    {
+      "symbol": "AAPL",
+      "action": "BUY",
+      "shares": 56,
+      "price": 190.81484819999386,
+      "algorithms": [
+        "IV_Timing",
+        "RSI"
+      ],
+      "timestamp": "2025-06-23 09:39:07.342083"
+    },
+    {
+      "symbol": "TSLA",
+      "action": "BUY",
+      "shares": 34,
+      "price": 249.020566648257,
+      "algorithms": [
+        "IV_Timing",
+        "RSI",
+        "Momentum"
+      ],
+      "timestamp": "2025-06-23 09:39:07.843823"
+    }
+  ],
+  "final_positions": {
+    "SPY": {
+      "shares": 44,
+      "entry_price": 449.00349062921646,
+      "current_price": 442.41065266253736,
+      "unrealized_pnl": -215.56489866472498
+    },
+    "TLT": {
+      "shares": 168,
+      "entry_price": 95.38909589326956,
+      "current_price": 96.75628411706145,
+      "unrealized_pnl": -371.4649070415695
+    },
+    "QQQ": {
+      "shares": 27,
+      "entry_price": 381.28485863560195,
+      "current_price": 385.8486727914658,
+      "unrealized_pnl": 20.179780724717034
+    },
+    "AAPL": {
+      "shares": 56,
+      "entry_price": 190.81484819999386,
+      "current_price": 189.91402324880886,
+      "unrealized_pnl": -107.81271796423016
+    },
+    "TSLA": {
+      "shares": 34,
+      "entry_price": 249.020566648257,
+      "current_price": 254.95874392885676,
+      "unrealized_pnl": 166.5452028384159
+    }
+  }
+}

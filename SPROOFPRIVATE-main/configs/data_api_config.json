@@ -1,0 +1,34 @@
+{
+  "cache_ttl": 300,
+  "rate_limit_per_minute": 60,
+  "rate_limit_per_hour": 3000,
+  "max_retries": 3,
+  "retry_delay": 1.0,
+  "backoff_factor": 2.0,
+  "timeout": 30,
+  "yfinance_enabled": true,
+  "alpaca_enabled": true,
+  "minio_enabled": true,
+  "alpaca_api_key": "PKCX98VZSJBQF79C1SD8",
+  "alpaca_secret_key": "KVLgbqFFlltuwszBbWhqHW6KyrzYO6raNb1y4Rjt",
+  "alpaca_base_url": "https://paper-api.alpaca.markets",
+  "minio_endpoint": "uschristmas.us/minio",
+  "minio_access_key": "AKSTOCKDBUSER001",
+  "minio_secret_key": "StockDB-User-Secret-Key-Secure-2024!",
+  "minio_bucket": "stockdb",
+  "minio_secure": true,
+  "data_validation": {
+    "max_price_change_pct": 50,
+    "min_volume_threshold": 100,
+    "required_columns": ["open", "high", "low", "close", "volume"]
+  },
+  "synthetic_data": {
+    "default_volatility": 0.02,
+    "default_base_price": 100,
+    "trend_strength": 0.1
+  },
+  "parallel_fetch": {
+    "max_workers": 10,
+    "timeout_per_symbol": 60
+  }
+}

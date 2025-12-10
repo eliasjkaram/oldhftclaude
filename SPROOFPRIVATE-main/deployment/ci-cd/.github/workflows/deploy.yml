@@ -1,0 +1,254 @@
+# GitHub Actions CI/CD Pipeline
+name: Deploy Trading System
+
+on:
+  push:
+    branches: [main, production]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deployment environment'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+        - development
+        - staging
+        - production
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+  PYTHON_VERSION: '3.10'
+
+jobs:
+  # Code quality checks
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+    
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-dev.txt
+    
+    - name: Run linting
+      run: |
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    
+    - name: Run type checking
+      run: |
+        mypy . --ignore-missing-imports || true
+    
+    - name: Run tests
+      run: |
+        pytest tests/ -v --cov=. --cov-report=xml --cov-report=html
+    
+    - name: Upload coverage reports
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage.xml
+        flags: unittests
+        name: codecov-umbrella
+
+  # Security scanning
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        scan-type: 'fs'
+        scan-ref: '.'
+        format: 'sarif'
+        output: 'trivy-results.sarif'
+    
+    - name: Upload Trivy scan results
+      uses: github/codeql-action/upload-sarif@v2
+      if: always()
+      with:
+        sarif_file: 'trivy-results.sarif'
+    
+    - name: Run bandit security linter
+      run: |
+        pip install bandit
+        bandit -r . -ll -i ./tests
+
+  # Build Docker images
+  build-images:
+    needs: [lint-and-test, security-scan]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+    
+    - name: Log in to Container Registry
+      uses: docker/login-action@v2
+      with:
+        registry: ${{ env.REGISTRY }}
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Extract metadata
+      id: meta
+      uses: docker/metadata-action@v4
+      with:
+        images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+        tags: |
+          type=ref,event=branch
+          type=ref,event=pr
+          type=semver,pattern={{version}}
+          type=semver,pattern={{major}}.{{minor}}
+          type=sha
+    
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v4
+      with:
+        context: .
+        push: true
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
+        build-args: |
+          BUILD_DATE=${{ github.event.repository.updated_at }}
+          VCS_REF=${{ github.sha }}
+
+  # Deploy to staging
+  deploy-staging:
+    if: github.ref == 'refs/heads/main'
+    needs: build-images
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Deploy to staging
+      env:
+        DEPLOY_HOST: ${{ secrets.STAGING_HOST }}
+        DEPLOY_USER: ${{ secrets.STAGING_USER }}
+        DEPLOY_KEY: ${{ secrets.STAGING_SSH_KEY }}
+      run: |
+        # Set up SSH
+        mkdir -p ~/.ssh
+        echo "$DEPLOY_KEY" > ~/.ssh/deploy_key
+        chmod 600 ~/.ssh/deploy_key
+        
+        # Deploy using docker-compose
+        ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no $DEPLOY_USER@$DEPLOY_HOST << 'EOF'
+          cd /opt/alpaca-mcp
+          git pull origin main
+          docker-compose -f docker-compose.yml -f docker-compose.staging.yml pull
+          docker-compose -f docker-compose.yml -f docker-compose.staging.yml up -d
+          docker-compose ps
+        EOF
+    
+    - name: Run smoke tests
+      run: |
+        sleep 30
+        curl -f https://staging.trading.example.com/health || exit 1
+
+  # Deploy to production
+  deploy-production:
+    if: github.ref == 'refs/heads/production'
+    needs: [build-images, deploy-staging]
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Create deployment
+      uses: chrnorm/deployment-action@v2
+      id: deployment
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        environment: production
+        auto-merge: false
+    
+    - name: Deploy to production
+      env:
+        DEPLOY_HOST: ${{ secrets.PROD_HOST }}
+        DEPLOY_USER: ${{ secrets.PROD_USER }}
+        DEPLOY_KEY: ${{ secrets.PROD_SSH_KEY }}
+      run: |
+        # Set up SSH
+        mkdir -p ~/.ssh
+        echo "$DEPLOY_KEY" > ~/.ssh/deploy_key
+        chmod 600 ~/.ssh/deploy_key
+        
+        # Deploy using docker-compose with zero-downtime
+        ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no $DEPLOY_USER@$DEPLOY_HOST << 'EOF'
+          cd /opt/alpaca-mcp
+          
+          # Backup current state
+          docker-compose exec -T trading-engine python backup_state.py
+          
+          # Pull latest images
+          git pull origin production
+          docker-compose -f docker-compose.yml -f docker-compose.prod.yml pull
+          
+          # Rolling update
+          docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d --no-deps --scale trading-engine=2 trading-engine
+          sleep 30
+          docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d --no-deps --remove-orphans trading-engine
+          
+          # Verify deployment
+          docker-compose ps
+          docker-compose logs --tail=100
+        EOF
+    
+    - name: Update deployment status
+      if: always()
+      uses: chrnorm/deployment-status@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        state: ${{ job.status }}
+        deployment-id: ${{ steps.deployment.outputs.deployment_id }}
+
+  # Rollback mechanism
+  rollback:
+    if: failure() && github.ref == 'refs/heads/production'
+    needs: deploy-production
+    runs-on: ubuntu-latest
+    steps:
+    - name: Rollback deployment
+      env:
+        DEPLOY_HOST: ${{ secrets.PROD_HOST }}
+        DEPLOY_USER: ${{ secrets.PROD_USER }}
+        DEPLOY_KEY: ${{ secrets.PROD_SSH_KEY }}
+      run: |
+        mkdir -p ~/.ssh
+        echo "$DEPLOY_KEY" > ~/.ssh/deploy_key
+        chmod 600 ~/.ssh/deploy_key
+        
+        ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no $DEPLOY_USER@$DEPLOY_HOST << 'EOF'
+          cd /opt/alpaca-mcp
+          ./scripts/rollback.sh
+        EOF

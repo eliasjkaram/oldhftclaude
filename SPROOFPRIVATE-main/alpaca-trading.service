@@ -1,0 +1,36 @@
+[Unit]
+Description=AI-Enhanced Alpaca Trading System
+Documentation=https://github.com/yourusername/alpaca-mcp
+After=network.target
+
+[Service]
+Type=simple
+User=harry
+Group=harry
+WorkingDirectory=/home/harry/alpaca-mcp
+
+# Environment variables
+Environment="PYTHONUNBUFFERED=1"
+EnvironmentFile=-/home/harry/alpaca-mcp/.env
+
+# Start command
+ExecStart=/home/harry/alpaca-mcp/venv/bin/python /home/harry/alpaca-mcp/LIVE_TRADING_SYSTEM_LAUNCHER.py --mode paper
+
+# Restart policy
+Restart=always
+RestartSec=10
+
+# Resource limits
+MemoryLimit=8G
+CPUQuota=80%
+
+# Logging
+StandardOutput=append:/home/harry/alpaca-mcp/logs/systemd.log
+StandardError=append:/home/harry/alpaca-mcp/logs/systemd-error.log
+
+# Security
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

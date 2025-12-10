@@ -1,0 +1,145 @@
+{
+  "backtest_params": {
+    "start_date": "2024-12-23",
+    "end_date": "2025-06-21",
+    "shares": 10000,
+    "contracts": 100
+  },
+  "algorithm_results": {
+    "Local_Peak_IV": {
+      "total_return": -7.424987775558399,
+      "annualized_return": -14.849975551116797,
+      "num_trades": 0,
+      "assigned_trades": 0,
+      "assignment_rate": 0.0,
+      "avg_premium_pct": 0,
+      "total_premium": 0,
+      "sharpe_ratio": -0.00416637711708101,
+      "max_drawdown": 3.4863773271395018,
+      "trades_per_month": 0.0
+    },
+    "Regional_Peak_IV": {
+      "total_return": -7.0070398983872355,
+      "annualized_return": -14.014079796774471,
+      "num_trades": 1,
+      "assigned_trades": 0,
+      "assignment_rate": 0.0,
+      "avg_premium_pct": 0.442937915819147,
+      "total_premium": 4196.539496309732,
+      "sharpe_ratio": 0.24407960628004097,
+      "max_drawdown": 3.04932923002141,
+      "trades_per_month": 0.16666666666666666
+    },
+    "Strike_IV_Anomaly": {
+      "total_return": -6.674882688591833,
+      "annualized_return": -13.349765377183665,
+      "num_trades": 1,
+      "assigned_trades": 0,
+      "assignment_rate": 0.0,
+      "avg_premium_pct": 0.36717749106981984,
+      "total_premium": 3446.2866667030667,
+      "sharpe_ratio": 0.436781999190243,
+      "max_drawdown": 3.473909012364423,
+      "trades_per_month": 0.16666666666666666
+    },
+    "Expiry_IV_Anomaly": {
+      "total_return": -6.620019637747607,
+      "annualized_return": -13.240039275495214,
+      "num_trades": 1,
+      "assigned_trades": 0,
+      "assignment_rate": 0.0,
+      "avg_premium_pct": 0.5082637316858659,
+      "total_premium": 4733.0631186176215,
+      "sharpe_ratio": 0.486962619652762,
+      "max_drawdown": 2.9934530424161743,
+      "trades_per_month": 0.16666666666666666
+    },
+    "IV_Term_Structure": {
+      "total_return": -7.06437718564272,
+      "annualized_return": -14.12875437128544,
+      "num_trades": 1,
+      "assigned_trades": 0,
+      "assignment_rate": 0.0,
+      "avg_premium_pct": 0.38503843511206876,
+      "total_premium": 3620.8261030333233,
+      "sharpe_ratio": 0.2142793132631164,
+      "max_drawdown": 3.109286831573374,
+      "trades_per_month": 0.16666666666666666
+    },
+    "IV_Smile_Anomaly": {
+      "total_return": -7.424987775558399,
+      "annualized_return": -14.849975551116797,
+      "num_trades": 0,
+      "assigned_trades": 0,
+      "assignment_rate": 0.0,
+      "avg_premium_pct": 0,
+      "total_premium": 0,
+      "sharpe_ratio": -0.00416637711708101,
+      "max_drawdown": 3.4863773271395018,
+      "trades_per_month": 0.0
+    },
+    "IV_Mean_Reversion": {
+      "total_return": -6.932526437206392,
+      "annualized_return": -13.865052874412784,
+      "num_trades": 0,
+      "assigned_trades": 0,
+      "assignment_rate": 0.0,
+      "avg_premium_pct": 0,
+      "total_premium": 0,
+      "sharpe_ratio": 0.2887598437723424,
+      "max_drawdown": 3.0180093534629804,
+      "trades_per_month": 0.0
+    },
+    "IV_Momentum": {
+      "total_return": -7.424987775558399,
+      "annualized_return": -14.849975551116797,
+      "num_trades": 0,
+      "assigned_trades": 0,
+      "assignment_rate": 0.0,
+      "avg_premium_pct": 0,
+      "total_premium": 0,
+      "sharpe_ratio": -0.00416637711708101,
+      "max_drawdown": 3.4863773271395018,
+      "trades_per_month": 0.0
+    },
+    "IV_Percentile_75": {
+      "total_return": -7.424987775558399,
+      "annualized_return": -14.849975551116797,
+      "num_trades": 0,
+      "assigned_trades": 0,
+      "assignment_rate": 0.0,
+      "avg_premium_pct": 0,
+      "total_premium": 0,
+      "sharpe_ratio": -0.00416637711708101,
+      "max_drawdown": 3.4863773271395018,
+      "trades_per_month": 0.0
+    },
+    "Combined_IV_Signal": {
+      "total_return": -6.953605655913653,
+      "annualized_return": -13.907211311827306,
+      "num_trades": 1,
+      "assigned_trades": 0,
+      "assignment_rate": 0.0,
+      "avg_premium_pct": 0.5082637316858659,
+      "total_premium": 4733.0631186176215,
+      "sharpe_ratio": 0.28215932317304093,
+      "max_drawdown": 2.9934530424161743,
+      "trades_per_month": 0.16666666666666666
+    }
+  },
+  "best_algorithm": {
+    "name": "Expiry_IV_Anomaly",
+    "metrics": {
+      "total_return": -6.620019637747607,
+      "annualized_return": -13.240039275495214,
+      "num_trades": 1.0,
+      "assigned_trades": 0.0,
+      "assignment_rate": 0.0,
+      "avg_premium_pct": 0.5082637316858659,
+      "total_premium": 4733.0631186176215,
+      "sharpe_ratio": 0.486962619652762,
+      "max_drawdown": 2.9934530424161743,
+      "trades_per_month": 0.16666666666666666
+    }
+  }
+}

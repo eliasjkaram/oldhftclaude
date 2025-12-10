@@ -1,0 +1,64 @@
+{
+  "portfolio": {
+    "initial_capital": 100000,
+    "max_position_size": 0.15,
+    "max_portfolio_risk": 0.02
+  },
+  "ai_agents": [
+    {
+      "name": "MomentumMaster",
+      "model": "deepseek/deepseek-r1:free",
+      "specialization": "Momentum and trend analysis",
+      "risk_tolerance": 0.7
+    },
+    {
+      "name": "ArbitrageHunter",
+      "model": "google/gemini-flash-1.5:free",
+      "specialization": "Arbitrage opportunities",
+      "risk_tolerance": 0.7
+    },
+    {
+      "name": "RiskGuardian",
+      "model": "nvidia/llama-3.1-nemotron-70b-instruct:free",
+      "specialization": "Risk management and analysis",
+      "risk_tolerance": 0.7
+    },
+    {
+      "name": "OptionsSpecialist",
+      "model": "qwen/qwen-2.5-coder-32b-instruct:free",
+      "specialization": "Options strategies and Greeks",
+      "risk_tolerance": 0.7
+    },
+    {
+      "name": "RegimeDetector",
+      "model": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "specialization": "Market regime analysis",
+      "risk_tolerance": 0.7
+    }
+  ],
+  "system": {
+    "trading_symbols": [
+      "AAPL",
+      "MSFT",
+      "GOOGL",
+      "AMZN",
+      "TSLA",
+      "NVDA",
+      "META",
+      "BRK-B",
+      "NFLX",
+      "AMD",
+      "CRM",
+      "ORCL",
+      "ADBE",
+      "PYPL",
+      "INTC",
+      "CSCO",
+      "AVGO",
+      "SOFI",
+      "PTON",
+      "PLTR"
+    ],
+    "openrouter_api_key": "sk-or-v1-e746c30e18a..."
+  }
+}

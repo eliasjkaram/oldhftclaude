@@ -1,0 +1,35 @@
+{
+  "initial_equity": 1007226.51,
+  "final_equity": 1007237.06,
+  "total_pnl": 10.550000000046566,
+  "total_return": 0.0010474307313502467,
+  "total_trades": 48,
+  "ai_models": [
+    "NEURAL_VOLATILITY",
+    "LSTM_PRICE_PATH",
+    "TRANSFORMER_CORRELATION",
+    "GAN_MARKET_SIMULATOR",
+    "REINFORCEMENT_SPREADS",
+    "QUANTUM_ARBITRAGE",
+    "GRAPH_NEURAL_OPTIONS",
+    "ATTENTION_MECHANISM"
+  ],
+  "spread_strategies": [
+    "BULL_CALL_SPREAD",
+    "BEAR_PUT_SPREAD",
+    "IRON_CONDOR",
+    "IRON_BUTTERFLY",
+    "CALENDAR_SPREAD",
+    "DIAGONAL_SPREAD",
+    "RATIO_SPREAD",
+    "BACKSPREAD",
+    "BOX_SPREAD",
+    "CONVERSION",
+    "REVERSAL",
+    "JELLY_ROLL",
+    "STRADDLE",
+    "STRANGLE",
+    "BUTTERFLY",
+    "CONDOR"
+  ]
+}

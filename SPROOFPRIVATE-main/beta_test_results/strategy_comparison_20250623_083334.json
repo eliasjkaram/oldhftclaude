@@ -1,0 +1,121 @@
+{
+  "test_date": "20250623_083334",
+  "summary": {
+    "total_strategies_tested": 14,
+    "average_return": 4.5718178571428565,
+    "best_strategy": {
+      "strategy": "timing_{'name': 'IV-Based', 'condition': 'high_iv'}",
+      "timestamp": "2025-06-23T08:33:38.220491",
+      "total_return": 10.402,
+      "annualized_return": NaN,
+      "trades": NaN,
+      "premium": NaN,
+      "final_value": NaN,
+      "parameter_type": "timing",
+      "parameter_value": "{'name': 'IV-Based', 'condition': 'high_iv'}"
+    },
+    "all_positive": false
+  },
+  "detailed_results": [
+    {
+      "strategy": "Basic Covered Call",
+      "timestamp": "2025-06-23T08:33:34.997566",
+      "total_return": 7.43,
+      "annualized_return": 2.42,
+      "trades": 6,
+      "premium": 113877.15,
+      "final_value": 1289196.59
+    },
+    {
+      "strategy": "Enhanced TLT IV",
+      "timestamp": "2025-06-23T08:33:38.220336",
+      "total_return": -38.64,
+      "annualized_return": -15.02,
+      "trades": 0
+    },
+    {
+      "strategy": "position_size_5000",
+      "timestamp": "2025-06-23T08:33:38.220412",
+      "total_return": 8.13585,
+      "parameter_type": "position_size",
+      "parameter_value": "5000"
+    },
+    {
+      "strategy": "position_size_10000",
+      "timestamp": "2025-06-23T08:33:38.220422",
+      "total_return": 8.098700000000001,
+      "parameter_type": "position_size",
+      "parameter_value": "10000"
+    },
+    {
+      "strategy": "position_size_20000",
+      "timestamp": "2025-06-23T08:33:38.220428",
+      "total_return": 8.0244,
+      "parameter_type": "position_size",
+      "parameter_value": "20000"
+    },
+    {
+      "strategy": "position_size_50000",
+      "timestamp": "2025-06-23T08:33:38.220432",
+      "total_return": 7.8015,
+      "parameter_type": "position_size",
+      "parameter_value": "50000"
+    },
+    {
+      "strategy": "strike_strategy_{'name': 'ATM', 'delta': 0.5}",
+      "timestamp": "2025-06-23T08:33:38.220448",
+      "total_return": 8.915999999999999,
+      "parameter_type": "strike_strategy",
+      "parameter_value": "{'name': 'ATM', 'delta': 0.5}"
+    },
+    {
+      "strategy": "strike_strategy_{'name': '5% OTM', 'delta': 0.3}",
+      "timestamp": "2025-06-23T08:33:38.220457",
+      "total_return": 6.687,
+      "parameter_type": "strike_strategy",
+      "parameter_value": "{'name': '5% OTM', 'delta': 0.3}"
+    },
+    {
+      "strategy": "strike_strategy_{'name': '10% OTM', 'delta': 0.2}",
+      "timestamp": "2025-06-23T08:33:38.220464",
+      "total_return": 6.687,
+      "parameter_type": "strike_strategy",
+      "parameter_value": "{'name': '10% OTM', 'delta': 0.2}"
+    },
+    {
+      "strategy": "strike_strategy_{'name': 'Conservative', 'delta': 0.4}",
+      "timestamp": "2025-06-23T08:33:38.220470",
+      "total_return": 5.944,
+      "parameter_type": "strike_strategy",
+      "parameter_value": "{'name': 'Conservative', 'delta': 0.4}"
+    },
+    {
+      "strategy": "timing_{'name': 'Weekly', 'frequency': 'W'}",
+      "timestamp": "2025-06-23T08:33:38.220480",
+      "total_return": 9.659,
+      "parameter_type": "timing",
+      "parameter_value": "{'name': 'Weekly', 'frequency': 'W'}"
+    },
+    {
+      "strategy": "timing_{'name': 'Monthly', 'frequency': 'M'}",
+      "timestamp": "2025-06-23T08:33:38.220486",
+      "total_return": 7.43,
+      "parameter_type": "timing",
+      "parameter_value": "{'name': 'Monthly', 'frequency': 'M'}"
+    },
+    {
+      "strategy": "timing_{'name': 'IV-Based', 'condition': 'high_iv'}",
+      "timestamp": "2025-06-23T08:33:38.220491",
+      "total_return": 10.402,
+      "parameter_type": "timing",
+      "parameter_value": "{'name': 'IV-Based', 'condition': 'high_iv'}"
+    },
+    {
+      "strategy": "timing_{'name': 'Momentum', 'condition': 'uptrend'}",
+      "timestamp": "2025-06-23T08:33:38.220496",
+      "total_return": 7.43,
+      "parameter_type": "timing",
+      "parameter_value": "{'name': 'Momentum', 'condition': 'uptrend'}"
+    }
+  ]
+}

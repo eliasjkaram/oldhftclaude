@@ -1,0 +1,41 @@
+{
+  "initial_equity": 1007237.06,
+  "final_equity": 1007229.9,
+  "total_pnl": -7.160000000032596,
+  "total_return": -0.0007108554961264626,
+  "total_trades": 4,
+  "active_spreads": [
+    {
+      "type": "BULL_CALL_SPREAD",
+      "underlying": "AAPL",
+      "max_profit": 249.00000000000003,
+      "max_loss": 1.0000000000000002,
+      "status": "FILLED",
+      "order_id": "2b4094e6-1a8d-46cd-88ce-acf29cde6733"
+    },
+    {
+      "type": "BULL_CALL_SPREAD",
+      "underlying": "AAPL",
+      "max_profit": 248.0,
+      "max_loss": 1.9999999999999998,
+      "status": "FILLED",
+      "order_id": "b916d4b9-b760-41e4-a05d-a41680e25edc"
+    },
+    {
+      "type": "BULL_CALL_SPREAD",
+      "underlying": "AAPL",
+      "max_profit": 249.00000000000003,
+      "max_loss": 1.0000000000000002,
+      "status": "PENDING",
+      "order_id": "29513174-6275-4b79-a565-218f352e5c1b"
+    },
+    {
+      "type": "BULL_CALL_SPREAD",
+      "underlying": "AAPL",
+      "max_profit": 249.00000000000003,
+      "max_loss": 1.0000000000000002,
+      "status": "PENDING",
+      "order_id": "e9bd597b-1834-48c7-9b90-a46b1debd6f4"
+    }
+  ]
+}

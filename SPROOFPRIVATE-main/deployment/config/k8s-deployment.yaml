@@ -1,0 +1,60 @@
+{
+  "apiVersion": "apps/v1",
+  "kind": "Deployment",
+  "metadata": {
+    "name": "hft-cluster",
+    "labels": {
+      "app": "hft-cluster"
+    }
+  },
+  "spec": {
+    "replicas": 4,
+    "selector": {
+      "matchLabels": {
+        "app": "hft-cluster"
+      }
+    },
+    "template": {
+      "metadata": {
+        "labels": {
+          "app": "hft-cluster"
+        }
+      },
+      "spec": {
+        "containers": [
+          {
+            "name": "hft-container",
+            "image": "hft-cluster:latest",
+            "ports": [
+              {
+                "containerPort": 5555
+              }
+            ],
+            "resources": {
+              "limits": {
+                "nvidia.com/gpu": 2,
+                "memory": "16Gi",
+                "cpu": "8"
+              },
+              "requests": {
+                "nvidia.com/gpu": 1,
+                "memory": "8Gi",
+                "cpu": "4"
+              }
+            },
+            "env": [
+              {
+                "name": "CUDA_VISIBLE_DEVICES",
+                "value": "all"
+              },
+              {
+                "name": "NODE_TYPE",
+                "value": "scanner"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

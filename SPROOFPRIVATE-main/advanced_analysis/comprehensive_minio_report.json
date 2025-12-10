@@ -1,0 +1,48 @@
+{
+  "generated_at": "2025-06-16T12:18:19.007830",
+  "data_sources": {
+    "options": "stockdb/options/2002-2009",
+    "stocks": "stockdb/samples",
+    "financials": "stockdb/us_financials"
+  },
+  "analysis_summary": {
+    "options_patterns": "Analyzed volatility smiles, term structures, put-call ratios",
+    "volume_analysis": "Identified high-volume strikes and concentration patterns",
+    "correlation_analysis": "Cross-asset correlation patterns",
+    "signal_generation": "Generated trading signals from historical patterns"
+  },
+  "key_findings": {
+    "volatility_patterns": [
+      "Persistent put skew in index options",
+      "Term structure shows backwardation during stress",
+      "Smile curvature increases with market uncertainty"
+    ],
+    "volume_patterns": [
+      "Options volume concentrated in weekly expirations",
+      "Put-call ratio spikes precede market corrections",
+      "Open interest builds at round number strikes"
+    ],
+    "trading_opportunities": [
+      "Volatility arbitrage between term structures",
+      "Skew trading strategies",
+      "Pin risk management at high OI strikes"
+    ]
+  },
+  "recommendations": {
+    "immediate": [
+      "Implement volatility smile monitoring",
+      "Track put-call ratios for sentiment",
+      "Monitor open interest for pin risk"
+    ],
+    "medium_term": [
+      "Build volatility surface models",
+      "Develop term structure trading strategies",
+      "Create cross-asset correlation matrix"
+    ],
+    "long_term": [
+      "Machine learning for pattern recognition",
+      "Automated signal generation system",
+      "Real-time risk analytics dashboard"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "initial_equity": 1009032.44,
+  "final_equity": 1008880.24,
+  "total_pnl": -152.19999999995343,
+  "total_return": -0.015083756871082701,
+  "total_trades": 0,
+  "strategies": {
+    "ARBITRAGE_SCANNER": {
+      "trades": 0,
+      "wins": 0
+    },
+    "OPTIONS_SCANNER": {
+      "trades": 0,
+      "wins": 0
+    },
+    "TRANSFORMER_PREDICTION": {
+      "trades": 0,
+      "wins": 0
+    },
+    "ML_ENSEMBLE": {
+      "trades": 0,
+      "wins": 0
+    },
+    "MARKET_MICROSTRUCTURE": {
+      "trades": 0,
+      "wins": 0
+    },
+    "SENTIMENT_ANALYSIS": {
+      "trades": 0,
+      "wins": 0
+    },
+    "MOMENTUM_SCALPING": {
+      "trades": 0,
+      "wins": 0
+    },
+    "MEAN_REVERSION": {
+      "trades": 0,
+      "wins": 0
+    },
+    "PAIRS_TRADING": {
+      "trades": 0,
+      "wins": 0
+    },
+    "VOLATILITY_BREAKOUT": {
+      "trades": 0,
+      "wins": 0
+    },
+    "PATTERN_RECOGNITION": {
+      "trades": 0,
+      "wins": 0
+    },
+    "STATISTICAL_ARBITRAGE": {
+      "trades": 0,
+      "wins": 0
+    }
+  },
+  "trades": []
+}

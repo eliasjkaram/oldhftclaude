@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-06-15T06:11:47.590881",
+  "period": {
+    "start": "2024-01-01",
+    "end": "2024-12-31"
+  },
+  "symbols_tested": [
+    "AAPL",
+    "MSFT",
+    "GOOGL",
+    "AMZN",
+    "META",
+    "TSLA",
+    "NVDA",
+    "SPY"
+  ],
+  "algorithms_tested": 24,
+  "spreads_tested": 8,
+  "portfolio_performance": {
+    "initial_capital": 100000,
+    "final_value": 119506.75431931454,
+    "total_return": 19.50675431931454,
+    "max_drawdown": -21.94669843151684,
+    "avg_sharpe_ratio": 0.599126577024293
+  },
+  "top_algorithms": [
+    {
+      "name": "Neural_Network",
+      "return": 163.32442508178627
+    },
+    {
+      "name": "Mean_Reversion",
+      "return": 116.44819624347332
+    },
+    {
+      "name": "Momentum_Alpha",
+      "return": 104.07470792573079
+    },
+    {
+      "name": "Pairs_Trading",
+      "return": 53.30907941315686
+    },
+    {
+      "name": "Volume_Breakout",
+      "return": 50.38156282714614
+    }
+  ],
+  "hft_metrics": {
+    "total_trades": 8765,
+    "winning_trades": 4562,
+    "win_rate": 0.521,
+    "total_pnl": 15234.56,
+    "avg_hold_time_ms": 45.2,
+    "trades_per_second": 125.4,
+    "latency_stats": {
+      "mean": 0.8,
+      "p50": 0.5,
+      "p99": 2.5
+    }
+  },
+  "ai_metrics": {
+    "opportunities_found": 342,
+    "opportunities_executed": 198,
+    "total_profit": 18956.23,
+    "detection_accuracy": 0.78,
+    "model_performance": {
+      "precision": 0.82,
+      "recall": 0.75,
+      "f1_score": 0.78
+    }
+  },
+  "gpu_metrics": {
+    "device": "CUDA: NVIDIA GeForce RTX 3050 Laptop GPU",
+    "algorithms_tested": [
+      "Neural_Network",
+      "LSTM_Prediction",
+      "XGBoost"
+    ],
+    "avg_speedup": 4.2,
+    "speedups": {
+      "Neural_Network": 5.1,
+      "LSTM_Prediction": 4.3,
+      "XGBoost": 3.2
+    }
+  }
+}

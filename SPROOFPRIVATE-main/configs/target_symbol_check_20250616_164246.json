@@ -1,0 +1,265 @@
+{
+  "check_timestamp": "2025-06-16T16:42:41.571152",
+  "target_date": "2023-01-03",
+  "symbol_files": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "filename": "stocks-2010-2025/AAPL.csv",
+      "exists": true,
+      "size": "205066",
+      "last_modified": "Mon, 16 Jun 2025 12:10:55 GMT",
+      "content_type": "text/csv",
+      "error": null
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "filename": "stocks-2010-2025/MSFT.csv",
+      "exists": true,
+      "size": "187192",
+      "last_modified": "Mon, 16 Jun 2025 12:11:46 GMT",
+      "content_type": "text/csv",
+      "error": null
+    },
+    "GOOGL": {
+      "symbol": "GOOGL",
+      "filename": "stocks-2010-2025/GOOGL.csv",
+      "exists": true,
+      "size": "205984",
+      "last_modified": "Mon, 16 Jun 2025 12:11:29 GMT",
+      "content_type": "text/csv",
+      "error": null
+    }
+  },
+  "data_availability": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "downloadable": true,
+      "contains_target_date": true,
+      "date_range": {
+        "earliest": "2010-01-04",
+        "latest": "2025-04-08",
+        "total_unique_dates": 3708,
+        "sample_dates": [
+          "2010-01-04",
+          "2010-01-05",
+          "2010-01-06",
+          "2010-01-07",
+          "2010-01-08",
+          "2010-01-11",
+          "2010-01-12",
+          "2010-01-13",
+          "2010-01-14",
+          "2010-01-15"
+        ]
+      },
+      "target_date_data": {
+        "raw_record": "2023-01-03,130.28,130.9,124.17,125.07,111921868",
+        "parsed_data": {
+          "trade_date": "2023-01-03",
+          "Open": "130.28",
+          "High": "130.9",
+          "Low": "124.17",
+          "Close": "125.07",
+          "Volume": "111921868"
+        }
+      },
+      "total_records": 3708,
+      "sample_records": [
+        "2010-01-04,213.429998,214.499996,212.380001,214.009998,123432400",
+        "2010-01-05,214.599998,215.589994,213.249994,214.379993,150476200",
+        "2010-01-06,214.379993,215.23,210.750004,210.969995,138040000",
+        "2010-01-07,211.75,212.000006,209.050005,210.58,119282800",
+        "2010-01-08,210.299994,212.000006,209.060005,211.980005,111902700"
+      ],
+      "data_quality": {
+        "has_header": true,
+        "consistent_fields": true,
+        "appears_valid": true,
+        "date_format_consistent": true
+      },
+      "error": null,
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "contains_2023_data": true,
+      "2023_date_count": 243,
+      "2023_date_range": {
+        "earliest": "2023-01-02",
+        "latest": "2023-12-29",
+        "sample_2023_dates": [
+          "2023-01-02",
+          "2023-01-03",
+          "2023-01-04",
+          "2023-01-05",
+          "2023-01-06",
+          "2023-01-09",
+          "2023-01-10",
+          "2023-01-11",
+          "2023-01-12",
+          "2023-01-13"
+        ]
+      }
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "downloadable": true,
+      "contains_target_date": true,
+      "date_range": {
+        "earliest": "2010-01-04",
+        "latest": "2025-04-08",
+        "total_unique_dates": 3705,
+        "sample_dates": [
+          "2010-01-04",
+          "2010-01-05",
+          "2010-01-06",
+          "2010-01-07",
+          "2010-01-08",
+          "2010-01-11",
+          "2010-01-12",
+          "2010-01-13",
+          "2010-01-14",
+          "2010-01-15"
+        ]
+      },
+      "target_date_data": {
+        "raw_record": "2023-01-03,243.08,245.75,237.4,239.58,25689364",
+        "parsed_data": {
+          "trade_date": "2023-01-03",
+          "Open": "243.08",
+          "High": "245.75",
+          "Low": "237.4",
+          "Close": "239.58",
+          "Volume": "25689364"
+        }
+      },
+      "total_records": 3705,
+      "sample_records": [
+        "2010-01-04,30.620001,31.1,30.59,30.950001,38409100",
+        "2010-01-05,30.85,31.1,30.639999,30.959999,49749600",
+        "2010-01-06,30.879999,31.08,30.52,30.77,58182400",
+        "2010-01-07,30.629999,30.700001,30.190001,30.450001,50559700",
+        "2010-01-08,30.280001,30.879999,30.24,30.66,51197400"
+      ],
+      "data_quality": {
+        "has_header": true,
+        "consistent_fields": true,
+        "appears_valid": true,
+        "date_format_consistent": true
+      },
+      "error": null,
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "contains_2023_data": true,
+      "2023_date_count": 241,
+      "2023_date_range": {
+        "earliest": "2023-01-02",
+        "latest": "2023-12-29",
+        "sample_2023_dates": [
+          "2023-01-02",
+          "2023-01-03",
+          "2023-01-04",
+          "2023-01-09",
+          "2023-01-10",
+          "2023-01-11",
+          "2023-01-12",
+          "2023-01-13",
+          "2023-01-16",
+          "2023-01-17"
+        ]
+      }
+    },
+    "GOOGL": {
+      "symbol": "GOOGL",
+      "downloadable": true,
+      "contains_target_date": true,
+      "date_range": {
+        "earliest": "2010-01-04",
+        "latest": "2025-04-08",
+        "total_unique_dates": 3707,
+        "sample_dates": [
+          "2010-01-04",
+          "2010-01-05",
+          "2010-01-06",
+          "2010-01-07",
+          "2010-01-08",
+          "2010-01-11",
+          "2010-01-12",
+          "2010-01-13",
+          "2010-01-14",
+          "2010-01-15"
+        ]
+      },
+      "target_date_data": {
+        "raw_record": "2023-01-03,89.585,91.05,88.52,89.12,28105721",
+        "parsed_data": {
+          "trade_date": "2023-01-03",
+          "Open": "89.585",
+          "High": "91.05",
+          "Low": "88.52",
+          "Close": "89.12",
+          "Volume": "28105721"
+        }
+      },
+      "total_records": 3707,
+      "sample_records": [
+        "2010-01-04,626.950006,629.510005,624.240011,626.750011,3908400",
+        "2010-01-05,627.180001,627.839984,621.540016,623.990017,6003300",
+        "2010-01-06,625.860033,625.860033,606.360021,608.260035,7949400",
+        "2010-01-07,609.400008,609.999993,592.64999,594.100015,12815700",
+        "2010-01-08,592.000005,603.250036,589.110015,602.020005,9439100"
+      ],
+      "data_quality": {
+        "has_header": true,
+        "consistent_fields": true,
+        "appears_valid": true,
+        "date_format_consistent": true
+      },
+      "error": null,
+      "columns": [
+        "trade_date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "contains_2023_data": true,
+      "2023_date_count": 243,
+      "2023_date_range": {
+        "earliest": "2023-01-02",
+        "latest": "2023-12-29",
+        "sample_2023_dates": [
+          "2023-01-02",
+          "2023-01-03",
+          "2023-01-04",
+          "2023-01-05",
+          "2023-01-06",
+          "2023-01-09",
+          "2023-01-10",
+          "2023-01-11",
+          "2023-01-12",
+          "2023-01-13"
+        ]
+      }
+    }
+  },
+  "recommendations": [
+    "\u2705 SYMBOL FILES: 3/3 target symbol files found",
+    "\ud83c\udfaf TARGET DATE SUCCESS: 3/3 symbols have 2023-01-03 data",
+    "   \u2022 Symbols with 2023-01-03: AAPL, MSFT, GOOGL",
+    "\ud83d\ude80 READY FOR INTEGRATION: Same-day algorithm can access this data",
+    "\ud83d\udcca DATA PATH: stocks-2010-2025/{SYMBOL}.csv format",
+    "\u26a1 PERFORMANCE: Consider caching these files locally"
+  ]
+}

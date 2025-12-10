@@ -1,0 +1,57 @@
+{
+  "position_limits": {
+    "max_contracts_per_trade": 10,
+    "max_percentage_of_oi": 0.05,
+    "max_percentage_of_volume": 0.1
+  },
+  "risk_parameters": {
+    "max_loss_per_trade": 0.02,
+    "profit_target": 0.5,
+    "stop_loss": 2.0,
+    "days_to_expiry_exit": 5
+  },
+  "liquidity_filters": {
+    "min_volume": 10,
+    "min_open_interest": 50,
+    "min_bid_ask_ratio": 0.8
+  },
+  "scanner_filters": {
+    "high_volume": {
+      "min_volume": 38.0,
+      "min_open_interest": 568.0
+    },
+    "tight_spreads": {
+      "max_bid_ask_spread": 0.75
+    },
+    "liquid_underlyings": [
+      "TSLA",
+      "TSLL",
+      "TSLI"
+    ]
+  },
+  "strategy_specific_limits": {
+    "covered_calls": {
+      "max_contracts": 10,
+      "max_allocation": 0.2,
+      "delta_range": [
+        0.15,
+        0.35
+      ]
+    },
+    "cash_secured_puts": {
+      "max_contracts": 10,
+      "max_allocation": 0.15,
+      "delta_range": [
+        -0.35,
+        -0.15
+      ]
+    },
+    "spreads": {
+      "max_contracts": 20,
+      "max_allocation": 0.25,
+      "max_loss_per_spread": 0.01
+    }
+  },
+  "data_source": "MinIO options analysis",
+  "last_updated": "2025-06-16T12:12:21.307377"
+}

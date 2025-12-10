@@ -1,0 +1,16 @@
+numpy>=1.21.0
+asyncio
+psutil
+pyzmq
+redis
+uvloop
+aiofiles
+prometheus_client
+pyyaml
+click
+rich
+fastapi
+uvicorn
+websockets
+pandas
+scipy

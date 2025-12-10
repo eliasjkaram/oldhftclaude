@@ -1,0 +1,24 @@
+{
+  "search_timestamp": "2025-06-16T16:38:53.429336",
+  "search_focus": "2023 stock data in stocks-2010-2025 directory",
+  "2023_stock_files": [],
+  "sample_data": {},
+  "file_structure_analysis": {
+    "total_files": 0,
+    "file_types": {},
+    "date_patterns": {},
+    "size_ranges": {},
+    "files_with_target_date": 0
+  },
+  "target_symbols_analysis": {
+    "AAPL": {},
+    "MSFT": {},
+    "GOOGL": {}
+  },
+  "recommendations": [
+    "\u274c No 2023 stock files found in stocks-2010-2025 directory",
+    "\ud83d\udd0d Alternative: Check aws_backup/extracted_options/ for historical stock data",
+    "\ud83d\udcde Verify: Confirm MinIO setup and 2023 data availability"
+  ],
+  "specific_2023_01_03_files": []
+}

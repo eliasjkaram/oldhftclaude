@@ -1,0 +1,21 @@
+{
+  "data_source": "Alpaca API - Historical",
+  "period": "2023-07-01 to 2023-12-31",
+  "verified_historical": true,
+  "data_points": 126,
+  "price_data": {
+    "start_price": 102.08,
+    "end_price": 98.88,
+    "min_price": 82.77,
+    "max_price": 102.95
+  },
+  "performance": {
+    "strategy_return": -1.8000995811057363,
+    "buy_hold_return": -3.134796238244517,
+    "excess_return": 1.3346966571387808,
+    "total_premium": 13624.583476072696,
+    "num_trades": 0,
+    "assigned_trades": 0
+  },
+  "trades": []
+}

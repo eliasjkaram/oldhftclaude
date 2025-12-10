@@ -1,0 +1,161 @@
+{
+  "initial_equity": 1008880.24,
+  "final_equity": 1008880.24,
+  "total_pnl": 0.0,
+  "total_return": 0.0,
+  "total_predictions": 0,
+  "prediction_tools": 36,
+  "tool_performance": {
+    "LSTM_PREDICTOR": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "GRU_PREDICTOR": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "TRANSFORMER_PREDICTOR": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "CNN_PATTERN": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "RNN_SEQUENCE": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "XGBOOST_ENSEMBLE": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "LIGHTGBM_BOOST": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "CATBOOST_TREE": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "RANDOM_FOREST": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "RSI_MOMENTUM": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "MACD_CROSSOVER": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "BOLLINGER_BANDS": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "FIBONACCI_RETRACEMENT": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "ELLIOTT_WAVE": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "ICHIMOKU_CLOUD": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "VOLUME_PROFILE": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "MARKET_PROFILE": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "ORDER_FLOW": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "MEAN_REVERSION": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "MOMENTUM_BREAKOUT": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "PAIRS_TRADING": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "STATISTICAL_ARBITRAGE": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "COINTEGRATION": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "CORRELATION_MATRIX": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "MARKET_MICROSTRUCTURE": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "SENTIMENT_ANALYSIS": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "OPTIONS_FLOW": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "DARK_POOL_DETECTION": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "SMART_MONEY_TRACKING": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "WHALE_DETECTION": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "QUANTUM_CORRELATION": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "FRACTAL_ANALYSIS": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "CHAOS_THEORY": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "WAVELET_TRANSFORM": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "FOURIER_ANALYSIS": {
+      "predictions": 0,
+      "correct": 0
+    },
+    "ENTROPY_MEASURE": {
+      "predictions": 0,
+      "correct": 0
+    }
+  },
+  "price_improvement": {
+    "attempts": 0,
+    "successes": 0,
+    "total_saved": 0
+  },
+  "completed_trades": 0,
+  "trades": []
+}

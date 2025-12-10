@@ -1,0 +1,220 @@
+{
+  "summary": {
+    "initial_capital": 100000,
+    "final_value": 98859.81868190478,
+    "total_trades": 8,
+    "win_rate": 0.0
+  },
+  "performance_log": [
+    {
+      "iteration": 1,
+      "total_value": 100000.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "positions": 3,
+      "risk_level": "medium"
+    },
+    {
+      "iteration": 2,
+      "total_value": 100678.24896456298,
+      "pnl": 678.248964562983,
+      "pnl_pct": 0.678248964562983,
+      "positions": 5,
+      "risk_level": "medium"
+    },
+    {
+      "iteration": 3,
+      "total_value": 100879.48895161743,
+      "pnl": 879.4889516174298,
+      "pnl_pct": 0.8794889516174298,
+      "positions": 5,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 4,
+      "total_value": 100539.16503406216,
+      "pnl": 539.1650340621563,
+      "pnl_pct": 0.5391650340621563,
+      "positions": 7,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 5,
+      "total_value": 100532.95663354007,
+      "pnl": 532.9566335400741,
+      "pnl_pct": 0.532956633540074,
+      "positions": 6,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 6,
+      "total_value": 100960.14788681854,
+      "pnl": 960.1478868185368,
+      "pnl_pct": 0.9601478868185367,
+      "positions": 7,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 7,
+      "total_value": 99685.64888045233,
+      "pnl": -314.3511195476749,
+      "pnl_pct": -0.31435111954767486,
+      "positions": 7,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 8,
+      "total_value": 99980.90905577756,
+      "pnl": -19.09094422243652,
+      "pnl_pct": -0.01909094422243652,
+      "positions": 8,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 9,
+      "total_value": 99754.60333547171,
+      "pnl": -245.3966645282926,
+      "pnl_pct": -0.24539666452829262,
+      "positions": 8,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 10,
+      "total_value": 98980.00805303865,
+      "pnl": -1019.9919469613524,
+      "pnl_pct": -1.0199919469613523,
+      "positions": 6,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 11,
+      "total_value": 98334.79314976651,
+      "pnl": -1665.2068502334878,
+      "pnl_pct": -1.6652068502334878,
+      "positions": 7,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 12,
+      "total_value": 99305.39300462985,
+      "pnl": -694.6069953701517,
+      "pnl_pct": -0.6946069953701517,
+      "positions": 8,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 13,
+      "total_value": 99419.72254486871,
+      "pnl": -580.2774551312905,
+      "pnl_pct": -0.5802774551312905,
+      "positions": 8,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 14,
+      "total_value": 99682.62341250824,
+      "pnl": -317.376587491759,
+      "pnl_pct": -0.317376587491759,
+      "positions": 8,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 15,
+      "total_value": 99150.68448796145,
+      "pnl": -849.3155120385491,
+      "pnl_pct": -0.849315512038549,
+      "positions": 8,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 16,
+      "total_value": 99395.81598602256,
+      "pnl": -604.1840139774431,
+      "pnl_pct": -0.6041840139774431,
+      "positions": 7,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 17,
+      "total_value": 99136.6099107691,
+      "pnl": -863.390089230903,
+      "pnl_pct": -0.863390089230903,
+      "positions": 7,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 18,
+      "total_value": 98740.1331831626,
+      "pnl": -1259.8668168373988,
+      "pnl_pct": -1.2598668168373988,
+      "positions": 6,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 19,
+      "total_value": 98679.69168691905,
+      "pnl": -1320.3083130809537,
+      "pnl_pct": -1.3203083130809536,
+      "positions": 6,
+      "risk_level": "low"
+    },
+    {
+      "iteration": 20,
+      "total_value": 98859.81868190478,
+      "pnl": -1140.1813180952158,
+      "pnl_pct": -1.1401813180952158,
+      "positions": 6,
+      "risk_level": "low"
+    }
+  ],
+  "trades": [
+    {
+      "symbol": "AMZN",
+      "pnl": -509.33857336464,
+      "pnl_percentage": -3.5816434613258576,
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "AAPL",
+      "pnl": -297.46873680794334,
+      "pnl_percentage": -5.093701040898966,
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "JPM",
+      "pnl": -626.6682691051947,
+      "pnl_percentage": -5.147494473425382,
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "META",
+      "pnl": -271.0559928354478,
+      "pnl_percentage": -3.743646976242677,
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "AAPL",
+      "pnl": -318.98824925083613,
+      "pnl_percentage": -5.553087700528756,
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "TSLA",
+      "pnl": -178.77803257998045,
+      "pnl_percentage": -3.044008186124616,
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "JPM",
+      "pnl": -252.2628969757548,
+      "pnl_percentage": -3.422569820590033,
+      "exit_reason": "stop_loss"
+    },
+    {
+      "symbol": "AMZN",
+      "pnl": -301.83796885207863,
+      "pnl_percentage": -4.2393678211937456,
+      "exit_reason": "stop_loss"
+    }
+  ]
+}

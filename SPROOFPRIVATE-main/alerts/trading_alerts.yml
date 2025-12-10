@@ -1,0 +1,192 @@
+groups:
+  - name: trading_critical
+    interval: 30s
+    rules:
+      - alert: AlpacaAPIDown
+        expr: alpaca_trading_service_health_status{service_name="alpaca_api"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          component: api
+        annotations:
+          summary: "Alpaca API connection is down"
+          description: "Unable to connect to Alpaca API for {{ $value }} minutes. Trading is halted."
+          runbook: "https://wiki.internal/runbooks/alpaca-api-down"
+          
+      - alert: HighOrderFailureRate
+        expr: |
+          (
+            rate(alpaca_trading_orders_total{status="failed"}[5m]) 
+            / 
+            rate(alpaca_trading_orders_total[5m])
+          ) > 0.1
+        for: 5m
+        labels:
+          severity: critical
+          component: trading
+        annotations:
+          summary: "High order failure rate detected"
+          description: "{{ $value | humanizePercentage }} of orders are failing. Threshold is 10%."
+          
+      - alert: LargeTradingLoss
+        expr: alpaca_trading_trading_pnl_total < -5000
+        for: 0s
+        labels:
+          severity: critical
+          component: trading
+        annotations:
+          summary: "Large trading loss detected: ${{ $value }}"
+          description: "Trading P&L has dropped below -$5000. Current loss: ${{ $value }}"
+          action: "Review positions immediately and consider closing losing trades."
+
+  - name: trading_errors
+    interval: 1m
+    rules:
+      - alert: HighPositionConcentration
+        expr: max(alpaca_trading_position_risk_score) > 0.25
+        for: 5m
+        labels:
+          severity: error
+          component: risk
+        annotations:
+          summary: "Position concentration too high"
+          description: "Position {{ $labels.symbol }} represents {{ $value | humanizePercentage }} of portfolio"
+          
+      - alert: MarketDataStale
+        expr: alpaca_trading_market_data_lag_seconds > 300
+        for: 5m
+        labels:
+          severity: error
+          component: data
+        annotations:
+          summary: "Market data feed is stale"
+          description: "Market data for {{ $labels.symbol }} is {{ $value }} seconds old"
+          
+      - alert: DatabaseConnectionLost
+        expr: alpaca_trading_service_health_status{service_name="database_connections"} == 0
+        for: 2m
+        labels:
+          severity: error
+          component: database
+        annotations:
+          summary: "Database connection lost"
+          description: "Unable to connect to trading databases"
+          
+      - alert: HighOrderLatency
+        expr: |
+          histogram_quantile(0.95, 
+            rate(alpaca_trading_order_latency_milliseconds_bucket[5m])
+          ) > 1000
+        for: 10m
+        labels:
+          severity: error
+          component: performance
+        annotations:
+          summary: "High order execution latency"
+          description: "95th percentile order latency is {{ $value }}ms (threshold: 1000ms)"
+
+  - name: trading_warnings
+    interval: 2m
+    rules:
+      - alert: HighCPUUsage
+        expr: alpaca_trading_system_cpu_usage_percent > 80
+        for: 10m
+        labels:
+          severity: warning
+          component: system
+        annotations:
+          summary: "High CPU usage on {{ $labels.service }}"
+          description: "CPU usage is at {{ $value }}% (threshold: 80%)"
+          
+      - alert: HighMemoryUsage
+        expr: alpaca_trading_system_memory_usage_mb > 14000
+        for: 10m
+        labels:
+          severity: warning
+          component: system
+        annotations:
+          summary: "High memory usage on {{ $labels.service }}"
+          description: "Memory usage is at {{ $value }}MB (threshold: 14GB)"
+          
+      - alert: LowDiskSpace
+        expr: alpaca_trading_system_disk_usage_percent > 85
+        for: 30m
+        labels:
+          severity: warning
+          component: system
+        annotations:
+          summary: "Low disk space on {{ $labels.mount_point }}"
+          description: "Disk usage is at {{ $value }}% (threshold: 85%)"
+          
+      - alert: ModelAccuracyDegraded
+        expr: alpaca_trading_model_prediction_accuracy < 0.6
+        for: 30m
+        labels:
+          severity: warning
+          component: ml
+        annotations:
+          summary: "Model accuracy degraded"
+          description: "{{ $labels.model_name }} accuracy is {{ $value | humanizePercentage }} (threshold: 60%)"
+          
+      - alert: ComplianceViolation
+        expr: increase(alpaca_trading_compliance_violations_total[1h]) > 0
+        for: 0s
+        labels:
+          severity: warning
+          component: compliance
+        annotations:
+          summary: "Compliance violation detected"
+          description: "{{ $value }} violations of type {{ $labels.violation_type }} in the last hour"
+
+  - name: service_health
+    interval: 1m
+    rules:
+      - alert: ServiceDown
+        expr: up{job=~"alpaca-trading|trading-services"} == 0
+        for: 2m
+        labels:
+          severity: error
+          component: service
+        annotations:
+          summary: "Service {{ $labels.instance }} is down"
+          description: "{{ $labels.job }} at {{ $labels.instance }} has been down for 2 minutes"
+          
+      - alert: HighErrorRate
+        expr: |
+          rate(alpaca_trading_errors_total[5m]) > 10
+        for: 5m
+        labels:
+          severity: warning
+          component: application
+        annotations:
+          summary: "High error rate in {{ $labels.component }}"
+          description: "Error rate is {{ $value }} errors/second for {{ $labels.error_type }}"
+
+  - name: performance
+    interval: 2m
+    rules:
+      - alert: SlowAPIResponse
+        expr: |
+          histogram_quantile(0.95,
+            rate(alpaca_trading_api_request_duration_seconds_bucket[5m])
+          ) > 2
+        for: 10m
+        labels:
+          severity: warning
+          component: api
+        annotations:
+          summary: "Slow API responses detected"
+          description: "95th percentile API response time for {{ $labels.endpoint }} is {{ $value }}s"
+          
+      - alert: HighModelInferenceTime
+        expr: |
+          histogram_quantile(0.95,
+            rate(alpaca_trading_model_inference_duration_seconds_bucket[5m])
+          ) > 1
+        for: 15m
+        labels:
+          severity: warning
+          component: ml
+        annotations:
+          summary: "Slow model inference"
+          description: "{{ $labels.model_name }} 95th percentile inference time is {{ $value }}s"

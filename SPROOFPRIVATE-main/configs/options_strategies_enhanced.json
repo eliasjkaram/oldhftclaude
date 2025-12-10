@@ -1,0 +1,356 @@
+{
+  "enabled_strategies": {
+    "covered_calls": {
+      "enabled": true,
+      "opportunities": [
+        {
+          "underlying": "TSLA",
+          "strike": 600.0,
+          "expiration": "2022-09-16",
+          "premium": 292.3,
+          "yield": 0.4871666666666667,
+          "days_to_expiry": 23,
+          "volume": 613,
+          "open_interest": 8329
+        },
+        {
+          "underlying": "TSLA",
+          "strike": 670.0,
+          "expiration": "2022-09-16",
+          "premium": 223.75,
+          "yield": 0.333955223880597,
+          "days_to_expiry": 23,
+          "volume": 12,
+          "open_interest": 816
+        },
+        {
+          "underlying": "TSLA",
+          "strike": 680.0,
+          "expiration": "2022-09-02",
+          "premium": 210.15,
+          "yield": 0.30904411764705886,
+          "days_to_expiry": 9,
+          "volume": 24,
+          "open_interest": 77
+        },
+        {
+          "underlying": "TSLA",
+          "strike": 680.0,
+          "expiration": "2022-08-26",
+          "premium": 205.0,
+          "yield": 0.3014705882352941,
+          "days_to_expiry": 2,
+          "volume": 25,
+          "open_interest": 128
+        },
+        {
+          "underlying": "TSLA",
+          "strike": 700.0,
+          "expiration": "2022-09-16",
+          "premium": 194.8,
+          "yield": 0.2782857142857143,
+          "days_to_expiry": 23,
+          "volume": 54,
+          "open_interest": 4103
+        },
+        {
+          "underlying": "TSLA",
+          "strike": 700.0,
+          "expiration": "2022-09-02",
+          "premium": 190.8,
+          "yield": 0.2725714285714286,
+          "days_to_expiry": 9,
+          "volume": 40,
+          "open_interest": 278
+        },
+        {
+          "underlying": "TSLA",
+          "strike": 700.0,
+          "expiration": "2022-08-26",
+          "premium": 185.0,
+          "yield": 0.2642857142857143,
+          "days_to_expiry": 2,
+          "volume": 20,
+          "open_interest": 389
+        },
+        {
+          "underlying": "TSLA",
+          "strike": 720.0,
+          "expiration": "2022-09-23",
+          "premium": 177.0,
+          "yield": 0.24583333333333332,
+          "days_to_expiry": 30,
+          "volume": 12,
+          "open_interest": 230
+        },
+        {
+          "underlying": "TSLA",
+          "strike": 750.0,
+          "expiration": "2022-09-16",
+          "premium": 148.35,
+          "yield": 0.1978,
+          "days_to_expiry": 23,
+          "volume": 23,
+          "open_interest": 8851
+        },
+        {
+          "underlying": "TSLA",
+          "strike": 740.0,
+          "expiration": "2022-08-26",
+          "premium": 145.05,
+          "yield": 0.19601351351351354,
+          "days_to_expiry": 2,
+          "volume": 17,
+          "open_interest": 137
+        }
+      ],
+      "avg_yield": 0.23051866571146565,
+      "selection_criteria": {
+        "min_yield": 0.01,
+        "min_volume": 10,
+        "min_open_interest": 50,
+        "max_days_to_expiry": 45
+      }
+    },
+    "cash_secured_puts": {
+      "enabled": true,
+      "opportunities": [],
+      "avg_yield": 0,
+      "selection_criteria": {
+        "min_yield": 0.01,
+        "min_volume": 10,
+        "min_open_interest": 50,
+        "max_days_to_expiry": 45
+      }
+    },
+    "vertical_spreads": {
+      "enabled": true,
+      "spreads": [
+        {
+          "type": "bull_call_spread",
+          "underlying": "TSLA",
+          "expiration": "2022-09-02",
+          "long_strike": 1750.0,
+          "short_strike": 1800.0,
+          "cost": 0.03,
+          "max_profit": 49.97,
+          "risk_reward": 1665.6666666666667
+        },
+        {
+          "type": "bull_call_spread",
+          "underlying": "TSLA",
+          "expiration": "2022-08-26",
+          "long_strike": 1125.0,
+          "short_strike": 1140.0,
+          "cost": 0.009999999999999998,
+          "max_profit": 14.99,
+          "risk_reward": 1499.0000000000002
+        },
+        {
+          "type": "bull_call_spread",
+          "underlying": "TSLA",
+          "expiration": "2022-09-09",
+          "long_strike": 1475.0,
+          "short_strike": 1500.0,
+          "cost": 0.01999999999999999,
+          "max_profit": 24.98,
+          "risk_reward": 1249.0000000000007
+        },
+        {
+          "type": "bull_call_spread",
+          "underlying": "TSLA",
+          "expiration": "2022-09-02",
+          "long_strike": 1475.0,
+          "short_strike": 1500.0,
+          "cost": 0.019999999999999997,
+          "max_profit": 24.98,
+          "risk_reward": 1249.0000000000002
+        },
+        {
+          "type": "bear_put_spread",
+          "underlying": "TSLA",
+          "expiration": "2022-10-21",
+          "long_strike": 150.0,
+          "short_strike": 100.0,
+          "cost": 0.04,
+          "max_profit": 49.96,
+          "risk_reward": 1249.0
+        },
+        {
+          "type": "bull_call_spread",
+          "underlying": "TSLA",
+          "expiration": "2022-08-26",
+          "long_strike": 1200.0,
+          "short_strike": 1220.0,
+          "cost": 0.019999999999999997,
+          "max_profit": 19.98,
+          "risk_reward": 999.0000000000002
+        },
+        {
+          "type": "bull_call_spread",
+          "underlying": "TSLA",
+          "expiration": "2022-09-16",
+          "long_strike": 1950.0,
+          "short_strike": 2000.0,
+          "cost": 0.049999999999999996,
+          "max_profit": 49.95,
+          "risk_reward": 999.0000000000001
+        },
+        {
+          "type": "bull_call_spread",
+          "underlying": "TSLA",
+          "expiration": "2022-08-26",
+          "long_strike": 1240.0,
+          "short_strike": 1250.0,
+          "cost": 0.01,
+          "max_profit": 9.99,
+          "risk_reward": 999.0
+        },
+        {
+          "type": "bull_call_spread",
+          "underlying": "TSLA",
+          "expiration": "2022-08-26",
+          "long_strike": 1250.0,
+          "short_strike": 1260.0,
+          "cost": 0.01,
+          "max_profit": 9.99,
+          "risk_reward": 999.0
+        },
+        {
+          "type": "bear_put_spread",
+          "underlying": "TSLA",
+          "expiration": "2022-09-02",
+          "long_strike": 490.0,
+          "short_strike": 480.0,
+          "cost": 0.010000000000000002,
+          "max_profit": 9.99,
+          "risk_reward": 998.9999999999998
+        }
+      ],
+      "avg_risk_reward": 936.5000000000002,
+      "selection_criteria": {
+        "min_risk_reward": 0.5,
+        "max_spread_width": 10
+      }
+    },
+    "iron_condors": {
+      "enabled": true,
+      "condors": [
+        {
+          "underlying": "TSLA",
+          "expiration": "2023-04-21",
+          "put_strikes": [
+            850.0,
+            875.0
+          ],
+          "call_strikes": [
+            1000.0,
+            1025.0
+          ],
+          "credit": 15.549999999999997,
+          "max_loss": 9.450000000000003,
+          "risk_reward": 1.6455026455026447,
+          "days_to_expiry": 240
+        },
+        {
+          "underlying": "TSLA",
+          "expiration": "2022-11-18",
+          "put_strikes": [
+            740.0,
+            750.0
+          ],
+          "call_strikes": [
+            850.0,
+            860.0
+          ],
+          "credit": 5.95000000000001,
+          "max_loss": 4.04999999999999,
+          "risk_reward": 1.4691358024691419,
+          "days_to_expiry": 86
+        },
+        {
+          "underlying": "TSLA",
+          "expiration": "2022-09-16",
+          "put_strikes": [
+            730.0,
+            735.0
+          ],
+          "call_strikes": [
+            820.0,
+            825.0
+          ],
+          "credit": 2.750000000000006,
+          "max_loss": 2.249999999999994,
+          "risk_reward": 1.2222222222222283,
+          "days_to_expiry": 23
+        },
+        {
+          "underlying": "TSLA",
+          "expiration": "2024-03-15",
+          "put_strikes": [
+            800.0,
+            825.0
+          ],
+          "call_strikes": [
+            950.0,
+            975.0
+          ],
+          "credit": 9.900000000000006,
+          "max_loss": 15.099999999999994,
+          "risk_reward": 0.6556291390728483,
+          "days_to_expiry": 569
+        },
+        {
+          "underlying": "TSLA",
+          "expiration": "2022-10-21",
+          "put_strikes": [
+            840.0,
+            845.0
+          ],
+          "call_strikes": [
+            940.0,
+            945.0
+          ],
+          "credit": 1.9500000000000028,
+          "max_loss": 3.049999999999997,
+          "risk_reward": 0.6393442622950835,
+          "days_to_expiry": 58
+        }
+      ],
+      "avg_risk_reward": 0.6994348338449825,
+      "selection_criteria": {
+        "min_credit": 0.25,
+        "max_delta": 0.2
+      }
+    }
+  },
+  "market_analysis": {
+    "market_stats": {
+      "total_contracts": 4904,
+      "unique_underlyings": 3,
+      "avg_bid_ask_spread": 3.8470595432300154,
+      "total_volume": 997276.0,
+      "total_open_interest": 3689905
+    },
+    "liquidity_analysis": {
+      "high_volume_contracts": 668,
+      "high_oi_contracts": 830,
+      "avg_volume": 219.32614910930283,
+      "avg_open_interest": 752.4276101141925
+    },
+    "expiration_analysis": {
+      "unique_expirations": 17,
+      "avg_days_to_expiry": 169.32055464926592,
+      "near_term_contracts": 310,
+      "monthly_contracts": 326
+    },
+    "moneyness_distribution": {
+      "itm_calls": 380,
+      "otm_calls": 2072,
+      "itm_puts": 2072,
+      "otm_puts": 380
+    }
+  },
+  "data_source": "MinIO options data",
+  "last_updated": "2025-06-16T12:12:21.306809"
+}

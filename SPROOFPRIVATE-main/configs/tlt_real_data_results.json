@@ -1,0 +1,60 @@
+{
+  "data_source": "Alpaca API",
+  "period": "2024-12-23 to 2025-06-21",
+  "data_points": 130,
+  "price_range": {
+    "min": 119.69402690331913,
+    "max": 134.95794750292248,
+    "current": 131.72333473910467
+  },
+  "algorithm_results": [
+    {
+      "algorithm": "RSI_Overbought",
+      "total_return": 9.182874210206604,
+      "num_trades": 2,
+      "premium_collected": 13119.233867675463,
+      "assigned_trades": 0,
+      "avg_iv": 0.10927568550960493
+    },
+    {
+      "algorithm": "Combined_Signal",
+      "total_return": 8.827679116445815,
+      "num_trades": 2,
+      "premium_collected": 8842.642176513884,
+      "assigned_trades": 0,
+      "avg_iv": 0.10751124726301214
+    },
+    {
+      "algorithm": "Regional_Peak_IV",
+      "total_return": 8.81594807168199,
+      "num_trades": 1,
+      "premium_collected": 8701.398985245454,
+      "assigned_trades": 0,
+      "avg_iv": 0.11060589465209504
+    },
+    {
+      "algorithm": "IV_Percentile_75",
+      "total_return": 8.093247741229186,
+      "num_trades": 0,
+      "premium_collected": 0,
+      "assigned_trades": 0,
+      "avg_iv": 0
+    },
+    {
+      "algorithm": "Local_Peak_IV",
+      "total_return": 8.093247741229186,
+      "num_trades": 0,
+      "premium_collected": 0,
+      "assigned_trades": 0,
+      "avg_iv": 0
+    },
+    {
+      "algorithm": "IV_Mean_Reversion",
+      "total_return": 8.093247741229186,
+      "num_trades": 0,
+      "premium_collected": 0,
+      "assigned_trades": 0,
+      "avg_iv": 0
+    }
+  ]
+}

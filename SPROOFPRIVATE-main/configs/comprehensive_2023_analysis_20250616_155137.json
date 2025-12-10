@@ -1,0 +1,41 @@
+{
+  "analysis_timestamp": "2025-06-16T15:51:37.495156",
+  "data_source": "MinIO stockdb/options-complete/",
+  "2023_files_inventory": [],
+  "data_quality_metrics": {
+    "files_accessible": 0,
+    "data_completeness": 0.0,
+    "average_file_size_mb": 0,
+    "data_consistency": "UNKNOWN",
+    "estimated_total_records": 0
+  },
+  "date_coverage_analysis": {
+    "total_dates": 0,
+    "date_range": {
+      "start": null,
+      "end": null
+    },
+    "monthly_distribution": {},
+    "missing_dates": [],
+    "coverage_percentage": 0.0
+  },
+  "data_volume_analysis": {
+    "total_files": 0,
+    "total_size_bytes": 0,
+    "total_size_mb": 0,
+    "total_size_gb": 0.0,
+    "average_file_size_mb": 0,
+    "largest_file": null,
+    "smallest_file": null
+  },
+  "sample_data_analysis": {
+    "samples_analyzed": 0,
+    "data_structure": {},
+    "data_quality_issues": [],
+    "estimated_total_records": 0
+  },
+  "data_completeness_report": {},
+  "recommendations": [
+    "\u274c No 2023 data files accessible"
+  ]
+}

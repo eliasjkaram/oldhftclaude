@@ -1,0 +1,271 @@
+{
+  "timestamp": "2025-06-23T15:54:30.598073",
+  "account_value": 1003424.87,
+  "signals": {
+    "options": [
+      {
+        "strategy": "Calendar_Spread",
+        "underlying": "AAPL",
+        "strikes": {
+          "strike": 202.0,
+          "near_expiry": 30,
+          "far_expiry": 60
+        },
+        "expected_profit": -49.55994901109767,
+        "max_loss": 250.92117334920658,
+        "confidence": 0.65,
+        "greeks": {
+          "delta": 0.01810084788529953,
+          "gamma": -0.00927195357478891,
+          "theta": -0.024779974505548835,
+          "vega": 0.09380389085818416,
+          "rho": 0.08553528459796131
+        }
+      },
+      {
+        "strategy": "Iron_Condor",
+        "underlying": "TSLA",
+        "strikes": {
+          "put_sell": 322.0,
+          "put_buy": 305.0,
+          "call_sell": 356.0,
+          "call_buy": 373.0
+        },
+        "expected_profit": 853.3976670803057,
+        "max_loss": 480.86047559956313,
+        "confidence": 0.75,
+        "greeks": {
+          "delta": 0.3555103012935561,
+          "gamma": -0.005248124882242558,
+          "theta": -1.6858268642471386,
+          "vega": -0.7240804558649995,
+          "rho": -0.22983026399125756
+        }
+      },
+      {
+        "strategy": "Calendar_Spread",
+        "underlying": "TSLA",
+        "strikes": {
+          "strike": 339.0,
+          "near_expiry": 30,
+          "far_expiry": 60
+        },
+        "expected_profit": -280.8619368540983,
+        "max_loss": 1223.0482461656607,
+        "confidence": 0.65,
+        "greeks": {
+          "delta": 0.020258709953576703,
+          "gamma": -0.0016639330660162483,
+          "theta": -0.14043096842704916,
+          "vega": 0.15518326504111746,
+          "rho": 0.12057290761214318
+        }
+      },
+      {
+        "strategy": "Long_Straddle",
+        "underlying": "TSLA",
+        "strikes": {
+          "strike": 339.0
+        },
+        "expected_profit": 1455.5315865170614,
+        "max_loss": 5641.885767610572,
+        "confidence": 0.6,
+        "greeks": {
+          "delta": 0.09925939572890546,
+          "gamma": 0.011154796686937767,
+          "theta": -0.9333883890447496,
+          "vega": 0.7695101061226977,
+          "rho": -0.018712557322302648
+        }
+      },
+      {
+        "strategy": "Bull_Call_Spread",
+        "underlying": "NVDA",
+        "strikes": {
+          "long_call": 141.0,
+          "short_call": 151.0
+        },
+        "expected_profit": 344.76919439517303,
+        "max_loss": 425.38467600804495,
+        "confidence": 0.7,
+        "greeks": {
+          "delta": 0.336047053411614,
+          "gamma": 0.002967588678360191,
+          "theta": -0.012308237542566186,
+          "vega": 0.01377029708350469,
+          "rho": 0.03618578087964339
+        }
+      },
+      {
+        "strategy": "Calendar_Spread",
+        "underlying": "NVDA",
+        "strikes": {
+          "strike": 144.0,
+          "near_expiry": 30,
+          "far_expiry": 60
+        },
+        "expected_profit": -44.074499627114236,
+        "max_loss": 214.6736851454932,
+        "confidence": 0.65,
+        "greeks": {
+          "delta": 0.018488546043196163,
+          "gamma": -0.010451131960893582,
+          "theta": -0.02203724981355712,
+          "vega": 0.06700947732144169,
+          "rho": 0.059017920108615715
+        }
+      },
+      {
+        "strategy": "Iron_Condor",
+        "underlying": "AMD",
+        "strikes": {
+          "put_sell": 124.0,
+          "put_buy": 118.0,
+          "call_sell": 138.0,
+          "call_buy": 144.0
+        },
+        "expected_profit": 231.16715994053203,
+        "max_loss": 269.7612000849542,
+        "confidence": 0.75,
+        "greeks": {
+          "delta": 0.30046932894735784,
+          "gamma": -0.02073283102398593,
+          "theta": -0.3658303261726326,
+          "vega": -0.26129134808685966,
+          "rho": -0.07032966012709614
+        }
+      },
+      {
+        "strategy": "Bull_Call_Spread",
+        "underlying": "AMD",
+        "strikes": {
+          "long_call": 128.0,
+          "short_call": 138.0
+        },
+        "expected_profit": 336.37490961428097,
+        "max_loss": 439.37515064286504,
+        "confidence": 0.7,
+        "greeks": {
+          "delta": 0.23084826234677475,
+          "gamma": 0.00024403701336509279,
+          "theta": -0.004685342111726859,
+          "vega": 0.0015377726305560169,
+          "rho": 0.02123910173396147
+        }
+      },
+      {
+        "strategy": "Long_Straddle",
+        "underlying": "AMD",
+        "strikes": {
+          "strike": 131.0
+        },
+        "expected_profit": 342.0906617796011,
+        "max_loss": 1336.1095485710343,
+        "confidence": 0.6,
+        "greeks": {
+          "delta": 0.07526528458412707,
+          "gamma": 0.047332373787567175,
+          "theta": -0.22169476251556414,
+          "vega": 0.29825979242286044,
+          "rho": -0.0028795484656093592
+        }
+      }
+    ],
+    "arbitrage": [
+      {
+        "type": "STATISTICAL_ARBITRAGE",
+        "pair": "GOOGL/GOOG",
+        "action": "BUY_SPREAD",
+        "z_score": -2.2731135643519482,
+        "hedge_ratio": 1.0077032560889494,
+        "expected_profit": 4996.268338594793,
+        "confidence": 0.7577045214506494,
+        "trades": [
+          {
+            "symbol": "GOOGL",
+            "action": "BUY",
+            "qty": 60
+          },
+          {
+            "symbol": "GOOG",
+            "action": "SELL",
+            "qty": 60
+          }
+        ],
+        "metadata": {
+          "spread": -2.4237476272234346,
+          "spread_mean": 80.84739134935644,
+          "spread_std": 36.633074687722434,
+          "prices": {
+            "GOOGL": 165.51,
+            "GOOG": 166.65
+          }
+        }
+      },
+      {
+        "type": "STATISTICAL_ARBITRAGE",
+        "pair": "XOM/CVX",
+        "action": "BUY_SPREAD",
+        "z_score": -2.76656357203047,
+        "hedge_ratio": 0.8949182575210285,
+        "expected_profit": 10743.65112375416,
+        "confidence": 0.85,
+        "trades": [
+          {
+            "symbol": "XOM",
+            "action": "BUY",
+            "qty": 87
+          },
+          {
+            "symbol": "CVX",
+            "action": "SELL",
+            "qty": 59
+          }
+        ],
+        "metadata": {
+          "spread": -19.4095689414154,
+          "spread_mean": 104.08067386035655,
+          "spread_std": 44.63669082114693,
+          "prices": {
+            "XOM": 114.77,
+            "CVX": 149.935
+          }
+        }
+      }
+    ],
+    "momentum": [
+      {
+        "type": "MOMENTUM",
+        "symbol": "NVDA",
+        "action": "BUY",
+        "score": 0.0648789814036834,
+        "confidence": 0.324394907018417,
+        "expected_return": 0.0324394907018417,
+        "metadata": {
+          "price_5d": -0.007049554219365611,
+          "price_20d": 0.0942950719780638,
+          "price_60d": 0.28932962397917955,
+          "volume": -0.24420142471089068,
+          "volatility": -0.16557968028985973,
+          "rsi": 0.27077055531640154
+        }
+      },
+      {
+        "type": "MOMENTUM",
+        "symbol": "AMD",
+        "action": "BUY",
+        "score": 0.19365303060409025,
+        "confidence": 0.85,
+        "expected_return": 0.09682651530204513,
+        "metadata": {
+          "price_5d": 0.03625286810665407,
+          "price_20d": 0.18730849424349566,
+          "price_60d": 0.2280543834974215,
+          "volume": 0.5194191145454068,
+          "volatility": 0.13778804880968,
+          "rsi": 0.44284862609072717
+        }
+      }
+    ]
+  }
+}

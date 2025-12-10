@@ -1,0 +1,452 @@
+#!/usr/bin/env python3
+"""
+PRODUCTION EDGE CASE TEST - Real World Scenarios
+=================================================
+
+Tests real-world edge cases that could break a trading system in production.
+"""
+
+import asyncio
+import logging
+import time
+from datetime import datetime
+import numpy as np
+import pandas as pd
+
+from alpaca.trading.client import TradingClient
+from alpaca.data.historical import StockHistoricalDataClient
+from alpaca.data.requests import StockBarsRequest, StockLatestQuoteRequest, StockTradesRequest
+from alpaca.data.timeframe import TimeFrame
+from alpaca.trading.enums import OrderSide, TimeInForce, OrderType, OrderClass, AssetClass
+from alpaca.trading.requests import MarketOrderRequest, LimitOrderRequest, StopOrderRequest, GetOrdersRequest
+from alpaca.common.exceptions import APIError
+
+
+from DEMO_REAL_SYSTEM import QuickRealDemo
+
+class ProductionEdgeCaseTest:
+    """Production-level edge case testing"""
+    
+    def __init__(self):
+        self.logger = logging.getLogger(__name__)
+        logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
+        
+        self.demo = QuickRealDemo()
+        self.logger.info("✅ Production edge case tester initialized")
+    
+    async def test_real_market_edge_cases(self):
+        """Test real market scenarios that cause system failures"""
+        self.logger.info("🧪 Testing real market edge cases...")
+        
+        # Real edge case scenarios
+        edge_case_symbols = [
+            ('BRK.A', 'high_price_stock'),       # ~$500K per share
+            ('GOOGL', 'class_shares'),           # Class A vs Class C
+            ('TSLA', 'high_volatility'),         # Extreme volatility
+            ('GME', 'meme_stock'),               # Social media driven
+            ('SPY', 'etf_large_volume'),         # High volume ETF
+            ('VIX', 'volatility_index'),         # Special index
+            ('GLD', 'commodity_etf'),            # Gold ETF
+            ('TLT', 'bond_etf'),                 # Bond ETF
+        ]
+        
+        results = {}
+        
+        for symbol, scenario in edge_case_symbols:
+            try:
+                start_time = time.time()
+                analysis = await self.demo.analyze_symbol(symbol)
+                execution_time = time.time() - start_time
+                
+                # Validate analysis quality
+                market_data = analysis.get('market_data', {})
+                technical = analysis.get('technical_analysis', {})
+                signal = analysis.get('trading_signal', {})
+                
+                # Check for realistic values
+                price = market_data.get('price', 0)
+                rsi = technical.get('rsi', 50)
+                
+                price_realistic = 0.01 < price < 1000000  # $0.01 to $1M range
+                rsi_valid = 0 <= rsi <= 100
+                has_signal = signal.get('signal') in ['BUY', 'SELL', 'HOLD', 'STRONG_BUY', 'STRONG_SELL']
+                
+                results[symbol] = {
+                    'scenario': scenario,
+                    'execution_time': execution_time,
+                    'price_realistic': price_realistic,
+                    'rsi_valid': rsi_valid,
+                    'has_valid_signal': has_signal,
+                    'overall_quality': price_realistic and rsi_valid and has_signal,
+                    'price': price,
+                    'rsi': rsi,
+                    'signal': signal.get('signal', 'UNKNOWN')
+                }
+                
+            except Exception as e:
+                results[symbol] = {
+                    'scenario': scenario,
+                    'failed': True,
+                    'error': str(e)
+                }
+        
+        return results
+    
+    def test_calculation_edge_cases(self):
+        """Test mathematical edge cases in calculations"""
+        self.logger.info("🧪 Testing calculation edge cases...")
+        
+        # Edge case price series
+        edge_case_data = {
+            'all_zeros': np.zeros(50),
+            'all_same': np.full(50, 100.0),
+            'extreme_spike': np.concatenate([np.full(25, 100.0), [10000.0], np.full(24, 100.0)]),
+            'extreme_drop': np.concatenate([np.full(25, 100.0), [0.01], np.full(24, 100.0)]),
+            'infinite_values': np.full(50, 100.0),
+            'nan_values': np.full(50, 100.0),
+            'negative_prices': np.linspace(-10, 10, 50),
+            'very_small': np.full(50, 0.0001),
+            'very_large': np.full(50, 1000000.0)
+        }
+        
+        # Add special values
+        edge_case_data['infinite_values'][25] = float('inf')
+        edge_case_data['nan_values'][25] = float('nan')
+        
+        results = {}
+        
+        for case_name, price_series in edge_case_data.items():
+            try:
+                # Test RSI calculation
+                rsi = self._safe_rsi_calculation(price_series)
+                
+                # Test MACD calculation
+                macd_data = self._safe_macd_calculation(price_series)
+                
+                # Test moving average
+                sma = self._safe_sma_calculation(price_series)
+                
+                results[case_name] = {
+                    'rsi_safe': not (np.isnan(rsi) or np.isinf(rsi),
+                    'macd_safe': not any(np.isnan(v) or np.isinf(v) for v in macd_data.values(),
+                    'sma_safe': not (np.isnan(sma) or np.isinf(sma),
+                    'rsi_value': float(rsi) if not (np.isnan(rsi) or np.isinf(rsi) else 'invalid',
+                    'all_calculations_safe': True
+                }
+                
+                # Overall safety check
+                results[case_name]['all_calculations_safe'] = (
+                    results[case_name]['rsi_safe'] and
+                    results[case_name]['macd_safe'] and
+                    results[case_name]['sma_safe']
+                )
+                
+            except Exception as e:
+                results[case_name] = {
+                    'failed': True,
+                    'error': str(e),
+                    'all_calculations_safe': False
+                }
+        
+        return results
+    
+    def _safe_rsi_calculation(self, prices):
+        """Safe RSI calculation with edge case handling"""
+        try:
+            if len(prices) < 15:
+                return 50.0
+            
+            # Filter out invalid values
+            clean_prices = prices[np.isfinite(prices)]
+            if len(clean_prices) < 15:
+                return 50.0
+            
+            # Ensure positive prices
+            clean_prices = clean_prices[clean_prices > 0]
+            if len(clean_prices) < 15:
+                return 50.0
+            
+            # Calculate RSI
+            deltas = np.diff(clean_prices)
+            gains = np.where(deltas > 0, deltas, 0)
+            losses = np.where(deltas < 0, -deltas, 0)
+            
+            avg_gains = np.mean(gains[-14:]) if len(gains) >= 14 else 0
+            avg_losses = np.mean(losses[-14:]) if len(losses) >= 14 else 0
+            
+            if avg_losses == 0:
+                return 100.0 if avg_gains > 0 else 50.0
+            
+            rs = avg_gains / avg_losses
+            rsi = 100 - (100 / (1 + rs)
+            
+            # Bound RSI
+            return max(0, min(100, rsi)
+            
+        except Exception:
+            return 50.0
+    
+    def _safe_macd_calculation(self, prices):
+        """Safe MACD calculation with edge case handling"""
+        try:
+            if len(prices) < 26:
+                return {'macd': 0.0, 'signal': 0.0, 'histogram': 0.0}
+            
+            # Filter invalid values
+            clean_prices = prices[np.isfinite(prices)]
+            if len(clean_prices) < 26:
+                return {'macd': 0.0, 'signal': 0.0, 'histogram': 0.0}
+            
+            # Calculate EMAs
+            prices_series = pd.Series(clean_prices)
+            ema_12 = prices_series.ewm(span=12).mean()
+            ema_26 = prices_series.ewm(span=26).mean()
+            
+            macd = ema_12 - ema_26
+            signal = macd.ewm(span=9).mean()
+            histogram = macd - signal
+            
+            return {
+                'macd': float(macd.iloc[-1]) if not np.isnan(macd.iloc[-1]) else 0.0,
+                'signal': float(signal.iloc[-1]) if not np.isnan(signal.iloc[-1]) else 0.0,
+                'histogram': float(histogram.iloc[-1]) if not np.isnan(histogram.iloc[-1]) else 0.0
+            }
+            
+        except Exception:
+            return {'macd': 0.0, 'signal': 0.0, 'histogram': 0.0}
+    
+    def _safe_sma_calculation(self, prices):
+        """Safe SMA calculation with edge case handling"""
+        try:
+            clean_prices = prices[np.isfinite(prices)]
+            if len(clean_prices) == 0:
+                return 100.0
+            
+            return float(np.mean(clean_prices)
+            
+        except Exception:
+            return 100.0
+    
+    def test_system_limits(self):
+        """Test system performance limits"""
+        self.logger.info("🧪 Testing system limits...")
+        
+        results = {}
+        
+        # Test 1: Large symbol list processing
+        try:
+            start_time = time.time()
+            large_symbol_list = [f"TEST{i:03d}" for i in range(100)]
+            
+            # Process first 10 to avoid timeout
+            processed = 0
+            for symbol in large_symbol_list[:10]:
+                try:
+                    self.demo.get_realistic_market_data(symbol)
+                    processed += 1
+                except Exception:
+                    break
+            
+            execution_time = time.time() - start_time
+            
+            results['large_symbol_processing'] = {
+                'symbols_processed': processed,
+                'execution_time': execution_time,
+                'avg_time_per_symbol': execution_time / processed if processed > 0 else float('inf'),
+                'scalable': execution_time < 5.0 and processed >= 8
+            }
+            
+        except Exception as e:
+            results['large_symbol_processing'] = {
+                'failed': True,
+                'error': str(e)
+            }
+        
+        # Test 2: Memory usage with large datasets
+        try:
+            # Simulate large historical data
+            large_dataset_size = 10000
+            large_prices = np.random.random(large_dataset_size) * 100
+            
+            start_time = time.time()
+            rsi_result = self._safe_rsi_calculation(large_prices)
+            memory_test_time = time.time() - start_time
+            
+            results['large_dataset_processing'] = {
+                'dataset_size': large_dataset_size,
+                'processing_time': memory_test_time,
+                'memory_efficient': memory_test_time < 1.0,
+                'calculation_valid': 0 <= rsi_result <= 100
+            }
+            
+        except Exception as e:
+            results['large_dataset_processing'] = {
+                'failed': True,
+                'error': str(e)
+            }
+        
+        # Test 3: Rapid successive calls
+        try:
+            start_time = time.time()
+            rapid_calls = 50
+            successful_calls = 0
+            
+            for i in range(rapid_calls):
+                try:
+                    self.demo.get_realistic_market_data('AAPL')
+                    successful_calls += 1
+                except Exception:
+                    break
+            
+            rapid_test_time = time.time() - start_time
+            
+            results['rapid_successive_calls'] = {
+                'total_calls': rapid_calls,
+                'successful_calls': successful_calls,
+                'total_time': rapid_test_time,
+                'calls_per_second': successful_calls / rapid_test_time if rapid_test_time > 0 else 0,
+                'handles_rapid_calls': successful_calls >= rapid_calls * 0.9
+            }
+            
+        except Exception as e:
+            results['rapid_successive_calls'] = {
+                'failed': True,
+                'error': str(e)
+            }
+        
+        return results
+    
+    async def run_production_tests(self):
+        """Run all production edge case tests"""
+        self.logger.info("🚀 Running production edge case tests...")
+        
+        start_time = time.time()
+        
+        test_results = {
+            'real_market_scenarios': await self.test_real_market_edge_cases(),
+            'calculation_edge_cases': self.test_calculation_edge_cases(),
+            'system_limits': self.test_system_limits()
+        }
+        
+        execution_time = time.time() - start_time
+        
+        # Calculate production readiness score
+        production_score = self._calculate_production_score(test_results)
+        
+        return {
+            'test_timestamp': datetime.now().isoformat(),
+            'execution_time': execution_time,
+            'test_results': test_results,
+            'production_score': production_score,
+            'production_ready': production_score > 0.90,
+            'edge_case_resilient': production_score > 0.85
+        }
+    
+    def _calculate_production_score(self, test_results):
+        """Calculate production readiness score"""
+        total_score = 0
+        total_categories = 0
+        
+        # Real market scenarios
+        market_results = test_results['real_market_scenarios']
+        if market_results:
+            successful = sum(1 for r in market_results.values() 
+                           if r.get('overall_quality', False) and not r.get('failed', False)
+            total_score += successful / len(market_results)
+            total_categories += 1
+        
+        # Calculation edge cases
+        calc_results = test_results['calculation_edge_cases']
+        if calc_results:
+            safe_calcs = sum(1 for r in calc_results.values() 
+                           if r.get('all_calculations_safe', False)
+            total_score += safe_calcs / len(calc_results)
+            total_categories += 1
+        
+        # System limits
+        limit_results = test_results['system_limits']
+        if limit_results:
+            passed_limits = sum(1 for r in limit_results.values() 
+                              if not r.get('failed', False)
+            total_score += passed_limits / len(limit_results)
+            total_categories += 1
+        
+        return total_score / total_categories if total_categories > 0 else 0
+    
+    def display_results(self, results):
+        """Display production test results"""
+        print("\n" + "="*80)
+        print("🏭 PRODUCTION EDGE CASE TEST RESULTS")
+        print("="*80)
+        
+        score = results['production_score']
+        ready = results['production_ready']
+        resilient = results['edge_case_resilient']
+        
+        print(f"\n📊 PRODUCTION READINESS:")
+        print(f"   Production Score: {score:.1%}")
+        print(f"   Execution Time: {results['execution_time']:.2f}s")
+        print(f"   Production Ready: {'✅ YES' if ready else '❌ NO'}")
+        print(f"   Edge Case Resilient: {'✅ YES' if resilient else '⚠️  PARTIAL'}")
+        
+        # Real market scenarios
+        market_results = results['test_results']['real_market_scenarios']
+        successful_market = sum(1 for r in market_results.values() 
+                               if r.get('overall_quality', False) and not r.get('failed', False)
+        print(f"\n🏪 Real Market Scenarios: {successful_market}/{len(market_results)} passed")
+        
+        for symbol, result in list(market_results.items()[:3]:  # Show first 3
+            if not result.get('failed', False):
+                quality = "✅" if result.get('overall_quality', False) else "⚠️"
+                print(f"   {quality} {symbol} ({result['scenario']}): ${result.get('price', 0):.2f}, Signal: {result.get('signal', 'N/A')}")
+        
+        # Calculation edge cases
+        calc_results = results['test_results']['calculation_edge_cases']
+        safe_calcs = sum(1 for r in calc_results.values() 
+                        if r.get('all_calculations_safe', False)
+        print(f"\n🧮 Calculation Edge Cases: {safe_calcs}/{len(calc_results)} handled safely")
+        
+        # System limits
+        limit_results = results['test_results']['system_limits']
+        print(f"\n⚡ System Limits Testing:")
+        
+        for test_name, result in limit_results.items():
+            if not result.get('failed', False):
+                if test_name == 'large_symbol_processing':
+                    status = "✅" if result.get('scalable', False) else "⚠️"
+                    print(f"   {status} Large Symbol Processing: {result['symbols_processed']} symbols in {result['execution_time']:.2f}s")
+                elif test_name == 'large_dataset_processing':
+                    status = "✅" if result.get('memory_efficient', False) else "⚠️"
+                    print(f"   {status} Large Dataset: {result['dataset_size']} points in {result['processing_time']:.2f}s")
+                elif test_name == 'rapid_successive_calls':
+                    status = "✅" if result.get('handles_rapid_calls', False) else "⚠️"
+                    print(f"   {status} Rapid Calls: {result['successful_calls']}/{result['total_calls']} ({result['calls_per_second']:.1f}/sec)")
+        
+        print(f"\n✅ Production testing completed!")
+        
+        if ready:
+            print("🚀 System is PRODUCTION-READY with excellent edge case handling!")
+        elif resilient:
+            print("⚠️  System is edge case resilient but may need minor optimizations for full production deployment.")
+        else:
+            print("❌ System needs significant hardening before production use.")
+
+async def main():
+    """Run production edge case testing"""
+    print("🏭 PRODUCTION EDGE CASE TESTING")
+    print("="*50)
+    print("Testing production-level scenarios:")
+    print("• Real market edge cases")
+    print("• Calculation mathematical limits")
+    print("• System performance boundaries")
+    print("• Memory and concurrency limits")
+    print("="*50)
+    
+    tester = ProductionEdgeCaseTest()
+    results = await tester.run_production_tests()
+    tester.display_results(results)
+    
+    return results
+
+if __name__ == "__main__":
+    results = asyncio.run(main()

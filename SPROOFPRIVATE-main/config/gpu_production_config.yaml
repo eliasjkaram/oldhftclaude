@@ -1,0 +1,259 @@
+# GPU Production Configuration
+# Template for all GPU-accelerated trading systems
+
+# GPU Resource Manager Settings
+gpu:
+  # Device selection
+  device_ids: []  # Empty = auto-select, or specify [0, 1, 2, 3]
+  memory_fraction: 0.8  # Reserve 80% of GPU memory
+  allow_growth: true  # Allow dynamic memory allocation
+  
+  # Fallback options
+  fallback_to_cpu: true  # Use CPU if no GPU available
+  retry_on_oom: true  # Retry on out-of-memory errors
+  oom_retry_count: 3
+  oom_batch_reduction: 0.5  # Reduce batch size by 50% on OOM
+  
+  # Monitoring
+  enable_monitoring: true
+  monitoring_port: 9090
+  monitoring_interval: 10  # seconds
+  
+  # Multi-GPU settings
+  distributed_backend: "nccl"  # nccl, gloo, mpi
+  device_placement: "auto"  # auto, manual
+  
+  # Performance
+  enable_mixed_precision: true
+  enable_xla: false
+  enable_tensorrt: false
+  cudnn_benchmark: true
+  
+  # Memory management
+  memory_pool_size: 1024  # MB
+  enable_unified_memory: false
+
+# Options Pricing Trainer Settings
+training:
+  # Model architecture
+  hidden_size: 256
+  num_layers: 3
+  dropout: 0.2
+  sequence_length: 30
+  use_attention: true
+  
+  # Training parameters
+  batch_size: 512
+  learning_rate: 0.001
+  num_epochs: 100
+  gradient_clip: 1.0
+  
+  # Data splits
+  train_split: 0.8
+  val_split: 0.1
+  test_split: 0.1
+  
+  # Optimization
+  use_mixed_precision: true
+  accumulation_steps: 1
+  
+  # Distributed training
+  distributed: false
+  world_size: 1
+  rank: 0
+  backend: "nccl"
+  
+  # Paths
+  checkpoint_dir: "./checkpoints"
+  log_dir: "./logs"
+  
+  # Data source (MinIO)
+  minio_endpoint: "uschristmas.us"
+  minio_access_key: "${MINIO_ACCESS_KEY}"
+  minio_secret_key: "${MINIO_SECRET_KEY}"
+  bucket_name: "options-data"
+  
+  # Monitoring
+  log_interval: 10
+  save_interval: 1000
+  eval_interval: 500
+
+# Options Trader Settings
+trading:
+  # Risk management
+  max_position_size: 100
+  max_portfolio_delta: 1000
+  max_single_position_loss: 10000  # $10k
+  max_portfolio_var: 50000  # $50k
+  max_leverage: 3.0
+  
+  # Order routing
+  venues: ["CBOE", "ISE", "PHLX", "NASDAQ"]
+  default_venue: "CBOE"
+  smart_routing: true
+  
+  # Execution
+  order_types: ["limit", "market", "stop", "stop_limit"]
+  default_time_in_force: "day"
+  cancel_timeout: 30  # seconds
+  
+  # Greeks calculation
+  risk_free_rate: 0.05
+  calculate_higher_order_greeks: false
+  
+  # API settings
+  api_port: 8000
+  websocket_port: 8080
+  enable_ssl: false
+  
+  # Alpaca integration
+  alpaca_key: "${APCA_API_KEY_ID}"
+  alpaca_secret: "${APCA_API_SECRET_KEY}"
+  alpaca_base_url: "https://paper-api.alpaca.markets"
+  
+  # Simulation mode
+  simulation_mode: true
+  paper_trading: true
+
+# HFT Engine Settings
+hft:
+  # Performance tuning
+  tick_buffer_size: 100000
+  order_pool_size: 10000
+  use_kernel_bypass: true
+  cpu_affinity: [0, 1, 2, 3]  # Pin to specific CPU cores
+  
+  # Latency targets
+  target_tick_to_trade_us: 10  # 10 microseconds
+  max_acceptable_latency_us: 50
+  
+  # Memory configuration
+  use_huge_pages: true
+  shared_memory_size: 1048576  # 1GB
+  lock_free_queues: true
+  
+  # Network optimization
+  multicast_groups: []
+  raw_sockets: false
+  kernel_bypass: false
+  
+  # Risk controls
+  position_limits: {}
+  rate_limits:
+    orders_per_second: 1000
+    messages_per_second: 10000
+  circuit_breakers:
+    max_loss_per_minute: 5000
+    max_position_breach: true
+    
+# Monitoring & Alerting
+monitoring:
+  # Metrics collection
+  prometheus_port: 9090
+  grafana_url: "http://localhost:3000"
+  
+  # Logging
+  log_level: "INFO"
+  log_format: "json"
+  log_rotation: "daily"
+  max_log_size: "100MB"
+  
+  # Alerting
+  alert_channels:
+    - type: "email"
+      enabled: false
+      smtp_server: "smtp.gmail.com"
+      recipients: []
+    - type: "slack"
+      enabled: false
+      webhook_url: "${SLACK_WEBHOOK_URL}"
+    - type: "pagerduty"
+      enabled: false
+      api_key: "${PAGERDUTY_API_KEY}"
+  
+  # Health checks
+  health_check_interval: 60  # seconds
+  gpu_temp_threshold: 85  # Celsius
+  memory_usage_threshold: 95  # percent
+  
+# Cloud/Deployment Settings
+deployment:
+  # Environment
+  environment: "development"  # development, staging, production
+  region: "us-east-1"
+  availability_zone: "us-east-1a"
+  
+  # Container settings
+  docker_image: "alpaca-gpu-trader:latest"
+  resource_limits:
+    cpu: "4"
+    memory: "16Gi"
+    gpu: "1"
+  
+  # Kubernetes
+  namespace: "trading"
+  replica_count: 1
+  enable_autoscaling: false
+  min_replicas: 1
+  max_replicas: 4
+  
+  # Storage
+  persistent_volume_size: "100Gi"
+  storage_class: "fast-ssd"
+  
+# Security Settings
+security:
+  # Authentication
+  enable_auth: true
+  jwt_secret: "${JWT_SECRET}"
+  token_expiry: 3600  # seconds
+  
+  # Encryption
+  encrypt_data_at_rest: true
+  encrypt_data_in_transit: true
+  tls_cert_path: "/certs/server.crt"
+  tls_key_path: "/certs/server.key"
+  
+  # Access control
+  allowed_ips: []
+  rate_limiting:
+    enabled: true
+    requests_per_minute: 100
+  
+  # Audit
+  audit_logging: true
+  audit_retention_days: 90
+
+# Backtesting Settings
+backtesting:
+  # Data range
+  start_date: "2020-01-01"
+  end_date: "2023-12-31"
+  
+  # Execution simulation
+  slippage_bps: 5  # basis points
+  commission_per_contract: 0.65
+  market_impact_model: "linear"
+  
+  # Performance metrics
+  calculate_sharpe: true
+  calculate_sortino: true
+  calculate_max_drawdown: true
+  benchmark_symbol: "SPY"
+
+# Feature Flags
+features:
+  enable_ml_predictions: true
+  enable_sentiment_analysis: false
+  enable_options_arbitrage: true
+  enable_gamma_scalping: true
+  enable_volatility_trading: true
+  enable_pairs_trading: false
+  
+# Development/Debug Settings
+debug:
+  verbose_logging: false
+  save_order_book_snapshots: false
+  profile_gpu_kernels: false
+  trace_memory_usage: false
+  enable_debugger: false

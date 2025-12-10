@@ -1,0 +1,797 @@
+{
+  "volatility_smile": {
+    "2008-01-02": {
+      "A": {
+        "skew": 0.028104166666666708,
+        "curvature": 0.047868974358974414
+      },
+      "AA": {
+        "skew": 0.07351312500000007,
+        "curvature": 0.049224455445544546
+      },
+      "AACC": {
+        "skew": -0.039432142857142916,
+        "curvature": 0.10734545454545441
+      },
+      "AAI": {
+        "skew": 0.030396918767507053,
+        "curvature": 0.023114912280701616
+      },
+      "AAP": {
+        "skew": 0.036863636363636376,
+        "curvature": 0.0
+      }
+    },
+    "2008-01-03": {
+      "A": {
+        "skew": 0.03998333333333337,
+        "curvature": 0.04759897435897431
+      },
+      "AA": {
+        "skew": 0.12260291666666667,
+        "curvature": 0.05151217821782178
+      },
+      "AACC": {
+        "skew": 0.06416071428571435,
+        "curvature": 0.09674772727272718
+      },
+      "AAI": {
+        "skew": 0.014457142857142724,
+        "curvature": 0.017051754385964957
+      },
+      "AAP": {
+        "skew": 0.04873636363636363,
+        "curvature": 0.0
+      }
+    },
+    "2008-01-04": {
+      "A": {
+        "skew": 0.038608333333333356,
+        "curvature": 0.04013512820512816
+      },
+      "AA": {
+        "skew": 0.14009833333333332,
+        "curvature": 0.04668039215686265
+      },
+      "AACC": {
+        "skew": 0.07897142857142858,
+        "curvature": 0.11186022727272726
+      },
+      "AAI": {
+        "skew": 0.0068347593582887,
+        "curvature": 0.029966025641025573
+      },
+      "AAP": {
+        "skew": 0.035336363636363666,
+        "curvature": 0.0
+      }
+    },
+    "2008-01-07": {
+      "A": {
+        "skew": 0.03154807692307693,
+        "curvature": 0.042922820512820536
+      },
+      "AA": {
+        "skew": 0.06673645833333341,
+        "curvature": 0.05978666666666671
+      },
+      "AACC": {
+        "skew": 0.037657142857142945,
+        "curvature": 0.16165568181818202
+      },
+      "AAI": {
+        "skew": 0.08638877005347612,
+        "curvature": 0.026928846153846275
+      },
+      "AAP": {
+        "skew": 0.06772727272727264,
+        "curvature": 0.0
+      }
+    },
+    "2008-01-08": {
+      "A": {
+        "skew": 0.04886846153846147,
+        "curvature": 0.03317625000000002
+      },
+      "AA": {
+        "skew": 0.021444166666666598,
+        "curvature": 0.050093333333333434
+      },
+      "AACC": {
+        "skew": -0.09375357142857144,
+        "curvature": 0.12929999999999997
+      },
+      "AAI": {
+        "skew": -0.023952173913043606,
+        "curvature": 0.0
+      },
+      "AAP": {
+        "skew": 0.028927272727272635,
+        "curvature": 0.0
+      }
+    }
+  },
+  "term_structure": {
+    "2008-01-02": {
+      "weekly": {
+        "avg_iv": 0.2778642857142858,
+        "contract_count": 14,
+        "avg_volume": 210.85714285714286
+      },
+      "monthly": {
+        "avg_iv": 0.6604997431641478,
+        "contract_count": 57235,
+        "avg_volume": 103.35958766489037
+      },
+      "quarterly": {
+        "avg_iv": 0.501197457937604,
+        "contract_count": 70966,
+        "avg_volume": 42.3761801426035
+      },
+      "yearly": {
+        "avg_iv": 0.4526904578277741,
+        "contract_count": 81428,
+        "avg_volume": 23.275089649751926
+      }
+    },
+    "2008-01-03": {
+      "weekly": {
+        "avg_iv": 0.28595714285714285,
+        "contract_count": 14,
+        "avg_volume": 96.85714285714286
+      },
+      "monthly": {
+        "avg_iv": 0.6656741786492374,
+        "contract_count": 57375,
+        "avg_volume": 104.47016993464052
+      },
+      "quarterly": {
+        "avg_iv": 0.5014360412555802,
+        "contract_count": 71457,
+        "avg_volume": 49.90549561274613
+      },
+      "yearly": {
+        "avg_iv": 0.4521552852757747,
+        "contract_count": 82096,
+        "avg_volume": 23.34365864353927
+      }
+    },
+    "2008-01-04": {
+      "weekly": {
+        "avg_iv": 0.19229166666666667,
+        "contract_count": 12,
+        "avg_volume": 402.9166666666667
+      },
+      "monthly": {
+        "avg_iv": 0.7106795724754992,
+        "contract_count": 57447,
+        "avg_volume": 172.70323950772016
+      },
+      "quarterly": {
+        "avg_iv": 0.5179603912728893,
+        "contract_count": 71868,
+        "avg_volume": 66.1911420938387
+      },
+      "yearly": {
+        "avg_iv": 0.4624475847457627,
+        "contract_count": 82600,
+        "avg_volume": 27.433317191283294
+      }
+    },
+    "2008-01-07": {
+      "weekly": {
+        "avg_iv": 0.23644285714285715,
+        "contract_count": 14,
+        "avg_volume": 60.42857142857143
+      },
+      "monthly": {
+        "avg_iv": 0.7919583571564703,
+        "contract_count": 57717,
+        "avg_volume": 178.46100802189997
+      },
+      "quarterly": {
+        "avg_iv": 0.5337334578331518,
+        "contract_count": 72557,
+        "avg_volume": 56.75136789007263
+      },
+      "yearly": {
+        "avg_iv": 0.4670696558840468,
+        "contract_count": 83344,
+        "avg_volume": 27.742944903052408
+      }
+    },
+    "2008-01-08": {
+      "weekly": {
+        "avg_iv": 0.27814999999999995,
+        "contract_count": 14,
+        "avg_volume": 147.14285714285714
+      },
+      "monthly": {
+        "avg_iv": 0.8380673694761764,
+        "contract_count": 57863,
+        "avg_volume": 197.47946010403885
+      },
+      "quarterly": {
+        "avg_iv": 0.5461774829624144,
+        "contract_count": 72927,
+        "avg_volume": 65.87427153180577
+      },
+      "yearly": {
+        "avg_iv": 0.4744995715990453,
+        "contract_count": 83800,
+        "avg_volume": 27.387852028639617
+      }
+    }
+  },
+  "put_call_ratio": {
+    "2008-01-02": {
+      "volume_ratio": 1.0369063736002893,
+      "oi_ratio": 0.874298924907974,
+      "by_underlying": {
+        "QQQ": 1.4473004526237814,
+        "IWM": 1.367303430996278,
+        "SPY": 1.847462287378301,
+        "SPX": 1.9622220975482871,
+        "AAPL": 0.4622667780562517
+      }
+    },
+    "2008-01-03": {
+      "volume_ratio": 1.0857956400335447,
+      "oi_ratio": 0.8747798355975831,
+      "by_underlying": {
+        "IWM": 0.9880600717072181,
+        "SPY": 2.9683077373116866,
+        "SPX": 1.8384203531837398,
+        "C": 5.400106072659772,
+        "XLF": 1.6377825200700584
+      }
+    },
+    "2008-01-04": {
+      "volume_ratio": 1.1536206453364688,
+      "oi_ratio": 0.877225847607815,
+      "by_underlying": {
+        "QQQ": 1.2886328477602143,
+        "IWM": 2.9627749396148175,
+        "SPY": 2.3300998874688736,
+        "UAUA": 0.025299758227996415,
+        "SPX": 1.9872164857470656
+      }
+    },
+    "2008-01-07": {
+      "volume_ratio": 0.6581380356655915,
+      "oi_ratio": 0.8745709149534514,
+      "by_underlying": {
+        "T": 0.0030392038834192924,
+        "QQQ": 1.4086000701752084,
+        "IWM": 1.5256383731329337,
+        "SPY": 1.4843023676303315,
+        "VZ": 0.01086996649374545
+      }
+    },
+    "2008-01-08": {
+      "volume_ratio": 1.4957369820689936,
+      "oi_ratio": 0.8714273033321014,
+      "by_underlying": {
+        "IWM": 2.5430015089303426,
+        "SPY": 1.7437011447435578,
+        "QQQ": 1.2427221399541353,
+        "SPX": 1.732467560608304,
+        "C": 4.207834336721116
+      }
+    }
+  },
+  "volume_patterns": {
+    "2008-01-02": {
+      "most_active": [
+        {
+          "underlying": "QQQ",
+          "strike": 51.0,
+          "type": "call",
+          "volume": 83252
+        },
+        {
+          "underlying": "XLE",
+          "strike": 75.0,
+          "type": "put",
+          "volume": 68068
+        },
+        {
+          "underlying": "IWM",
+          "strike": 75.0,
+          "type": "put",
+          "volume": 64004
+        },
+        {
+          "underlying": "XLF",
+          "strike": 37.0,
+          "type": "put",
+          "volume": 60005
+        },
+        {
+          "underlying": "QQQ",
+          "strike": 51.0,
+          "type": "put",
+          "volume": 58879
+        },
+        {
+          "underlying": "SPY",
+          "strike": 145.0,
+          "type": "put",
+          "volume": 58545
+        },
+        {
+          "underlying": "QQQ",
+          "strike": 50.0,
+          "type": "put",
+          "volume": 58508
+        },
+        {
+          "underlying": "IWM",
+          "strike": 65.0,
+          "type": "put",
+          "volume": 56000
+        },
+        {
+          "underlying": "QQQ",
+          "strike": 52.0,
+          "type": "call",
+          "volume": 55260
+        },
+        {
+          "underlying": "QQQ",
+          "strike": 50.0,
+          "type": "put",
+          "volume": 47795
+        }
+      ],
+      "distribution": {
+        "total": 11807767,
+        "calls": 5796912,
+        "puts": 6010855,
+        "avg_per_contract": 45.64076131281623
+      },
+      "A_moneyness": {
+        "itm": 271,
+        "atm": 420,
+        "otm": 518
+      },
+      "AA_moneyness": {
+        "itm": 3996,
+        "atm": 1240,
+        "otm": 5831
+      },
+      "AACC_moneyness": {
+        "itm": 0,
+        "atm": 3,
+        "otm": 40
+      },
+      "AAI_moneyness": {
+        "itm": 917,
+        "atm": 40,
+        "otm": 50
+      },
+      "AAP_moneyness": {
+        "itm": 30,
+        "atm": 0,
+        "otm": 190
+      }
+    },
+    "2008-01-03": {
+      "most_active": [
+        {
+          "underlying": "XLF",
+          "strike": 27.0,
+          "type": "put",
+          "volume": 124125
+        },
+        {
+          "underlying": "DAL",
+          "strike": 12.5,
+          "type": "call",
+          "volume": 108705
+        },
+        {
+          "underlying": "C",
+          "strike": 45.0,
+          "type": "put",
+          "volume": 101004
+        },
+        {
+          "underlying": "WM",
+          "strike": 35.0,
+          "type": "put",
+          "volume": 90192
+        },
+        {
+          "underlying": "C",
+          "strike": 50.0,
+          "type": "put",
+          "volume": 88334
+        },
+        {
+          "underlying": "IWM",
+          "strike": 78.0,
+          "type": "call",
+          "volume": 82177
+        },
+        {
+          "underlying": "MER",
+          "strike": 80.0,
+          "type": "put",
+          "volume": 76325
+        },
+        {
+          "underlying": "JPM",
+          "strike": 55.0,
+          "type": "put",
+          "volume": 73024
+        },
+        {
+          "underlying": "S",
+          "strike": 22.5,
+          "type": "put",
+          "volume": 70004
+        },
+        {
+          "underlying": "UAUA",
+          "strike": 30.0,
+          "type": "call",
+          "volume": 60047
+        }
+      ],
+      "distribution": {
+        "total": 12299113,
+        "calls": 5896605,
+        "puts": 6402508,
+        "avg_per_contract": 47.27718730419875
+      },
+      "A_moneyness": {
+        "itm": 236,
+        "atm": 144,
+        "otm": 70
+      },
+      "AA_moneyness": {
+        "itm": 1418,
+        "atm": 4394,
+        "otm": 16902
+      },
+      "AACC_moneyness": {
+        "itm": 0,
+        "atm": 0,
+        "otm": 0
+      },
+      "AAI_moneyness": {
+        "itm": 570,
+        "atm": 0,
+        "otm": 10
+      },
+      "AAP_moneyness": {
+        "itm": 338,
+        "atm": 0,
+        "otm": 235
+      }
+    },
+    "2008-01-04": {
+      "most_active": [
+        {
+          "underlying": "UAUA",
+          "strike": 25.0,
+          "type": "call",
+          "volume": 735097
+        },
+        {
+          "underlying": "QQQ",
+          "strike": 47.0,
+          "type": "put",
+          "volume": 129229
+        },
+        {
+          "underlying": "IWM",
+          "strike": 73.0,
+          "type": "put",
+          "volume": 124440
+        },
+        {
+          "underlying": "C",
+          "strike": 45.0,
+          "type": "put",
+          "volume": 120435
+        },
+        {
+          "underlying": "SPY",
+          "strike": 142.0,
+          "type": "put",
+          "volume": 119839
+        },
+        {
+          "underlying": "QQQ",
+          "strike": 51.0,
+          "type": "call",
+          "volume": 116605
+        },
+        {
+          "underlying": "IWM",
+          "strike": 74.0,
+          "type": "put",
+          "volume": 115810
+        },
+        {
+          "underlying": "C",
+          "strike": 40.0,
+          "type": "put",
+          "volume": 100015
+        },
+        {
+          "underlying": "QQQ",
+          "strike": 50.0,
+          "type": "put",
+          "volume": 97091
+        },
+        {
+          "underlying": "C",
+          "strike": 50.0,
+          "type": "put",
+          "volume": 96031
+        }
+      ],
+      "distribution": {
+        "total": 18147325,
+        "calls": 8426426,
+        "puts": 9720899,
+        "avg_per_contract": 69.41721112063162
+      },
+      "A_moneyness": {
+        "itm": 899,
+        "atm": 843,
+        "otm": 248
+      },
+      "AA_moneyness": {
+        "itm": 11718,
+        "atm": 4995,
+        "otm": 1832
+      },
+      "AACC_moneyness": {
+        "itm": 0,
+        "atm": 0,
+        "otm": 40
+      },
+      "AAI_moneyness": {
+        "itm": 408,
+        "atm": 90,
+        "otm": 0
+      },
+      "AAP_moneyness": {
+        "itm": 298,
+        "atm": 0,
+        "otm": 350
+      }
+    },
+    "2008-01-07": {
+      "most_active": [
+        {
+          "underlying": "T",
+          "strike": 30.0,
+          "type": "call",
+          "volume": 1515319
+        },
+        {
+          "underlying": "T",
+          "strike": 35.0,
+          "type": "call",
+          "volume": 715576
+        },
+        {
+          "underlying": "VZ",
+          "strike": 40.0,
+          "type": "call",
+          "volume": 329094
+        },
+        {
+          "underlying": "VZ",
+          "strike": 37.5,
+          "type": "call",
+          "volume": 213960
+        },
+        {
+          "underlying": "T",
+          "strike": 27.5,
+          "type": "call",
+          "volume": 185346
+        },
+        {
+          "underlying": "T",
+          "strike": 25.0,
+          "type": "call",
+          "volume": 173320
+        },
+        {
+          "underlying": "T",
+          "strike": 37.5,
+          "type": "call",
+          "volume": 160550
+        },
+        {
+          "underlying": "QQQ",
+          "strike": 48.0,
+          "type": "call",
+          "volume": 119491
+        },
+        {
+          "underlying": "VZ",
+          "strike": 35.0,
+          "type": "call",
+          "volume": 113286
+        },
+        {
+          "underlying": "QQQ",
+          "strike": 48.0,
+          "type": "put",
+          "volume": 96996
+        }
+      ],
+      "distribution": {
+        "total": 17518555,
+        "calls": 10565197,
+        "puts": 6953358,
+        "avg_per_contract": 66.51462341340806
+      },
+      "A_moneyness": {
+        "itm": 423,
+        "atm": 562,
+        "otm": 117
+      },
+      "AA_moneyness": {
+        "itm": 64749,
+        "atm": 16448,
+        "otm": 9397
+      },
+      "AACC_moneyness": {
+        "itm": 5,
+        "atm": 20,
+        "otm": 0
+      },
+      "AAI_moneyness": {
+        "itm": 722,
+        "atm": 221,
+        "otm": 10
+      },
+      "AAP_moneyness": {
+        "itm": 132,
+        "atm": 0,
+        "otm": 153
+      }
+    },
+    "2008-01-08": {
+      "most_active": [
+        {
+          "underlying": "WFC",
+          "strike": 32.5,
+          "type": "put",
+          "volume": 145072
+        },
+        {
+          "underlying": "WFC",
+          "strike": 27.5,
+          "type": "put",
+          "volume": 144317
+        },
+        {
+          "underlying": "C",
+          "strike": 40.0,
+          "type": "put",
+          "volume": 125260
+        },
+        {
+          "underlying": "WB",
+          "strike": 45.0,
+          "type": "put",
+          "volume": 125137
+        },
+        {
+          "underlying": "C",
+          "strike": 45.0,
+          "type": "put",
+          "volume": 124129
+        },
+        {
+          "underlying": "QQQ",
+          "strike": 48.0,
+          "type": "call",
+          "volume": 122662
+        },
+        {
+          "underlying": "S",
+          "strike": 22.5,
+          "type": "put",
+          "volume": 122004
+        },
+        {
+          "underlying": "F",
+          "strike": 10.0,
+          "type": "put",
+          "volume": 120039
+        },
+        {
+          "underlying": "WB",
+          "strike": 50.0,
+          "type": "put",
+          "volume": 116614
+        },
+        {
+          "underlying": "MER",
+          "strike": 80.0,
+          "type": "put",
+          "volume": 116580
+        }
+      ],
+      "distribution": {
+        "total": 19515902,
+        "calls": 7819695,
+        "puts": 11696207,
+        "avg_per_contract": 73.78636026798542
+      },
+      "A_moneyness": {
+        "itm": 320,
+        "atm": 162,
+        "otm": 161
+      },
+      "AA_moneyness": {
+        "itm": 50485,
+        "atm": 3238,
+        "otm": 2820
+      },
+      "AACC_moneyness": {
+        "itm": 0,
+        "atm": 10,
+        "otm": 0
+      },
+      "AAI_moneyness": {
+        "itm": 1014,
+        "atm": 0,
+        "otm": 50
+      },
+      "AAP_moneyness": {
+        "itm": 31,
+        "atm": 0,
+        "otm": 40
+      }
+    }
+  },
+  "open_interest_trends": {
+    "2008-01-02": {
+      "total": 266275330,
+      "concentration": 0.01237108221779314,
+      "A_max_pain": 37.5,
+      "AA_max_pain": 35.0,
+      "AACC_max_pain": 7.5
+    },
+    "2008-01-03": {
+      "total": 269272813,
+      "concentration": 0.012153852308884968,
+      "A_max_pain": 37.5,
+      "AA_max_pain": 35.0,
+      "AACC_max_pain": 7.5
+    },
+    "2008-01-04": {
+      "total": 273440860,
+      "concentration": 0.011832013693930015,
+      "A_max_pain": 37.5,
+      "AA_max_pain": 35.0,
+      "AACC_max_pain": 7.5
+    },
+    "2008-01-07": {
+      "total": 277591753,
+      "concentration": 0.011736209612826646,
+      "A_max_pain": 37.5,
+      "AA_max_pain": 35.0,
+      "AACC_max_pain": 7.5
+    },
+    "2008-01-08": {
+      "total": 280481915,
+      "concentration": 0.011682428794027594,
+      "A_max_pain": 37.5,
+      "AA_max_pain": 35.0,
+      "AACC_max_pain": 7.5
+    }
+  }
+}

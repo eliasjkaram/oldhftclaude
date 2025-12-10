@@ -1,0 +1,197 @@
+version: '3.8'
+
+services:
+  # Main trading engine
+  trading-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: alpaca-mcp-trading:latest
+    container_name: trading-engine
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    environment:
+      - ALPACA_API_KEY=${ALPACA_API_KEY}
+      - ALPACA_SECRET_KEY=${ALPACA_SECRET_KEY}
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - PYTHONUNBUFFERED=1
+      - CUDA_VISIBLE_DEVICES=0
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./models:/app/models
+    networks:
+      - trading-network
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Data collector service
+  data-collector:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: alpaca-mcp-trading:latest
+    container_name: data-collector
+    restart: unless-stopped
+    command: ["python", "continuous_data_collector.py"]
+    environment:
+      - ALPACA_API_KEY=${ALPACA_API_KEY}
+      - ALPACA_SECRET_KEY=${ALPACA_SECRET_KEY}
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    networks:
+      - trading-network
+    depends_on:
+      - redis
+      - minio
+
+  # ML training service
+  ml-trainer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: alpaca-mcp-trading:latest
+    container_name: ml-trainer
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    command: ["python", "continuous_algorithm_improvement_system.py"]
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CUDA_VISIBLE_DEVICES=0
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
+      - ./logs:/app/logs
+    networks:
+      - trading-network
+    depends_on:
+      - trading-engine
+
+  # Risk management service
+  risk-manager:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: alpaca-mcp-trading:latest
+    container_name: risk-manager
+    restart: unless-stopped
+    command: ["python", "risk_management_system.py"]
+    environment:
+      - PYTHONUNBUFFERED=1
+      - RISK_LIMIT_DAILY_LOSS=5000
+      - RISK_LIMIT_POSITION_SIZE=0.1
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - trading-network
+    ports:
+      - "8081:8081"
+
+  # Redis cache
+  redis:
+    image: redis:7-alpine
+    container_name: trading-redis
+    restart: unless-stopped
+    volumes:
+      - redis-data:/data
+    networks:
+      - trading-network
+    ports:
+      - "6379:6379"
+
+  # MinIO object storage
+  minio:
+    image: minio/minio:latest
+    container_name: trading-minio
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      - MINIO_ROOT_USER=minioadmin
+      - MINIO_ROOT_PASSWORD=minioadmin123
+    volumes:
+      - minio-data:/data
+    networks:
+      - trading-network
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+
+  # Prometheus monitoring
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: trading-prometheus
+    restart: unless-stopped
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    networks:
+      - trading-network
+    ports:
+      - "9090:9090"
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+
+  # Grafana dashboards
+  grafana:
+    image: grafana/grafana:latest
+    container_name: trading-grafana
+    restart: unless-stopped
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin123
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./monitoring/grafana-dashboards:/etc/grafana/provisioning/dashboards
+    networks:
+      - trading-network
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+
+  # Nginx reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: trading-nginx
+    restart: unless-stopped
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/ssl:/etc/nginx/ssl
+    networks:
+      - trading-network
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - trading-engine
+      - grafana
+
+networks:
+  trading-network:
+    driver: bridge
+
+volumes:
+  redis-data:
+  minio-data:
+  prometheus-data:
+  grafana-data:

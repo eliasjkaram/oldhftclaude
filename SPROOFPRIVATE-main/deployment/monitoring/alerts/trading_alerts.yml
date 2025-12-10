@@ -1,0 +1,145 @@
+groups:
+  - name: trading_alerts
+    interval: 30s
+    rules:
+      # Service availability
+      - alert: ServiceDown
+        expr: up == 0
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Service {{ $labels.job }} is down"
+          description: "{{ $labels.job }} on {{ $labels.instance }} has been down for more than 2 minutes."
+
+      # High error rate
+      - alert: HighErrorRate
+        expr: rate(http_requests_total{status=~"5.."}[5m]) > 0.05
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High error rate detected"
+          description: "Error rate is {{ $value | humanizePercentage }} for {{ $labels.job }}"
+
+      # Trading specific alerts
+      - alert: NoTradingActivity
+        expr: rate(trades_executed_total[15m]) == 0
+        for: 15m
+        labels:
+          severity: warning
+        annotations:
+          summary: "No trading activity detected"
+          description: "No trades have been executed in the last 15 minutes during market hours"
+
+      - alert: HighPositionSize
+        expr: position_size_usd > 50000
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Large position detected"
+          description: "Position size of ${{ $value }} exceeds threshold for {{ $labels.symbol }}"
+
+      - alert: DailyLossLimitApproaching
+        expr: daily_pnl < -8000
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Approaching daily loss limit"
+          description: "Daily P&L is ${{ $value }}, approaching $10,000 limit"
+
+      - alert: DailyLossLimitExceeded
+        expr: daily_pnl < -10000
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Daily loss limit exceeded"
+          description: "Daily P&L is ${{ $value }}, exceeded $10,000 limit. Trading should be halted."
+
+      # System resource alerts
+      - alert: HighCPUUsage
+        expr: (100 - (avg by (instance) (irate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)) > 80
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High CPU usage detected"
+          description: "CPU usage is {{ $value | humanize }}% on {{ $labels.instance }}"
+
+      - alert: HighMemoryUsage
+        expr: (node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes) / node_memory_MemTotal_bytes > 0.9
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High memory usage detected"
+          description: "Memory usage is {{ $value | humanizePercentage }} on {{ $labels.instance }}"
+
+      - alert: DiskSpaceLow
+        expr: node_filesystem_avail_bytes{mountpoint="/"} / node_filesystem_size_bytes{mountpoint="/"} < 0.1
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Low disk space"
+          description: "Only {{ $value | humanizePercentage }} disk space remaining on {{ $labels.instance }}"
+
+      # Data quality alerts
+      - alert: StaleMarketData
+        expr: time() - market_data_last_update_timestamp > 300
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Market data is stale"
+          description: "Market data for {{ $labels.symbol }} hasn't been updated for {{ $value }} seconds"
+
+      - alert: DataFeedDisconnected
+        expr: websocket_connection_status == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Data feed disconnected"
+          description: "WebSocket connection to {{ $labels.provider }} has been disconnected"
+
+      # ML model alerts
+      - alert: ModelPredictionDrift
+        expr: abs(model_prediction_mean - model_baseline_mean) / model_baseline_stddev > 3
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Model prediction drift detected"
+          description: "Model {{ $labels.model }} predictions have drifted {{ $value }} standard deviations from baseline"
+
+      - alert: LowModelConfidence
+        expr: model_confidence < 0.6
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Low model confidence"
+          description: "Model {{ $labels.model }} confidence is {{ $value }}, below threshold"
+
+      # Risk management alerts
+      - alert: HighPortfolioVolatility
+        expr: portfolio_volatility > 0.02
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High portfolio volatility"
+          description: "Portfolio volatility is {{ $value | humanizePercentage }}, above 2% threshold"
+
+      - alert: ConcentratedPosition
+        expr: position_percentage > 0.3
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Concentrated position detected"
+          description: "{{ $labels.symbol }} represents {{ $value | humanizePercentage }} of portfolio"

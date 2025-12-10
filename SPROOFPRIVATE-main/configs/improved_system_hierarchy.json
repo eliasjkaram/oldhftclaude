@@ -1,0 +1,192 @@
+{
+  "TRADING_SYSTEM_HIERARCHY": {
+    "1_INSTITUTIONAL_GRADE": {
+      "file": "enhanced_ultimate_engine.py",
+      "classes": [
+        "MarketRegime",
+        "VolatilityRegime",
+        "EnhancedMarketData",
+        "AdvancedOptionsContract",
+        "GPUAcceleratedPricer",
+        "DeepLearningPredictor",
+        "AdvancedMarketDataEngine",
+        "EnhancedUltimateEngine"
+      ],
+      "features": [
+        "GPU",
+        "AI/ML",
+        "Options",
+        "GUI",
+        "Real-time",
+        "Arbitrage",
+        "Database"
+      ],
+      "local_dependencies": [
+        "cupy",
+        "universal_market_data"
+      ],
+      "key_libraries": [
+        "cupy",
+        "quantlib",
+        "torch",
+        "sklearn"
+      ]
+    },
+    "2_COMPLETE_INTEGRATION": {
+      "file": "FINAL_ULTIMATE_COMPLETE_SYSTEM.py",
+      "classes": [
+        "FinalUltimateDependencyInstaller",
+        "AIModel",
+        "TradingMode",
+        "RiskLevel",
+        "StrategyType",
+        "CompleteTradingSignal",
+        "CompleteTradeExecution",
+        "CompletePortfolioPosition",
+        "CompleteBacktestResult",
+        "UltimateMinIOManager",
+        "UltimatePortfolioManager",
+        "UltimateCompleteTradingGUI",
+        "UltimateBacktestingEngine",
+        "UltimateMasterOrchestrator"
+      ],
+      "features": [
+        "MinIO",
+        "Options",
+        "GUI",
+        "Backtesting",
+        "Arbitrage",
+        "Risk",
+        "Database"
+      ],
+      "local_dependencies": [
+        "comprehensive_data_validation",
+        "universal_market_data"
+      ],
+      "key_libraries": [
+        "alpaca",
+        "sqlite3",
+        "tkinter"
+      ]
+    },
+    "3_PROFESSIONAL_GUI": {
+      "file": "enhanced_trading_gui.py",
+      "classes": [
+        "EnhancedTradingGUI"
+      ],
+      "features": [
+        "GPU",
+        "AI/ML",
+        "Options",
+        "GUI",
+        "Backtesting",
+        "Arbitrage",
+        "Risk"
+      ],
+      "local_dependencies": [
+        "advanced_risk_management_system",
+        "comprehensive_backtesting_suite",
+        "cupy",
+        "monte_carlo_backtesting",
+        "portfolio_optimization_mpt",
+        "robust_data_fetcher",
+        "sentiment_analysis_system",
+        "system_verification_validator",
+        "universal_market_data",
+        "v27_lightweight_ml_models"
+      ],
+      "key_libraries": [
+        "matplotlib",
+        "seaborn",
+        "tkinter"
+      ]
+    },
+    "4_MAXIMUM_FEATURES": {
+      "file": "ULTIMATE_COMPLEX_TRADING_GUI.py",
+      "classes": [
+        "RealAlpacaConnector",
+        "RealOpenRouterAI",
+        "RealHistoricalDataManager",
+        "AdvancedPortfolioManager",
+        "UltimateComplexTradingGUI"
+      ],
+      "features": [
+        "Options",
+        "GUI",
+        "Backtesting",
+        "Real-time",
+        "Arbitrage",
+        "Risk",
+        "Database"
+      ],
+      "local_dependencies": [
+        "universal_market_data"
+      ],
+      "key_libraries": [
+        "matplotlib",
+        "plotly",
+        "tkinter"
+      ]
+    },
+    "5_AI_FOCUSED": {
+      "file": "ULTIMATE_AI_TRADING_SYSTEM_COMPLETE.py",
+      "classes": [
+        "AdvancedDataProvider",
+        "V27AdvancedMLModels",
+        "AIArbitrageFinder",
+        "IntelligentTradingBots",
+        "AdvancedBacktester",
+        "UltimateAITradingGUI"
+      ],
+      "features": [
+        "MinIO",
+        "AI/ML",
+        "GUI",
+        "Backtesting",
+        "Arbitrage",
+        "Risk"
+      ],
+      "local_dependencies": [
+        "comprehensive_data_validation",
+        "minio_config",
+        "real_alpaca_config",
+        "universal_market_data"
+      ],
+      "key_libraries": [
+        "aiohttp",
+        "minio",
+        "sklearn",
+        "xgboost"
+      ]
+    }
+  },
+  "SHARED_COMPONENTS": {
+    "universal_market_data.py": "Used by ALL systems",
+    "comprehensive_data_validation.py": "Used by complete systems",
+    "real_alpaca_config.py": "Used by AI system",
+    "minio_config.py": "Used by AI system"
+  },
+  "COMPONENT_CATEGORIES": {
+    "Data_Layer": [
+      "universal_market_data",
+      "robust_data_fetcher",
+      "minio_config"
+    ],
+    "ML_Components": [
+      "v27_lightweight_ml_models",
+      "advanced AI models"
+    ],
+    "Risk_Management": [
+      "advanced_risk_management_system",
+      "portfolio_optimization_mpt"
+    ],
+    "Backtesting": [
+      "comprehensive_backtesting_suite",
+      "monte_carlo_backtesting"
+    ],
+    "Analysis": [
+      "sentiment_analysis_system",
+      "system_verification_validator"
+    ]
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "initial_equity": 1008880.24,
+  "final_equity": 1007226.51,
+  "total_pnl": -1653.7299999999814,
+  "total_return": -0.16391737437537496,
+  "total_trades": 148,
+  "completed_trades": 47,
+  "trades": [
+    {
+      "symbol": "AMC",
+      "direction": "BUY",
+      "quantity": 16563,
+      "entry_price": 5.080620439088963,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -82.815
+    },
+    {
+      "symbol": "SQQQ",
+      "direction": "BUY",
+      "quantity": 136,
+      "entry_price": 103.2570683476263,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": 1.36
+    },
+    {
+      "symbol": "GOOGL",
+      "direction": "BUY",
+      "quantity": 45,
+      "entry_price": 154.72338991717024,
+      "strategy": "BOLLINGER_SQUEEZE",
+      "confidence": 0.8,
+      "pnl": -0.9
+    },
+    {
+      "symbol": "UVXY",
+      "direction": "BUY",
+      "quantity": 2148,
+      "entry_price": 87.3388837949718,
+      "strategy": "RSI_EXTREME",
+      "confidence": 1.0,
+      "pnl": 42.959999
+    },
+    {
+      "symbol": "AMZN",
+      "direction": "SELL",
+      "quantity": 863,
+      "entry_price": 173.23964169225113,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": 105.395
+    },
+    {
+      "symbol": "BNGO",
+      "direction": "BUY",
+      "quantity": 90,
+      "entry_price": 107.56203072013798,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -0.014
+    },
+    {
+      "symbol": "GME",
+      "direction": "SELL",
+      "quantity": 3856,
+      "entry_price": 25.85717167189179,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": 173.0898
+    },
+    {
+      "symbol": "XOM",
+      "direction": "SELL",
+      "quantity": 35,
+      "entry_price": 103.44577902326009,
+      "strategy": "RSI_EXTREME",
+      "confidence": 1.0,
+      "pnl": -0.175
+    },
+    {
+      "symbol": "BAC",
+      "direction": "BUY",
+      "quantity": 116,
+      "entry_price": 104.59303170770563,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -1.74
+    },
+    {
+      "symbol": "BB",
+      "direction": "SELL",
+      "quantity": 153,
+      "entry_price": 100.83315328697697,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -1.245
+    },
+    {
+      "symbol": "MSFT",
+      "direction": "SELL",
+      "quantity": 5,
+      "entry_price": 459.5457063547278,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": 0.85
+    },
+    {
+      "symbol": "NET",
+      "direction": "BUY",
+      "quantity": 152,
+      "entry_price": 95.49959404937867,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -44.08
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "SELL",
+      "quantity": 114,
+      "entry_price": 884.7986154961974,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": 9.4
+    },
+    {
+      "symbol": "XPEV",
+      "direction": "SELL",
+      "quantity": 49,
+      "entry_price": 103.42426680140154,
+      "strategy": "BOLLINGER_SQUEEZE",
+      "confidence": 0.8,
+      "pnl": 0.0
+    },
+    {
+      "symbol": "AAPL",
+      "direction": "SELL",
+      "quantity": 158,
+      "entry_price": 211.54668696870962,
+      "strategy": "RSI_EXTREME",
+      "confidence": 1.0,
+      "pnl": 8.646279
+    },
+    {
+      "symbol": "BNTX",
+      "direction": "SELL",
+      "quantity": 134,
+      "entry_price": 94.488172002946,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -39.24
+    },
+    {
+      "symbol": "SPY",
+      "direction": "BUY",
+      "quantity": 6,
+      "entry_price": 526.0330087467364,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.7951720177180988,
+      "pnl": -1.14
+    },
+    {
+      "symbol": "TSLA",
+      "direction": "BUY",
+      "quantity": 29,
+      "entry_price": 246.94137755994578,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.8201603321806317,
+      "pnl": 0.155
+    },
+    {
+      "symbol": "XLE",
+      "direction": "SELL",
+      "quantity": 129,
+      "entry_price": 94.02660772066226,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -0.596047
+    },
+    {
+      "symbol": "JPM",
+      "direction": "SELL",
+      "quantity": 140,
+      "entry_price": 96.6893986825976,
+      "strategy": "VOLUME_SURGE",
+      "confidence": 0.8,
+      "pnl": 0.19
+    },
+    {
+      "symbol": "MS",
+      "direction": "SELL",
+      "quantity": 134,
+      "entry_price": 108.2246422358531,
+      "strategy": "RSI_EXTREME",
+      "confidence": 0.9134485400563139,
+      "pnl": -2.68
+    },
+    {
+      "symbol": "OXY",
+      "direction": "BUY",
+      "quantity": 833,
+      "entry_price": 95.83570468533179,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.687116637665222,
+      "pnl": 31.5812
+    },
+    {
+      "symbol": "RBLX",
+      "direction": "SELL",
+      "quantity": 53,
+      "entry_price": 105.31275175130624,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": 0.53
+    },
+    {
+      "symbol": "SHOP",
+      "direction": "SELL",
+      "quantity": 118,
+      "entry_price": 97.51718782720938,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": 5.95
+    },
+    {
+      "symbol": "AAPL",
+      "direction": "SELL",
+      "quantity": 14,
+      "entry_price": 173.1987194564813,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -0.02
+    },
+    {
+      "symbol": "BB",
+      "direction": "SELL",
+      "quantity": 96,
+      "entry_price": 90.59490397566816,
+      "strategy": "RSI_EXTREME",
+      "confidence": 1.0,
+      "pnl": -1.475
+    },
+    {
+      "symbol": "RBLX",
+      "direction": "SELL",
+      "quantity": 65,
+      "entry_price": 96.19346389808581,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": 0.0
+    },
+    {
+      "symbol": "AMC",
+      "direction": "SELL",
+      "quantity": 479,
+      "entry_price": 5.352771337835213,
+      "strategy": "BOLLINGER_SQUEEZE",
+      "confidence": 0.7874887615467784,
+      "pnl": -45.2826
+    },
+    {
+      "symbol": "BB",
+      "direction": "SELL",
+      "quantity": 149,
+      "entry_price": 107.22464178396709,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -0.32
+    },
+    {
+      "symbol": "COIN",
+      "direction": "BUY",
+      "quantity": 105,
+      "entry_price": 113.03638664920516,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -46.2
+    },
+    {
+      "symbol": "NVAX",
+      "direction": "SELL",
+      "quantity": 72,
+      "entry_price": 101.72750280634867,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.8181684060964718,
+      "pnl": -0.125
+    },
+    {
+      "symbol": "OXY",
+      "direction": "SELL",
+      "quantity": 32,
+      "entry_price": 93.55378496411316,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -0.3828
+    },
+    {
+      "symbol": "RIVN",
+      "direction": "SELL",
+      "quantity": 173,
+      "entry_price": 91.39597414355045,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -1.395
+    },
+    {
+      "symbol": "SAVA",
+      "direction": "BUY",
+      "quantity": 79,
+      "entry_price": 103.24925988261134,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -0.755
+    },
+    {
+      "symbol": "GS",
+      "direction": "SELL",
+      "quantity": 805,
+      "entry_price": 102.94633442987133,
+      "strategy": "RSI_EXTREME",
+      "confidence": 1.0,
+      "pnl": -377.7952
+    },
+    {
+      "symbol": "PYPL",
+      "direction": "BUY",
+      "quantity": 1614,
+      "entry_price": 98.98635560878837,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -59.980001
+    },
+    {
+      "symbol": "AMZN",
+      "direction": "SELL",
+      "quantity": 80,
+      "entry_price": 177.3951815245758,
+      "strategy": "RSI_EXTREME",
+      "confidence": 1.0,
+      "pnl": 1.16
+    },
+    {
+      "symbol": "BNTX",
+      "direction": "SELL",
+      "quantity": 32,
+      "entry_price": 101.0454768401903,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -38.64
+    },
+    {
+      "symbol": "MS",
+      "direction": "BUY",
+      "quantity": 88,
+      "entry_price": 91.27746712432852,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.8562514827236154,
+      "pnl": -5.28
+    },
+    {
+      "symbol": "NET",
+      "direction": "BUY",
+      "quantity": 168,
+      "entry_price": 106.31261974569658,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -0.94
+    },
+    {
+      "symbol": "NIO",
+      "direction": "BUY",
+      "quantity": 58,
+      "entry_price": 99.2980573170367,
+      "strategy": "MACD_CROSS",
+      "confidence": 0.65,
+      "pnl": -1.82
+    },
+    {
+      "symbol": "ROKU",
+      "direction": "BUY",
+      "quantity": 1886,
+      "entry_price": 96.27252348782756,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -248.4
+    },
+    {
+      "symbol": "SPY",
+      "direction": "SELL",
+      "quantity": 39,
+      "entry_price": 565.2220906810423,
+      "strategy": "RSI_EXTREME",
+      "confidence": 0.9004403398129699,
+      "pnl": -4.324444
+    },
+    {
+      "symbol": "SQQQ",
+      "direction": "BUY",
+      "quantity": 169,
+      "entry_price": 105.88413623483137,
+      "strategy": "VOLUME_SURGE",
+      "confidence": 0.8,
+      "pnl": -1.651911
+    },
+    {
+      "symbol": "UVXY",
+      "direction": "BUY",
+      "quantity": 72,
+      "entry_price": 99.35413013800104,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -6.9667
+    },
+    {
+      "symbol": "VXX",
+      "direction": "BUY",
+      "quantity": 20,
+      "entry_price": 106.45264763517592,
+      "strategy": "MOMENTUM_SCALP",
+      "confidence": 0.9,
+      "pnl": -8.83
+    },
+    {
+      "symbol": "XPEV",
+      "direction": "SELL",
+      "quantity": 88,
+      "entry_price": 92.39455725988763,
+      "strategy": "BOLLINGER_SQUEEZE",
+      "confidence": 0.8,
+      "pnl": 0.0
+    }
+  ]
+}
